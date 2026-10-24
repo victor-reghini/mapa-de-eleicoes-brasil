@@ -100,24 +100,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 8319135,
-          "pctValidos": 59.28
+          "votos": 8363646,
+          "pctValidos": 59.6
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 3448062,
-          "pctValidos": 24.57
+          "votos": 3412665,
+          "pctValidos": 24.32
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 2266433,
-          "pctValidos": 16.15
+          "votos": 1033759,
+          "pctValidos": 7.37
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 614932,
+          "pctValidos": 4.38
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 385208,
+          "pctValidos": 2.74
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 223420,
+          "pctValidos": 1.59
         }
       ]
     },
@@ -142,24 +166,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 3897252,
-          "pctValidos": 59.28
+          "votos": 3918106,
+          "pctValidos": 59.6
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1615308,
-          "pctValidos": 24.57
+          "votos": 1598726,
+          "pctValidos": 24.32
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 1061753,
-          "pctValidos": 16.15
+          "votos": 484283,
+          "pctValidos": 7.37
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 288076,
+          "pctValidos": 4.38
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 180457,
+          "pctValidos": 2.74
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 104665,
+          "pctValidos": 1.59
         }
       ]
     },
@@ -184,24 +232,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 3072833,
-          "pctValidos": 59.28
+          "votos": 2667192,
+          "pctValidos": 51.45
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1273608,
-          "pctValidos": 24.57
+          "votos": 1511539,
+          "pctValidos": 29.16
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 356247,
+          "pctValidos": 6.87
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 837152,
-          "pctValidos": 16.15
+          "votos": 329668,
+          "pctValidos": 6.36
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 196103,
+          "pctValidos": 3.78
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 122844,
+          "pctValidos": 2.37
         }
       ]
     },
@@ -226,24 +298,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2698097,
-          "pctValidos": 59.28
+          "votos": 2661332,
+          "pctValidos": 58.47
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1118290,
-          "pctValidos": 24.57
+          "votos": 1137628,
+          "pctValidos": 24.99
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 735060,
-          "pctValidos": 16.15
+          "votos": 344608,
+          "pctValidos": 7.57
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 204990,
+          "pctValidos": 4.5
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 128411,
+          "pctValidos": 2.82
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 74478,
+          "pctValidos": 1.64
         }
       ]
     },
@@ -268,24 +364,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2061047,
-          "pctValidos": 59.28
+          "votos": 1788971,
+          "pctValidos": 51.45
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 854249,
-          "pctValidos": 24.57
+          "votos": 1013837,
+          "pctValidos": 29.16
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 238946,
+          "pctValidos": 6.87
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 561504,
-          "pctValidos": 16.15
+          "votos": 221119,
+          "pctValidos": 6.36
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 131532,
+          "pctValidos": 3.78
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 82395,
+          "pctValidos": 2.37
         }
       ]
     },
@@ -310,24 +430,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2023573,
-          "pctValidos": 59.28
+          "votos": 2034402,
+          "pctValidos": 59.6
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 838717,
-          "pctValidos": 24.57
+          "votos": 830107,
+          "pctValidos": 24.32
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 551295,
-          "pctValidos": 16.15
+          "votos": 251454,
+          "pctValidos": 7.37
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 149578,
+          "pctValidos": 4.38
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 93699,
+          "pctValidos": 2.74
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 54345,
+          "pctValidos": 1.59
         }
       ]
     },
@@ -352,24 +496,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1401845,
-          "pctValidos": 49.28
+          "votos": 1663334,
+          "pctValidos": 58.47
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 841164,
-          "pctValidos": 29.57
+          "votos": 711017,
+          "pctValidos": 24.99
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 601645,
-          "pctValidos": 21.15
+          "votos": 215380,
+          "pctValidos": 7.57
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 128119,
+          "pctValidos": 4.5
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 80256,
+          "pctValidos": 2.82
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 46548,
+          "pctValidos": 1.64
         }
       ]
     },
@@ -394,24 +562,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1648837,
-          "pctValidos": 59.28
+          "votos": 1626370,
+          "pctValidos": 58.47
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 683399,
-          "pctValidos": 24.57
+          "votos": 695217,
+          "pctValidos": 24.99
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 449204,
-          "pctValidos": 16.15
+          "votos": 210594,
+          "pctValidos": 7.57
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 125272,
+          "pctValidos": 4.5
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 78473,
+          "pctValidos": 2.82
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 45514,
+          "pctValidos": 1.64
         }
       ]
     },
@@ -436,24 +628,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1214932,
-          "pctValidos": 49.28
+          "votos": 1381181,
+          "pctValidos": 56.02
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 729009,
-          "pctValidos": 29.57
+          "votos": 652554,
+          "pctValidos": 26.47
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 521426,
-          "pctValidos": 21.15
+          "votos": 197670,
+          "pctValidos": 8.02
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 117584,
+          "pctValidos": 4.77
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 73657,
+          "pctValidos": 2.99
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 42721,
+          "pctValidos": 1.73
         }
       ]
     },
@@ -478,24 +694,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1311575,
-          "pctValidos": 59.28
+          "votos": 1318594,
+          "pctValidos": 59.6
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 543613,
-          "pctValidos": 24.57
+          "votos": 538032,
+          "pctValidos": 24.32
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 357321,
-          "pctValidos": 16.15
+          "votos": 162980,
+          "pctValidos": 7.37
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 96948,
+          "pctValidos": 4.38
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 60731,
+          "pctValidos": 2.74
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 35224,
+          "pctValidos": 1.59
         }
       ]
     },
@@ -520,24 +760,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 996867,
-          "pctValidos": 49.28
+          "votos": 1182816,
+          "pctValidos": 58.47
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 598161,
-          "pctValidos": 29.57
+          "votos": 505612,
+          "pctValidos": 24.99
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 427837,
-          "pctValidos": 21.15
+          "votos": 153159,
+          "pctValidos": 7.57
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 91106,
+          "pctValidos": 4.5
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 57071,
+          "pctValidos": 2.82
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 33101,
+          "pctValidos": 1.64
         }
       ]
     },
@@ -562,24 +826,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 965716,
-          "pctValidos": 49.28
+          "votos": 1167899,
+          "pctValidos": 59.6
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 579468,
-          "pctValidos": 29.57
+          "votos": 476543,
+          "pctValidos": 24.32
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 414467,
-          "pctValidos": 21.15
+          "votos": 144353,
+          "pctValidos": 7.37
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 85868,
+          "pctValidos": 4.38
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 53790,
+          "pctValidos": 2.74
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 31198,
+          "pctValidos": 1.59
         }
       ]
     },
@@ -604,24 +892,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 623042,
-          "pctValidos": 49.28
+          "votos": 739262,
+          "pctValidos": 58.47
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 373850,
-          "pctValidos": 29.57
+          "votos": 316007,
+          "pctValidos": 24.99
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 267399,
-          "pctValidos": 21.15
+          "votos": 95724,
+          "pctValidos": 7.57
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 56941,
+          "pctValidos": 4.5
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 35669,
+          "pctValidos": 2.82
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 20688,
+          "pctValidos": 1.64
         }
       ]
     },
@@ -646,24 +958,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 591890,
-          "pctValidos": 49.28
+          "votos": 715810,
+          "pctValidos": 59.6
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 355158,
-          "pctValidos": 29.57
+          "votos": 292074,
+          "pctValidos": 24.32
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 254028,
-          "pctValidos": 21.15
+          "votos": 88474,
+          "pctValidos": 7.37
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 52629,
+          "pctValidos": 4.38
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 32968,
+          "pctValidos": 2.74
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 19121,
+          "pctValidos": 1.59
         }
       ]
     },
@@ -688,24 +1024,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 529586,
-          "pctValidos": 49.28
+          "votos": 602054,
+          "pctValidos": 56.02
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 317773,
-          "pctValidos": 29.57
+          "votos": 284446,
+          "pctValidos": 26.47
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 227288,
-          "pctValidos": 21.15
+          "votos": 86164,
+          "pctValidos": 8.02
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 51254,
+          "pctValidos": 4.77
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 32107,
+          "pctValidos": 2.99
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 18622,
+          "pctValidos": 1.73
         }
       ]
     },
@@ -730,24 +1090,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 498433,
-          "pctValidos": 49.28
+          "votos": 591409,
+          "pctValidos": 58.47
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 299080,
-          "pctValidos": 29.57
+          "votos": 252806,
+          "pctValidos": 24.99
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 213919,
-          "pctValidos": 21.15
+          "votos": 76579,
+          "pctValidos": 7.57
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 45553,
+          "pctValidos": 4.5
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 28535,
+          "pctValidos": 2.82
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 16550,
+          "pctValidos": 1.64
         }
       ]
     },
@@ -772,24 +1156,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 467281,
-          "pctValidos": 49.28
+          "votos": 554446,
+          "pctValidos": 58.47
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 280388,
-          "pctValidos": 29.57
+          "votos": 237005,
+          "pctValidos": 24.99
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 200549,
-          "pctValidos": 21.15
+          "votos": 71793,
+          "pctValidos": 7.57
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 42706,
+          "pctValidos": 4.5
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 26752,
+          "pctValidos": 2.82
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 15516,
+          "pctValidos": 1.64
         }
       ]
     },
@@ -814,24 +1222,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 498433,
-          "pctValidos": 49.28
+          "votos": 591409,
+          "pctValidos": 58.47
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 299080,
-          "pctValidos": 29.57
+          "votos": 252806,
+          "pctValidos": 24.99
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 213919,
-          "pctValidos": 21.15
+          "votos": 76579,
+          "pctValidos": 7.57
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 45553,
+          "pctValidos": 4.5
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 28535,
+          "pctValidos": 2.82
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 16550,
+          "pctValidos": 1.64
         }
       ]
     },
@@ -856,24 +1288,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 498433,
-          "pctValidos": 49.28
+          "votos": 602787,
+          "pctValidos": 59.6
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 299080,
-          "pctValidos": 29.57
+          "votos": 245957,
+          "pctValidos": 24.32
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 213919,
-          "pctValidos": 21.15
+          "votos": 74505,
+          "pctValidos": 7.37
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 44319,
+          "pctValidos": 4.38
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 27762,
+          "pctValidos": 2.74
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 16102,
+          "pctValidos": 1.59
         }
       ]
     },
@@ -898,24 +1354,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 436129,
-          "pctValidos": 49.28
+          "votos": 481869,
+          "pctValidos": 54.45
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 261695,
-          "pctValidos": 29.57
+          "votos": 273081,
+          "pctValidos": 30.86
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 187179,
-          "pctValidos": 21.15
+          "votos": 59559,
+          "pctValidos": 6.73
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 35429,
+          "pctValidos": 4.0
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 22193,
+          "pctValidos": 2.51
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 12872,
+          "pctValidos": 1.45
         }
       ]
     },
@@ -940,24 +1420,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 404977,
-          "pctValidos": 49.28
+          "votos": 489765,
+          "pctValidos": 59.6
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 243003,
-          "pctValidos": 29.57
+          "votos": 199840,
+          "pctValidos": 24.32
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 173809,
-          "pctValidos": 21.15
+          "votos": 60535,
+          "pctValidos": 7.37
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 36009,
+          "pctValidos": 4.38
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 22557,
+          "pctValidos": 2.74
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 13083,
+          "pctValidos": 1.59
         }
       ]
     },
@@ -982,24 +1486,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 342673,
-          "pctValidos": 49.28
+          "votos": 406594,
+          "pctValidos": 58.47
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 205617,
-          "pctValidos": 29.57
+          "votos": 173804,
+          "pctValidos": 24.99
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 147070,
-          "pctValidos": 21.15
+          "votos": 52648,
+          "pctValidos": 7.57
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 31318,
+          "pctValidos": 4.5
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 19618,
+          "pctValidos": 2.82
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 11378,
+          "pctValidos": 1.64
         }
       ]
     },
@@ -1024,24 +1552,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 249216,
-          "pctValidos": 49.28
+          "votos": 283321,
+          "pctValidos": 56.02
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 149540,
-          "pctValidos": 29.57
+          "votos": 133857,
+          "pctValidos": 26.47
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 106960,
-          "pctValidos": 21.15
+          "votos": 40547,
+          "pctValidos": 8.02
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 24119,
+          "pctValidos": 4.77
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 15109,
+          "pctValidos": 2.99
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 8763,
+          "pctValidos": 1.73
         }
       ]
     },
@@ -1066,24 +1618,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 218064,
-          "pctValidos": 49.28
+          "votos": 247907,
+          "pctValidos": 56.02
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 130847,
-          "pctValidos": 29.57
+          "votos": 117124,
+          "pctValidos": 26.47
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 93590,
-          "pctValidos": 21.15
+          "votos": 35479,
+          "pctValidos": 8.02
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 21104,
+          "pctValidos": 4.77
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 13220,
+          "pctValidos": 2.99
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 7667,
+          "pctValidos": 1.73
         }
       ]
     },
@@ -1108,24 +1684,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 124608,
-          "pctValidos": 49.28
+          "votos": 141663,
+          "pctValidos": 56.02
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 74770,
-          "pctValidos": 29.57
+          "votos": 66928,
+          "pctValidos": 26.47
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 53480,
-          "pctValidos": 21.15
+          "votos": 20273,
+          "pctValidos": 8.02
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 12059,
+          "pctValidos": 4.77
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 7554,
+          "pctValidos": 2.99
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 4381,
+          "pctValidos": 1.73
         }
       ]
     },
@@ -1150,24 +1750,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 124608,
-          "pctValidos": 49.28
+          "votos": 141663,
+          "pctValidos": 56.02
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 74770,
-          "pctValidos": 29.57
+          "votos": 66928,
+          "pctValidos": 26.47
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 53480,
-          "pctValidos": 21.15
+          "votos": 20273,
+          "pctValidos": 8.02
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 12059,
+          "pctValidos": 4.77
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 7554,
+          "pctValidos": 2.99
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 4381,
+          "pctValidos": 1.73
         }
       ]
     },
@@ -1192,24 +1816,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 62304,
-          "pctValidos": 49.28
+          "votos": 70833,
+          "pctValidos": 56.03
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 37385,
-          "pctValidos": 29.57
+          "votos": 33464,
+          "pctValidos": 26.47
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 26740,
-          "pctValidos": 21.15
+          "votos": 10136,
+          "pctValidos": 8.02
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 6029,
+          "pctValidos": 4.77
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 3777,
+          "pctValidos": 2.99
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 2190,
+          "pctValidos": 1.73
         }
       ]
     },
@@ -1234,24 +1882,48 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 124608,
-          "pctValidos": 49.28
+          "votos": 141663,
+          "pctValidos": 56.02
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 74770,
-          "pctValidos": 29.57
+          "votos": 66928,
+          "pctValidos": 26.47
         },
         {
           "numero": "56",
           "nome": "Enéas",
           "partido": "PRONA",
           "cor": "#b45309",
-          "votos": 53480,
-          "pctValidos": 21.15
+          "votos": 20273,
+          "pctValidos": 8.02
+        },
+        {
+          "numero": "15",
+          "nome": "Orestes Quércia",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 12059,
+          "pctValidos": 4.77
+        },
+        {
+          "numero": "11",
+          "nome": "Esperidião Amin",
+          "partido": "PPR",
+          "cor": "#0f766e",
+          "votos": 7554,
+          "pctValidos": 2.99
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 4381,
+          "pctValidos": 1.73
         }
       ]
     }

@@ -52,24 +52,24 @@
       "pctBrancos": 1.33,
       "votosNulos": 1066118,
       "pctNulos": 4.71,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 10814713,
-          "pctValidos": 50.83
-        },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 10461527,
-          "pctValidos": 49.17
+          "votos": 11785785,
+          "pctValidos": 55.39
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 9490456,
+          "pctValidos": 44.61
         }
       ]
     },
@@ -94,16 +94,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 6162749,
-          "pctValidos": 61.83
+          "votos": 6527989,
+          "pctValidos": 65.49
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 3804498,
-          "pctValidos": 38.17
+          "votos": 3439259,
+          "pctValidos": 34.51
         }
       ]
     },
@@ -128,16 +128,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 4859090,
-          "pctValidos": 61.83
+          "votos": 5147068,
+          "pctValidos": 65.49
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2999700,
-          "pctValidos": 38.17
+          "votos": 2711723,
+          "pctValidos": 34.51
         }
       ]
     },
@@ -162,16 +162,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 5163570,
-          "pctValidos": 74.83
+          "votos": 5448610,
+          "pctValidos": 78.96
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1736831,
-          "pctValidos": 25.17
+          "votos": 1451792,
+          "pctValidos": 21.04
         }
       ]
     },
@@ -188,24 +188,24 @@
       "pctBrancos": 1.33,
       "votosNulos": 264128,
       "pctNulos": 4.71,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 2679320,
-          "pctValidos": 50.83
-        },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2591819,
-          "pctValidos": 49.17
+          "votos": 2919901,
+          "pctValidos": 55.39
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2351239,
+          "pctValidos": 44.61
         }
       ]
     },
@@ -222,24 +222,24 @@
       "pctBrancos": 1.33,
       "votosNulos": 259326,
       "pctNulos": 4.71,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 2630605,
-          "pctValidos": 50.83
-        },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2544695,
-          "pctValidos": 49.17
+          "votos": 2866812,
+          "pctValidos": 55.39
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2308489,
+          "pctValidos": 44.61
         }
       ]
     },
@@ -264,16 +264,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 3227231,
-          "pctValidos": 74.83
+          "votos": 3405381,
+          "pctValidos": 78.96
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1085519,
-          "pctValidos": 25.17
+          "votos": 907370,
+          "pctValidos": 21.04
         }
       ]
     },
@@ -298,16 +298,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 3155515,
-          "pctValidos": 74.83
+          "votos": 3329706,
+          "pctValidos": 78.96
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1061396,
-          "pctValidos": 25.17
+          "votos": 887206,
+          "pctValidos": 21.04
         }
       ]
     },
@@ -332,16 +332,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2273653,
-          "pctValidos": 60.83
+          "votos": 2520471,
+          "pctValidos": 67.43
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1464064,
-          "pctValidos": 39.17
+          "votos": 1217247,
+          "pctValidos": 32.57
         }
       ]
     },
@@ -358,24 +358,24 @@
       "pctBrancos": 1.33,
       "votosNulos": 168081,
       "pctNulos": 4.71,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 1705022,
-          "pctValidos": 50.83
-        },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1649339,
-          "pctValidos": 49.17
+          "votos": 1858119,
+          "pctValidos": 55.39
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1496243,
+          "pctValidos": 44.61
         }
       ]
     },
@@ -400,16 +400,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2294920,
-          "pctValidos": 74.83
+          "votos": 2421604,
+          "pctValidos": 78.96
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 771924,
-          "pctValidos": 25.17
+          "votos": 645241,
+          "pctValidos": 21.04
         }
       ]
     },
@@ -426,24 +426,24 @@
       "pctBrancos": 1.33,
       "votosNulos": 148872,
       "pctNulos": 4.71,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 1807262,
-          "pctValidos": 60.83
-        },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1163743,
-          "pctValidos": 39.17
+          "votos": 1645762,
+          "pctValidos": 55.39
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1325244,
+          "pctValidos": 44.61
         }
       ]
     },
@@ -468,16 +468,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1434324,
-          "pctValidos": 74.83
+          "votos": 1513503,
+          "pctValidos": 78.96
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 482453,
-          "pctValidos": 25.17
+          "votos": 403275,
+          "pctValidos": 21.04
         }
       ]
     },
@@ -502,7 +502,7 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1107677,
+          "votos": 1107678,
           "pctValidos": 60.83
         },
         {
@@ -536,16 +536,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 991079,
-          "pctValidos": 60.83
+          "votos": 1098667,
+          "pctValidos": 67.43
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 638181,
-          "pctValidos": 39.17
+          "votos": 530594,
+          "pctValidos": 32.57
         }
       ]
     },
@@ -570,16 +570,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1147459,
-          "pctValidos": 74.83
+          "votos": 1210802,
+          "pctValidos": 78.96
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 385962,
-          "pctValidos": 25.17
+          "votos": 322620,
+          "pctValidos": 21.04
         }
       ]
     },
@@ -604,16 +604,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1075743,
-          "pctValidos": 74.83
+          "votos": 1135127,
+          "pctValidos": 78.96
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 361839,
-          "pctValidos": 25.17
+          "votos": 302456,
+          "pctValidos": 21.04
         }
       ]
     },
@@ -638,16 +638,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1147459,
-          "pctValidos": 74.83
+          "votos": 1210802,
+          "pctValidos": 78.96
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 385962,
-          "pctValidos": 25.17
+          "votos": 322620,
+          "pctValidos": 21.04
         }
       ]
     },
@@ -664,24 +664,24 @@
       "pctBrancos": 1.33,
       "votosNulos": 76837,
       "pctNulos": 4.71,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 779438,
-          "pctValidos": 50.83
-        },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 753983,
-          "pctValidos": 49.17
+          "votos": 849425,
+          "pctValidos": 55.39
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 683997,
+          "pctValidos": 44.61
         }
       ]
     },
@@ -698,24 +698,24 @@
       "pctBrancos": 1.33,
       "votosNulos": 67232,
       "pctNulos": 4.71,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 816182,
-          "pctValidos": 60.83
-        },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 525561,
-          "pctValidos": 39.17
+          "votos": 743247,
+          "pctValidos": 55.39
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 598497,
+          "pctValidos": 44.61
         }
       ]
     },
@@ -732,24 +732,24 @@
       "pctBrancos": 1.32,
       "votosNulos": 62430,
       "pctNulos": 4.71,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 633294,
-          "pctValidos": 50.83
-        },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 612611,
-          "pctValidos": 49.17
+          "votos": 690158,
+          "pctValidos": 55.39
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 555748,
+          "pctValidos": 44.61
         }
       ]
     },
@@ -774,16 +774,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 788878,
-          "pctValidos": 74.83
+          "votos": 832427,
+          "pctValidos": 78.96
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 265349,
-          "pctValidos": 25.17
+          "votos": 221801,
+          "pctValidos": 21.04
         }
       ]
     },
@@ -808,16 +808,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 466390,
-          "pctValidos": 60.83
+          "votos": 390008,
+          "pctValidos": 50.87
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 300320,
-          "pctValidos": 39.17
+          "votos": 376703,
+          "pctValidos": 49.13
         }
       ]
     },
@@ -842,16 +842,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 408091,
-          "pctValidos": 60.83
+          "votos": 452392,
+          "pctValidos": 67.43
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 262780,
-          "pctValidos": 39.17
+          "votos": 218480,
+          "pctValidos": 32.57
         }
       ]
     },
@@ -876,7 +876,7 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 233194,
+          "votos": 233195,
           "pctValidos": 60.83
         },
         {
@@ -910,16 +910,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 233194,
-          "pctValidos": 60.83
+          "votos": 258510,
+          "pctValidos": 67.43
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 150160,
-          "pctValidos": 39.17
+          "votos": 124845,
+          "pctValidos": 32.57
         }
       ]
     },
@@ -944,16 +944,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 116597,
-          "pctValidos": 60.83
+          "votos": 97502,
+          "pctValidos": 50.87
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 75079,
-          "pctValidos": 39.17
+          "votos": 94175,
+          "pctValidos": 49.13
         }
       ]
     },
@@ -978,7 +978,7 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 233194,
+          "votos": 233195,
           "pctValidos": 60.83
         },
         {

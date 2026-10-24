@@ -14,6 +14,7 @@ import { Globe3D } from './components/Globe3D';
 import { SidebarResults } from './components/SidebarResults';
 import { NullDetailModal } from './components/NullDetailModal';
 import { CargoScalabilityModal } from './components/CargoScalabilityModal';
+import { SourcesModal } from './components/SourcesModal';
 import { Loader2, Map as MapIcon, BarChart3 } from 'lucide-react';
 
 export function App() {
@@ -36,6 +37,7 @@ export function App() {
   // Modals
   const [isNullModalOpen, setIsNullModalOpen] = useState(false);
   const [isScalabilityModalOpen, setIsScalabilityModalOpen] = useState(false);
+  const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
   // Initial Data Load
@@ -132,6 +134,7 @@ export function App() {
         onSelectAno={handleSelectAno}
         onSelectTurno={setSelectedTurno}
         onOpenScalabilityModal={() => setIsScalabilityModalOpen(true)}
+        onOpenSourcesModal={() => setIsSourcesModalOpen(true)}
       />
 
       {/* Subbar with Granularity Tabs, Breadcrumbs, and Search */}
@@ -236,6 +239,7 @@ export function App() {
           selectedCity={selectedCity}
           onClearSelection={handleClearSelection}
           onOpenNullModal={() => setIsNullModalOpen(true)}
+          onOpenSourcesModal={() => setIsSourcesModalOpen(true)}
         />
       </main>
 
@@ -253,6 +257,13 @@ export function App() {
         isOpen={isScalabilityModalOpen}
         onClose={() => setIsScalabilityModalOpen(false)}
         manifest={manifest}
+      />
+
+      {/* Official TSE & IBGE Sources / Audit Modal */}
+      <SourcesModal
+        isOpen={isSourcesModalOpen}
+        onClose={() => setIsSourcesModalOpen(false)}
+        initialAno={selectedAno}
       />
     </div>
   );

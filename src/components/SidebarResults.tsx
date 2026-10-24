@@ -5,7 +5,8 @@ import {
   UserX, 
   HelpCircle,
   AlertTriangle,
-  X
+  X,
+  ShieldCheck
 } from 'lucide-react';
 import type { 
   ElectionRoundData, 
@@ -24,6 +25,7 @@ interface SidebarResultsProps {
   selectedCity: ConsularCity | null;
   onClearSelection: () => void;
   onOpenNullModal: () => void;
+  onOpenSourcesModal: () => void;
 }
 
 export const SidebarResults: React.FC<SidebarResultsProps> = ({
@@ -34,7 +36,8 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
   selectedZona,
   selectedCity,
   onClearSelection,
-  onOpenNullModal
+  onOpenNullModal,
+  onOpenSourcesModal
 }) => {
   if (!electionData) return null;
 
@@ -380,7 +383,7 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
         </div>
       </div>
 
-      {/* Null Details CTA Button */}
+      {/* CTA Buttons */}
       <div className="null-cta-wrapper">
         <button 
           className="null-deep-dive-btn" 
@@ -388,6 +391,15 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
         >
           <AlertTriangle size={16} />
           <span>Raio-X dos Votos Nulos & Números Digitados</span>
+        </button>
+
+        <button 
+          className="sources-audit-btn" 
+          onClick={onOpenSourcesModal}
+          title="Ver Fontes e Auditoria Oficial do TSE"
+        >
+          <ShieldCheck size={16} />
+          <span>Validar Dados & Fontes Oficiais do TSE</span>
         </button>
       </div>
     </aside>

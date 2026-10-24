@@ -1,5 +1,5 @@
 import React from 'react';
-import { Vote, Database } from 'lucide-react';
+import { Vote, Database, ShieldCheck } from 'lucide-react';
 import type { ElectionManifest } from '../types/election';
 
 interface HeaderProps {
@@ -9,6 +9,7 @@ interface HeaderProps {
   onSelectAno: (ano: number) => void;
   onSelectTurno: (turno: number) => void;
   onOpenScalabilityModal: () => void;
+  onOpenSourcesModal: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -17,7 +18,8 @@ export const Header: React.FC<HeaderProps> = ({
   selectedTurno,
   onSelectAno,
   onSelectTurno,
-  onOpenScalabilityModal
+  onOpenScalabilityModal,
+  onOpenSourcesModal
 }) => {
   const currentElection = manifest?.supportedElections.find(e => e.ano === selectedAno);
   const availableTurnos = currentElection?.turnos || [1, 2];
@@ -31,7 +33,15 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="brand-titles">
           <h1>
             Mapa Eleitoral Brasil
-            <span className="brand-tag">TSE Dados Abertos</span>
+            <span 
+              className="brand-tag clickable" 
+              onClick={onOpenSourcesModal}
+              title="Abrir Fontes Oficiais & Auditoria dos Dados (TSE & IBGE)"
+              role="button"
+              tabIndex={0}
+            >
+              TSE Dados Abertos
+            </span>
           </h1>
           <p className="brand-subtitle">
             Visualizador Geoespacial Presidencial • 1989 a 2022 (Redemocratização)
@@ -101,6 +111,17 @@ export const Header: React.FC<HeaderProps> = ({
         >
           <Database size={16} />
         </a>
+
+        {/* Official Sources & Audit Modal Button */}
+        <button
+          type="button"
+          onClick={onOpenSourcesModal}
+          className="sources-icon-btn"
+          title="Validar dados & Fontes Oficiais do TSE"
+          aria-label="Fontes e Auditoria Oficial do TSE"
+        >
+          <ShieldCheck size={16} />
+        </button>
       </div>
     </header>
   );

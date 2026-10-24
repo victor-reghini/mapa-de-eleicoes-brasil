@@ -80,24 +80,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 6872027,
-          "pctValidos": 36.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 6668358,
-          "pctValidos": 35.36
+          "votos": 9861122,
+          "pctValidos": 52.29
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 5318089,
-          "pctValidos": 28.2
+          "votos": 5140500,
+          "pctValidos": 27.26
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 2309717,
+          "pctValidos": 12.25
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 1547135,
+          "pctValidos": 8.2
         }
       ]
     },
@@ -122,24 +130,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 4191134,
-          "pctValidos": 47.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 2638012,
-          "pctValidos": 29.86
+          "votos": 5018623,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2005454,
-          "pctValidos": 22.7
+          "votos": 1853110,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 1175484,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 787383,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -156,32 +172,40 @@
       "pctBrancos": 3.03,
       "votosNulos": 572587,
       "pctNulos": 7.37,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Garotinho",
+      "vencedorCor": "#eab308",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 3304548,
-          "pctValidos": 47.44
-        },
         {
           "numero": "40",
           "nome": "Garotinho",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 2079971,
-          "pctValidos": 29.86
+          "votos": 2823239,
+          "pctValidos": 40.53
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2292798,
+          "pctValidos": 32.92
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1581223,
-          "pctValidos": 22.7
+          "votos": 1298131,
+          "pctValidos": 18.64
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 551574,
+          "pctValidos": 7.92
         }
       ]
     },
@@ -206,24 +230,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 3696668,
-          "pctValidos": 60.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 1428759,
-          "pctValidos": 23.36
+          "votos": 3474432,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 990834,
-          "pctValidos": 16.2
+          "votos": 1282922,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 813796,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 545111,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -248,24 +280,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1702529,
-          "pctValidos": 36.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 1652071,
-          "pctValidos": 35.36
+          "votos": 2654080,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1317544,
-          "pctValidos": 28.2
+          "votos": 980010,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 621650,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 416404,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -290,24 +330,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1671574,
-          "pctValidos": 36.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 1622033,
-          "pctValidos": 35.36
+          "votos": 2398651,
+          "pctValidos": 52.29
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1293589,
-          "pctValidos": 28.2
+          "votos": 1250392,
+          "pctValidos": 27.26
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 561823,
+          "pctValidos": 12.25
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 376330,
+          "pctValidos": 8.2
         }
       ]
     },
@@ -332,24 +380,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2310417,
-          "pctValidos": 60.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 892975,
-          "pctValidos": 23.36
+          "votos": 2171520,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 619271,
-          "pctValidos": 16.2
+          "votos": 801826,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 508623,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 340694,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -366,32 +422,40 @@
       "pctBrancos": 3.03,
       "votosNulos": 307241,
       "pctNulos": 7.37,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Ciro Gomes",
+      "vencedorCor": "#f59e0b",
       "candidatos": [
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 1486687,
+          "pctValidos": 39.78
+        },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2259074,
-          "pctValidos": 60.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 873132,
-          "pctValidos": 23.36
+          "votos": 1169170,
+          "pctValidos": 31.28
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 605509,
-          "pctValidos": 16.2
+          "votos": 661958,
+          "pctValidos": 17.71
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 419900,
+          "pctValidos": 11.23
         }
       ]
     },
@@ -416,24 +480,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1538545,
-          "pctValidos": 46.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 1005820,
-          "pctValidos": 30.36
+          "votos": 1881985,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 768610,
-          "pctValidos": 23.2
+          "votos": 694916,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 440806,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 295268,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -458,24 +530,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1083427,
-          "pctValidos": 36.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 1051318,
-          "pctValidos": 35.36
+          "votos": 1554682,
+          "pctValidos": 52.29
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 838437,
-          "pctValidos": 28.2
+          "votos": 810439,
+          "pctValidos": 27.26
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 364144,
+          "pctValidos": 12.25
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 243917,
+          "pctValidos": 8.2
         }
       ]
     },
@@ -500,24 +580,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1642963,
-          "pctValidos": 60.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 635005,
-          "pctValidos": 23.36
+          "votos": 1544193,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 440370,
-          "pctValidos": 16.2
+          "votos": 570187,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 361687,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 242271,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -542,24 +630,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1222946,
-          "pctValidos": 46.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 799498,
-          "pctValidos": 30.36
+          "votos": 1495937,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 610946,
-          "pctValidos": 23.2
+          "votos": 552369,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 350384,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 234700,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -584,24 +680,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1026852,
-          "pctValidos": 60.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 396878,
-          "pctValidos": 23.36
+          "votos": 965121,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 275231,
-          "pctValidos": 16.2
+          "votos": 356367,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 226054,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 151419,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -626,24 +730,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 749547,
-          "pctValidos": 46.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 490015,
-          "pctValidos": 30.36
+          "votos": 916866,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 374451,
-          "pctValidos": 23.2
+          "votos": 338548,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 214751,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 143848,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -668,24 +780,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 670647,
-          "pctValidos": 46.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 438435,
-          "pctValidos": 30.36
+          "votos": 820353,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 335035,
-          "pctValidos": 23.2
+          "votos": 302912,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 192146,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 128706,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -710,24 +830,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 821481,
-          "pctValidos": 60.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 317503,
-          "pctValidos": 23.36
+          "votos": 772098,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 220185,
-          "pctValidos": 16.2
+          "votos": 285093,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 180843,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 121135,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -744,32 +872,40 @@
       "pctBrancos": 3.03,
       "votosNulos": 104741,
       "pctNulos": 7.37,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
       "candidatos": [
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 518917,
+          "pctValidos": 40.72
+        },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 770139,
-          "pctValidos": 60.44
+          "votos": 472151,
+          "pctValidos": 37.05
         },
         {
           "numero": "40",
           "nome": "Garotinho",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 297659,
-          "pctValidos": 23.36
+          "votos": 169569,
+          "pctValidos": 13.31
         },
         {
-          "numero": "45",
-          "nome": "José Serra",
-          "partido": "PSDB",
-          "cor": "#0284c7",
-          "votos": 206423,
-          "pctValidos": 16.2
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 113584,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -794,24 +930,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 821481,
-          "pctValidos": 60.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 317503,
-          "pctValidos": 23.36
+          "votos": 772098,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 220185,
-          "pctValidos": 16.2
+          "votos": 285093,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 180843,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 121135,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -836,24 +980,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 495281,
-          "pctValidos": 36.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 480603,
-          "pctValidos": 35.36
+          "votos": 772098,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 383285,
-          "pctValidos": 28.2
+          "votos": 285093,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 180843,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 121135,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -878,24 +1030,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 552298,
-          "pctValidos": 46.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 361064,
-          "pctValidos": 30.36
+          "votos": 675585,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 275911,
-          "pctValidos": 23.2
+          "votos": 249457,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 158238,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 105993,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -920,24 +1080,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 402416,
-          "pctValidos": 36.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 390490,
-          "pctValidos": 35.36
+          "votos": 627330,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 311419,
-          "pctValidos": 28.2
+          "votos": 231638,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 146935,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 98422,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -962,24 +1130,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 564768,
-          "pctValidos": 60.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 218283,
-          "pctValidos": 23.36
+          "votos": 530818,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 151377,
-          "pctValidos": 16.2
+          "votos": 196001,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 124329,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 83280,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -1004,24 +1180,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 315598,
-          "pctValidos": 46.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 206323,
-          "pctValidos": 30.36
+          "votos": 386050,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 157663,
-          "pctValidos": 23.2
+          "votos": 142546,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 90421,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 60567,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -1046,24 +1230,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 276148,
-          "pctValidos": 46.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 180533,
-          "pctValidos": 30.36
+          "votos": 337793,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 137955,
-          "pctValidos": 23.2
+          "votos": 124728,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 79119,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 52996,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -1088,24 +1280,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 157799,
-          "pctValidos": 46.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 103162,
-          "pctValidos": 30.36
+          "votos": 193026,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 78831,
-          "pctValidos": 23.2
+          "votos": 71273,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 45210,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 30283,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -1130,24 +1330,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 157799,
-          "pctValidos": 46.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 103162,
-          "pctValidos": 30.36
+          "votos": 193026,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 78831,
-          "pctValidos": 23.2
+          "votos": 71273,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 45210,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 30283,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -1172,24 +1380,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 78899,
-          "pctValidos": 46.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 51582,
-          "pctValidos": 30.36
+          "votos": 96514,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 39415,
-          "pctValidos": 23.2
+          "votos": 35636,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 22605,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 15141,
+          "pctValidos": 8.91
         }
       ]
     },
@@ -1214,24 +1430,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 157799,
-          "pctValidos": 46.44
-        },
-        {
-          "numero": "40",
-          "nome": "Garotinho",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 103162,
-          "pctValidos": 30.36
+          "votos": 193026,
+          "pctValidos": 56.81
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 78831,
-          "pctValidos": 23.2
+          "votos": 71273,
+          "pctValidos": 20.98
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 45210,
+          "pctValidos": 13.31
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 30283,
+          "pctValidos": 8.91
         }
       ]
     }

@@ -60,16 +60,16 @@
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 13673972,
-          "pctValidos": 58.36
+          "votos": 15080506,
+          "pctValidos": 64.36
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 9756411,
-          "pctValidos": 41.64
+          "votos": 8349878,
+          "pctValidos": 35.64
         }
       ]
     },
@@ -94,16 +94,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 5777974,
-          "pctValidos": 52.64
+          "votos": 6214648,
+          "pctValidos": 56.62
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 5198421,
-          "pctValidos": 47.36
+          "votos": 4761748,
+          "pctValidos": 43.38
         }
       ]
     },
@@ -128,16 +128,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 4555710,
-          "pctValidos": 52.64
+          "votos": 4900011,
+          "pctValidos": 56.62
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 4098755,
-          "pctValidos": 47.36
+          "votos": 3754455,
+          "pctValidos": 43.38
         }
       ]
     },
@@ -162,16 +162,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 4988011,
-          "pctValidos": 65.64
+          "votos": 5476747,
+          "pctValidos": 72.07
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2611031,
-          "pctValidos": 34.36
+          "votos": 2122296,
+          "pctValidos": 27.93
         }
       ]
     },
@@ -196,16 +196,16 @@
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 3387695,
-          "pctValidos": 58.36
+          "votos": 3736161,
+          "pctValidos": 64.36
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2417129,
-          "pctValidos": 41.64
+          "votos": 2068664,
+          "pctValidos": 35.64
         }
       ]
     },
@@ -230,16 +230,16 @@
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 3326100,
-          "pctValidos": 58.36
+          "votos": 3668230,
+          "pctValidos": 64.36
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2373181,
-          "pctValidos": 41.64
+          "votos": 2031052,
+          "pctValidos": 35.64
         }
       ]
     },
@@ -264,16 +264,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 3117507,
-          "pctValidos": 65.64
+          "votos": 3422967,
+          "pctValidos": 72.07
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1631894,
-          "pctValidos": 34.36
+          "votos": 1326435,
+          "pctValidos": 27.93
         }
       ]
     },
@@ -298,16 +298,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 3048229,
-          "pctValidos": 65.64
+          "votos": 3346902,
+          "pctValidos": 72.07
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1595630,
-          "pctValidos": 34.36
+          "votos": 1296958,
+          "pctValidos": 27.93
         }
       ]
     },
@@ -332,16 +332,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2125578,
-          "pctValidos": 51.64
+          "votos": 2417904,
+          "pctValidos": 58.74
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1990569,
-          "pctValidos": 48.36
+          "votos": 1698244,
+          "pctValidos": 41.26
         }
       ]
     },
@@ -366,16 +366,16 @@
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2155806,
-          "pctValidos": 58.36
+          "votos": 2377556,
+          "pctValidos": 64.36
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1538172,
-          "pctValidos": 41.64
+          "votos": 1316423,
+          "pctValidos": 35.64
         }
       ]
     },
@@ -400,16 +400,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2216893,
-          "pctValidos": 65.64
+          "votos": 2434110,
+          "pctValidos": 72.07
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1160458,
-          "pctValidos": 34.36
+          "votos": 943242,
+          "pctValidos": 27.93
         }
       ]
     },
@@ -426,24 +426,24 @@
       "pctBrancos": 1.71,
       "votosNulos": 161813,
       "pctNulos": 4.63,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Aécio Neves",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 1689562,
-          "pctValidos": 51.64
-        },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1582247,
-          "pctValidos": 48.36
+          "votos": 2105836,
+          "pctValidos": 64.36
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1165974,
+          "pctValidos": 35.64
         }
       ]
     },
@@ -468,16 +468,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1385558,
-          "pctValidos": 65.64
+          "votos": 1521319,
+          "pctValidos": 72.07
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 725286,
-          "pctValidos": 34.36
+          "votos": 589526,
+          "pctValidos": 27.93
         }
       ]
     },
@@ -502,7 +502,7 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1035538,
+          "votos": 1035539,
           "pctValidos": 51.64
         },
         {
@@ -536,16 +536,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 926534,
-          "pctValidos": 51.64
+          "votos": 1053958,
+          "pctValidos": 58.74
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 867683,
-          "pctValidos": 48.36
+          "votos": 740260,
+          "pctValidos": 41.26
         }
       ]
     },
@@ -570,16 +570,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1108446,
-          "pctValidos": 65.64
+          "votos": 1217055,
+          "pctValidos": 72.07
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 580229,
-          "pctValidos": 34.36
+          "votos": 471621,
+          "pctValidos": 27.93
         }
       ]
     },
@@ -604,16 +604,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1039169,
-          "pctValidos": 65.64
+          "votos": 1140989,
+          "pctValidos": 72.07
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 543964,
-          "pctValidos": 34.36
+          "votos": 442145,
+          "pctValidos": 27.93
         }
       ]
     },
@@ -638,16 +638,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1108446,
-          "pctValidos": 65.64
+          "votos": 1217055,
+          "pctValidos": 72.07
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 580229,
-          "pctValidos": 34.36
+          "votos": 471621,
+          "pctValidos": 27.93
         }
       ]
     },
@@ -672,16 +672,16 @@
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 985511,
-          "pctValidos": 58.36
+          "votos": 1086883,
+          "pctValidos": 64.36
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 703164,
-          "pctValidos": 41.64
+          "votos": 601793,
+          "pctValidos": 35.64
         }
       ]
     },
@@ -698,24 +698,24 @@
       "pctBrancos": 1.71,
       "votosNulos": 73077,
       "pctNulos": 4.63,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Aécio Neves",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 763027,
-          "pctValidos": 51.64
-        },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 714563,
-          "pctValidos": 48.36
+          "votos": 951022,
+          "pctValidos": 64.36
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 526569,
+          "pctValidos": 35.64
         }
       ]
     },
@@ -740,16 +740,16 @@
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 800727,
-          "pctValidos": 58.36
+          "votos": 883092,
+          "pctValidos": 64.36
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 571321,
-          "pctValidos": 41.64
+          "votos": 488957,
+          "pctValidos": 35.64
         }
       ]
     },
@@ -774,16 +774,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 762057,
-          "pctValidos": 65.64
+          "votos": 836726,
+          "pctValidos": 72.07
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 398907,
-          "pctValidos": 34.36
+          "votos": 324239,
+          "pctValidos": 27.93
         }
       ]
     },
@@ -800,24 +800,24 @@
       "pctBrancos": 1.71,
       "votosNulos": 41758,
       "pctNulos": 4.63,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Aécio Neves",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 436016,
-          "pctValidos": 51.64
-        },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 408321,
-          "pctValidos": 48.36
+          "votos": 493221,
+          "pctValidos": 58.42
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 351117,
+          "pctValidos": 41.58
         }
       ]
     },
@@ -842,16 +842,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 381513,
-          "pctValidos": 51.64
+          "votos": 433983,
+          "pctValidos": 58.74
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 357281,
-          "pctValidos": 48.36
+          "votos": 304812,
+          "pctValidos": 41.26
         }
       ]
     },
@@ -876,7 +876,7 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 218008,
+          "votos": 218009,
           "pctValidos": 51.64
         },
         {
@@ -910,16 +910,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 218008,
-          "pctValidos": 51.64
+          "votos": 247991,
+          "pctValidos": 58.74
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 204160,
-          "pctValidos": 48.36
+          "votos": 174178,
+          "pctValidos": 41.26
         }
       ]
     },
@@ -936,24 +936,24 @@
       "pctBrancos": 1.71,
       "votosNulos": 10439,
       "pctNulos": 4.63,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Aécio Neves",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 109003,
-          "pctValidos": 51.64
-        },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 102080,
-          "pctValidos": 48.36
+          "votos": 123305,
+          "pctValidos": 58.42
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 87779,
+          "pctValidos": 41.58
         }
       ]
     },
@@ -978,7 +978,7 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 218008,
+          "votos": 218009,
           "pctValidos": 51.64
         },
         {

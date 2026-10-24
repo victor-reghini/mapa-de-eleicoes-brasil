@@ -60,16 +60,16 @@
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 11912689,
-          "pctValidos": 53.95
+          "votos": 13291600,
+          "pctValidos": 60.19
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 10168292,
-          "pctValidos": 46.05
+          "votos": 8789382,
+          "pctValidos": 39.81
         }
       ]
     },
@@ -94,16 +94,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 5901390,
-          "pctValidos": 57.05
+          "votos": 6301495,
+          "pctValidos": 60.92
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 4442852,
-          "pctValidos": 42.95
+          "votos": 4042748,
+          "pctValidos": 39.08
         }
       ]
     },
@@ -128,16 +128,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 4653019,
-          "pctValidos": 57.05
+          "votos": 4968487,
+          "pctValidos": 60.92
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 3503018,
-          "pctValidos": 42.95
+          "votos": 3187551,
+          "pctValidos": 39.08
         }
       ]
     },
@@ -162,16 +162,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 5016559,
-          "pctValidos": 70.05
+          "votos": 5407017,
+          "pctValidos": 75.5
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2144839,
-          "pctValidos": 29.95
+          "votos": 1754382,
+          "pctValidos": 24.5
         }
       ]
     },
@@ -196,16 +196,16 @@
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2951341,
-          "pctValidos": 53.95
+          "votos": 3292963,
+          "pctValidos": 60.19
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2519171,
-          "pctValidos": 46.05
+          "votos": 2177550,
+          "pctValidos": 39.81
         }
       ]
     },
@@ -230,16 +230,16 @@
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2897680,
-          "pctValidos": 53.95
+          "votos": 3233091,
+          "pctValidos": 60.19
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2473368,
-          "pctValidos": 46.05
+          "votos": 2137958,
+          "pctValidos": 39.81
         }
       ]
     },
@@ -264,16 +264,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 3135349,
-          "pctValidos": 70.05
+          "votos": 3379386,
+          "pctValidos": 75.5
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1340524,
-          "pctValidos": 29.95
+          "votos": 1096488,
+          "pctValidos": 24.5
         }
       ]
     },
@@ -298,16 +298,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 3065675,
-          "pctValidos": 70.05
+          "votos": 3304288,
+          "pctValidos": 75.5
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1310734,
-          "pctValidos": 29.95
+          "votos": 1072122,
+          "pctValidos": 24.5
         }
       ]
     },
@@ -332,16 +332,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2174230,
-          "pctValidos": 56.05
+          "votos": 2442613,
+          "pctValidos": 62.97
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1704860,
-          "pctValidos": 43.95
+          "votos": 1436478,
+          "pctValidos": 37.03
         }
       ]
     },
@@ -366,16 +366,16 @@
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1878126,
-          "pctValidos": 53.95
+          "votos": 2095522,
+          "pctValidos": 60.19
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1603108,
-          "pctValidos": 46.05
+          "votos": 1385713,
+          "pctValidos": 39.81
         }
       ]
     },
@@ -400,16 +400,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2229582,
-          "pctValidos": 70.05
+          "votos": 2403119,
+          "pctValidos": 75.5
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 953261,
-          "pctValidos": 29.95
+          "votos": 779725,
+          "pctValidos": 24.5
         }
       ]
     },
@@ -426,24 +426,24 @@
       "pctBrancos": 2.3,
       "votosNulos": 145381,
       "pctNulos": 4.4,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 1728234,
-          "pctValidos": 56.05
-        },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1355145,
-          "pctValidos": 43.95
+          "votos": 1856034,
+          "pctValidos": 60.19
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1227346,
+          "pctValidos": 39.81
         }
       ]
     },
@@ -468,16 +468,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1393488,
-          "pctValidos": 70.05
+          "votos": 1501949,
+          "pctValidos": 75.5
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 595788,
-          "pctValidos": 29.95
+          "votos": 487328,
+          "pctValidos": 24.5
         }
       ]
     },
@@ -502,7 +502,7 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1059240,
+          "votos": 1059241,
           "pctValidos": 56.05
         },
         {
@@ -536,16 +536,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 947741,
-          "pctValidos": 56.05
+          "votos": 1064729,
+          "pctValidos": 62.97
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 743144,
-          "pctValidos": 43.95
+          "votos": 626157,
+          "pctValidos": 37.03
         }
       ]
     },
@@ -570,16 +570,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1114791,
-          "pctValidos": 70.05
+          "votos": 1201560,
+          "pctValidos": 75.5
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 476630,
-          "pctValidos": 29.95
+          "votos": 389862,
+          "pctValidos": 24.5
         }
       ]
     },
@@ -604,16 +604,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1045116,
-          "pctValidos": 70.05
+          "votos": 1126462,
+          "pctValidos": 75.5
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 446841,
-          "pctValidos": 29.95
+          "votos": 365496,
+          "pctValidos": 24.5
         }
       ]
     },
@@ -638,16 +638,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1114791,
-          "pctValidos": 70.05
+          "votos": 1201560,
+          "pctValidos": 75.5
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 476630,
-          "pctValidos": 29.95
+          "votos": 389862,
+          "pctValidos": 24.5
         }
       ]
     },
@@ -672,16 +672,16 @@
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 858572,
-          "pctValidos": 53.95
+          "votos": 957953,
+          "pctValidos": 60.19
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 732849,
-          "pctValidos": 46.05
+          "votos": 633469,
+          "pctValidos": 39.81
         }
       ]
     },
@@ -698,24 +698,24 @@
       "pctBrancos": 2.3,
       "votosNulos": 65656,
       "pctNulos": 4.4,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 780492,
-          "pctValidos": 56.05
-        },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 612001,
-          "pctValidos": 43.95
+          "votos": 838208,
+          "pctValidos": 60.19
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 554286,
+          "pctValidos": 39.81
         }
       ]
     },
@@ -740,16 +740,16 @@
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 697589,
-          "pctValidos": 53.95
+          "votos": 778336,
+          "pctValidos": 60.19
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 595440,
-          "pctValidos": 46.05
+          "votos": 514694,
+          "pctValidos": 39.81
         }
       ]
     },
@@ -774,16 +774,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 766418,
-          "pctValidos": 70.05
+          "votos": 826072,
+          "pctValidos": 75.5
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 327683,
-          "pctValidos": 29.95
+          "votos": 268030,
+          "pctValidos": 24.5
         }
       ]
     },
@@ -800,24 +800,24 @@
       "pctBrancos": 2.3,
       "votosNulos": 37517,
       "pctNulos": 4.4,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 445996,
-          "pctValidos": 56.05
-        },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 349714,
-          "pctValidos": 43.95
+          "votos": 430065,
+          "pctValidos": 54.05
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 365646,
+          "pctValidos": 45.95
         }
       ]
     },
@@ -842,16 +842,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 390246,
-          "pctValidos": 56.05
+          "votos": 438418,
+          "pctValidos": 62.97
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 306000,
-          "pctValidos": 43.95
+          "votos": 257829,
+          "pctValidos": 37.03
         }
       ]
     },
@@ -876,7 +876,7 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 222997,
+          "votos": 222998,
           "pctValidos": 56.05
         },
         {
@@ -910,16 +910,16 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 222997,
-          "pctValidos": 56.05
+          "votos": 250525,
+          "pctValidos": 62.97
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 174857,
-          "pctValidos": 43.95
+          "votos": 147330,
+          "pctValidos": 37.03
         }
       ]
     },
@@ -936,24 +936,24 @@
       "pctBrancos": 2.3,
       "votosNulos": 9379,
       "pctNulos": 4.4,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 111498,
-          "pctValidos": 56.05
-        },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 87428,
-          "pctValidos": 43.95
+          "votos": 107515,
+          "pctValidos": 54.05
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 91412,
+          "pctValidos": 45.95
         }
       ]
     },
@@ -978,7 +978,7 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 222997,
+          "votos": 222998,
           "pctValidos": 56.05
         },
         {

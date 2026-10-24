@@ -80,24 +80,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 8728988,
-          "pctValidos": 58.06
+          "votos": 9072201,
+          "pctValidos": 60.34
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 4391556,
-          "pctValidos": 29.21
+          "votos": 4435998,
+          "pctValidos": 29.51
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 1913883,
-          "pctValidos": 12.73
+          "votos": 1193595,
+          "pctValidos": 7.94
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 332633,
+          "pctValidos": 2.21
         }
       ]
     },
@@ -122,24 +130,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 4089255,
-          "pctValidos": 58.06
+          "votos": 4250040,
+          "pctValidos": 60.34
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2057305,
-          "pctValidos": 29.21
+          "votos": 2078125,
+          "pctValidos": 29.51
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 896595,
-          "pctValidos": 12.73
+          "votos": 559162,
+          "pctValidos": 7.94
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 155828,
+          "pctValidos": 2.21
         }
       ]
     },
@@ -164,24 +180,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 3224220,
-          "pctValidos": 58.06
+          "votos": 3006066,
+          "pctValidos": 54.13
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1622106,
-          "pctValidos": 29.21
+          "votos": 2041477,
+          "pctValidos": 36.76
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 706930,
-          "pctValidos": 12.73
+          "votos": 395496,
+          "pctValidos": 7.12
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 110217,
+          "pctValidos": 1.98
         }
       ]
     },
@@ -206,24 +230,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2831023,
-          "pctValidos": 58.06
+          "votos": 2887802,
+          "pctValidos": 59.22
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1424288,
-          "pctValidos": 29.21
+          "votos": 1479276,
+          "pctValidos": 30.34
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 620719,
-          "pctValidos": 12.73
+          "votos": 398029,
+          "pctValidos": 8.16
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 110923,
+          "pctValidos": 2.27
         }
       ]
     },
@@ -248,24 +280,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2162586,
-          "pctValidos": 58.06
+          "votos": 2016264,
+          "pctValidos": 54.13
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1087998,
-          "pctValidos": 29.21
+          "votos": 1369283,
+          "pctValidos": 36.76
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 474161,
-          "pctValidos": 12.73
+          "votos": 265272,
+          "pctValidos": 7.12
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 73926,
+          "pctValidos": 1.98
         }
       ]
     },
@@ -290,24 +330,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2123266,
-          "pctValidos": 58.06
+          "votos": 2206752,
+          "pctValidos": 60.34
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1068216,
-          "pctValidos": 29.21
+          "votos": 1079026,
+          "pctValidos": 29.51
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 465540,
-          "pctValidos": 12.73
+          "votos": 290334,
+          "pctValidos": 7.94
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 80910,
+          "pctValidos": 2.21
         }
       ]
     },
@@ -332,24 +380,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1464637,
-          "pctValidos": 48.06
+          "votos": 1804877,
+          "pctValidos": 59.22
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1042556,
-          "pctValidos": 34.21
+          "votos": 924547,
+          "pctValidos": 30.34
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 540326,
-          "pctValidos": 17.73
+          "votos": 248768,
+          "pctValidos": 8.16
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 69327,
+          "pctValidos": 2.27
         }
       ]
     },
@@ -374,24 +430,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1730069,
-          "pctValidos": 58.06
-        },
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 870398,
-          "pctValidos": 29.21
+          "votos": 1354185,
+          "pctValidos": 45.45
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 379329,
-          "pctValidos": 12.73
+          "votos": 879916,
+          "pctValidos": 29.53
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 693680,
+          "pctValidos": 23.28
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 52015,
+          "pctValidos": 1.75
         }
       ]
     },
@@ -416,24 +480,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1269352,
-          "pctValidos": 48.06
+          "votos": 1499851,
+          "pctValidos": 56.79
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 903548,
-          "pctValidos": 34.21
+          "votos": 849171,
+          "pctValidos": 32.15
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 468283,
-          "pctValidos": 17.73
+          "votos": 228486,
+          "pctValidos": 8.65
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 63675,
+          "pctValidos": 2.41
         }
       ]
     },
@@ -458,24 +530,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1376191,
-          "pctValidos": 58.06
+          "votos": 1430303,
+          "pctValidos": 60.34
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 692362,
-          "pctValidos": 29.21
+          "votos": 699368,
+          "pctValidos": 29.51
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 301739,
-          "pctValidos": 12.73
+          "votos": 188179,
+          "pctValidos": 7.94
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 52442,
+          "pctValidos": 2.21
         }
       ]
     },
@@ -500,24 +580,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1041519,
-          "pctValidos": 48.06
+          "votos": 1283468,
+          "pctValidos": 59.22
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 741373,
-          "pctValidos": 34.21
+          "votos": 657456,
+          "pctValidos": 30.34
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 384232,
-          "pctValidos": 17.73
+          "votos": 176901,
+          "pctValidos": 8.16
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 49299,
+          "pctValidos": 2.27
         }
       ]
     },
@@ -542,24 +630,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1008972,
-          "pctValidos": 48.06
+          "votos": 1266840,
+          "pctValidos": 60.34
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 718205,
-          "pctValidos": 34.21
+          "votos": 619440,
+          "pctValidos": 29.51
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 372224,
-          "pctValidos": 17.73
+          "votos": 166673,
+          "pctValidos": 7.94
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 46448,
+          "pctValidos": 2.21
         }
       ]
     },
@@ -584,24 +680,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 650949,
-          "pctValidos": 48.06
+          "votos": 802168,
+          "pctValidos": 59.22
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 463358,
-          "pctValidos": 34.21
+          "votos": 410909,
+          "pctValidos": 30.34
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 240145,
-          "pctValidos": 17.73
+          "votos": 110563,
+          "pctValidos": 8.16
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 30812,
+          "pctValidos": 2.27
         }
       ]
     },
@@ -626,24 +730,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 618402,
-          "pctValidos": 48.06
+          "votos": 776451,
+          "pctValidos": 60.34
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 440190,
-          "pctValidos": 34.21
+          "votos": 379657,
+          "pctValidos": 29.51
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 228138,
-          "pctValidos": 17.73
+          "votos": 102154,
+          "pctValidos": 7.94
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 28468,
+          "pctValidos": 2.21
         }
       ]
     },
@@ -668,24 +780,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 553307,
-          "pctValidos": 48.06
+          "votos": 653782,
+          "pctValidos": 56.79
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 393854,
-          "pctValidos": 34.21
+          "votos": 370151,
+          "pctValidos": 32.15
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 204123,
-          "pctValidos": 17.73
+          "votos": 99596,
+          "pctValidos": 8.65
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 27755,
+          "pctValidos": 2.41
         }
       ]
     },
@@ -710,24 +830,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 520759,
-          "pctValidos": 48.06
+          "votos": 641735,
+          "pctValidos": 59.22
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 370686,
-          "pctValidos": 34.21
+          "votos": 328728,
+          "pctValidos": 30.34
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 192117,
-          "pctValidos": 17.73
+          "votos": 88450,
+          "pctValidos": 8.16
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 24649,
+          "pctValidos": 2.27
         }
       ]
     },
@@ -752,24 +880,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 488212,
-          "pctValidos": 48.06
+          "votos": 601626,
+          "pctValidos": 59.22
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 347518,
-          "pctValidos": 34.21
+          "votos": 308182,
+          "pctValidos": 30.34
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 180109,
-          "pctValidos": 17.73
+          "votos": 82922,
+          "pctValidos": 8.16
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 23109,
+          "pctValidos": 2.27
         }
       ]
     },
@@ -794,24 +930,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 520759,
-          "pctValidos": 48.06
+          "votos": 641735,
+          "pctValidos": 59.22
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 370686,
-          "pctValidos": 34.21
+          "votos": 328728,
+          "pctValidos": 30.34
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 192117,
-          "pctValidos": 17.73
+          "votos": 88450,
+          "pctValidos": 8.16
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 24649,
+          "pctValidos": 2.27
         }
       ]
     },
@@ -836,24 +980,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 520759,
-          "pctValidos": 48.06
+          "votos": 653854,
+          "pctValidos": 60.34
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 370686,
-          "pctValidos": 34.21
+          "votos": 319711,
+          "pctValidos": 29.51
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 192117,
-          "pctValidos": 17.73
+          "votos": 86024,
+          "pctValidos": 7.94
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 23973,
+          "pctValidos": 2.21
         }
       ]
     },
@@ -878,24 +1030,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 455665,
-          "pctValidos": 48.06
+          "votos": 513233,
+          "pctValidos": 54.13
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 324350,
-          "pctValidos": 34.21
+          "votos": 348544,
+          "pctValidos": 36.76
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 168102,
-          "pctValidos": 17.73
+          "votos": 67523,
+          "pctValidos": 7.12
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 18817,
+          "pctValidos": 1.98
         }
       ]
     },
@@ -920,24 +1080,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 423117,
-          "pctValidos": 48.06
+          "votos": 531256,
+          "pctValidos": 60.34
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 301182,
-          "pctValidos": 34.21
+          "votos": 259765,
+          "pctValidos": 29.51
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 156095,
-          "pctValidos": 17.73
+          "votos": 69895,
+          "pctValidos": 7.94
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 19478,
+          "pctValidos": 2.21
         }
       ]
     },
@@ -962,24 +1130,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 358022,
-          "pctValidos": 48.06
+          "votos": 441193,
+          "pctValidos": 59.22
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 254847,
-          "pctValidos": 34.21
+          "votos": 226000,
+          "pctValidos": 30.34
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 132080,
-          "pctValidos": 17.73
+          "votos": 60810,
+          "pctValidos": 8.16
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 16946,
+          "pctValidos": 2.27
         }
       ]
     },
@@ -1004,24 +1180,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 260379,
-          "pctValidos": 48.06
+          "votos": 307662,
+          "pctValidos": 56.79
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 185343,
-          "pctValidos": 34.21
+          "votos": 174189,
+          "pctValidos": 32.15
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 96059,
-          "pctValidos": 17.73
+          "votos": 46869,
+          "pctValidos": 8.65
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 13061,
+          "pctValidos": 2.41
         }
       ]
     },
@@ -1046,24 +1230,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 227832,
-          "pctValidos": 48.06
+          "votos": 269205,
+          "pctValidos": 56.79
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 162175,
-          "pctValidos": 34.21
+          "votos": 152415,
+          "pctValidos": 32.15
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 84051,
-          "pctValidos": 17.73
+          "votos": 41010,
+          "pctValidos": 8.65
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 11428,
+          "pctValidos": 2.41
         }
       ]
     },
@@ -1088,24 +1280,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 130189,
-          "pctValidos": 48.06
+          "votos": 153832,
+          "pctValidos": 56.79
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 92671,
-          "pctValidos": 34.21
+          "votos": 87094,
+          "pctValidos": 32.15
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 48030,
-          "pctValidos": 17.73
+          "votos": 23434,
+          "pctValidos": 8.65
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 6530,
+          "pctValidos": 2.41
         }
       ]
     },
@@ -1130,24 +1330,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 130189,
-          "pctValidos": 48.06
+          "votos": 153832,
+          "pctValidos": 56.79
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 92671,
-          "pctValidos": 34.21
+          "votos": 87094,
+          "pctValidos": 32.15
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 48030,
-          "pctValidos": 17.73
+          "votos": 23434,
+          "pctValidos": 8.65
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 6530,
+          "pctValidos": 2.41
         }
       ]
     },
@@ -1172,24 +1380,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 65094,
-          "pctValidos": 48.06
+          "votos": 76916,
+          "pctValidos": 56.79
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 46335,
-          "pctValidos": 34.21
+          "votos": 43547,
+          "pctValidos": 32.15
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 24016,
-          "pctValidos": 17.73
+          "votos": 11717,
+          "pctValidos": 8.65
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 3265,
+          "pctValidos": 2.41
         }
       ]
     },
@@ -1214,24 +1430,32 @@
           "nome": "FHC",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 130189,
-          "pctValidos": 48.06
+          "votos": 153832,
+          "pctValidos": 56.79
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 92671,
-          "pctValidos": 34.21
+          "votos": 87094,
+          "pctValidos": 32.15
         },
         {
           "numero": "23",
           "nome": "Ciro Gomes",
           "partido": "PPS",
           "cor": "#f59e0b",
-          "votos": 48030,
-          "pctValidos": 17.73
+          "votos": 23434,
+          "pctValidos": 8.65
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 6530,
+          "pctValidos": 2.41
         }
       ]
     }

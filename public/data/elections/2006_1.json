@@ -80,24 +80,32 @@
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 9939601,
-          "pctValidos": 46.64
+          "votos": 11849485,
+          "pctValidos": 55.6
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 8228302,
-          "pctValidos": 38.61
+          "votos": 7172635,
+          "pctValidos": 33.66
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 3143422,
-          "pctValidos": 14.75
+          "votos": 1732713,
+          "pctValidos": 8.13
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 556492,
+          "pctValidos": 2.61
         }
       ]
     },
@@ -122,24 +130,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 4952905,
-          "pctValidos": 49.61
+          "votos": 5388653,
+          "pctValidos": 53.97
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 4107287,
-          "pctValidos": 41.14
+          "votos": 3776722,
+          "pctValidos": 37.83
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 923492,
-          "pctValidos": 9.25
+          "votos": 552258,
+          "pctValidos": 5.53
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 266051,
+          "pctValidos": 2.66
         }
       ]
     },
@@ -164,24 +180,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 3905175,
-          "pctValidos": 49.61
+          "votos": 4134396,
+          "pctValidos": 52.52
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 3238437,
-          "pctValidos": 41.14
+          "votos": 2897656,
+          "pctValidos": 36.81
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 728138,
-          "pctValidos": 9.25
+          "votos": 635573,
+          "pctValidos": 8.07
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 204125,
+          "pctValidos": 2.59
         }
       ]
     },
@@ -206,24 +230,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 4327466,
-          "pctValidos": 62.61
+          "votos": 4702970,
+          "pctValidos": 68.04
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2394240,
-          "pctValidos": 34.64
+          "votos": 1667018,
+          "pctValidos": 24.12
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 190075,
-          "pctValidos": 2.75
+          "votos": 365644,
+          "pctValidos": 5.29
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 176149,
+          "pctValidos": 2.55
         }
       ]
     },
@@ -248,24 +280,32 @@
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2462513,
-          "pctValidos": 46.64
+          "votos": 3017460,
+          "pctValidos": 57.15
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2038543,
-          "pctValidos": 38.61
+          "votos": 1826506,
+          "pctValidos": 34.59
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 778776,
-          "pctValidos": 14.75
+          "votos": 294156,
+          "pctValidos": 5.57
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 141710,
+          "pctValidos": 2.68
         }
       ]
     },
@@ -290,24 +330,32 @@
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2417740,
-          "pctValidos": 46.64
+          "votos": 2962597,
+          "pctValidos": 57.15
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2001478,
-          "pctValidos": 38.61
+          "votos": 1793298,
+          "pctValidos": 34.59
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 764617,
-          "pctValidos": 14.75
+          "votos": 288807,
+          "pctValidos": 5.57
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 139133,
+          "pctValidos": 2.68
         }
       ]
     },
@@ -332,24 +380,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2704666,
-          "pctValidos": 62.61
+          "votos": 2939357,
+          "pctValidos": 68.04
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1496400,
-          "pctValidos": 34.64
+          "votos": 1041886,
+          "pctValidos": 24.12
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 118797,
-          "pctValidos": 2.75
+          "votos": 228527,
+          "pctValidos": 5.29
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 110093,
+          "pctValidos": 2.55
         }
       ]
     },
@@ -374,24 +430,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2644562,
-          "pctValidos": 62.61
+          "votos": 2874037,
+          "pctValidos": 68.04
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1463147,
-          "pctValidos": 34.64
+          "votos": 1018733,
+          "pctValidos": 24.12
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 116157,
-          "pctValidos": 2.75
+          "votos": 223449,
+          "pctValidos": 5.29
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 107647,
+          "pctValidos": 2.55
         }
       ]
     },
@@ -416,24 +480,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1819900,
-          "pctValidos": 48.61
+          "votos": 2101342,
+          "pctValidos": 56.13
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1558952,
-          "pctValidos": 41.64
+          "votos": 1350027,
+          "pctValidos": 36.06
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 365029,
-          "pctValidos": 9.75
+          "votos": 197410,
+          "pctValidos": 5.27
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 95102,
+          "pctValidos": 2.54
         }
       ]
     },
@@ -458,24 +530,32 @@
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1567054,
-          "pctValidos": 46.64
+          "votos": 1920202,
+          "pctValidos": 57.15
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1297254,
-          "pctValidos": 38.61
+          "votos": 1162322,
+          "pctValidos": 34.59
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 495585,
-          "pctValidos": 14.75
+          "votos": 187190,
+          "pctValidos": 5.57
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 90179,
+          "pctValidos": 2.68
         }
       ]
     },
@@ -500,24 +580,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1923317,
-          "pctValidos": 62.61
+          "votos": 2090210,
+          "pctValidos": 68.04
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1064106,
-          "pctValidos": 34.64
+          "votos": 740896,
+          "pctValidos": 24.12
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 84479,
-          "pctValidos": 2.75
+          "votos": 162508,
+          "pctValidos": 5.29
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 78288,
+          "pctValidos": 2.55
         }
       ]
     },
@@ -534,32 +622,40 @@
       "pctBrancos": 2.73,
       "votosNulos": 184460,
       "pctNulos": 5.68,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 1446587,
-          "pctValidos": 48.61
-        },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1239166,
-          "pctValidos": 41.64
+          "votos": 1700750,
+          "pctValidos": 57.15
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1029485,
+          "pctValidos": 34.59
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 290152,
-          "pctValidos": 9.75
+          "votos": 165797,
+          "pctValidos": 5.57
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 79873,
+          "pctValidos": 2.68
         }
       ]
     },
@@ -584,24 +680,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1202073,
-          "pctValidos": 62.61
+          "votos": 1306382,
+          "pctValidos": 68.04
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 665066,
-          "pctValidos": 34.64
+          "votos": 463060,
+          "pctValidos": 24.12
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 52800,
-          "pctValidos": 2.75
+          "votos": 101567,
+          "pctValidos": 5.29
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 48930,
+          "pctValidos": 2.55
         }
       ]
     },
@@ -626,24 +730,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 886618,
-          "pctValidos": 48.61
+          "votos": 893120,
+          "pctValidos": 48.97
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 759489,
-          "pctValidos": 41.64
+          "votos": 765057,
+          "pctValidos": 41.95
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 177835,
-          "pctValidos": 9.75
+          "votos": 111871,
+          "pctValidos": 6.13
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 53894,
+          "pctValidos": 2.95
         }
       ]
     },
@@ -668,24 +780,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 793289,
-          "pctValidos": 48.61
+          "votos": 915970,
+          "pctValidos": 56.13
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 679543,
-          "pctValidos": 41.64
+          "votos": 588473,
+          "pctValidos": 36.06
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 159116,
-          "pctValidos": 9.75
+          "votos": 86050,
+          "pctValidos": 5.27
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 41455,
+          "pctValidos": 2.54
         }
       ]
     },
@@ -710,24 +830,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 961658,
-          "pctValidos": 62.61
+          "votos": 1045105,
+          "pctValidos": 68.04
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 532053,
-          "pctValidos": 34.64
+          "votos": 370448,
+          "pctValidos": 24.12
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 42240,
-          "pctValidos": 2.75
+          "votos": 81254,
+          "pctValidos": 5.29
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 39144,
+          "pctValidos": 2.55
         }
       ]
     },
@@ -752,24 +880,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 901555,
-          "pctValidos": 62.61
+          "votos": 979787,
+          "pctValidos": 68.04
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 498800,
-          "pctValidos": 34.64
+          "votos": 347295,
+          "pctValidos": 24.12
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 39599,
-          "pctValidos": 2.75
+          "votos": 76175,
+          "pctValidos": 5.29
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 36697,
+          "pctValidos": 2.55
         }
       ]
     },
@@ -794,24 +930,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 961658,
-          "pctValidos": 62.61
+          "votos": 1045105,
+          "pctValidos": 68.04
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 532053,
-          "pctValidos": 34.64
+          "votos": 370448,
+          "pctValidos": 24.12
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 42240,
-          "pctValidos": 2.75
+          "votos": 81254,
+          "pctValidos": 5.29
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 39144,
+          "pctValidos": 2.55
         }
       ]
     },
@@ -836,24 +980,32 @@
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 716367,
-          "pctValidos": 46.64
+          "votos": 877806,
+          "pctValidos": 57.15
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 593030,
-          "pctValidos": 38.61
+          "votos": 531349,
+          "pctValidos": 34.59
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 226554,
-          "pctValidos": 14.75
+          "votos": 85572,
+          "pctValidos": 5.57
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 41224,
+          "pctValidos": 2.68
         }
       ]
     },
@@ -870,32 +1022,40 @@
       "pctBrancos": 2.73,
       "votosNulos": 83304,
       "pctNulos": 5.68,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 653297,
-          "pctValidos": 48.61
-        },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 559623,
-          "pctValidos": 41.64
+          "votos": 699847,
+          "pctValidos": 52.07
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 423627,
+          "pctValidos": 31.52
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 131037,
-          "pctValidos": 9.75
+          "votos": 187616,
+          "pctValidos": 13.96
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 32867,
+          "pctValidos": 2.45
         }
       ]
     },
@@ -920,24 +1080,32 @@
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 582048,
-          "pctValidos": 46.64
+          "votos": 713217,
+          "pctValidos": 57.15
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 481837,
-          "pctValidos": 38.61
+          "votos": 431721,
+          "pctValidos": 34.59
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 184075,
-          "pctValidos": 14.75
+          "votos": 69527,
+          "pctValidos": 5.57
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 33495,
+          "pctValidos": 2.68
         }
       ]
     },
@@ -962,24 +1130,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 661140,
-          "pctValidos": 62.61
+          "votos": 718510,
+          "pctValidos": 68.04
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 365786,
-          "pctValidos": 34.64
+          "votos": 254683,
+          "pctValidos": 24.12
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 29040,
-          "pctValidos": 2.75
+          "votos": 55862,
+          "pctValidos": 5.29
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 26911,
+          "pctValidos": 2.55
         }
       ]
     },
@@ -996,32 +1172,40 @@
       "pctBrancos": 2.73,
       "votosNulos": 47602,
       "pctNulos": 5.68,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 373312,
-          "pctValidos": 48.61
-        },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 319784,
-          "pctValidos": 41.64
+          "votos": 399424,
+          "pctValidos": 52.01
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 310856,
+          "pctValidos": 40.48
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 74879,
-          "pctValidos": 9.75
+          "votos": 38937,
+          "pctValidos": 5.07
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 18758,
+          "pctValidos": 2.44
         }
       ]
     },
@@ -1046,24 +1230,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 326648,
-          "pctValidos": 48.61
+          "votos": 377165,
+          "pctValidos": 56.13
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 279811,
-          "pctValidos": 41.64
+          "votos": 242312,
+          "pctValidos": 36.06
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 65519,
-          "pctValidos": 9.75
+          "votos": 35432,
+          "pctValidos": 5.27
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 17069,
+          "pctValidos": 2.54
         }
       ]
     },
@@ -1088,24 +1280,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 186656,
-          "pctValidos": 48.61
+          "votos": 188026,
+          "pctValidos": 48.97
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 159892,
-          "pctValidos": 41.64
+          "votos": 161064,
+          "pctValidos": 41.95
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 37439,
-          "pctValidos": 9.75
+          "votos": 23551,
+          "pctValidos": 6.13
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 11346,
+          "pctValidos": 2.95
         }
       ]
     },
@@ -1130,24 +1330,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 186656,
-          "pctValidos": 48.61
+          "votos": 215522,
+          "pctValidos": 56.13
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 159892,
-          "pctValidos": 41.64
+          "votos": 138464,
+          "pctValidos": 36.06
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 37439,
-          "pctValidos": 9.75
+          "votos": 20247,
+          "pctValidos": 5.27
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 9754,
+          "pctValidos": 2.54
         }
       ]
     },
@@ -1164,32 +1372,40 @@
       "pctBrancos": 2.73,
       "votosNulos": 11900,
       "pctNulos": 5.68,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 93327,
-          "pctValidos": 48.61
-        },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 79945,
-          "pctValidos": 41.64
+          "votos": 99855,
+          "pctValidos": 52.01
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 77715,
+          "pctValidos": 40.48
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 18721,
-          "pctValidos": 9.75
+          "votos": 9734,
+          "pctValidos": 5.07
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 4689,
+          "pctValidos": 2.44
         }
       ]
     },
@@ -1214,24 +1430,32 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 186656,
-          "pctValidos": 48.61
+          "votos": 188026,
+          "pctValidos": 48.97
         },
         {
           "numero": "45",
           "nome": "Geraldo Alckmin",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 159892,
-          "pctValidos": 41.64
+          "votos": 161064,
+          "pctValidos": 41.95
         },
         {
           "numero": "50",
           "nome": "Heloísa Helena",
           "partido": "PSOL",
           "cor": "#f43f5e",
-          "votos": 37439,
-          "pctValidos": 9.75
+          "votos": 23551,
+          "pctValidos": 6.13
+        },
+        {
+          "numero": "12",
+          "nome": "Cristovam Buarque",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 11346,
+          "pctValidos": 2.95
         }
       ]
     }

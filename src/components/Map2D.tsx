@@ -400,22 +400,12 @@ export const Map2D: React.FC<Map2DProps> = ({
       <div className="map-legend">
         <div className="legend-title">Candidatos Líderes</div>
         <div className="legend-items">
-          <div className="legend-item">
-            <div className="legend-color-dot" style={{ background: '#e11d48' }} />
-            <span>Lula (PT)</span>
-          </div>
-          <div className="legend-item">
-            <div className="legend-color-dot" style={{ background: '#2563eb' }} />
-            <span>Bolsonaro (PL/PSL)</span>
-          </div>
-          <div className="legend-item">
-            <div className="legend-color-dot" style={{ background: '#059669' }} />
-            <span>Tebet (MDB)</span>
-          </div>
-          <div className="legend-item">
-            <div className="legend-color-dot" style={{ background: '#ea580c' }} />
-            <span>Ciro (PDT)</span>
-          </div>
+          {electionData?.brasil?.candidatos.slice(0, 4).map((c, i) => (
+            <div key={i} className="legend-item">
+              <div className="legend-color-dot" style={{ background: c.cor || '#3b82f6' }} />
+              <span>{c.nomeUrna || c.nome} ({c.partido})</span>
+            </div>
+          ))}
         </div>
       </div>
 

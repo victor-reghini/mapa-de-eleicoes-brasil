@@ -352,11 +352,133 @@ UF_WEIGHTS = {
     "AC": 0.004, "AP": 0.004, "RR": 0.002, "ZZ": 0.004
 }
 
+def get_candidate_uf_multiplier(ano, turno, num, urna, partido, uf):
+    m = 1.0
+    nordeste = ["AL", "BA", "CE", "MA", "PB", "PE", "PI", "RN", "SE"]
+    sul = ["PR", "RS", "SC"]
+    centro_oeste = ["DF", "GO", "MT", "MS"]
+    sudeste = ["ES", "MG", "RJ", "SP"]
+    norte = ["AC", "AP", "AM", "PA", "RO", "RR", "TO"]
+    
+    if ano == 1989:
+        if turno == 1:
+            if urna == "Fernando Collor" or num == "36":
+                if uf == "AL": m = 2.15  # Berço eleitoral (~65%)
+                elif uf in ["PR", "SC", "RO", "RR", "TO"]: m = 1.60
+                elif uf in norte or uf in centro_oeste: m = 1.45
+                elif uf in nordeste: m = 1.40
+                elif uf in ["MG", "ES"]: m = 1.35  # Collor venceu MG com ~41%
+                elif uf == "RJ": m = 0.60
+                elif uf == "SP": m = 0.55  # ~16% em SP (4º lugar)
+                elif uf == "RS": m = 0.40  # ~12% no RS
+            elif urna == "Leonel Brizola" or num == "12":
+                if uf == "RS": m = 4.00   # Brizola venceu RS com ~66%
+                elif uf == "RJ": m = 3.10  # Brizola venceu RJ com ~51%
+                elif uf == "SC": m = 1.10  # ~18%
+                elif uf == "PR": m = 0.80  # ~13%
+                elif uf == "MG": m = 0.80  # ~13% (3º lugar em MG)
+                elif uf == "SP": m = 0.40  # ~6.5% em SP
+                else: m = 0.50             # ~8% nos demais estados
+            elif urna == "Lula" or num == "13":
+                if uf == "DF": m = 1.65   # Lula venceu DF com ~28%
+                elif uf == "PE": m = 1.50  # ~26% em PE
+                elif uf == "MG": m = 1.40  # Lula 2º em MG com ~24%
+                elif uf == "SP": m = 1.05  # Lula 2º em SP com ~18%
+                elif uf == "BA": m = 1.10
+                elif uf == "RJ": m = 0.85
+                elif uf == "RS": m = 0.40
+                else: m = 0.90
+            elif urna == "Mário Covas" or num == "45":
+                if uf == "SP": m = 1.95   # Covas venceu SP com ~22%
+                elif uf == "DF": m = 1.40  # ~16% no DF
+                elif uf == "RJ": m = 1.00
+                elif uf == "PR": m = 0.90
+                elif uf == "MG": m = 0.75  # ~8.5% em MG
+                else: m = 0.40
+            elif urna == "Paulo Maluf" or num == "11":
+                if uf == "SP": m = 1.85   # ~16.4% em SP
+                elif uf in ["PR", "SC", "RS", "MS", "MT"]: m = 1.10
+                elif uf == "MG": m = 0.65  # ~5.7% em MG
+                else: m = 0.50
+            elif urna == "Afif" or num == "22":
+                if uf == "SP": m = 1.70
+                else: m = 0.60
+            elif urna == "Aureliano Chaves" or num == "25":
+                if uf == "MG": m = 4.00   # Berço político Minas Gerais
+                else: m = 0.50
+            elif urna == "Ulysses Guimarães" or num == "15":
+                if uf in ["SP", "PR", "RS"]: m = 1.20
+                else: m = 0.80
+        elif turno == 2:
+            if urna == "Fernando Collor" or num == "36":
+                if uf == "AL": m = 1.40
+                elif uf in ["PR", "SC", "SP", "MG", "ES", "GO", "MT", "MS"] or uf in norte or uf in nordeste: m = 1.12
+                elif uf in ["RJ", "RS", "DF"]: m = 0.68  # Lula venceu RJ, RS, DF no 2T
+            elif urna == "Lula" or num == "13":
+                if uf in ["RJ", "RS", "DF"]: m = 1.36
+                elif uf == "AL": m = 0.55
+                else: m = 0.88
+
+    elif ano in [1994, 1998]:
+        if urna == "FHC" or num == "45":
+            if uf in sudeste or uf in sul or uf in centro_oeste: m = 1.10
+            elif uf in nordeste: m = 1.05
+            else: m = 0.95
+        elif urna == "Lula" or num == "13":
+            if uf in ["RJ", "RS", "DF"]: m = 1.25
+            else: m = 0.90
+        elif urna == "Ciro Gomes" or num == "23":
+            if uf == "CE": m = 3.30  # Ciro venceu Ceará em 1998
+            else: m = 0.70
+        elif urna == "Leonel Brizola" or num == "12":
+            if uf in ["RJ", "RS"]: m = 2.50
+            else: m = 0.50
+
+    elif ano == 2002:
+        if turno == 1:
+            if urna == "Anthony Garotinho" or num == "40":
+                if uf == "RJ": m = 2.40  # Garotinho venceu RJ no 1T
+                else: m = 0.70
+            elif urna == "Ciro Gomes" or num == "23":
+                if uf == "CE": m = 3.70  # Ciro venceu CE no 1T
+                else: m = 0.70
+            elif urna == "José Serra" or num == "45":
+                if uf == "AL": m = 1.65  # Serra venceu AL
+                elif uf in ["SP", "PR", "SC"]: m = 1.20
+                else: m = 0.85
+            elif urna == "Lula" or num == "13":
+                if uf in ["RJ", "CE", "AL"]: m = 0.75
+                else: m = 1.15
+        elif turno == 2:
+            if urna == "José Serra" or num == "45":
+                if uf == "AL": m = 1.35  # Serra venceu apenas AL no 2T
+                else: m = 0.85
+            elif urna == "Lula" or num == "13":
+                if uf == "AL": m = 0.75
+                else: m = 1.10
+
+    elif ano in [2006, 2010, 2014]:
+        if partido == "PT":
+            if uf in nordeste: m = 1.45
+            elif uf in ["MG", "RJ"]: m = 1.10
+            elif uf in norte and uf not in ["RO", "RR", "AC"]: m = 1.20
+            elif uf in sul or uf in ["SP", "MS", "MT", "GO", "DF"]: m = 0.70
+            else: m = 0.90
+        elif partido == "PSDB":
+            if uf in sul or uf in ["SP", "MS", "MT", "GO", "DF", "RO", "RR"]: m = 1.35
+            elif uf in nordeste: m = 0.60
+            elif uf in ["MG", "RJ"]: m = 0.90
+            else: m = 0.90
+        elif urna in ["Marina Silva", "Heloísa Helena"]:
+            if uf == "DF": m = 2.20  # Marina venceu DF em 2010
+            elif uf in ["AC", "PE"] and ano == 2014: m = 2.20  # Marina venceu AC e PE em 2014
+            elif uf in ["RJ", "SP"]: m = 1.20
+            else: m = 0.80
+
+    return max(0.05, m)
+
 # Function to generate state distribution for an election round
 def generate_uf_distribution(ano, turno, cands_nacionais, aptos_tot, comp_tot, valid_tot, brancos_tot, nulos_tot):
-    c1 = cands_nacionais[0]
-    c2 = cands_nacionais[1]
-    
     ufs_dict = {}
     for uf, weight in UF_WEIGHTS.items():
         uf_aptos = int(aptos_tot * weight)
@@ -365,47 +487,50 @@ def generate_uf_distribution(ano, turno, cands_nacionais, aptos_tot, comp_tot, v
         uf_brancos = int(brancos_tot * weight)
         uf_nulos = int(nulos_tot * weight)
         uf_abst = uf_aptos - uf_comp
-        
-        # State historical political alignment modifier
-        modifier = 0.0
-        if uf in UF_REGIONS["Nordeste"]:
-            modifier = 0.14 if ano >= 2002 and c1["partido"] == "PT" else (-0.14 if ano >= 2002 and c2["partido"] == "PT" else 0.0)
-        elif uf in UF_REGIONS["Sul"] or uf in ["SP", "MS", "MT"]:
-            modifier = -0.10 if ano >= 2002 and c1["partido"] == "PT" else (0.10 if ano >= 2002 and c2["partido"] == "PT" else 0.0)
-        elif uf in ["RJ", "MG"]:
-            modifier = 0.01
 
-        if ano == 1989:
-            # Collor was stronger in PR, SC, GO, AL, SP; Lula stronger in RJ, RS, PE, BA
-            if uf in ["AL", "PR", "SC", "SP", "RO"]:
-                modifier = 0.12
-            elif uf in ["RJ", "RS", "PE"]:
-                modifier = -0.15
-        elif ano in [1994, 1998]:
-            # FHC won broadly across almost all states
-            modifier = 0.05 if uf in ["SP", "RJ", "MG", "PR", "SC", "RS", "BA", "CE"] else -0.05
-            
-        c1_pct = max(20.0, min(85.0, c1["pct"] + (modifier * 100)))
-        c2_pct = max(15.0, min(80.0, 100.0 - c1_pct)) if turno == 2 else max(15.0, c2["pct"] - (modifier * 50))
-        
-        c1_votos = int(uf_valid * (c1_pct / 100))
-        c2_votos = int(uf_valid * (c2_pct / 100))
-        
-        uf_cands = [
-            {"numero": c1["num"], "nome": c1["urna"], "partido": c1["partido"], "cor": c1["cor"], "votos": c1_votos, "pctValidos": round(c1_pct, 2)},
-            {"numero": c2["num"], "nome": c2["urna"], "partido": c2["partido"], "cor": c2["cor"], "votos": c2_votos, "pctValidos": round(c2_pct, 2)}
-        ]
-        
-        # If round 1 and there are more candidates, add 3rd place
-        if turno == 1 and len(cands_nacionais) > 2:
-            c3 = cands_nacionais[2]
-            c3_votos = max(100, uf_valid - c1_votos - c2_votos)
-            c3_pct = round((c3_votos / uf_valid) * 100, 2)
-            uf_cands.append({"numero": c3["num"], "nome": c3["urna"], "partido": c3["partido"], "cor": c3["cor"], "votos": c3_votos, "pctValidos": c3_pct})
-            
+        # Calculate raw weights for all candidates
+        raw_weights = []
+        for c in cands_nacionais:
+            num = str(c.get("num", c.get("numero", "")))
+            urna = c.get("urna", c.get("nome", ""))
+            partido = c.get("partido", "")
+            base_pct = c.get("pct", c.get("pctValidos", 0.0))
+            m = get_candidate_uf_multiplier(ano, turno, num, urna, partido, uf)
+            raw_weights.append(base_pct * m)
+
+        total_raw = sum(raw_weights) if sum(raw_weights) > 0 else 1.0
+
+        uf_cands = []
+        allocated_votos = 0
+        for idx, c in enumerate(cands_nacionais):
+            cand_num = str(c.get("num", c.get("numero", "")))
+            cand_nome = c.get("urna", c.get("nome", ""))
+            cand_partido = c.get("partido", "")
+            cand_cor = c.get("cor", "#64748b")
+
+            pct = (raw_weights[idx] / total_raw) * 100.0
+            votos = int(uf_valid * (pct / 100.0))
+            allocated_votos += votos
+
+            uf_cands.append({
+                "numero": cand_num,
+                "nome": cand_nome,
+                "partido": cand_partido,
+                "cor": cand_cor,
+                "votos": votos,
+                "pctValidos": round(pct, 2)
+            })
+
+        # Ensure exact vote reconciliation
+        diff = uf_valid - allocated_votos
+        if uf_cands:
+            uf_cands[0]["votos"] += diff
+            for uc in uf_cands:
+                uc["pctValidos"] = round((uc["votos"] / uf_valid) * 100.0, 2)
+
         uf_cands.sort(key=lambda x: x["votos"], reverse=True)
         winner = uf_cands[0]
-        
+
         ufs_dict[uf] = {
             "sigla": uf,
             "aptos": uf_aptos,

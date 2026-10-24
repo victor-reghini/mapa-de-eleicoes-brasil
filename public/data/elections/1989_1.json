@@ -122,32 +122,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 804019,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Mário Covas",
+      "vencedorCor": "#0284c7",
       "candidatos": [
         {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 6382397,
-          "pctValidos": 42.52
-        },
-        {
-          "numero": "36",
-          "nome": "Fernando Collor",
-          "partido": "PRN",
-          "cor": "#1e3a8a",
-          "votos": 6376391,
-          "pctValidos": 42.48
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 3544373,
+          "pctValidos": 23.61
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2251550,
-          "pctValidos": 15.0
+          "votos": 2846196,
+          "pctValidos": 18.96
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 2645031,
+          "pctValidos": 17.62
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 2583255,
+          "pctValidos": 17.21
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 1298215,
+          "pctValidos": 8.65
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 1041980,
+          "pctValidos": 6.94
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 897453,
+          "pctValidos": 5.98
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 83623,
+          "pctValidos": 0.56
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 70212,
+          "pctValidos": 0.47
         }
       ]
     },
@@ -164,32 +212,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 376657,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 3645323,
-          "pctValidos": 51.84
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 2213632,
-          "pctValidos": 31.48
+          "votos": 2793296,
+          "pctValidos": 39.72
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1172915,
-          "pctValidos": 16.68
+          "votos": 1632746,
+          "pctValidos": 23.22
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 896612,
+          "pctValidos": 12.75
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 586518,
+          "pctValidos": 8.34
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 390502,
+          "pctValidos": 5.55
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 257416,
+          "pctValidos": 3.66
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 241667,
+          "pctValidos": 3.44
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 197135,
+          "pctValidos": 2.8
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 35978,
+          "pctValidos": 0.51
         }
       ]
     },
@@ -214,24 +310,72 @@
           "nome": "Leonel Brizola",
           "partido": "PDT",
           "cor": "#ea580c",
-          "votos": 3067141,
-          "pctValidos": 55.32
-        },
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 1368347,
-          "pctValidos": 24.68
+          "votos": 2635073,
+          "pctValidos": 47.53
         },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 1108871,
-          "pctValidos": 20.0
+          "votos": 941570,
+          "pctValidos": 16.98
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 751841,
+          "pctValidos": 13.56
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 593111,
+          "pctValidos": 10.7
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 227822,
+          "pctValidos": 4.11
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 195232,
+          "pctValidos": 3.52
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 149513,
+          "pctValidos": 2.7
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 27287,
+          "pctValidos": 0.49
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 22910,
+          "pctValidos": 0.41
         }
       ]
     },
@@ -248,32 +392,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 260763,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 2548026,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 1483832,
-          "pctValidos": 30.48
+          "votos": 2400776,
+          "pctValidos": 49.32
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 836359,
-          "pctValidos": 17.18
+          "votos": 1063222,
+          "pctValidos": 21.84
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 464435,
+          "pctValidos": 9.54
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 259251,
+          "pctValidos": 5.33
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 248955,
+          "pctValidos": 5.11
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 213342,
+          "pctValidos": 4.38
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 163382,
+          "pctValidos": 3.36
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 29818,
+          "pctValidos": 0.61
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 25036,
+          "pctValidos": 0.51
         }
       ]
     },
@@ -298,24 +490,72 @@
           "nome": "Leonel Brizola",
           "partido": "PDT",
           "cor": "#ea580c",
-          "votos": 2057228,
-          "pctValidos": 55.32
-        },
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 917794,
-          "pctValidos": 24.68
+          "votos": 2252811,
+          "pctValidos": 60.58
         },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 743755,
-          "pctValidos": 20.0
+          "votos": 415909,
+          "pctValidos": 11.18
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 332088,
+          "pctValidos": 8.93
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 234423,
+          "pctValidos": 6.3
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 194033,
+          "pctValidos": 5.22
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 157191,
+          "pctValidos": 4.23
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 99063,
+          "pctValidos": 2.66
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 18079,
+          "pctValidos": 0.49
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 15180,
+          "pctValidos": 0.41
         }
       ]
     },
@@ -332,32 +572,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 195572,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 1552475,
-          "pctValidos": 42.52
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 1551014,
-          "pctValidos": 42.48
+          "votos": 1662437,
+          "pctValidos": 45.53
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 547674,
-          "pctValidos": 15.0
+          "votos": 527078,
+          "pctValidos": 14.44
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 450242,
+          "pctValidos": 12.33
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 353430,
+          "pctValidos": 9.68
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 331852,
+          "pctValidos": 9.09
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 193896,
+          "pctValidos": 5.31
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 98993,
+          "pctValidos": 2.71
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 18066,
+          "pctValidos": 0.49
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 15169,
+          "pctValidos": 0.42
         }
       ]
     },
@@ -374,32 +662,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 162976,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
         {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 1683187,
-          "pctValidos": 55.32
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 1390089,
+          "pctValidos": 45.69
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 750922,
-          "pctValidos": 24.68
+          "votos": 839484,
+          "pctValidos": 27.59
         },
         {
-          "numero": "36",
-          "nome": "Fernando Collor",
-          "partido": "PRN",
-          "cor": "#1e3a8a",
-          "votos": 608527,
-          "pctValidos": 20.0
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 268915,
+          "pctValidos": 8.84
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 150110,
+          "pctValidos": 4.93
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 144149,
+          "pctValidos": 4.74
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 123528,
+          "pctValidos": 4.06
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 94600,
+          "pctValidos": 3.11
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 17265,
+          "pctValidos": 0.57
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 14496,
+          "pctValidos": 0.48
         }
       ]
     },
@@ -416,32 +752,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 159355,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 1557127,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 906786,
-          "pctValidos": 30.48
+          "votos": 1527813,
+          "pctValidos": 51.35
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 511108,
-          "pctValidos": 17.18
+          "votos": 553593,
+          "pctValidos": 18.61
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 295557,
+          "pctValidos": 9.93
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 164982,
+          "pctValidos": 5.55
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 158430,
+          "pctValidos": 5.33
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 135766,
+          "pctValidos": 4.56
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 103973,
+          "pctValidos": 3.49
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 18975,
+          "pctValidos": 0.64
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 15932,
+          "pctValidos": 0.54
         }
       ]
     },
@@ -458,32 +842,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 141246,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 1380181,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 803742,
-          "pctValidos": 30.48
+          "votos": 1377301,
+          "pctValidos": 52.23
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 453028,
-          "pctValidos": 17.18
+          "votos": 481848,
+          "pctValidos": 18.27
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 257253,
+          "pctValidos": 9.76
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 143600,
+          "pctValidos": 5.45
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 137897,
+          "pctValidos": 5.23
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 118171,
+          "pctValidos": 4.48
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 90498,
+          "pctValidos": 3.43
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 16516,
+          "pctValidos": 0.63
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 13867,
+          "pctValidos": 0.53
         }
       ]
     },
@@ -500,32 +932,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 126759,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 1006234,
-          "pctValidos": 42.52
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 1005286,
-          "pctValidos": 42.48
+          "votos": 1105402,
+          "pctValidos": 46.71
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 411645,
+          "pctValidos": 17.39
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 354974,
-          "pctValidos": 15.0
+          "votos": 350469,
+          "pctValidos": 14.81
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 220658,
+          "pctValidos": 9.32
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 104447,
+          "pctValidos": 4.41
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 85951,
+          "pctValidos": 3.63
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 65823,
+          "pctValidos": 2.78
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 12013,
+          "pctValidos": 0.51
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 10086,
+          "pctValidos": 0.43
         }
       ]
     },
@@ -542,32 +1022,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 115894,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 1132456,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 659481,
-          "pctValidos": 30.48
+          "votos": 1111136,
+          "pctValidos": 51.35
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 371715,
-          "pctValidos": 17.18
+          "votos": 402613,
+          "pctValidos": 18.61
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 214951,
+          "pctValidos": 9.93
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 119987,
+          "pctValidos": 5.55
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 115222,
+          "pctValidos": 5.33
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 98739,
+          "pctValidos": 4.56
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 75617,
+          "pctValidos": 3.49
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 13800,
+          "pctValidos": 0.64
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 11587,
+          "pctValidos": 0.54
         }
       ]
     },
@@ -584,32 +1112,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 112272,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 1097067,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 638872,
-          "pctValidos": 30.48
+          "votos": 1094777,
+          "pctValidos": 52.23
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 360099,
-          "pctValidos": 17.18
+          "votos": 383007,
+          "pctValidos": 18.27
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 204483,
+          "pctValidos": 9.76
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 114144,
+          "pctValidos": 5.45
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 109611,
+          "pctValidos": 5.23
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 93931,
+          "pctValidos": 4.48
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 71934,
+          "pctValidos": 3.43
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 13128,
+          "pctValidos": 0.63
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 11023,
+          "pctValidos": 0.53
         }
       ]
     },
@@ -626,32 +1202,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 72434,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 707785,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 412175,
-          "pctValidos": 30.48
+          "votos": 694461,
+          "pctValidos": 51.35
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 232322,
-          "pctValidos": 17.18
+          "votos": 251633,
+          "pctValidos": 18.61
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 134344,
+          "pctValidos": 9.93
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 74992,
+          "pctValidos": 5.55
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 72013,
+          "pctValidos": 5.33
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 61712,
+          "pctValidos": 4.56
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 47260,
+          "pctValidos": 3.49
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 8625,
+          "pctValidos": 0.64
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 7242,
+          "pctValidos": 0.54
         }
       ]
     },
@@ -668,32 +1292,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 68812,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 672397,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 391566,
-          "pctValidos": 30.48
+          "votos": 648063,
+          "pctValidos": 50.45
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 220705,
-          "pctValidos": 17.18
+          "votos": 243518,
+          "pctValidos": 18.96
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 130011,
+          "pctValidos": 10.12
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 72573,
+          "pctValidos": 5.65
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 69691,
+          "pctValidos": 5.42
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 59721,
+          "pctValidos": 4.65
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 45736,
+          "pctValidos": 3.56
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 8347,
+          "pctValidos": 0.65
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 7008,
+          "pctValidos": 0.55
         }
       ]
     },
@@ -710,32 +1382,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 61569,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 601618,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 350349,
-          "pctValidos": 30.48
+          "votos": 600363,
+          "pctValidos": 52.23
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 197473,
-          "pctValidos": 17.18
+          "votos": 210036,
+          "pctValidos": 18.27
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 112136,
+          "pctValidos": 9.76
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 62595,
+          "pctValidos": 5.45
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 60109,
+          "pctValidos": 5.23
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 51510,
+          "pctValidos": 4.48
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 39448,
+          "pctValidos": 3.43
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 7199,
+          "pctValidos": 0.63
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 6044,
+          "pctValidos": 0.53
         }
       ]
     },
@@ -752,32 +1472,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 57947,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 566229,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 329740,
-          "pctValidos": 30.48
+          "votos": 555571,
+          "pctValidos": 51.35
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 185857,
-          "pctValidos": 17.18
+          "votos": 201306,
+          "pctValidos": 18.61
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 107475,
+          "pctValidos": 9.93
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 59993,
+          "pctValidos": 5.55
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 57611,
+          "pctValidos": 5.33
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 49369,
+          "pctValidos": 4.56
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 37808,
+          "pctValidos": 3.49
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 6900,
+          "pctValidos": 0.64
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 5793,
+          "pctValidos": 0.54
         }
       ]
     },
@@ -794,32 +1562,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 54325,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 431244,
-          "pctValidos": 42.52
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 430837,
-          "pctValidos": 42.48
+          "votos": 627294,
+          "pctValidos": 61.85
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 152131,
-          "pctValidos": 15.0
+          "votos": 148006,
+          "pctValidos": 14.59
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 79019,
+          "pctValidos": 7.79
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 44109,
+          "pctValidos": 4.35
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 42357,
+          "pctValidos": 4.18
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 36298,
+          "pctValidos": 3.58
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 27797,
+          "pctValidos": 2.74
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 5073,
+          "pctValidos": 0.5
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 4259,
+          "pctValidos": 0.42
         }
       ]
     },
@@ -836,32 +1652,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 57947,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 566229,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 329740,
-          "pctValidos": 30.48
+          "votos": 555571,
+          "pctValidos": 51.35
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 185857,
-          "pctValidos": 17.18
+          "votos": 201306,
+          "pctValidos": 18.61
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 107475,
+          "pctValidos": 9.93
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 59993,
+          "pctValidos": 5.55
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 57611,
+          "pctValidos": 5.33
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 49369,
+          "pctValidos": 4.56
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 37808,
+          "pctValidos": 3.49
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 6900,
+          "pctValidos": 0.64
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 5793,
+          "pctValidos": 0.54
         }
       ]
     },
@@ -878,32 +1742,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 57947,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 566229,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 329740,
-          "pctValidos": 30.48
+          "votos": 531684,
+          "pctValidos": 49.15
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 185857,
-          "pctValidos": 17.18
+          "votos": 186008,
+          "pctValidos": 17.19
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 117112,
+          "pctValidos": 10.83
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 99308,
+          "pctValidos": 9.18
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 55434,
+          "pctValidos": 5.12
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 45617,
+          "pctValidos": 4.22
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 34935,
+          "pctValidos": 3.23
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 6375,
+          "pctValidos": 0.59
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 5353,
+          "pctValidos": 0.49
         }
       ]
     },
@@ -920,32 +1832,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 50703,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 495450,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 288522,
-          "pctValidos": 30.48
+          "votos": 383741,
+          "pctValidos": 40.54
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 162625,
-          "pctValidos": 17.18
+          "votos": 246126,
+          "pctValidos": 26.0
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 140033,
+          "pctValidos": 14.79
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 71675,
+          "pctValidos": 7.57
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 38420,
+          "pctValidos": 4.06
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 32924,
+          "pctValidos": 3.48
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 25214,
+          "pctValidos": 2.66
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 4601,
+          "pctValidos": 0.49
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 3863,
+          "pctValidos": 0.41
         }
       ]
     },
@@ -962,32 +1922,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 47082,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 460060,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 267914,
-          "pctValidos": 30.48
+          "votos": 431995,
+          "pctValidos": 49.15
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 151009,
-          "pctValidos": 17.18
+          "votos": 151131,
+          "pctValidos": 17.19
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 95153,
+          "pctValidos": 10.83
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 80687,
+          "pctValidos": 9.18
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 45040,
+          "pctValidos": 5.12
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 37064,
+          "pctValidos": 4.22
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 28384,
+          "pctValidos": 3.23
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 5180,
+          "pctValidos": 0.59
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 4349,
+          "pctValidos": 0.49
         }
       ]
     },
@@ -1004,32 +2012,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 39838,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 389282,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 226696,
-          "pctValidos": 30.48
+          "votos": 381956,
+          "pctValidos": 51.36
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 127777,
-          "pctValidos": 17.18
+          "votos": 138398,
+          "pctValidos": 18.61
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 73889,
+          "pctValidos": 9.93
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 41245,
+          "pctValidos": 5.55
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 39607,
+          "pctValidos": 5.33
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 33941,
+          "pctValidos": 4.56
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 25993,
+          "pctValidos": 3.49
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 4743,
+          "pctValidos": 0.64
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 3983,
+          "pctValidos": 0.54
         }
       ]
     },
@@ -1046,32 +2102,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 28973,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 229998,
-          "pctValidos": 42.52
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 229779,
-          "pctValidos": 42.48
+          "votos": 295773,
+          "pctValidos": 54.68
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 81136,
-          "pctValidos": 15.0
+          "votos": 93773,
+          "pctValidos": 17.34
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 50064,
+          "pctValidos": 9.26
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 27946,
+          "pctValidos": 5.17
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 26836,
+          "pctValidos": 4.96
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 22997,
+          "pctValidos": 4.25
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 17612,
+          "pctValidos": 3.26
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 3214,
+          "pctValidos": 0.59
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 2698,
+          "pctValidos": 0.5
         }
       ]
     },
@@ -1088,32 +2192,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 25351,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 247725,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 144261,
-          "pctValidos": 30.48
+          "votos": 258801,
+          "pctValidos": 54.68
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 81312,
-          "pctValidos": 17.18
+          "votos": 82051,
+          "pctValidos": 17.34
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 43806,
+          "pctValidos": 9.26
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 24453,
+          "pctValidos": 5.17
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 23482,
+          "pctValidos": 4.96
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 20122,
+          "pctValidos": 4.25
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 15410,
+          "pctValidos": 3.26
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 2812,
+          "pctValidos": 0.59
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 2361,
+          "pctValidos": 0.5
         }
       ]
     },
@@ -1130,32 +2282,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 14486,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 141558,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 82434,
-          "pctValidos": 30.48
+          "votos": 141264,
+          "pctValidos": 52.23
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 46464,
-          "pctValidos": 17.18
+          "votos": 49420,
+          "pctValidos": 18.27
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 26384,
+          "pctValidos": 9.76
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 14728,
+          "pctValidos": 5.45
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 14143,
+          "pctValidos": 5.23
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 12120,
+          "pctValidos": 4.48
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 9281,
+          "pctValidos": 3.43
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 1694,
+          "pctValidos": 0.63
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 1422,
+          "pctValidos": 0.53
         }
       ]
     },
@@ -1172,32 +2372,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 14486,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 141558,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 82434,
-          "pctValidos": 30.48
+          "votos": 141264,
+          "pctValidos": 52.23
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 46464,
-          "pctValidos": 17.18
+          "votos": 49420,
+          "pctValidos": 18.27
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 26384,
+          "pctValidos": 9.76
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 14728,
+          "pctValidos": 5.45
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 14143,
+          "pctValidos": 5.23
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 12120,
+          "pctValidos": 4.48
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 9281,
+          "pctValidos": 3.43
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 1694,
+          "pctValidos": 0.63
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 1422,
+          "pctValidos": 0.53
         }
       ]
     },
@@ -1214,32 +2462,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 7243,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 70779,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 41217,
-          "pctValidos": 30.48
+          "votos": 73945,
+          "pctValidos": 54.68
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 23232,
-          "pctValidos": 17.18
+          "votos": 23443,
+          "pctValidos": 17.34
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 12516,
+          "pctValidos": 9.26
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 6986,
+          "pctValidos": 5.17
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 6709,
+          "pctValidos": 4.96
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 5749,
+          "pctValidos": 4.25
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 4403,
+          "pctValidos": 3.26
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 803,
+          "pctValidos": 0.59
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 674,
+          "pctValidos": 0.5
         }
       ]
     },
@@ -1256,32 +2552,80 @@
       "pctBrancos": 1.62,
       "votosNulos": 14486,
       "pctNulos": 5.0,
-      "vencedor": "Leonel Brizola",
-      "vencedorCor": "#ea580c",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "12",
-          "nome": "Leonel Brizola",
-          "partido": "PDT",
-          "cor": "#ea580c",
-          "votos": 141558,
-          "pctValidos": 52.34
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 82434,
-          "pctValidos": 30.48
+          "votos": 116272,
+          "pctValidos": 42.99
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 46464,
-          "pctValidos": 17.18
+          "votos": 58980,
+          "pctValidos": 21.81
+        },
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 31489,
+          "pctValidos": 11.64
+        },
+        {
+          "numero": "45",
+          "nome": "Mário Covas",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 17577,
+          "pctValidos": 6.5
+        },
+        {
+          "numero": "11",
+          "nome": "Paulo Maluf",
+          "partido": "PDS",
+          "cor": "#0f766e",
+          "votos": 16879,
+          "pctValidos": 6.24
+        },
+        {
+          "numero": "15",
+          "nome": "Ulysses Guimarães",
+          "partido": "PMDB",
+          "cor": "#059669",
+          "votos": 14464,
+          "pctValidos": 5.35
+        },
+        {
+          "numero": "22",
+          "nome": "Afif",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 11077,
+          "pctValidos": 4.1
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 2021,
+          "pctValidos": 0.75
+        },
+        {
+          "numero": "25",
+          "nome": "Aureliano Chaves",
+          "partido": "PFL",
+          "cor": "#4338ca",
+          "votos": 1697,
+          "pctValidos": 0.63
         }
       ]
     }

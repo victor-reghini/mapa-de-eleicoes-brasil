@@ -80,24 +80,32 @@
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 8482210,
-          "pctValidos": 37.61
+          "votos": 9837507,
+          "pctValidos": 43.62
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 8324338,
-          "pctValidos": 36.91
+          "votos": 7337769,
+          "pctValidos": 32.54
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 5746524,
-          "pctValidos": 25.48
+          "votos": 5183386,
+          "pctValidos": 22.98
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 194410,
+          "pctValidos": 0.86
         }
       ]
     },
@@ -122,24 +130,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 5061884,
-          "pctValidos": 47.91
+          "votos": 5604061,
+          "pctValidos": 53.04
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 3392550,
-          "pctValidos": 32.11
+          "votos": 3187410,
+          "pctValidos": 30.17
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 2110969,
-          "pctValidos": 19.98
+          "votos": 1679447,
+          "pctValidos": 15.9
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 94485,
+          "pctValidos": 0.89
         }
       ]
     },
@@ -164,24 +180,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 3991101,
-          "pctValidos": 47.91
+          "votos": 4093261,
+          "pctValidos": 49.14
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2674895,
-          "pctValidos": 32.11
+          "votos": 2328114,
+          "pctValidos": 27.95
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 1664418,
-          "pctValidos": 19.98
+          "votos": 1840027,
+          "pctValidos": 22.09
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 69012,
+          "pctValidos": 0.83
         }
       ]
     },
@@ -206,24 +230,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 4455268,
-          "pctValidos": 60.91
+          "votos": 4787643,
+          "pctValidos": 65.45
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1873246,
-          "pctValidos": 25.61
+          "votos": 1377178,
+          "pctValidos": 18.83
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 985996,
-          "pctValidos": 13.48
+          "votos": 1088453,
+          "pctValidos": 14.88
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 61236,
+          "pctValidos": 0.84
         }
       ]
     },
@@ -248,24 +280,32 @@
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2101448,
-          "pctValidos": 37.61
+          "votos": 2639426,
+          "pctValidos": 47.24
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2062335,
-          "pctValidos": 36.91
+          "votos": 1968743,
+          "pctValidos": 35.23
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 1423689,
-          "pctValidos": 25.48
+          "votos": 927143,
+          "pctValidos": 16.59
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 52160,
+          "pctValidos": 0.93
         }
       ]
     },
@@ -290,24 +330,32 @@
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2063240,
-          "pctValidos": 37.61
+          "votos": 2591437,
+          "pctValidos": 47.24
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2024839,
-          "pctValidos": 36.91
+          "votos": 1932947,
+          "pctValidos": 35.23
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 1397803,
-          "pctValidos": 25.48
+          "votos": 910286,
+          "pctValidos": 16.59
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 51212,
+          "pctValidos": 0.93
         }
       ]
     },
@@ -332,24 +380,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2784542,
-          "pctValidos": 60.91
+          "votos": 2992277,
+          "pctValidos": 65.45
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1170778,
-          "pctValidos": 25.61
+          "votos": 860736,
+          "pctValidos": 18.83
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 616248,
-          "pctValidos": 13.48
+          "votos": 680283,
+          "pctValidos": 14.88
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 38272,
+          "pctValidos": 0.84
         }
       ]
     },
@@ -374,24 +430,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2722663,
-          "pctValidos": 60.91
+          "votos": 2925781,
+          "pctValidos": 65.45
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1144761,
-          "pctValidos": 25.61
+          "votos": 841609,
+          "pctValidos": 18.83
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 602554,
-          "pctValidos": 13.48
+          "votos": 665166,
+          "pctValidos": 14.88
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 37422,
+          "pctValidos": 0.84
         }
       ]
     },
@@ -416,24 +480,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1858586,
-          "pctValidos": 46.91
+          "votos": 2187109,
+          "pctValidos": 55.2
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1292016,
-          "pctValidos": 32.61
+          "votos": 1140294,
+          "pctValidos": 28.78
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 811424,
-          "pctValidos": 20.48
+          "votos": 600821,
+          "pctValidos": 15.16
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 33802,
+          "pctValidos": 0.85
         }
       ]
     },
@@ -458,24 +530,32 @@
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1337285,
-          "pctValidos": 37.61
+          "votos": 1679635,
+          "pctValidos": 47.24
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1312395,
-          "pctValidos": 36.91
+          "votos": 1252836,
+          "pctValidos": 35.23
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 905984,
-          "pctValidos": 25.48
+          "votos": 590000,
+          "pctValidos": 16.59
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 33193,
+          "pctValidos": 0.93
         }
       ]
     },
@@ -500,24 +580,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1980118,
-          "pctValidos": 60.91
+          "votos": 2127841,
+          "pctValidos": 65.45
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 832553,
-          "pctValidos": 25.61
+          "votos": 612079,
+          "pctValidos": 18.83
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 438222,
-          "pctValidos": 13.48
+          "votos": 483757,
+          "pctValidos": 14.88
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 27216,
+          "pctValidos": 0.84
         }
       ]
     },
@@ -534,32 +622,40 @@
       "pctBrancos": 3.13,
       "votosNulos": 189851,
       "pctNulos": 5.51,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 1477337,
-          "pctValidos": 46.91
-        },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1026987,
-          "pctValidos": 32.61
+          "votos": 1487676,
+          "pctValidos": 47.24
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1109656,
+          "pctValidos": 35.23
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 644978,
-          "pctValidos": 20.48
+          "votos": 522571,
+          "pctValidos": 16.59
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 29399,
+          "pctValidos": 0.93
         }
       ]
     },
@@ -584,24 +680,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1237574,
-          "pctValidos": 60.91
+          "votos": 1329901,
+          "pctValidos": 65.45
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 520346,
-          "pctValidos": 25.61
+          "votos": 382549,
+          "pctValidos": 18.83
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 273888,
-          "pctValidos": 13.48
+          "votos": 302348,
+          "pctValidos": 14.88
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 17010,
+          "pctValidos": 0.84
         }
       ]
     },
@@ -626,24 +730,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 905464,
-          "pctValidos": 46.91
+          "votos": 927077,
+          "pctValidos": 48.03
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 629443,
-          "pctValidos": 32.61
+          "votos": 644467,
+          "pctValidos": 33.39
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 395310,
-          "pctValidos": 20.48
+          "votos": 339569,
+          "pctValidos": 17.59
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 19104,
+          "pctValidos": 0.99
         }
       ]
     },
@@ -668,24 +780,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 810153,
-          "pctValidos": 46.91
+          "votos": 953356,
+          "pctValidos": 55.2
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 563186,
-          "pctValidos": 32.61
+          "votos": 497051,
+          "pctValidos": 28.78
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 353698,
-          "pctValidos": 20.48
+          "votos": 261896,
+          "pctValidos": 15.16
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 14734,
+          "pctValidos": 0.85
         }
       ]
     },
@@ -710,24 +830,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 990059,
-          "pctValidos": 60.91
+          "votos": 1063921,
+          "pctValidos": 65.45
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 416276,
-          "pctValidos": 25.61
+          "votos": 306039,
+          "pctValidos": 18.83
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 219111,
-          "pctValidos": 13.48
+          "votos": 241878,
+          "pctValidos": 14.88
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 13608,
+          "pctValidos": 0.84
         }
       ]
     },
@@ -752,24 +880,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 928180,
-          "pctValidos": 60.91
+          "votos": 997426,
+          "pctValidos": 65.45
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 390259,
-          "pctValidos": 25.61
+          "votos": 286912,
+          "pctValidos": 18.83
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 205417,
-          "pctValidos": 13.48
+          "votos": 226761,
+          "pctValidos": 14.88
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 12757,
+          "pctValidos": 0.84
         }
       ]
     },
@@ -794,24 +930,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 990059,
-          "pctValidos": 60.91
+          "votos": 1063921,
+          "pctValidos": 65.45
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 416276,
-          "pctValidos": 25.61
+          "votos": 306039,
+          "pctValidos": 18.83
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 219111,
-          "pctValidos": 13.48
+          "votos": 241878,
+          "pctValidos": 14.88
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 13608,
+          "pctValidos": 0.84
         }
       ]
     },
@@ -836,24 +980,32 @@
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 611330,
-          "pctValidos": 37.61
+          "votos": 767833,
+          "pctValidos": 47.24
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 599952,
-          "pctValidos": 36.91
+          "votos": 572725,
+          "pctValidos": 35.23
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 414164,
-          "pctValidos": 25.48
+          "votos": 269714,
+          "pctValidos": 16.59
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 15174,
+          "pctValidos": 0.93
         }
       ]
     },
@@ -870,32 +1022,40 @@
       "pctBrancos": 3.13,
       "votosNulos": 85739,
       "pctNulos": 5.51,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 667184,
-          "pctValidos": 46.91
-        },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 463800,
-          "pctValidos": 32.61
+          "votos": 520662,
+          "pctValidos": 36.61
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 291281,
-          "pctValidos": 20.48
+          "votos": 502951,
+          "pctValidos": 35.36
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 388363,
+          "pctValidos": 27.31
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 10289,
+          "pctValidos": 0.72
         }
       ]
     },
@@ -920,24 +1080,32 @@
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 496705,
-          "pctValidos": 37.61
+          "votos": 623864,
+          "pctValidos": 47.24
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 487461,
-          "pctValidos": 36.91
+          "votos": 465341,
+          "pctValidos": 35.24
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 336509,
-          "pctValidos": 25.48
+          "votos": 219142,
+          "pctValidos": 16.59
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 12328,
+          "pctValidos": 0.93
         }
       ]
     },
@@ -962,24 +1130,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 680665,
-          "pctValidos": 60.91
+          "votos": 731446,
+          "pctValidos": 65.45
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 286190,
-          "pctValidos": 25.61
+          "votos": 210402,
+          "pctValidos": 18.83
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 150639,
-          "pctValidos": 13.48
+          "votos": 166291,
+          "pctValidos": 14.88
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 9355,
+          "pctValidos": 0.84
         }
       ]
     },
@@ -996,32 +1172,40 @@
       "pctBrancos": 3.13,
       "votosNulos": 48994,
       "pctNulos": 5.51,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 381248,
-          "pctValidos": 46.91
-        },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 265028,
-          "pctValidos": 32.61
+          "votos": 348802,
+          "pctValidos": 42.92
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 334506,
+          "pctValidos": 41.16
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 166447,
-          "pctValidos": 20.48
+          "votos": 122522,
+          "pctValidos": 15.08
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 6893,
+          "pctValidos": 0.85
         }
       ]
     },
@@ -1046,24 +1230,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 333592,
-          "pctValidos": 46.91
+          "votos": 392559,
+          "pctValidos": 55.2
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 231900,
-          "pctValidos": 32.61
+          "votos": 204667,
+          "pctValidos": 28.78
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 145640,
-          "pctValidos": 20.48
+          "votos": 107839,
+          "pctValidos": 15.16
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 6067,
+          "pctValidos": 0.85
         }
       ]
     },
@@ -1088,24 +1280,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 190623,
-          "pctValidos": 46.91
+          "votos": 195175,
+          "pctValidos": 48.03
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 132514,
-          "pctValidos": 32.61
+          "votos": 135677,
+          "pctValidos": 33.39
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 83224,
-          "pctValidos": 20.48
+          "votos": 71488,
+          "pctValidos": 17.59
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 4021,
+          "pctValidos": 0.99
         }
       ]
     },
@@ -1130,24 +1330,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 190623,
-          "pctValidos": 46.91
+          "votos": 224320,
+          "pctValidos": 55.2
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 132514,
-          "pctValidos": 32.61
+          "votos": 116953,
+          "pctValidos": 28.78
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 83224,
-          "pctValidos": 20.48
+          "votos": 61622,
+          "pctValidos": 15.16
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 3466,
+          "pctValidos": 0.85
         }
       ]
     },
@@ -1164,32 +1372,40 @@
       "pctBrancos": 3.13,
       "votosNulos": 12248,
       "pctNulos": 5.51,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 95311,
-          "pctValidos": 46.91
-        },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 66256,
-          "pctValidos": 32.61
+          "votos": 87200,
+          "pctValidos": 42.92
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 83627,
+          "pctValidos": 41.16
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 41613,
-          "pctValidos": 20.48
+          "votos": 30630,
+          "pctValidos": 15.08
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 1723,
+          "pctValidos": 0.85
         }
       ]
     },
@@ -1214,24 +1430,32 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 190623,
-          "pctValidos": 46.91
+          "votos": 195175,
+          "pctValidos": 48.03
         },
         {
           "numero": "45",
           "nome": "José Serra",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 132514,
-          "pctValidos": 32.61
+          "votos": 135677,
+          "pctValidos": 33.39
         },
         {
           "numero": "43",
           "nome": "Marina Silva",
           "partido": "PV",
           "cor": "#16a34a",
-          "votos": 83224,
-          "pctValidos": 20.48
+          "votos": 71488,
+          "pctValidos": 17.59
+        },
+        {
+          "numero": "50",
+          "nome": "Plínio de Arruda Sampaio",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 4021,
+          "pctValidos": 0.99
         }
       ]
     }

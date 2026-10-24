@@ -100,24 +100,48 @@
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 8902438,
-          "pctValidos": 38.55
+          "votos": 10164771,
+          "pctValidos": 44.02
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 7295150,
-          "pctValidos": 31.59
+          "votos": 6533690,
+          "pctValidos": 28.29
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 6895638,
-          "pctValidos": 29.86
+          "votos": 5741690,
+          "pctValidos": 24.86
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 347858,
+          "pctValidos": 1.51
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 168318,
+          "pctValidos": 0.73
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 136899,
+          "pctValidos": 0.59
         }
       ]
     },
@@ -142,24 +166,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 4607577,
-          "pctValidos": 42.59
+          "votos": 5160394,
+          "pctValidos": 47.7
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 3575497,
-          "pctValidos": 33.05
+          "votos": 3405933,
+          "pctValidos": 31.48
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 2635374,
-          "pctValidos": 24.36
+          "votos": 1923881,
+          "pctValidos": 17.78
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 174836,
+          "pctValidos": 1.62
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 84598,
+          "pctValidos": 0.78
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 68806,
+          "pctValidos": 0.64
         }
       ]
     },
@@ -184,24 +232,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 3632897,
-          "pctValidos": 42.59
+          "votos": 3736533,
+          "pctValidos": 43.8
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2819141,
-          "pctValidos": 33.05
+          "votos": 2466164,
+          "pctValidos": 28.91
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 2077892,
-          "pctValidos": 24.36
+          "votos": 2089562,
+          "pctValidos": 24.5
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 126595,
+          "pctValidos": 1.48
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 61255,
+          "pctValidos": 0.72
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 49821,
+          "pctValidos": 0.58
         }
       ]
     },
@@ -226,24 +298,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 4163521,
-          "pctValidos": 55.59
+          "votos": 4498638,
+          "pctValidos": 60.06
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1988514,
-          "pctValidos": 26.55
+          "votos": 1501646,
+          "pctValidos": 20.05
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 1337660,
-          "pctValidos": 17.86
+          "votos": 1272333,
+          "pctValidos": 16.99
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 115626,
+          "pctValidos": 1.54
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 55948,
+          "pctValidos": 0.75
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 45504,
+          "pctValidos": 0.61
         }
       ]
     },
@@ -268,24 +364,48 @@
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2205558,
-          "pctValidos": 38.55
+          "votos": 2745868,
+          "pctValidos": 47.99
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1807356,
-          "pctValidos": 31.59
+          "votos": 1764985,
+          "pctValidos": 30.85
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 1708380,
-          "pctValidos": 29.86
+          "votos": 1034023,
+          "pctValidos": 18.07
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 93969,
+          "pctValidos": 1.64
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 45468,
+          "pctValidos": 0.79
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 36981,
+          "pctValidos": 0.65
         }
       ]
     },
@@ -310,24 +430,48 @@
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 2165457,
-          "pctValidos": 38.55
+          "votos": 2695943,
+          "pctValidos": 47.99
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1774495,
-          "pctValidos": 31.59
+          "votos": 1732894,
+          "pctValidos": 30.85
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 1677319,
-          "pctValidos": 29.86
+          "votos": 1015223,
+          "pctValidos": 18.07
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 92260,
+          "pctValidos": 1.64
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 44642,
+          "pctValidos": 0.79
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 36309,
+          "pctValidos": 0.65
         }
       ]
     },
@@ -352,24 +496,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2602200,
-          "pctValidos": 55.59
-        },
-        {
-          "numero": "45",
-          "nome": "Aécio Neves",
-          "partido": "PSDB",
-          "cor": "#0284c7",
-          "votos": 1242821,
-          "pctValidos": 26.55
+          "votos": 2167333,
+          "pctValidos": 46.3
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 836038,
-          "pctValidos": 17.86
+          "votos": 1685690,
+          "pctValidos": 36.01
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 723455,
+          "pctValidos": 15.45
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 55705,
+          "pctValidos": 1.19
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 26954,
+          "pctValidos": 0.58
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 21922,
+          "pctValidos": 0.47
         }
       ]
     },
@@ -394,24 +562,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2544373,
-          "pctValidos": 55.59
+          "votos": 2749168,
+          "pctValidos": 60.06
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1215202,
-          "pctValidos": 26.55
+          "votos": 917672,
+          "pctValidos": 20.05
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 817460,
-          "pctValidos": 17.86
+          "votos": 777537,
+          "pctValidos": 16.99
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 70660,
+          "pctValidos": 1.54
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 34190,
+          "pctValidos": 0.75
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 27808,
+          "pctValidos": 0.61
         }
       ]
     },
@@ -436,24 +628,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1687272,
-          "pctValidos": 41.59
+          "votos": 2023334,
+          "pctValidos": 49.87
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1361095,
-          "pctValidos": 33.55
+          "votos": 1224141,
+          "pctValidos": 30.17
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 1008551,
-          "pctValidos": 24.86
+          "votos": 691470,
+          "pctValidos": 17.04
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 62838,
+          "pctValidos": 1.55
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 30405,
+          "pctValidos": 0.75
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 24730,
+          "pctValidos": 0.61
         }
       ]
     },
@@ -478,24 +694,48 @@
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1403537,
-          "pctValidos": 38.55
+          "votos": 1747370,
+          "pctValidos": 47.99
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1150136,
-          "pctValidos": 31.59
+          "votos": 1123174,
+          "pctValidos": 30.85
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 1087151,
-          "pctValidos": 29.86
+          "votos": 658015,
+          "pctValidos": 18.07
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 59798,
+          "pctValidos": 1.64
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 28934,
+          "pctValidos": 0.79
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 23533,
+          "pctValidos": 0.65
         }
       ]
     },
@@ -520,24 +760,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1850453,
-          "pctValidos": 55.59
+          "votos": 1999396,
+          "pctValidos": 60.06
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 883783,
-          "pctValidos": 26.55
+          "votos": 667398,
+          "pctValidos": 20.05
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 594517,
-          "pctValidos": 17.86
+          "votos": 565481,
+          "pctValidos": 16.99
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 51389,
+          "pctValidos": 1.54
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 24865,
+          "pctValidos": 0.75
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 20224,
+          "pctValidos": 0.61
         }
       ]
     },
@@ -554,32 +818,56 @@
       "pctBrancos": 3.84,
       "votosNulos": 204901,
       "pctNulos": 5.74,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Aécio Neves",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 1341164,
-          "pctValidos": 41.59
-        },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 1081896,
-          "pctValidos": 33.55
+          "votos": 1547671,
+          "pctValidos": 47.99
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 994810,
+          "pctValidos": 30.85
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 801669,
-          "pctValidos": 24.86
+          "votos": 582813,
+          "pctValidos": 18.07
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 52964,
+          "pctValidos": 1.64
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 25627,
+          "pctValidos": 0.79
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 20844,
+          "pctValidos": 0.65
         }
       ]
     },
@@ -604,24 +892,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1156533,
-          "pctValidos": 55.59
+          "votos": 1249623,
+          "pctValidos": 60.06
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 552364,
-          "pctValidos": 26.55
+          "votos": 417123,
+          "pctValidos": 20.05
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 371573,
-          "pctValidos": 17.86
+          "votos": 353425,
+          "pctValidos": 16.99
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 32118,
+          "pctValidos": 1.54
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 15541,
+          "pctValidos": 0.75
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 12640,
+          "pctValidos": 0.61
         }
       ]
     },
@@ -646,24 +958,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 822004,
-          "pctValidos": 41.59
+          "votos": 844604,
+          "pctValidos": 42.73
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 663097,
-          "pctValidos": 33.55
+          "votos": 681327,
+          "pctValidos": 34.47
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 491346,
-          "pctValidos": 24.86
+          "votos": 384855,
+          "pctValidos": 19.47
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 34974,
+          "pctValidos": 1.77
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 16923,
+          "pctValidos": 0.86
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 13764,
+          "pctValidos": 0.7
         }
       ]
     },
@@ -688,24 +1024,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 735477,
-          "pctValidos": 41.59
+          "votos": 881967,
+          "pctValidos": 49.87
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 593298,
-          "pctValidos": 33.55
+          "votos": 533600,
+          "pctValidos": 30.17
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 439625,
-          "pctValidos": 24.86
+          "votos": 301410,
+          "pctValidos": 17.04
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 27391,
+          "pctValidos": 1.55
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 13253,
+          "pctValidos": 0.75
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 10779,
+          "pctValidos": 0.61
         }
       ]
     },
@@ -730,24 +1090,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 925226,
-          "pctValidos": 55.59
+          "votos": 999699,
+          "pctValidos": 60.06
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 441891,
-          "pctValidos": 26.55
+          "votos": 333699,
+          "pctValidos": 20.05
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 297259,
-          "pctValidos": 17.86
+          "votos": 282740,
+          "pctValidos": 16.99
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 25694,
+          "pctValidos": 1.54
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 12432,
+          "pctValidos": 0.75
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 10112,
+          "pctValidos": 0.61
         }
       ]
     },
@@ -772,24 +1156,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 867400,
-          "pctValidos": 55.59
+          "votos": 937219,
+          "pctValidos": 60.06
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 414273,
-          "pctValidos": 26.55
+          "votos": 312842,
+          "pctValidos": 20.05
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 278680,
-          "pctValidos": 17.86
+          "votos": 265069,
+          "pctValidos": 16.99
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 24088,
+          "pctValidos": 1.54
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 11655,
+          "pctValidos": 0.75
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 9480,
+          "pctValidos": 0.61
         }
       ]
     },
@@ -814,24 +1222,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 925226,
-          "pctValidos": 55.59
+          "votos": 999699,
+          "pctValidos": 60.06
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 441891,
-          "pctValidos": 26.55
+          "votos": 333699,
+          "pctValidos": 20.05
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 297259,
-          "pctValidos": 17.86
+          "votos": 282740,
+          "pctValidos": 16.99
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 25694,
+          "pctValidos": 1.54
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 12432,
+          "pctValidos": 0.75
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 10112,
+          "pctValidos": 0.61
         }
       ]
     },
@@ -856,24 +1288,48 @@
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 641616,
-          "pctValidos": 38.55
+          "votos": 798797,
+          "pctValidos": 47.99
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 525776,
-          "pctValidos": 31.59
+          "votos": 513452,
+          "pctValidos": 30.85
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 496984,
-          "pctValidos": 29.86
+          "votos": 300806,
+          "pctValidos": 18.07
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 27336,
+          "pctValidos": 1.64
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 13227,
+          "pctValidos": 0.79
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 10758,
+          "pctValidos": 0.65
         }
       ]
     },
@@ -890,32 +1346,56 @@
       "pctBrancos": 3.84,
       "votosNulos": 92536,
       "pctNulos": 5.74,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Marina Silva",
+      "vencedorCor": "#eab308",
       "candidatos": [
         {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 605687,
-          "pctValidos": 41.59
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 549894,
+          "pctValidos": 37.76
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 488598,
-          "pctValidos": 33.55
+          "votos": 531001,
+          "pctValidos": 36.46
         },
         {
-          "numero": "40",
-          "nome": "Marina Silva",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 362044,
-          "pctValidos": 24.86
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 341320,
+          "pctValidos": 23.44
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 18171,
+          "pctValidos": 1.25
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 8792,
+          "pctValidos": 0.6
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 7151,
+          "pctValidos": 0.49
         }
       ]
     },
@@ -940,24 +1420,48 @@
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 521313,
-          "pctValidos": 38.55
+          "votos": 649023,
+          "pctValidos": 47.99
         },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 427193,
-          "pctValidos": 31.59
+          "votos": 417180,
+          "pctValidos": 30.85
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 403800,
-          "pctValidos": 29.86
+          "votos": 244405,
+          "pctValidos": 18.07
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 22210,
+          "pctValidos": 1.64
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 10747,
+          "pctValidos": 0.79
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 8741,
+          "pctValidos": 0.65
         }
       ]
     },
@@ -982,24 +1486,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 636093,
-          "pctValidos": 55.59
+          "votos": 687292,
+          "pctValidos": 60.06
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 303800,
-          "pctValidos": 26.55
+          "votos": 229418,
+          "pctValidos": 20.05
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 204365,
-          "pctValidos": 17.86
+          "votos": 194384,
+          "pctValidos": 16.99
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 17665,
+          "pctValidos": 1.54
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 8547,
+          "pctValidos": 0.75
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 6952,
+          "pctValidos": 0.61
         }
       ]
     },
@@ -1016,32 +1544,56 @@
       "pctBrancos": 3.84,
       "votosNulos": 52877,
       "pctNulos": 5.74,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Aécio Neves",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 346106,
-          "pctValidos": 41.59
-        },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 279199,
-          "pctValidos": 33.55
+          "votos": 367047,
+          "pctValidos": 44.11
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 303340,
+          "pctValidos": 36.45
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 206883,
-          "pctValidos": 24.86
+          "votos": 138220,
+          "pctValidos": 16.61
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 12561,
+          "pctValidos": 1.51
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 6077,
+          "pctValidos": 0.73
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 4943,
+          "pctValidos": 0.59
         }
       ]
     },
@@ -1066,24 +1618,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 302843,
-          "pctValidos": 41.59
+          "votos": 363164,
+          "pctValidos": 49.87
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 244299,
-          "pctValidos": 33.55
+          "votos": 219717,
+          "pctValidos": 30.17
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 181022,
-          "pctValidos": 24.86
+          "votos": 124110,
+          "pctValidos": 17.04
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 11278,
+          "pctValidos": 1.55
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 5457,
+          "pctValidos": 0.75
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 4438,
+          "pctValidos": 0.61
         }
       ]
     },
@@ -1100,32 +1676,56 @@
       "pctBrancos": 3.84,
       "votosNulos": 26438,
       "pctNulos": 5.74,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Marina Silva",
+      "vencedorCor": "#eab308",
       "candidatos": [
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 166182,
+          "pctValidos": 39.94
+        },
         {
           "numero": "13",
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 173053,
-          "pctValidos": 41.59
+          "votos": 132622,
+          "pctValidos": 31.87
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 139599,
-          "pctValidos": 33.55
+          "votos": 106981,
+          "pctValidos": 25.71
         },
         {
-          "numero": "40",
-          "nome": "Marina Silva",
-          "partido": "PSB",
-          "cor": "#eab308",
-          "votos": 103442,
-          "pctValidos": 24.86
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 5491,
+          "pctValidos": 1.32
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 2657,
+          "pctValidos": 0.64
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 2161,
+          "pctValidos": 0.52
         }
       ]
     },
@@ -1150,24 +1750,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 173053,
-          "pctValidos": 41.59
+          "votos": 207523,
+          "pctValidos": 49.87
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 139599,
-          "pctValidos": 33.55
+          "votos": 125552,
+          "pctValidos": 30.17
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 103442,
-          "pctValidos": 24.86
+          "votos": 70920,
+          "pctValidos": 17.04
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 6445,
+          "pctValidos": 1.55
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 3118,
+          "pctValidos": 0.75
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 2536,
+          "pctValidos": 0.61
         }
       ]
     },
@@ -1184,32 +1808,56 @@
       "pctBrancos": 3.84,
       "votosNulos": 13219,
       "pctNulos": 5.74,
-      "vencedor": "Dilma Rousseff",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Aécio Neves",
+      "vencedorCor": "#0284c7",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Dilma Rousseff",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 86526,
-          "pctValidos": 41.59
-        },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 69799,
-          "pctValidos": 33.55
+          "votos": 91761,
+          "pctValidos": 44.11
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 75837,
+          "pctValidos": 36.45
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 51722,
-          "pctValidos": 24.86
+          "votos": 34555,
+          "pctValidos": 16.61
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 3140,
+          "pctValidos": 1.51
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 1519,
+          "pctValidos": 0.73
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 1235,
+          "pctValidos": 0.59
         }
       ]
     },
@@ -1234,24 +1882,48 @@
           "nome": "Dilma Rousseff",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 173053,
-          "pctValidos": 41.59
+          "votos": 177813,
+          "pctValidos": 42.73
         },
         {
           "numero": "45",
           "nome": "Aécio Neves",
           "partido": "PSDB",
           "cor": "#0284c7",
-          "votos": 139599,
-          "pctValidos": 33.55
+          "votos": 143437,
+          "pctValidos": 34.47
         },
         {
           "numero": "40",
           "nome": "Marina Silva",
           "partido": "PSB",
           "cor": "#eab308",
-          "votos": 103442,
-          "pctValidos": 24.86
+          "votos": 81022,
+          "pctValidos": 19.47
+        },
+        {
+          "numero": "50",
+          "nome": "Luciana Genro",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 7363,
+          "pctValidos": 1.77
+        },
+        {
+          "numero": "20",
+          "nome": "Pastor Everaldo",
+          "partido": "PSC",
+          "cor": "#0f766e",
+          "votos": 3562,
+          "pctValidos": 0.86
+        },
+        {
+          "numero": "43",
+          "nome": "Eduardo Jorge",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 2897,
+          "pctValidos": 0.7
         }
       ]
     }

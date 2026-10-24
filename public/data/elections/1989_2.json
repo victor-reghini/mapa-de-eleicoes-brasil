@@ -60,16 +60,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 9552212,
-          "pctValidos": 65.03
+          "votos": 8661301,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 5136719,
-          "pctValidos": 34.97
+          "votos": 6027631,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -94,16 +94,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 3717966,
-          "pctValidos": 54.03
+          "votos": 4057546,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 3163334,
-          "pctValidos": 45.97
+          "votos": 2823755,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -128,16 +128,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 3362269,
-          "pctValidos": 61.97
+          "votos": 3467950,
+          "pctValidos": 63.92
         },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 2063371,
-          "pctValidos": 38.03
+          "votos": 1957691,
+          "pctValidos": 36.08
         }
       ]
     },
@@ -162,16 +162,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 2526337,
-          "pctValidos": 53.03
+          "votos": 2809071,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2237640,
-          "pctValidos": 46.97
+          "votos": 1954907,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -196,16 +196,16 @@
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 2255180,
-          "pctValidos": 61.97
+          "votos": 2326064,
+          "pctValidos": 63.92
         },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 1383968,
-          "pctValidos": 38.03
+          "votos": 1313085,
+          "pctValidos": 36.08
         }
       ]
     },
@@ -230,16 +230,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 2323510,
-          "pctValidos": 65.03
+          "votos": 2106803,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1249472,
-          "pctValidos": 34.97
+          "votos": 1466180,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -256,24 +256,24 @@
       "pctBrancos": 1.4,
       "votosNulos": 141565,
       "pctNulos": 4.48,
-      "vencedor": "Lula",
-      "vencedorCor": "#e11d48",
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
       "candidatos": [
-        {
-          "numero": "13",
-          "nome": "Lula",
-          "partido": "PT",
-          "cor": "#e11d48",
-          "votos": 1845148,
-          "pctValidos": 61.97
-        },
         {
           "numero": "36",
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 1132337,
-          "pctValidos": 38.03
+          "votos": 1755669,
+          "pctValidos": 58.96
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1221817,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -298,16 +298,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 1543872,
-          "pctValidos": 53.03
+          "votos": 1716654,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1367446,
-          "pctValidos": 46.97
+          "votos": 1194665,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -332,16 +332,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 1368432,
-          "pctValidos": 53.03
+          "votos": 1521580,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 1212055,
-          "pctValidos": 46.97
+          "votos": 1058908,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -366,16 +366,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 1505979,
-          "pctValidos": 65.03
+          "votos": 1365520,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 809842,
-          "pctValidos": 34.97
+          "votos": 950302,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -400,16 +400,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 1122816,
-          "pctValidos": 53.03
+          "votos": 1248476,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 994506,
-          "pctValidos": 46.97
+          "votos": 868847,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -434,16 +434,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 1087728,
-          "pctValidos": 53.03
+          "votos": 1209461,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 963428,
-          "pctValidos": 46.97
+          "votos": 841696,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -468,16 +468,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 701760,
-          "pctValidos": 53.03
+          "votos": 780298,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 621566,
-          "pctValidos": 46.97
+          "votos": 543029,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -502,16 +502,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 666671,
-          "pctValidos": 53.03
+          "votos": 741282,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 590488,
-          "pctValidos": 46.97
+          "votos": 515878,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -536,16 +536,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 596496,
-          "pctValidos": 53.03
+          "votos": 663253,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 528331,
-          "pctValidos": 46.97
+          "votos": 461575,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -570,16 +570,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 561407,
-          "pctValidos": 53.03
+          "votos": 624238,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 497253,
-          "pctValidos": 46.97
+          "votos": 434423,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -604,16 +604,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 645419,
-          "pctValidos": 65.03
+          "votos": 736293,
+          "pctValidos": 74.19
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 347075,
-          "pctValidos": 34.97
+          "votos": 256202,
+          "pctValidos": 25.81
         }
       ]
     },
@@ -638,16 +638,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 561407,
-          "pctValidos": 53.03
+          "votos": 624238,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 497253,
-          "pctValidos": 46.97
+          "votos": 434423,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -672,16 +672,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 561407,
-          "pctValidos": 53.03
+          "votos": 624238,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 497253,
-          "pctValidos": 46.97
+          "votos": 434423,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -698,24 +698,24 @@
       "pctBrancos": 1.4,
       "votosNulos": 44042,
       "pctNulos": 4.47,
-      "vencedor": "Fernando Collor",
-      "vencedorCor": "#1e3a8a",
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
       "candidatos": [
-        {
-          "numero": "36",
-          "nome": "Fernando Collor",
-          "partido": "PRN",
-          "cor": "#1e3a8a",
-          "votos": 491232,
-          "pctValidos": 53.03
-        },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 435096,
-          "pctValidos": 46.97
+          "votos": 592089,
+          "pctValidos": 63.92
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 334240,
+          "pctValidos": 36.08
         }
       ]
     },
@@ -740,16 +740,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 456143,
-          "pctValidos": 53.03
+          "votos": 507193,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 404018,
-          "pctValidos": 46.97
+          "votos": 352969,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -774,16 +774,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 385967,
-          "pctValidos": 53.03
+          "votos": 429163,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 341861,
-          "pctValidos": 46.97
+          "votos": 298666,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -808,16 +808,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 344223,
-          "pctValidos": 65.03
+          "votos": 312119,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 185106,
-          "pctValidos": 34.97
+          "votos": 217211,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -842,16 +842,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 245615,
-          "pctValidos": 53.03
+          "votos": 273104,
+          "pctValidos": 58.96
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 217548,
-          "pctValidos": 46.97
+          "votos": 190060,
+          "pctValidos": 41.04
         }
       ]
     },
@@ -876,16 +876,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 140351,
-          "pctValidos": 53.03
+          "votos": 156060,
+          "pctValidos": 58.97
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 124313,
-          "pctValidos": 46.97
+          "votos": 108605,
+          "pctValidos": 41.03
         }
       ]
     },
@@ -910,16 +910,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 140351,
-          "pctValidos": 53.03
+          "votos": 156060,
+          "pctValidos": 58.97
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 124313,
-          "pctValidos": 46.97
+          "votos": 108605,
+          "pctValidos": 41.03
         }
       ]
     },
@@ -944,16 +944,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 70175,
-          "pctValidos": 53.03
+          "votos": 78030,
+          "pctValidos": 58.97
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 62156,
-          "pctValidos": 46.97
+          "votos": 54302,
+          "pctValidos": 41.03
         }
       ]
     },
@@ -978,16 +978,16 @@
           "nome": "Fernando Collor",
           "partido": "PRN",
           "cor": "#1e3a8a",
-          "votos": 140351,
-          "pctValidos": 53.03
+          "votos": 148736,
+          "pctValidos": 56.2
         },
         {
           "numero": "13",
           "nome": "Lula",
           "partido": "PT",
           "cor": "#e11d48",
-          "votos": 124313,
-          "pctValidos": 46.97
+          "votos": 115929,
+          "pctValidos": 43.8
         }
       ]
     }
