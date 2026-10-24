@@ -1,0 +1,1344 @@
+{
+  "ano": 1998,
+  "cargo": "PRESIDENTE",
+  "turno": 1,
+  "data": "1998-10-04",
+  "brasil": {
+    "aptos": 106101067,
+    "comparecimento": 83288410,
+    "pctComparecimento": 78.5,
+    "abstencoes": 22812657,
+    "pctAbstencoes": 21.5,
+    "votosValidos": 67722645,
+    "pctValidos": 81.31,
+    "votosBrancos": 6723223,
+    "pctBrancos": 8.07,
+    "votosNulos": 8842542,
+    "pctNulos": 10.62,
+    "candidatos": [
+      {
+        "numero": "45",
+        "nome": "Fernando Henrique Cardoso",
+        "nomeUrna": "FHC",
+        "partido": "PSDB",
+        "cor": "#0284c7",
+        "votos": 35936540,
+        "pctValidos": 53.06,
+        "eleito": true
+      },
+      {
+        "numero": "13",
+        "nome": "Luiz Inácio Lula da Silva",
+        "nomeUrna": "Lula",
+        "partido": "PT",
+        "cor": "#e11d48",
+        "votos": 21475218,
+        "pctValidos": 31.71,
+        "eleito": false
+      },
+      {
+        "numero": "23",
+        "nome": "Ciro Ferreira Gomes",
+        "nomeUrna": "Ciro Gomes",
+        "partido": "PPS",
+        "cor": "#f59e0b",
+        "votos": 7426190,
+        "pctValidos": 10.97,
+        "eleito": false
+      },
+      {
+        "numero": "56",
+        "nome": "Enéas Ferreira Carneiro",
+        "nomeUrna": "Enéas",
+        "partido": "PRONA",
+        "cor": "#b45309",
+        "votos": 1447090,
+        "pctValidos": 2.14,
+        "eleito": false
+      }
+    ]
+  },
+  "ufs": {
+    "SP": {
+      "sigla": "SP",
+      "aptos": 23554436,
+      "comparecimento": 18490027,
+      "pctComparecimento": 78.5,
+      "abstencoes": 5064409,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 15034427,
+      "pctValidos": 81.31,
+      "votosBrancos": 1492555,
+      "pctBrancos": 8.07,
+      "votosNulos": 1963044,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 8728988,
+          "pctValidos": 58.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 4391556,
+          "pctValidos": 29.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 1913883,
+          "pctValidos": 12.73
+        }
+      ]
+    },
+    "MG": {
+      "sigla": "MG",
+      "aptos": 11034510,
+      "comparecimento": 8661994,
+      "pctComparecimento": 78.5,
+      "abstencoes": 2372516,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 7043155,
+      "pctValidos": 81.31,
+      "votosBrancos": 699215,
+      "pctBrancos": 8.07,
+      "votosNulos": 919624,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 4089255,
+          "pctValidos": 58.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2057305,
+          "pctValidos": 29.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 896595,
+          "pctValidos": 12.73
+        }
+      ]
+    },
+    "RJ": {
+      "sigla": "RJ",
+      "aptos": 8700287,
+      "comparecimento": 6829649,
+      "pctComparecimento": 78.5,
+      "abstencoes": 1870638,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 5553256,
+      "pctValidos": 81.31,
+      "votosBrancos": 551304,
+      "pctBrancos": 8.07,
+      "votosNulos": 725088,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 3224220,
+          "pctValidos": 58.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1622106,
+          "pctValidos": 29.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 706930,
+          "pctValidos": 12.73
+        }
+      ]
+    },
+    "BA": {
+      "sigla": "BA",
+      "aptos": 7639276,
+      "comparecimento": 5996765,
+      "pctComparecimento": 78.5,
+      "abstencoes": 1642511,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 4876030,
+      "pctValidos": 81.31,
+      "votosBrancos": 484072,
+      "pctBrancos": 8.07,
+      "votosNulos": 636663,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2831023,
+          "pctValidos": 58.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1424288,
+          "pctValidos": 29.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 620719,
+          "pctValidos": 12.73
+        }
+      ]
+    },
+    "RS": {
+      "sigla": "RS",
+      "aptos": 5835558,
+      "comparecimento": 4580862,
+      "pctComparecimento": 78.5,
+      "abstencoes": 1254696,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 3724745,
+      "pctValidos": 81.31,
+      "votosBrancos": 369777,
+      "pctBrancos": 8.07,
+      "votosNulos": 486339,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2162586,
+          "pctValidos": 58.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1087998,
+          "pctValidos": 29.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 474161,
+          "pctValidos": 12.73
+        }
+      ]
+    },
+    "PR": {
+      "sigla": "PR",
+      "aptos": 5729457,
+      "comparecimento": 4497574,
+      "pctComparecimento": 78.5,
+      "abstencoes": 1231883,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 3657022,
+      "pctValidos": 81.31,
+      "votosBrancos": 363054,
+      "pctBrancos": 8.07,
+      "votosNulos": 477497,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2123266,
+          "pctValidos": 58.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1068216,
+          "pctValidos": 29.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 465540,
+          "pctValidos": 12.73
+        }
+      ]
+    },
+    "PE": {
+      "sigla": "PE",
+      "aptos": 4774548,
+      "comparecimento": 3747978,
+      "pctComparecimento": 78.5,
+      "abstencoes": 1026570,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 3047519,
+      "pctValidos": 81.31,
+      "votosBrancos": 302545,
+      "pctBrancos": 8.07,
+      "votosNulos": 397914,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1464637,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1042556,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 540326,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "CE": {
+      "sigla": "CE",
+      "aptos": 4668446,
+      "comparecimento": 3664690,
+      "pctComparecimento": 78.5,
+      "abstencoes": 1003756,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 2979796,
+      "pctValidos": 81.31,
+      "votosBrancos": 295821,
+      "pctBrancos": 8.07,
+      "votosNulos": 389071,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1730069,
+          "pctValidos": 58.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 870398,
+          "pctValidos": 29.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 379329,
+          "pctValidos": 12.73
+        }
+      ]
+    },
+    "PA": {
+      "sigla": "PA",
+      "aptos": 4137941,
+      "comparecimento": 3248247,
+      "pctComparecimento": 78.5,
+      "abstencoes": 889694,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 2641183,
+      "pctValidos": 81.31,
+      "votosBrancos": 262205,
+      "pctBrancos": 8.07,
+      "votosNulos": 344859,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1269352,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 903548,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 468283,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "SC": {
+      "sigla": "SC",
+      "aptos": 3713537,
+      "comparecimento": 2915094,
+      "pctComparecimento": 78.5,
+      "abstencoes": 798443,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 2370292,
+      "pctValidos": 81.31,
+      "votosBrancos": 235312,
+      "pctBrancos": 8.07,
+      "votosNulos": 309488,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1376191,
+          "pctValidos": 58.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 692362,
+          "pctValidos": 29.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 301739,
+          "pctValidos": 12.73
+        }
+      ]
+    },
+    "MA": {
+      "sigla": "MA",
+      "aptos": 3395234,
+      "comparecimento": 2665229,
+      "pctComparecimento": 78.5,
+      "abstencoes": 730005,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 2167124,
+      "pctValidos": 81.31,
+      "votosBrancos": 215143,
+      "pctBrancos": 8.07,
+      "votosNulos": 282961,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1041519,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 741373,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 384232,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "GO": {
+      "sigla": "GO",
+      "aptos": 3289133,
+      "comparecimento": 2581940,
+      "pctComparecimento": 78.5,
+      "abstencoes": 707193,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 2099401,
+      "pctValidos": 81.31,
+      "votosBrancos": 208419,
+      "pctBrancos": 8.07,
+      "votosNulos": 274118,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1008972,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 718205,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 372224,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "PB": {
+      "sigla": "PB",
+      "aptos": 2122021,
+      "comparecimento": 1665768,
+      "pctComparecimento": 78.5,
+      "abstencoes": 456253,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 1354452,
+      "pctValidos": 81.31,
+      "votosBrancos": 134464,
+      "pctBrancos": 8.07,
+      "votosNulos": 176850,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 650949,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 463358,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 240145,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "ES": {
+      "sigla": "ES",
+      "aptos": 2015920,
+      "comparecimento": 1582479,
+      "pctComparecimento": 78.5,
+      "abstencoes": 433441,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 1286730,
+      "pctValidos": 81.31,
+      "votosBrancos": 127741,
+      "pctBrancos": 8.07,
+      "votosNulos": 168008,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 618402,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 440190,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 228138,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "AM": {
+      "sigla": "AM",
+      "aptos": 1803718,
+      "comparecimento": 1415902,
+      "pctComparecimento": 78.5,
+      "abstencoes": 387816,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 1151284,
+      "pctValidos": 81.31,
+      "votosBrancos": 114294,
+      "pctBrancos": 8.07,
+      "votosNulos": 150323,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 553307,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 393854,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 204123,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "RN": {
+      "sigla": "RN",
+      "aptos": 1697617,
+      "comparecimento": 1332614,
+      "pctComparecimento": 78.5,
+      "abstencoes": 365003,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 1083562,
+      "pctValidos": 81.31,
+      "votosBrancos": 107571,
+      "pctBrancos": 8.07,
+      "votosNulos": 141480,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 520759,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 370686,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 192117,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "AL": {
+      "sigla": "AL",
+      "aptos": 1591516,
+      "comparecimento": 1249326,
+      "pctComparecimento": 78.5,
+      "abstencoes": 342190,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 1015839,
+      "pctValidos": 81.31,
+      "votosBrancos": 100848,
+      "pctBrancos": 8.07,
+      "votosNulos": 132638,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 488212,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 347518,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 180109,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "PI": {
+      "sigla": "PI",
+      "aptos": 1697617,
+      "comparecimento": 1332614,
+      "pctComparecimento": 78.5,
+      "abstencoes": 365003,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 1083562,
+      "pctValidos": 81.31,
+      "votosBrancos": 107571,
+      "pctBrancos": 8.07,
+      "votosNulos": 141480,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 520759,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 370686,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 192117,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "MT": {
+      "sigla": "MT",
+      "aptos": 1697617,
+      "comparecimento": 1332614,
+      "pctComparecimento": 78.5,
+      "abstencoes": 365003,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 1083562,
+      "pctValidos": 81.31,
+      "votosBrancos": 107571,
+      "pctBrancos": 8.07,
+      "votosNulos": 141480,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 520759,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 370686,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 192117,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "DF": {
+      "sigla": "DF",
+      "aptos": 1485414,
+      "comparecimento": 1166037,
+      "pctComparecimento": 78.5,
+      "abstencoes": 319377,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 948117,
+      "pctValidos": 81.31,
+      "votosBrancos": 94125,
+      "pctBrancos": 8.07,
+      "votosNulos": 123795,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 455665,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 324350,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 168102,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "MS": {
+      "sigla": "MS",
+      "aptos": 1379313,
+      "comparecimento": 1082749,
+      "pctComparecimento": 78.5,
+      "abstencoes": 296564,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 880394,
+      "pctValidos": 81.31,
+      "votosBrancos": 87401,
+      "pctBrancos": 8.07,
+      "votosNulos": 114953,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 423117,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 301182,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 156095,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "SE": {
+      "sigla": "SE",
+      "aptos": 1167111,
+      "comparecimento": 916172,
+      "pctComparecimento": 78.5,
+      "abstencoes": 250939,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 744949,
+      "pctValidos": 81.31,
+      "votosBrancos": 73955,
+      "pctBrancos": 8.07,
+      "votosNulos": 97267,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 358022,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 254847,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 132080,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "RO": {
+      "sigla": "RO",
+      "aptos": 848808,
+      "comparecimento": 666307,
+      "pctComparecimento": 78.5,
+      "abstencoes": 182501,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 541781,
+      "pctValidos": 81.31,
+      "votosBrancos": 53785,
+      "pctBrancos": 8.07,
+      "votosNulos": 70740,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 260379,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 185343,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 96059,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "TO": {
+      "sigla": "TO",
+      "aptos": 742707,
+      "comparecimento": 583018,
+      "pctComparecimento": 78.5,
+      "abstencoes": 159689,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 474058,
+      "pctValidos": 81.31,
+      "votosBrancos": 47062,
+      "pctBrancos": 8.07,
+      "votosNulos": 61897,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 227832,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 162175,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 84051,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "AC": {
+      "sigla": "AC",
+      "aptos": 424404,
+      "comparecimento": 333153,
+      "pctComparecimento": 78.5,
+      "abstencoes": 91251,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 270890,
+      "pctValidos": 81.31,
+      "votosBrancos": 26892,
+      "pctBrancos": 8.07,
+      "votosNulos": 35370,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 130189,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 92671,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 48030,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "AP": {
+      "sigla": "AP",
+      "aptos": 424404,
+      "comparecimento": 333153,
+      "pctComparecimento": 78.5,
+      "abstencoes": 91251,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 270890,
+      "pctValidos": 81.31,
+      "votosBrancos": 26892,
+      "pctBrancos": 8.07,
+      "votosNulos": 35370,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 130189,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 92671,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 48030,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "RR": {
+      "sigla": "RR",
+      "aptos": 212202,
+      "comparecimento": 166576,
+      "pctComparecimento": 78.5,
+      "abstencoes": 45626,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 135445,
+      "pctValidos": 81.31,
+      "votosBrancos": 13446,
+      "pctBrancos": 8.07,
+      "votosNulos": 17685,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 65094,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 46335,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 24016,
+          "pctValidos": 17.73
+        }
+      ]
+    },
+    "ZZ": {
+      "sigla": "ZZ",
+      "aptos": 424404,
+      "comparecimento": 333153,
+      "pctComparecimento": 78.5,
+      "abstencoes": 91251,
+      "pctAbstencoes": 21.5,
+      "votosValidos": 270890,
+      "pctValidos": 81.31,
+      "votosBrancos": 26892,
+      "pctBrancos": 8.07,
+      "votosNulos": 35370,
+      "pctNulos": 10.62,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 130189,
+          "pctValidos": 48.06
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 92671,
+          "pctValidos": 34.21
+        },
+        {
+          "numero": "23",
+          "nome": "Ciro Gomes",
+          "partido": "PPS",
+          "cor": "#f59e0b",
+          "votos": 48030,
+          "pctValidos": 17.73
+        }
+      ]
+    }
+  },
+  "exterior": {
+    "totalAptos": 424404,
+    "comparecimento": 291509,
+    "abstencoes": 114063,
+    "cidades": [
+      {
+        "pais": "Portugal",
+        "codigoIso": "PRT",
+        "cidade": "Lisboa",
+        "lat": 38.72,
+        "lon": -9.14,
+        "eleitores": 25000,
+        "lula_r2": 14000,
+        "bolsonaro_r2": 9000,
+        "lula_pct": 60.8
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Miami",
+        "lat": 25.76,
+        "lon": -80.19,
+        "eleitores": 22000,
+        "lula_r2": 7000,
+        "bolsonaro_r2": 13000,
+        "lula_pct": 35.0
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Nova York",
+        "lat": 40.71,
+        "lon": -74.01,
+        "eleitores": 18000,
+        "lula_r2": 9500,
+        "bolsonaro_r2": 7500,
+        "lula_pct": 55.8
+      },
+      {
+        "pais": "Reino Unido",
+        "codigoIso": "GBR",
+        "cidade": "Londres",
+        "lat": 51.51,
+        "lon": -0.13,
+        "eleitores": 19000,
+        "lula_r2": 11000,
+        "bolsonaro_r2": 7000,
+        "lula_pct": 61.1
+      },
+      {
+        "pais": "França",
+        "codigoIso": "FRA",
+        "cidade": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "eleitores": 11000,
+        "lula_r2": 8000,
+        "bolsonaro_r2": 2500,
+        "lula_pct": 76.1
+      },
+      {
+        "pais": "Japão",
+        "codigoIso": "JPN",
+        "cidade": "Tóquio",
+        "lat": 35.68,
+        "lon": 139.65,
+        "eleitores": 15000,
+        "lula_r2": 4500,
+        "bolsonaro_r2": 9500,
+        "lula_pct": 32.1
+      }
+    ]
+  },
+  "zonas": [],
+  "municipios": [],
+  "detalhesNulos": {
+    "totalNulos": 8842542,
+    "pctNulos": 10.62,
+    "totalBrancos": 6723223,
+    "pctBrancos": 8.07,
+    "totalAbstencoes": 22812657,
+    "pctAbstencoes": 21.5,
+    "numerosDigitados": [
+      {
+        "numero": "00",
+        "descricao": "Dígito 00 e voto nulo deliberado",
+        "votos": 4820000,
+        "pct": 54.51
+      },
+      {
+        "numero": "99",
+        "descricao": "Dígito 99 e votos em partidos sem candidato",
+        "votos": 2480000,
+        "pct": 28.05
+      },
+      {
+        "numero": "Outros",
+        "descricao": "Demais combinações de dígitos inexistentes",
+        "votos": 1542542,
+        "pct": 17.44
+      }
+    ],
+    "subJudice": [],
+    "notaTSE": "Resultados históricos consolidados da Eleição Presidencial de 1998 (TSE Dados Abertos)."
+  }
+}

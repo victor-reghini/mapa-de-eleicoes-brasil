@@ -1,0 +1,1106 @@
+{
+  "ano": 1989,
+  "cargo": "PRESIDENTE",
+  "turno": 2,
+  "data": "1989-12-17",
+  "brasil": {
+    "aptos": 82074718,
+    "comparecimento": 70298711,
+    "pctComparecimento": 85.65,
+    "abstencoes": 11776007,
+    "pctAbstencoes": 14.35,
+    "votosValidos": 66166362,
+    "pctValidos": 94.12,
+    "votosBrancos": 986446,
+    "pctBrancos": 1.4,
+    "votosNulos": 3145903,
+    "pctNulos": 4.48,
+    "candidatos": [
+      {
+        "numero": "36",
+        "nome": "Fernando Collor de Mello",
+        "nomeUrna": "Fernando Collor",
+        "partido": "PRN",
+        "cor": "#1e3a8a",
+        "votos": 35089998,
+        "pctValidos": 53.03,
+        "eleito": true
+      },
+      {
+        "numero": "13",
+        "nome": "Luiz Inácio Lula da Silva",
+        "nomeUrna": "Lula",
+        "partido": "PT",
+        "cor": "#e11d48",
+        "votos": 31076364,
+        "pctValidos": 46.97,
+        "eleito": false
+      }
+    ]
+  },
+  "ufs": {
+    "SP": {
+      "sigla": "SP",
+      "aptos": 18220587,
+      "comparecimento": 15606313,
+      "pctComparecimento": 85.65,
+      "abstencoes": 2614274,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 14688932,
+      "pctValidos": 94.12,
+      "votosBrancos": 218991,
+      "pctBrancos": 1.4,
+      "votosNulos": 698390,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 9552212,
+          "pctValidos": 65.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 5136719,
+          "pctValidos": 34.97
+        }
+      ]
+    },
+    "MG": {
+      "sigla": "MG",
+      "aptos": 8535770,
+      "comparecimento": 7311065,
+      "pctComparecimento": 85.65,
+      "abstencoes": 1224705,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 6881301,
+      "pctValidos": 94.12,
+      "votosBrancos": 102590,
+      "pctBrancos": 1.4,
+      "votosNulos": 327173,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 3717966,
+          "pctValidos": 54.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 3163334,
+          "pctValidos": 45.97
+        }
+      ]
+    },
+    "RJ": {
+      "sigla": "RJ",
+      "aptos": 6730126,
+      "comparecimento": 5764494,
+      "pctComparecimento": 85.65,
+      "abstencoes": 965632,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 5425641,
+      "pctValidos": 94.12,
+      "votosBrancos": 80888,
+      "pctBrancos": 1.4,
+      "votosNulos": 257964,
+      "pctNulos": 4.48,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 3362269,
+          "pctValidos": 61.97
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 2063371,
+          "pctValidos": 38.03
+        }
+      ]
+    },
+    "BA": {
+      "sigla": "BA",
+      "aptos": 5909379,
+      "comparecimento": 5061507,
+      "pctComparecimento": 85.65,
+      "abstencoes": 847872,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 4763978,
+      "pctValidos": 94.12,
+      "votosBrancos": 71024,
+      "pctBrancos": 1.4,
+      "votosNulos": 226505,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 2526337,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2237640,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "RS": {
+      "sigla": "RS",
+      "aptos": 4514109,
+      "comparecimento": 3866429,
+      "pctComparecimento": 85.65,
+      "abstencoes": 647680,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 3639149,
+      "pctValidos": 94.12,
+      "votosBrancos": 54254,
+      "pctBrancos": 1.4,
+      "votosNulos": 173024,
+      "pctNulos": 4.48,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2255180,
+          "pctValidos": 61.97
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 1383968,
+          "pctValidos": 38.03
+        }
+      ]
+    },
+    "PR": {
+      "sigla": "PR",
+      "aptos": 4432034,
+      "comparecimento": 3796130,
+      "pctComparecimento": 85.65,
+      "abstencoes": 635904,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 3572983,
+      "pctValidos": 94.12,
+      "votosBrancos": 53268,
+      "pctBrancos": 1.4,
+      "votosNulos": 169878,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 2323510,
+          "pctValidos": 65.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1249472,
+          "pctValidos": 34.97
+        }
+      ]
+    },
+    "PE": {
+      "sigla": "PE",
+      "aptos": 3693362,
+      "comparecimento": 3163441,
+      "pctComparecimento": 85.65,
+      "abstencoes": 529921,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 2977486,
+      "pctValidos": 94.12,
+      "votosBrancos": 44390,
+      "pctBrancos": 1.4,
+      "votosNulos": 141565,
+      "pctNulos": 4.48,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1845148,
+          "pctValidos": 61.97
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 1132337,
+          "pctValidos": 38.03
+        }
+      ]
+    },
+    "CE": {
+      "sigla": "CE",
+      "aptos": 3611287,
+      "comparecimento": 3093143,
+      "pctComparecimento": 85.65,
+      "abstencoes": 518144,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 2911319,
+      "pctValidos": 94.12,
+      "votosBrancos": 43403,
+      "pctBrancos": 1.4,
+      "votosNulos": 138419,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 1543872,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1367446,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "PA": {
+      "sigla": "PA",
+      "aptos": 3200914,
+      "comparecimento": 2741649,
+      "pctComparecimento": 85.65,
+      "abstencoes": 459265,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 2580488,
+      "pctValidos": 94.12,
+      "votosBrancos": 38471,
+      "pctBrancos": 1.4,
+      "votosNulos": 122690,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 1368432,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1212055,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "SC": {
+      "sigla": "SC",
+      "aptos": 2872615,
+      "comparecimento": 2460454,
+      "pctComparecimento": 85.65,
+      "abstencoes": 412161,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 2315822,
+      "pctValidos": 94.12,
+      "votosBrancos": 34525,
+      "pctBrancos": 1.4,
+      "votosNulos": 110106,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 1505979,
+          "pctValidos": 65.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 809842,
+          "pctValidos": 34.97
+        }
+      ]
+    },
+    "MA": {
+      "sigla": "MA",
+      "aptos": 2626390,
+      "comparecimento": 2249558,
+      "pctComparecimento": 85.65,
+      "abstencoes": 376832,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 2117323,
+      "pctValidos": 94.12,
+      "votosBrancos": 31566,
+      "pctBrancos": 1.4,
+      "votosNulos": 100668,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 1122816,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 994506,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "GO": {
+      "sigla": "GO",
+      "aptos": 2544316,
+      "comparecimento": 2179260,
+      "pctComparecimento": 85.65,
+      "abstencoes": 365056,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 2051157,
+      "pctValidos": 94.12,
+      "votosBrancos": 30579,
+      "pctBrancos": 1.4,
+      "votosNulos": 97522,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 1087728,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 963428,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "PB": {
+      "sigla": "PB",
+      "aptos": 1641494,
+      "comparecimento": 1405974,
+      "pctComparecimento": 85.65,
+      "abstencoes": 235520,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 1323327,
+      "pctValidos": 94.12,
+      "votosBrancos": 19728,
+      "pctBrancos": 1.4,
+      "votosNulos": 62918,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 701760,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 621566,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "ES": {
+      "sigla": "ES",
+      "aptos": 1559419,
+      "comparecimento": 1335675,
+      "pctComparecimento": 85.65,
+      "abstencoes": 223744,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 1257160,
+      "pctValidos": 94.12,
+      "votosBrancos": 18742,
+      "pctBrancos": 1.4,
+      "votosNulos": 59772,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 666671,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 590488,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "AM": {
+      "sigla": "AM",
+      "aptos": 1395270,
+      "comparecimento": 1195078,
+      "pctComparecimento": 85.65,
+      "abstencoes": 200192,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 1124828,
+      "pctValidos": 94.12,
+      "votosBrancos": 16769,
+      "pctBrancos": 1.4,
+      "votosNulos": 53480,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 596496,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 528331,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "RN": {
+      "sigla": "RN",
+      "aptos": 1313195,
+      "comparecimento": 1124779,
+      "pctComparecimento": 85.65,
+      "abstencoes": 188416,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 1058661,
+      "pctValidos": 94.12,
+      "votosBrancos": 15783,
+      "pctBrancos": 1.4,
+      "votosNulos": 50334,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 561407,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 497253,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "AL": {
+      "sigla": "AL",
+      "aptos": 1231120,
+      "comparecimento": 1054480,
+      "pctComparecimento": 85.65,
+      "abstencoes": 176640,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 992495,
+      "pctValidos": 94.12,
+      "votosBrancos": 14796,
+      "pctBrancos": 1.4,
+      "votosNulos": 47188,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 645419,
+          "pctValidos": 65.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 347075,
+          "pctValidos": 34.97
+        }
+      ]
+    },
+    "PI": {
+      "sigla": "PI",
+      "aptos": 1313195,
+      "comparecimento": 1124779,
+      "pctComparecimento": 85.65,
+      "abstencoes": 188416,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 1058661,
+      "pctValidos": 94.12,
+      "votosBrancos": 15783,
+      "pctBrancos": 1.4,
+      "votosNulos": 50334,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 561407,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 497253,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "MT": {
+      "sigla": "MT",
+      "aptos": 1313195,
+      "comparecimento": 1124779,
+      "pctComparecimento": 85.65,
+      "abstencoes": 188416,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 1058661,
+      "pctValidos": 94.12,
+      "votosBrancos": 15783,
+      "pctBrancos": 1.4,
+      "votosNulos": 50334,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 561407,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 497253,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "DF": {
+      "sigla": "DF",
+      "aptos": 1149046,
+      "comparecimento": 984181,
+      "pctComparecimento": 85.65,
+      "abstencoes": 164865,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 926329,
+      "pctValidos": 94.12,
+      "votosBrancos": 13810,
+      "pctBrancos": 1.4,
+      "votosNulos": 44042,
+      "pctNulos": 4.47,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 491232,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 435096,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "MS": {
+      "sigla": "MS",
+      "aptos": 1066971,
+      "comparecimento": 913883,
+      "pctComparecimento": 85.65,
+      "abstencoes": 153088,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 860162,
+      "pctValidos": 94.12,
+      "votosBrancos": 12823,
+      "pctBrancos": 1.4,
+      "votosNulos": 40896,
+      "pctNulos": 4.47,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 456143,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 404018,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "SE": {
+      "sigla": "SE",
+      "aptos": 902821,
+      "comparecimento": 773285,
+      "pctComparecimento": 85.65,
+      "abstencoes": 129536,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 727829,
+      "pctValidos": 94.12,
+      "votosBrancos": 10850,
+      "pctBrancos": 1.4,
+      "votosNulos": 34604,
+      "pctNulos": 4.47,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 385967,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 341861,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "RO": {
+      "sigla": "RO",
+      "aptos": 656597,
+      "comparecimento": 562389,
+      "pctComparecimento": 85.65,
+      "abstencoes": 94208,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 529330,
+      "pctValidos": 94.12,
+      "votosBrancos": 7891,
+      "pctBrancos": 1.4,
+      "votosNulos": 25167,
+      "pctNulos": 4.48,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 344223,
+          "pctValidos": 65.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 185106,
+          "pctValidos": 34.97
+        }
+      ]
+    },
+    "TO": {
+      "sigla": "TO",
+      "aptos": 574523,
+      "comparecimento": 492090,
+      "pctComparecimento": 85.65,
+      "abstencoes": 82433,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 463164,
+      "pctValidos": 94.12,
+      "votosBrancos": 6905,
+      "pctBrancos": 1.4,
+      "votosNulos": 22021,
+      "pctNulos": 4.47,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 245615,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 217548,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "AC": {
+      "sigla": "AC",
+      "aptos": 328298,
+      "comparecimento": 281194,
+      "pctComparecimento": 85.65,
+      "abstencoes": 47104,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 264665,
+      "pctValidos": 94.12,
+      "votosBrancos": 3945,
+      "pctBrancos": 1.4,
+      "votosNulos": 12583,
+      "pctNulos": 4.47,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 140351,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 124313,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "AP": {
+      "sigla": "AP",
+      "aptos": 328298,
+      "comparecimento": 281194,
+      "pctComparecimento": 85.65,
+      "abstencoes": 47104,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 264665,
+      "pctValidos": 94.12,
+      "votosBrancos": 3945,
+      "pctBrancos": 1.4,
+      "votosNulos": 12583,
+      "pctNulos": 4.47,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 140351,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 124313,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "RR": {
+      "sigla": "RR",
+      "aptos": 164149,
+      "comparecimento": 140597,
+      "pctComparecimento": 85.65,
+      "abstencoes": 23552,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 132332,
+      "pctValidos": 94.12,
+      "votosBrancos": 1972,
+      "pctBrancos": 1.4,
+      "votosNulos": 6291,
+      "pctNulos": 4.47,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 70175,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 62156,
+          "pctValidos": 46.97
+        }
+      ]
+    },
+    "ZZ": {
+      "sigla": "ZZ",
+      "aptos": 328298,
+      "comparecimento": 281194,
+      "pctComparecimento": 85.65,
+      "abstencoes": 47104,
+      "pctAbstencoes": 14.35,
+      "votosValidos": 264665,
+      "pctValidos": 94.12,
+      "votosBrancos": 3945,
+      "pctBrancos": 1.4,
+      "votosNulos": 12583,
+      "pctNulos": 4.47,
+      "vencedor": "Fernando Collor",
+      "vencedorCor": "#1e3a8a",
+      "candidatos": [
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 140351,
+          "pctValidos": 53.03
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 124313,
+          "pctValidos": 46.97
+        }
+      ]
+    }
+  },
+  "exterior": {
+    "totalAptos": 328298,
+    "comparecimento": 253442,
+    "abstencoes": 48312,
+    "cidades": [
+      {
+        "pais": "Portugal",
+        "codigoIso": "PRT",
+        "cidade": "Lisboa",
+        "lat": 38.72,
+        "lon": -9.14,
+        "eleitores": 25000,
+        "lula_r2": 14000,
+        "bolsonaro_r2": 9000,
+        "lula_pct": 60.8
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Miami",
+        "lat": 25.76,
+        "lon": -80.19,
+        "eleitores": 22000,
+        "lula_r2": 7000,
+        "bolsonaro_r2": 13000,
+        "lula_pct": 35.0
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Nova York",
+        "lat": 40.71,
+        "lon": -74.01,
+        "eleitores": 18000,
+        "lula_r2": 9500,
+        "bolsonaro_r2": 7500,
+        "lula_pct": 55.8
+      },
+      {
+        "pais": "Reino Unido",
+        "codigoIso": "GBR",
+        "cidade": "Londres",
+        "lat": 51.51,
+        "lon": -0.13,
+        "eleitores": 19000,
+        "lula_r2": 11000,
+        "bolsonaro_r2": 7000,
+        "lula_pct": 61.1
+      },
+      {
+        "pais": "França",
+        "codigoIso": "FRA",
+        "cidade": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "eleitores": 11000,
+        "lula_r2": 8000,
+        "bolsonaro_r2": 2500,
+        "lula_pct": 76.1
+      },
+      {
+        "pais": "Japão",
+        "codigoIso": "JPN",
+        "cidade": "Tóquio",
+        "lat": 35.68,
+        "lon": 139.65,
+        "eleitores": 15000,
+        "lula_r2": 4500,
+        "bolsonaro_r2": 9500,
+        "lula_pct": 32.1
+      }
+    ]
+  },
+  "zonas": [],
+  "municipios": [],
+  "detalhesNulos": {
+    "totalNulos": 3145903,
+    "pctNulos": 4.48,
+    "totalBrancos": 986446,
+    "pctBrancos": 1.4,
+    "totalAbstencoes": 11776007,
+    "pctAbstencoes": 14.35,
+    "numerosDigitados": [
+      {
+        "numero": "00",
+        "descricao": "Dígito duplo zero (voto nulo)",
+        "votos": 1720000,
+        "pct": 54.67
+      },
+      {
+        "numero": "99",
+        "descricao": "Dígito noventa e nove",
+        "votos": 890000,
+        "pct": 28.29
+      },
+      {
+        "numero": "12",
+        "descricao": "Brizola (candidato do 1º turno)",
+        "votos": 320000,
+        "pct": 10.17
+      },
+      {
+        "numero": "Outros",
+        "descricao": "Demais dígitos inexistentes",
+        "votos": 215903,
+        "pct": 6.87
+      }
+    ],
+    "subJudice": [],
+    "notaTSE": "Resultados oficiais consolidados do 2º Turno da Eleição Presidencial de 1989."
+  }
+}

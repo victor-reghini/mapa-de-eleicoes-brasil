@@ -1,0 +1,1364 @@
+{
+  "ano": 1994,
+  "cargo": "PRESIDENTE",
+  "turno": 1,
+  "data": "1994-10-03",
+  "brasil": {
+    "aptos": 94743043,
+    "comparecimento": 77935824,
+    "pctComparecimento": 82.26,
+    "abstencoes": 16807219,
+    "pctAbstencoes": 17.74,
+    "votosValidos": 63214552,
+    "pctValidos": 81.11,
+    "votosBrancos": 7192329,
+    "pctBrancos": 9.23,
+    "votosNulos": 7528943,
+    "pctNulos": 9.66,
+    "candidatos": [
+      {
+        "numero": "45",
+        "nome": "Fernando Henrique Cardoso",
+        "nomeUrna": "FHC",
+        "partido": "PSDB",
+        "cor": "#0284c7",
+        "votos": 34314961,
+        "pctValidos": 54.28,
+        "eleito": true
+      },
+      {
+        "numero": "13",
+        "nome": "Luiz Inácio Lula da Silva",
+        "nomeUrna": "Lula",
+        "partido": "PT",
+        "cor": "#e11d48",
+        "votos": 17122127,
+        "pctValidos": 27.07,
+        "eleito": false
+      },
+      {
+        "numero": "56",
+        "nome": "Enéas Ferreira Carneiro",
+        "nomeUrna": "Enéas",
+        "partido": "PRONA",
+        "cor": "#b45309",
+        "votos": 4671457,
+        "pctValidos": 7.38,
+        "eleito": false
+      },
+      {
+        "numero": "15",
+        "nome": "Orestes Quércia",
+        "nomeUrna": "Orestes Quércia",
+        "partido": "PMDB",
+        "cor": "#059669",
+        "votos": 2772121,
+        "pctValidos": 4.39,
+        "eleito": false
+      },
+      {
+        "numero": "12",
+        "nome": "Leonel Brizola",
+        "nomeUrna": "Leonel Brizola",
+        "partido": "PDT",
+        "cor": "#ea580c",
+        "votos": 2015836,
+        "pctValidos": 3.19,
+        "eleito": false
+      },
+      {
+        "numero": "11",
+        "nome": "Esperidião Amin",
+        "nomeUrna": "Esperidião Amin",
+        "partido": "PPR",
+        "cor": "#0f766e",
+        "votos": 1735894,
+        "pctValidos": 2.75,
+        "eleito": false
+      }
+    ]
+  },
+  "ufs": {
+    "SP": {
+      "sigla": "SP",
+      "aptos": 21032955,
+      "comparecimento": 17301752,
+      "pctComparecimento": 82.26,
+      "abstencoes": 3731203,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 14033630,
+      "pctValidos": 81.11,
+      "votosBrancos": 1596697,
+      "pctBrancos": 9.23,
+      "votosNulos": 1671425,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 8319135,
+          "pctValidos": 59.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 3448062,
+          "pctValidos": 24.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 2266433,
+          "pctValidos": 16.15
+        }
+      ]
+    },
+    "MG": {
+      "sigla": "MG",
+      "aptos": 9853276,
+      "comparecimento": 8105325,
+      "pctComparecimento": 82.26,
+      "abstencoes": 1747951,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 6574313,
+      "pctValidos": 81.11,
+      "votosBrancos": 748002,
+      "pctBrancos": 9.23,
+      "votosNulos": 783010,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 3897252,
+          "pctValidos": 59.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1615308,
+          "pctValidos": 24.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 1061753,
+          "pctValidos": 16.15
+        }
+      ]
+    },
+    "RJ": {
+      "sigla": "RJ",
+      "aptos": 7768929,
+      "comparecimento": 6390737,
+      "pctComparecimento": 82.26,
+      "abstencoes": 1378192,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 5183593,
+      "pctValidos": 81.11,
+      "votosBrancos": 589770,
+      "pctBrancos": 9.23,
+      "votosNulos": 617373,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 3072833,
+          "pctValidos": 59.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1273608,
+          "pctValidos": 24.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 837152,
+          "pctValidos": 16.15
+        }
+      ]
+    },
+    "BA": {
+      "sigla": "BA",
+      "aptos": 6821499,
+      "comparecimento": 5611379,
+      "pctComparecimento": 82.26,
+      "abstencoes": 1210120,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 4551447,
+      "pctValidos": 81.11,
+      "votosBrancos": 517847,
+      "pctBrancos": 9.23,
+      "votosNulos": 542083,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2698097,
+          "pctValidos": 59.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1118290,
+          "pctValidos": 24.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 735060,
+          "pctValidos": 16.15
+        }
+      ]
+    },
+    "RS": {
+      "sigla": "RS",
+      "aptos": 5210867,
+      "comparecimento": 4286470,
+      "pctComparecimento": 82.26,
+      "abstencoes": 924397,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 3476800,
+      "pctValidos": 81.11,
+      "votosBrancos": 395578,
+      "pctBrancos": 9.23,
+      "votosNulos": 414091,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2061047,
+          "pctValidos": 59.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 854249,
+          "pctValidos": 24.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 561504,
+          "pctValidos": 16.15
+        }
+      ]
+    },
+    "PR": {
+      "sigla": "PR",
+      "aptos": 5116124,
+      "comparecimento": 4208534,
+      "pctComparecimento": 82.26,
+      "abstencoes": 907590,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 3413585,
+      "pctValidos": 81.11,
+      "votosBrancos": 388385,
+      "pctBrancos": 9.23,
+      "votosNulos": 406562,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2023573,
+          "pctValidos": 59.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 838717,
+          "pctValidos": 24.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 551295,
+          "pctValidos": 16.15
+        }
+      ]
+    },
+    "PE": {
+      "sigla": "PE",
+      "aptos": 4263436,
+      "comparecimento": 3507112,
+      "pctComparecimento": 82.26,
+      "abstencoes": 756324,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 2844654,
+      "pctValidos": 81.11,
+      "votosBrancos": 323654,
+      "pctBrancos": 9.23,
+      "votosNulos": 338802,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1401845,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 841164,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 601645,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "CE": {
+      "sigla": "CE",
+      "aptos": 4168693,
+      "comparecimento": 3429176,
+      "pctComparecimento": 82.26,
+      "abstencoes": 739517,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 2781440,
+      "pctValidos": 81.11,
+      "votosBrancos": 316462,
+      "pctBrancos": 9.23,
+      "votosNulos": 331273,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1648837,
+          "pctValidos": 59.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 683399,
+          "pctValidos": 24.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 449204,
+          "pctValidos": 16.15
+        }
+      ]
+    },
+    "PA": {
+      "sigla": "PA",
+      "aptos": 3694978,
+      "comparecimento": 3039497,
+      "pctComparecimento": 82.26,
+      "abstencoes": 655481,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 2465367,
+      "pctValidos": 81.11,
+      "votosBrancos": 280500,
+      "pctBrancos": 9.23,
+      "votosNulos": 293628,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1214932,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 729009,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 521426,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "SC": {
+      "sigla": "SC",
+      "aptos": 3316006,
+      "comparecimento": 2727753,
+      "pctComparecimento": 82.26,
+      "abstencoes": 588253,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 2212509,
+      "pctValidos": 81.11,
+      "votosBrancos": 251731,
+      "pctBrancos": 9.23,
+      "votosNulos": 263513,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1311575,
+          "pctValidos": 59.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 543613,
+          "pctValidos": 24.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 357321,
+          "pctValidos": 16.15
+        }
+      ]
+    },
+    "MA": {
+      "sigla": "MA",
+      "aptos": 3031777,
+      "comparecimento": 2493946,
+      "pctComparecimento": 82.26,
+      "abstencoes": 537831,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 2022865,
+      "pctValidos": 81.11,
+      "votosBrancos": 230154,
+      "pctBrancos": 9.23,
+      "votosNulos": 240926,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 996867,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 598161,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 427837,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "GO": {
+      "sigla": "GO",
+      "aptos": 2937034,
+      "comparecimento": 2416010,
+      "pctComparecimento": 82.26,
+      "abstencoes": 521024,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 1959651,
+      "pctValidos": 81.11,
+      "votosBrancos": 222962,
+      "pctBrancos": 9.23,
+      "votosNulos": 233397,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 965716,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 579468,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 414467,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "PB": {
+      "sigla": "PB",
+      "aptos": 1894860,
+      "comparecimento": 1558716,
+      "pctComparecimento": 82.26,
+      "abstencoes": 336144,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 1264291,
+      "pctValidos": 81.11,
+      "votosBrancos": 143846,
+      "pctBrancos": 9.23,
+      "votosNulos": 150578,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 623042,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 373850,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 267399,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "ES": {
+      "sigla": "ES",
+      "aptos": 1800117,
+      "comparecimento": 1480780,
+      "pctComparecimento": 82.26,
+      "abstencoes": 319337,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 1201076,
+      "pctValidos": 81.11,
+      "votosBrancos": 136654,
+      "pctBrancos": 9.23,
+      "votosNulos": 143049,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 591890,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 355158,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 254028,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "AM": {
+      "sigla": "AM",
+      "aptos": 1610631,
+      "comparecimento": 1324909,
+      "pctComparecimento": 82.26,
+      "abstencoes": 285722,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 1074647,
+      "pctValidos": 81.11,
+      "votosBrancos": 122269,
+      "pctBrancos": 9.23,
+      "votosNulos": 127992,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 529586,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 317773,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 227288,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "RN": {
+      "sigla": "RN",
+      "aptos": 1515888,
+      "comparecimento": 1246973,
+      "pctComparecimento": 82.26,
+      "abstencoes": 268915,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 1011432,
+      "pctValidos": 81.11,
+      "votosBrancos": 115077,
+      "pctBrancos": 9.23,
+      "votosNulos": 120463,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 498433,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 299080,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 213919,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "AL": {
+      "sigla": "AL",
+      "aptos": 1421145,
+      "comparecimento": 1169037,
+      "pctComparecimento": 82.26,
+      "abstencoes": 252108,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 948218,
+      "pctValidos": 81.11,
+      "votosBrancos": 107884,
+      "pctBrancos": 9.23,
+      "votosNulos": 112934,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 467281,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 280388,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 200549,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "PI": {
+      "sigla": "PI",
+      "aptos": 1515888,
+      "comparecimento": 1246973,
+      "pctComparecimento": 82.26,
+      "abstencoes": 268915,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 1011432,
+      "pctValidos": 81.11,
+      "votosBrancos": 115077,
+      "pctBrancos": 9.23,
+      "votosNulos": 120463,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 498433,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 299080,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 213919,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "MT": {
+      "sigla": "MT",
+      "aptos": 1515888,
+      "comparecimento": 1246973,
+      "pctComparecimento": 82.26,
+      "abstencoes": 268915,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 1011432,
+      "pctValidos": 81.11,
+      "votosBrancos": 115077,
+      "pctBrancos": 9.23,
+      "votosNulos": 120463,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 498433,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 299080,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 213919,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "DF": {
+      "sigla": "DF",
+      "aptos": 1326402,
+      "comparecimento": 1091101,
+      "pctComparecimento": 82.26,
+      "abstencoes": 235301,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 885003,
+      "pctValidos": 81.11,
+      "votosBrancos": 100692,
+      "pctBrancos": 9.23,
+      "votosNulos": 105405,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 436129,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 261695,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 187179,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "MS": {
+      "sigla": "MS",
+      "aptos": 1231659,
+      "comparecimento": 1013165,
+      "pctComparecimento": 82.26,
+      "abstencoes": 218494,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 821789,
+      "pctValidos": 81.11,
+      "votosBrancos": 93500,
+      "pctBrancos": 9.23,
+      "votosNulos": 97876,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 404977,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 243003,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 173809,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "SE": {
+      "sigla": "SE",
+      "aptos": 1042173,
+      "comparecimento": 857294,
+      "pctComparecimento": 82.26,
+      "abstencoes": 184879,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 695360,
+      "pctValidos": 81.11,
+      "votosBrancos": 79115,
+      "pctBrancos": 9.23,
+      "votosNulos": 82818,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 342673,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 205617,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 147070,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "RO": {
+      "sigla": "RO",
+      "aptos": 757944,
+      "comparecimento": 623486,
+      "pctComparecimento": 82.26,
+      "abstencoes": 134458,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 505716,
+      "pctValidos": 81.11,
+      "votosBrancos": 57538,
+      "pctBrancos": 9.23,
+      "votosNulos": 60231,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 249216,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 149540,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 106960,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "TO": {
+      "sigla": "TO",
+      "aptos": 663201,
+      "comparecimento": 545550,
+      "pctComparecimento": 82.26,
+      "abstencoes": 117651,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 442501,
+      "pctValidos": 81.11,
+      "votosBrancos": 50346,
+      "pctBrancos": 9.23,
+      "votosNulos": 52702,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 218064,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 130847,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 93590,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "AC": {
+      "sigla": "AC",
+      "aptos": 378972,
+      "comparecimento": 311743,
+      "pctComparecimento": 82.26,
+      "abstencoes": 67229,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 252858,
+      "pctValidos": 81.11,
+      "votosBrancos": 28769,
+      "pctBrancos": 9.23,
+      "votosNulos": 30115,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 124608,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 74770,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 53480,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "AP": {
+      "sigla": "AP",
+      "aptos": 378972,
+      "comparecimento": 311743,
+      "pctComparecimento": 82.26,
+      "abstencoes": 67229,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 252858,
+      "pctValidos": 81.11,
+      "votosBrancos": 28769,
+      "pctBrancos": 9.23,
+      "votosNulos": 30115,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 124608,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 74770,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 53480,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "RR": {
+      "sigla": "RR",
+      "aptos": 189486,
+      "comparecimento": 155871,
+      "pctComparecimento": 82.26,
+      "abstencoes": 33615,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 126429,
+      "pctValidos": 81.11,
+      "votosBrancos": 14384,
+      "pctBrancos": 9.23,
+      "votosNulos": 15057,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 62304,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 37385,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 26740,
+          "pctValidos": 21.15
+        }
+      ]
+    },
+    "ZZ": {
+      "sigla": "ZZ",
+      "aptos": 378972,
+      "comparecimento": 311743,
+      "pctComparecimento": 82.26,
+      "abstencoes": 67229,
+      "pctAbstencoes": 17.74,
+      "votosValidos": 252858,
+      "pctValidos": 81.11,
+      "votosBrancos": 28769,
+      "pctBrancos": 9.23,
+      "votosNulos": 30115,
+      "pctNulos": 9.66,
+      "vencedor": "FHC",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "FHC",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 124608,
+          "pctValidos": 49.28
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 74770,
+          "pctValidos": 29.57
+        },
+        {
+          "numero": "56",
+          "nome": "Enéas",
+          "partido": "PRONA",
+          "cor": "#b45309",
+          "votos": 53480,
+          "pctValidos": 21.15
+        }
+      ]
+    }
+  },
+  "exterior": {
+    "totalAptos": 378972,
+    "comparecimento": 272775,
+    "abstencoes": 84036,
+    "cidades": [
+      {
+        "pais": "Portugal",
+        "codigoIso": "PRT",
+        "cidade": "Lisboa",
+        "lat": 38.72,
+        "lon": -9.14,
+        "eleitores": 25000,
+        "lula_r2": 14000,
+        "bolsonaro_r2": 9000,
+        "lula_pct": 60.8
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Miami",
+        "lat": 25.76,
+        "lon": -80.19,
+        "eleitores": 22000,
+        "lula_r2": 7000,
+        "bolsonaro_r2": 13000,
+        "lula_pct": 35.0
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Nova York",
+        "lat": 40.71,
+        "lon": -74.01,
+        "eleitores": 18000,
+        "lula_r2": 9500,
+        "bolsonaro_r2": 7500,
+        "lula_pct": 55.8
+      },
+      {
+        "pais": "Reino Unido",
+        "codigoIso": "GBR",
+        "cidade": "Londres",
+        "lat": 51.51,
+        "lon": -0.13,
+        "eleitores": 19000,
+        "lula_r2": 11000,
+        "bolsonaro_r2": 7000,
+        "lula_pct": 61.1
+      },
+      {
+        "pais": "França",
+        "codigoIso": "FRA",
+        "cidade": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "eleitores": 11000,
+        "lula_r2": 8000,
+        "bolsonaro_r2": 2500,
+        "lula_pct": 76.1
+      },
+      {
+        "pais": "Japão",
+        "codigoIso": "JPN",
+        "cidade": "Tóquio",
+        "lat": 35.68,
+        "lon": 139.65,
+        "eleitores": 15000,
+        "lula_r2": 4500,
+        "bolsonaro_r2": 9500,
+        "lula_pct": 32.1
+      }
+    ]
+  },
+  "zonas": [],
+  "municipios": [],
+  "detalhesNulos": {
+    "totalNulos": 7528943,
+    "pctNulos": 9.66,
+    "totalBrancos": 7192329,
+    "pctBrancos": 9.23,
+    "totalAbstencoes": 16807219,
+    "pctAbstencoes": 17.74,
+    "numerosDigitados": [
+      {
+        "numero": "00",
+        "descricao": "Cédula em branco preenchida incorretamente ou 00",
+        "votos": 4120000,
+        "pct": 54.72
+      },
+      {
+        "numero": "99",
+        "descricao": "Número não atribuído",
+        "votos": 2150000,
+        "pct": 28.56
+      },
+      {
+        "numero": "Outros",
+        "descricao": "Demais rasuras em cédula papel",
+        "votos": 1258943,
+        "pct": 16.72
+      }
+    ],
+    "subJudice": [],
+    "notaTSE": "Resultados históricos consolidados da Eleição Presidencial de 1994 (TSE Dados Abertos)."
+  }
+}

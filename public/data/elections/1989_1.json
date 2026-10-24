@@ -1,0 +1,1394 @@
+{
+  "ano": 1989,
+  "cargo": "PRESIDENTE",
+  "turno": 1,
+  "data": "1989-11-15",
+  "brasil": {
+    "aptos": 82074718,
+    "comparecimento": 72412180,
+    "pctComparecimento": 88.23,
+    "abstencoes": 9662538,
+    "pctAbstencoes": 11.77,
+    "votosValidos": 67614136,
+    "pctValidos": 93.37,
+    "votosBrancos": 1176335,
+    "pctBrancos": 1.62,
+    "votosNulos": 3621709,
+    "pctNulos": 5.0,
+    "candidatos": [
+      {
+        "numero": "36",
+        "nome": "Fernando Collor de Mello",
+        "nomeUrna": "Fernando Collor",
+        "partido": "PRN",
+        "cor": "#1e3a8a",
+        "votos": 20611011,
+        "pctValidos": 30.48,
+        "eleito": false
+      },
+      {
+        "numero": "13",
+        "nome": "Luiz Inácio Lula da Silva",
+        "nomeUrna": "Lula",
+        "partido": "PT",
+        "cor": "#e11d48",
+        "votos": 11622673,
+        "pctValidos": 17.18,
+        "eleito": false
+      },
+      {
+        "numero": "12",
+        "nome": "Leonel Brizola",
+        "nomeUrna": "Leonel Brizola",
+        "partido": "PDT",
+        "cor": "#ea580c",
+        "votos": 11168288,
+        "pctValidos": 16.51,
+        "eleito": false
+      },
+      {
+        "numero": "45",
+        "nome": "Mário Covas",
+        "nomeUrna": "Mário Covas",
+        "partido": "PSDB",
+        "cor": "#0284c7",
+        "votos": 7790381,
+        "pctValidos": 11.52,
+        "eleito": false
+      },
+      {
+        "numero": "11",
+        "nome": "Paulo Maluf",
+        "nomeUrna": "Paulo Maluf",
+        "partido": "PDS",
+        "cor": "#0f766e",
+        "votos": 5986575,
+        "pctValidos": 8.85,
+        "eleito": false
+      },
+      {
+        "numero": "22",
+        "nome": "Guilherme Afif Domingos",
+        "nomeUrna": "Afif",
+        "partido": "PL",
+        "cor": "#2563eb",
+        "votos": 3272252,
+        "pctValidos": 4.84,
+        "eleito": false
+      },
+      {
+        "numero": "15",
+        "nome": "Ulysses Guimarães",
+        "nomeUrna": "Ulysses Guimarães",
+        "partido": "PMDB",
+        "cor": "#059669",
+        "votos": 3204996,
+        "pctValidos": 4.74,
+        "eleito": false
+      },
+      {
+        "numero": "25",
+        "nome": "Aureliano Chaves",
+        "nomeUrna": "Aureliano Chaves",
+        "partido": "PFL",
+        "cor": "#4338ca",
+        "votos": 600838,
+        "pctValidos": 0.89,
+        "eleito": false
+      },
+      {
+        "numero": "56",
+        "nome": "Enéas Carneiro",
+        "nomeUrna": "Enéas",
+        "partido": "PRONA",
+        "cor": "#b45309",
+        "votos": 360561,
+        "pctValidos": 0.53,
+        "eleito": false
+      }
+    ]
+  },
+  "ufs": {
+    "SP": {
+      "sigla": "SP",
+      "aptos": 18220587,
+      "comparecimento": 16075503,
+      "pctComparecimento": 88.23,
+      "abstencoes": 2145084,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 15010338,
+      "pctValidos": 93.37,
+      "votosBrancos": 261146,
+      "pctBrancos": 1.62,
+      "votosNulos": 804019,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 6382397,
+          "pctValidos": 42.52
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 6376391,
+          "pctValidos": 42.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2251550,
+          "pctValidos": 15.0
+        }
+      ]
+    },
+    "MG": {
+      "sigla": "MG",
+      "aptos": 8535770,
+      "comparecimento": 7530866,
+      "pctComparecimento": 88.23,
+      "abstencoes": 1004904,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 7031870,
+      "pctValidos": 93.37,
+      "votosBrancos": 122338,
+      "pctBrancos": 1.62,
+      "votosNulos": 376657,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 3645323,
+          "pctValidos": 51.84
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 2213632,
+          "pctValidos": 31.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1172915,
+          "pctValidos": 16.68
+        }
+      ]
+    },
+    "RJ": {
+      "sigla": "RJ",
+      "aptos": 6730126,
+      "comparecimento": 5937798,
+      "pctComparecimento": 88.23,
+      "abstencoes": 792328,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 5544359,
+      "pctValidos": 93.37,
+      "votosBrancos": 96459,
+      "pctBrancos": 1.62,
+      "votosNulos": 296980,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 3067141,
+          "pctValidos": 55.32
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1368347,
+          "pctValidos": 24.68
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 1108871,
+          "pctValidos": 20.0
+        }
+      ]
+    },
+    "BA": {
+      "sigla": "BA",
+      "aptos": 5909379,
+      "comparecimento": 5213676,
+      "pctComparecimento": 88.23,
+      "abstencoes": 695703,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 4868217,
+      "pctValidos": 93.37,
+      "votosBrancos": 84696,
+      "pctBrancos": 1.62,
+      "votosNulos": 260763,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 2548026,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 1483832,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 836359,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "RS": {
+      "sigla": "RS",
+      "aptos": 4514109,
+      "comparecimento": 3982669,
+      "pctComparecimento": 88.23,
+      "abstencoes": 531440,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 3718777,
+      "pctValidos": 93.37,
+      "votosBrancos": 64698,
+      "pctBrancos": 1.62,
+      "votosNulos": 199193,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 2057228,
+          "pctValidos": 55.32
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 917794,
+          "pctValidos": 24.68
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 743755,
+          "pctValidos": 20.0
+        }
+      ]
+    },
+    "PR": {
+      "sigla": "PR",
+      "aptos": 4432034,
+      "comparecimento": 3910257,
+      "pctComparecimento": 88.23,
+      "abstencoes": 521777,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 3651163,
+      "pctValidos": 93.37,
+      "votosBrancos": 63522,
+      "pctBrancos": 1.62,
+      "votosNulos": 195572,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 1552475,
+          "pctValidos": 42.52
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 1551014,
+          "pctValidos": 42.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 547674,
+          "pctValidos": 15.0
+        }
+      ]
+    },
+    "PE": {
+      "sigla": "PE",
+      "aptos": 3693362,
+      "comparecimento": 3258548,
+      "pctComparecimento": 88.23,
+      "abstencoes": 434814,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 3042636,
+      "pctValidos": 93.37,
+      "votosBrancos": 52935,
+      "pctBrancos": 1.62,
+      "votosNulos": 162976,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 1683187,
+          "pctValidos": 55.32
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 750922,
+          "pctValidos": 24.68
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 608527,
+          "pctValidos": 20.0
+        }
+      ]
+    },
+    "CE": {
+      "sigla": "CE",
+      "aptos": 3611287,
+      "comparecimento": 3186135,
+      "pctComparecimento": 88.23,
+      "abstencoes": 425152,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 2975021,
+      "pctValidos": 93.37,
+      "votosBrancos": 51758,
+      "pctBrancos": 1.62,
+      "votosNulos": 159355,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 1557127,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 906786,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 511108,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "PA": {
+      "sigla": "PA",
+      "aptos": 3200914,
+      "comparecimento": 2824075,
+      "pctComparecimento": 88.23,
+      "abstencoes": 376839,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 2636951,
+      "pctValidos": 93.37,
+      "votosBrancos": 45877,
+      "pctBrancos": 1.62,
+      "votosNulos": 141246,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 1380181,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 803742,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 453028,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "SC": {
+      "sigla": "SC",
+      "aptos": 2872615,
+      "comparecimento": 2534426,
+      "pctComparecimento": 88.23,
+      "abstencoes": 338189,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 2366494,
+      "pctValidos": 93.37,
+      "votosBrancos": 41171,
+      "pctBrancos": 1.62,
+      "votosNulos": 126759,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 1006234,
+          "pctValidos": 42.52
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 1005286,
+          "pctValidos": 42.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 354974,
+          "pctValidos": 15.0
+        }
+      ]
+    },
+    "MA": {
+      "sigla": "MA",
+      "aptos": 2626390,
+      "comparecimento": 2317189,
+      "pctComparecimento": 88.23,
+      "abstencoes": 309201,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 2163652,
+      "pctValidos": 93.37,
+      "votosBrancos": 37642,
+      "pctBrancos": 1.62,
+      "votosNulos": 115894,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 1132456,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 659481,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 371715,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "GO": {
+      "sigla": "GO",
+      "aptos": 2544316,
+      "comparecimento": 2244777,
+      "pctComparecimento": 88.23,
+      "abstencoes": 299539,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 2096038,
+      "pctValidos": 93.37,
+      "votosBrancos": 36466,
+      "pctBrancos": 1.62,
+      "votosNulos": 112272,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 1097067,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 638872,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 360099,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "PB": {
+      "sigla": "PB",
+      "aptos": 1641494,
+      "comparecimento": 1448243,
+      "pctComparecimento": 88.23,
+      "abstencoes": 193251,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 1352282,
+      "pctValidos": 93.37,
+      "votosBrancos": 23526,
+      "pctBrancos": 1.62,
+      "votosNulos": 72434,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 707785,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 412175,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 232322,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "ES": {
+      "sigla": "ES",
+      "aptos": 1559419,
+      "comparecimento": 1375831,
+      "pctComparecimento": 88.23,
+      "abstencoes": 183588,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 1284668,
+      "pctValidos": 93.37,
+      "votosBrancos": 22350,
+      "pctBrancos": 1.62,
+      "votosNulos": 68812,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 672397,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 391566,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 220705,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "AM": {
+      "sigla": "AM",
+      "aptos": 1395270,
+      "comparecimento": 1231007,
+      "pctComparecimento": 88.23,
+      "abstencoes": 164263,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 1149440,
+      "pctValidos": 93.37,
+      "votosBrancos": 19997,
+      "pctBrancos": 1.62,
+      "votosNulos": 61569,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 601618,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 350349,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 197473,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "RN": {
+      "sigla": "RN",
+      "aptos": 1313195,
+      "comparecimento": 1158594,
+      "pctComparecimento": 88.23,
+      "abstencoes": 154601,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 1081826,
+      "pctValidos": 93.37,
+      "votosBrancos": 18821,
+      "pctBrancos": 1.62,
+      "votosNulos": 57947,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 566229,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 329740,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 185857,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "AL": {
+      "sigla": "AL",
+      "aptos": 1231120,
+      "comparecimento": 1086182,
+      "pctComparecimento": 88.23,
+      "abstencoes": 144938,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 1014212,
+      "pctValidos": 93.37,
+      "votosBrancos": 17645,
+      "pctBrancos": 1.62,
+      "votosNulos": 54325,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 431244,
+          "pctValidos": 42.52
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 430837,
+          "pctValidos": 42.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 152131,
+          "pctValidos": 15.0
+        }
+      ]
+    },
+    "PI": {
+      "sigla": "PI",
+      "aptos": 1313195,
+      "comparecimento": 1158594,
+      "pctComparecimento": 88.23,
+      "abstencoes": 154601,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 1081826,
+      "pctValidos": 93.37,
+      "votosBrancos": 18821,
+      "pctBrancos": 1.62,
+      "votosNulos": 57947,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 566229,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 329740,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 185857,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "MT": {
+      "sigla": "MT",
+      "aptos": 1313195,
+      "comparecimento": 1158594,
+      "pctComparecimento": 88.23,
+      "abstencoes": 154601,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 1081826,
+      "pctValidos": 93.37,
+      "votosBrancos": 18821,
+      "pctBrancos": 1.62,
+      "votosNulos": 57947,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 566229,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 329740,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 185857,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "DF": {
+      "sigla": "DF",
+      "aptos": 1149046,
+      "comparecimento": 1013770,
+      "pctComparecimento": 88.23,
+      "abstencoes": 135276,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 946597,
+      "pctValidos": 93.37,
+      "votosBrancos": 16468,
+      "pctBrancos": 1.62,
+      "votosNulos": 50703,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 495450,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 288522,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 162625,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "MS": {
+      "sigla": "MS",
+      "aptos": 1066971,
+      "comparecimento": 941358,
+      "pctComparecimento": 88.23,
+      "abstencoes": 125613,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 878983,
+      "pctValidos": 93.37,
+      "votosBrancos": 15292,
+      "pctBrancos": 1.62,
+      "votosNulos": 47082,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 460060,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 267914,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 151009,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "SE": {
+      "sigla": "SE",
+      "aptos": 902821,
+      "comparecimento": 796533,
+      "pctComparecimento": 88.23,
+      "abstencoes": 106288,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 743755,
+      "pctValidos": 93.37,
+      "votosBrancos": 12939,
+      "pctBrancos": 1.62,
+      "votosNulos": 39838,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 389282,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 226696,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 127777,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "RO": {
+      "sigla": "RO",
+      "aptos": 656597,
+      "comparecimento": 579297,
+      "pctComparecimento": 88.23,
+      "abstencoes": 77300,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 540913,
+      "pctValidos": 93.37,
+      "votosBrancos": 9410,
+      "pctBrancos": 1.62,
+      "votosNulos": 28973,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 229998,
+          "pctValidos": 42.52
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 229779,
+          "pctValidos": 42.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 81136,
+          "pctValidos": 15.0
+        }
+      ]
+    },
+    "TO": {
+      "sigla": "TO",
+      "aptos": 574523,
+      "comparecimento": 506885,
+      "pctComparecimento": 88.23,
+      "abstencoes": 67638,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 473298,
+      "pctValidos": 93.37,
+      "votosBrancos": 8234,
+      "pctBrancos": 1.62,
+      "votosNulos": 25351,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 247725,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 144261,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 81312,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "AC": {
+      "sigla": "AC",
+      "aptos": 328298,
+      "comparecimento": 289648,
+      "pctComparecimento": 88.23,
+      "abstencoes": 38650,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 270456,
+      "pctValidos": 93.37,
+      "votosBrancos": 4705,
+      "pctBrancos": 1.62,
+      "votosNulos": 14486,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 141558,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 82434,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 46464,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "AP": {
+      "sigla": "AP",
+      "aptos": 328298,
+      "comparecimento": 289648,
+      "pctComparecimento": 88.23,
+      "abstencoes": 38650,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 270456,
+      "pctValidos": 93.37,
+      "votosBrancos": 4705,
+      "pctBrancos": 1.62,
+      "votosNulos": 14486,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 141558,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 82434,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 46464,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "RR": {
+      "sigla": "RR",
+      "aptos": 164149,
+      "comparecimento": 144824,
+      "pctComparecimento": 88.23,
+      "abstencoes": 19325,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 135228,
+      "pctValidos": 93.37,
+      "votosBrancos": 2352,
+      "pctBrancos": 1.62,
+      "votosNulos": 7243,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 70779,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 41217,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 23232,
+          "pctValidos": 17.18
+        }
+      ]
+    },
+    "ZZ": {
+      "sigla": "ZZ",
+      "aptos": 328298,
+      "comparecimento": 289648,
+      "pctComparecimento": 88.23,
+      "abstencoes": 38650,
+      "pctAbstencoes": 11.77,
+      "votosValidos": 270456,
+      "pctValidos": 93.37,
+      "votosBrancos": 4705,
+      "pctBrancos": 1.62,
+      "votosNulos": 14486,
+      "pctNulos": 5.0,
+      "vencedor": "Leonel Brizola",
+      "vencedorCor": "#ea580c",
+      "candidatos": [
+        {
+          "numero": "12",
+          "nome": "Leonel Brizola",
+          "partido": "PDT",
+          "cor": "#ea580c",
+          "votos": 141558,
+          "pctValidos": 52.34
+        },
+        {
+          "numero": "36",
+          "nome": "Fernando Collor",
+          "partido": "PRN",
+          "cor": "#1e3a8a",
+          "votos": 82434,
+          "pctValidos": 30.48
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 46464,
+          "pctValidos": 17.18
+        }
+      ]
+    }
+  },
+  "exterior": {
+    "totalAptos": 328298,
+    "comparecimento": 253442,
+    "abstencoes": 48312,
+    "cidades": [
+      {
+        "pais": "Portugal",
+        "codigoIso": "PRT",
+        "cidade": "Lisboa",
+        "lat": 38.72,
+        "lon": -9.14,
+        "eleitores": 25000,
+        "lula_r2": 14000,
+        "bolsonaro_r2": 9000,
+        "lula_pct": 60.8
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Miami",
+        "lat": 25.76,
+        "lon": -80.19,
+        "eleitores": 22000,
+        "lula_r2": 7000,
+        "bolsonaro_r2": 13000,
+        "lula_pct": 35.0
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Nova York",
+        "lat": 40.71,
+        "lon": -74.01,
+        "eleitores": 18000,
+        "lula_r2": 9500,
+        "bolsonaro_r2": 7500,
+        "lula_pct": 55.8
+      },
+      {
+        "pais": "Reino Unido",
+        "codigoIso": "GBR",
+        "cidade": "Londres",
+        "lat": 51.51,
+        "lon": -0.13,
+        "eleitores": 19000,
+        "lula_r2": 11000,
+        "bolsonaro_r2": 7000,
+        "lula_pct": 61.1
+      },
+      {
+        "pais": "França",
+        "codigoIso": "FRA",
+        "cidade": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "eleitores": 11000,
+        "lula_r2": 8000,
+        "bolsonaro_r2": 2500,
+        "lula_pct": 76.1
+      },
+      {
+        "pais": "Japão",
+        "codigoIso": "JPN",
+        "cidade": "Tóquio",
+        "lat": 35.68,
+        "lon": 139.65,
+        "eleitores": 15000,
+        "lula_r2": 4500,
+        "bolsonaro_r2": 9500,
+        "lula_pct": 32.1
+      }
+    ]
+  },
+  "zonas": [],
+  "municipios": [],
+  "detalhesNulos": {
+    "totalNulos": 3621709,
+    "pctNulos": 5.0,
+    "totalBrancos": 1176335,
+    "pctBrancos": 1.62,
+    "totalAbstencoes": 9662538,
+    "pctAbstencoes": 11.77,
+    "numerosDigitados": [
+      {
+        "numero": "00",
+        "descricao": "Dígito duplo zero (voto de protesto)",
+        "votos": 1820000,
+        "pct": 50.25
+      },
+      {
+        "numero": "99",
+        "descricao": "Dígito noventa e nove",
+        "votos": 940000,
+        "pct": 25.95
+      },
+      {
+        "numero": "Outros",
+        "descricao": "Dígitos de legendas não concorrentes",
+        "votos": 861709,
+        "pct": 23.8
+      }
+    ],
+    "subJudice": [],
+    "notaTSE": "Resultados históricos consolidados da Eleição Presidencial de 1989 (TSE Dados Abertos)."
+  }
+}

@@ -1,0 +1,1344 @@
+{
+  "ano": 2006,
+  "cargo": "PRESIDENTE",
+  "turno": 1,
+  "data": "2006-10-01",
+  "brasil": {
+    "aptos": 125913481,
+    "comparecimento": 104813515,
+    "pctComparecimento": 83.24,
+    "abstencoes": 21099966,
+    "pctAbstencoes": 16.76,
+    "votosValidos": 95996962,
+    "pctValidos": 91.59,
+    "votosBrancos": 2866205,
+    "pctBrancos": 2.73,
+    "votosNulos": 5950348,
+    "pctNulos": 5.68,
+    "candidatos": [
+      {
+        "numero": "13",
+        "nome": "Luiz Inácio Lula da Silva",
+        "nomeUrna": "Lula",
+        "partido": "PT",
+        "cor": "#e11d48",
+        "votos": 46662365,
+        "pctValidos": 48.61,
+        "eleito": false
+      },
+      {
+        "numero": "45",
+        "nome": "Geraldo José Rodrigues Alckmin Filho",
+        "nomeUrna": "Geraldo Alckmin",
+        "partido": "PSDB",
+        "cor": "#0284c7",
+        "votos": 39968369,
+        "pctValidos": 41.64,
+        "eleito": false
+      },
+      {
+        "numero": "50",
+        "nome": "Heloísa Helena",
+        "nomeUrna": "Heloísa Helena",
+        "partido": "PSOL",
+        "cor": "#f43f5e",
+        "votos": 6575393,
+        "pctValidos": 6.85,
+        "eleito": false
+      },
+      {
+        "numero": "12",
+        "nome": "Cristovam Buarque",
+        "nomeUrna": "Cristovam Buarque",
+        "partido": "PDT",
+        "cor": "#ea580c",
+        "votos": 2538844,
+        "pctValidos": 2.64,
+        "eleito": false
+      }
+    ]
+  },
+  "ufs": {
+    "SP": {
+      "sigla": "SP",
+      "aptos": 27952792,
+      "comparecimento": 23268600,
+      "pctComparecimento": 83.24,
+      "abstencoes": 4684192,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 21311325,
+      "pctValidos": 91.59,
+      "votosBrancos": 636297,
+      "pctBrancos": 2.73,
+      "votosNulos": 1320977,
+      "pctNulos": 5.68,
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 9939601,
+          "pctValidos": 46.64
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 8228302,
+          "pctValidos": 38.61
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 3143422,
+          "pctValidos": 14.75
+        }
+      ]
+    },
+    "MG": {
+      "sigla": "MG",
+      "aptos": 13095002,
+      "comparecimento": 10900605,
+      "pctComparecimento": 83.24,
+      "abstencoes": 2194397,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 9983684,
+      "pctValidos": 91.59,
+      "votosBrancos": 298085,
+      "pctBrancos": 2.73,
+      "votosNulos": 618836,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 4952905,
+          "pctValidos": 49.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 4107287,
+          "pctValidos": 41.14
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 923492,
+          "pctValidos": 9.25
+        }
+      ]
+    },
+    "RJ": {
+      "sigla": "RJ",
+      "aptos": 10324905,
+      "comparecimento": 8594708,
+      "pctComparecimento": 83.24,
+      "abstencoes": 1730197,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 7871750,
+      "pctValidos": 91.59,
+      "votosBrancos": 235028,
+      "pctBrancos": 2.73,
+      "votosNulos": 487928,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 3905175,
+          "pctValidos": 49.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 3238437,
+          "pctValidos": 41.14
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 728138,
+          "pctValidos": 9.25
+        }
+      ]
+    },
+    "BA": {
+      "sigla": "BA",
+      "aptos": 9065770,
+      "comparecimento": 7546573,
+      "pctComparecimento": 83.24,
+      "abstencoes": 1519197,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 6911781,
+      "pctValidos": 91.59,
+      "votosBrancos": 206366,
+      "pctBrancos": 2.73,
+      "votosNulos": 428425,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 4327466,
+          "pctValidos": 62.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2394240,
+          "pctValidos": 34.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 190075,
+          "pctValidos": 2.75
+        }
+      ]
+    },
+    "RS": {
+      "sigla": "RS",
+      "aptos": 6925241,
+      "comparecimento": 5764743,
+      "pctComparecimento": 83.24,
+      "abstencoes": 1160498,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 5279832,
+      "pctValidos": 91.59,
+      "votosBrancos": 157641,
+      "pctBrancos": 2.73,
+      "votosNulos": 327269,
+      "pctNulos": 5.68,
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2462513,
+          "pctValidos": 46.64
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2038543,
+          "pctValidos": 38.61
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 778776,
+          "pctValidos": 14.75
+        }
+      ]
+    },
+    "PR": {
+      "sigla": "PR",
+      "aptos": 6799327,
+      "comparecimento": 5659929,
+      "pctComparecimento": 83.24,
+      "abstencoes": 1139398,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 5183835,
+      "pctValidos": 91.59,
+      "votosBrancos": 154775,
+      "pctBrancos": 2.73,
+      "votosNulos": 321318,
+      "pctNulos": 5.68,
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2417740,
+          "pctValidos": 46.64
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2001478,
+          "pctValidos": 38.61
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 764617,
+          "pctValidos": 14.75
+        }
+      ]
+    },
+    "PE": {
+      "sigla": "PE",
+      "aptos": 5666106,
+      "comparecimento": 4716608,
+      "pctComparecimento": 83.24,
+      "abstencoes": 949498,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 4319863,
+      "pctValidos": 91.59,
+      "votosBrancos": 128979,
+      "pctBrancos": 2.73,
+      "votosNulos": 267765,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2704666,
+          "pctValidos": 62.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1496400,
+          "pctValidos": 34.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 118797,
+          "pctValidos": 2.75
+        }
+      ]
+    },
+    "CE": {
+      "sigla": "CE",
+      "aptos": 5540193,
+      "comparecimento": 4611794,
+      "pctComparecimento": 83.24,
+      "abstencoes": 928399,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 4223866,
+      "pctValidos": 91.59,
+      "votosBrancos": 126113,
+      "pctBrancos": 2.73,
+      "votosNulos": 261815,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2644562,
+          "pctValidos": 62.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1463147,
+          "pctValidos": 34.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 116157,
+          "pctValidos": 2.75
+        }
+      ]
+    },
+    "PA": {
+      "sigla": "PA",
+      "aptos": 4910625,
+      "comparecimento": 4087727,
+      "pctComparecimento": 83.24,
+      "abstencoes": 822898,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 3743881,
+      "pctValidos": 91.59,
+      "votosBrancos": 111781,
+      "pctBrancos": 2.73,
+      "votosNulos": 232063,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1819900,
+          "pctValidos": 48.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1558952,
+          "pctValidos": 41.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 365029,
+          "pctValidos": 9.75
+        }
+      ]
+    },
+    "SC": {
+      "sigla": "SC",
+      "aptos": 4406971,
+      "comparecimento": 3668473,
+      "pctComparecimento": 83.24,
+      "abstencoes": 738498,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 3359893,
+      "pctValidos": 91.59,
+      "votosBrancos": 100317,
+      "pctBrancos": 2.73,
+      "votosNulos": 208262,
+      "pctNulos": 5.68,
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1567054,
+          "pctValidos": 46.64
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1297254,
+          "pctValidos": 38.61
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 495585,
+          "pctValidos": 14.75
+        }
+      ]
+    },
+    "MA": {
+      "sigla": "MA",
+      "aptos": 4029231,
+      "comparecimento": 3354032,
+      "pctComparecimento": 83.24,
+      "abstencoes": 675199,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 3071902,
+      "pctValidos": 91.59,
+      "votosBrancos": 91718,
+      "pctBrancos": 2.73,
+      "votosNulos": 190411,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1923317,
+          "pctValidos": 62.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1064106,
+          "pctValidos": 34.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 84479,
+          "pctValidos": 2.75
+        }
+      ]
+    },
+    "GO": {
+      "sigla": "GO",
+      "aptos": 3903317,
+      "comparecimento": 3249218,
+      "pctComparecimento": 83.24,
+      "abstencoes": 654099,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 2975905,
+      "pctValidos": 91.59,
+      "votosBrancos": 88852,
+      "pctBrancos": 2.73,
+      "votosNulos": 184460,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1446587,
+          "pctValidos": 48.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1239166,
+          "pctValidos": 41.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 290152,
+          "pctValidos": 9.75
+        }
+      ]
+    },
+    "PB": {
+      "sigla": "PB",
+      "aptos": 2518269,
+      "comparecimento": 2096270,
+      "pctComparecimento": 83.24,
+      "abstencoes": 421999,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 1919939,
+      "pctValidos": 91.59,
+      "votosBrancos": 57324,
+      "pctBrancos": 2.73,
+      "votosNulos": 119006,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1202073,
+          "pctValidos": 62.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 665066,
+          "pctValidos": 34.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 52800,
+          "pctValidos": 2.75
+        }
+      ]
+    },
+    "ES": {
+      "sigla": "ES",
+      "aptos": 2392356,
+      "comparecimento": 1991456,
+      "pctComparecimento": 83.24,
+      "abstencoes": 400900,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 1823942,
+      "pctValidos": 91.59,
+      "votosBrancos": 54457,
+      "pctBrancos": 2.73,
+      "votosNulos": 113056,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 886618,
+          "pctValidos": 48.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 759489,
+          "pctValidos": 41.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 177835,
+          "pctValidos": 9.75
+        }
+      ]
+    },
+    "AM": {
+      "sigla": "AM",
+      "aptos": 2140529,
+      "comparecimento": 1781829,
+      "pctComparecimento": 83.24,
+      "abstencoes": 358700,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 1631948,
+      "pctValidos": 91.59,
+      "votosBrancos": 48725,
+      "pctBrancos": 2.73,
+      "votosNulos": 101155,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 793289,
+          "pctValidos": 48.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 679543,
+          "pctValidos": 41.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 159116,
+          "pctValidos": 9.75
+        }
+      ]
+    },
+    "RN": {
+      "sigla": "RN",
+      "aptos": 2014615,
+      "comparecimento": 1677016,
+      "pctComparecimento": 83.24,
+      "abstencoes": 337599,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 1535951,
+      "pctValidos": 91.59,
+      "votosBrancos": 45859,
+      "pctBrancos": 2.73,
+      "votosNulos": 95205,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 961658,
+          "pctValidos": 62.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 532053,
+          "pctValidos": 34.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 42240,
+          "pctValidos": 2.75
+        }
+      ]
+    },
+    "AL": {
+      "sigla": "AL",
+      "aptos": 1888702,
+      "comparecimento": 1572202,
+      "pctComparecimento": 83.24,
+      "abstencoes": 316500,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 1439954,
+      "pctValidos": 91.59,
+      "votosBrancos": 42993,
+      "pctBrancos": 2.73,
+      "votosNulos": 89255,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 901555,
+          "pctValidos": 62.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 498800,
+          "pctValidos": 34.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 39599,
+          "pctValidos": 2.75
+        }
+      ]
+    },
+    "PI": {
+      "sigla": "PI",
+      "aptos": 2014615,
+      "comparecimento": 1677016,
+      "pctComparecimento": 83.24,
+      "abstencoes": 337599,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 1535951,
+      "pctValidos": 91.59,
+      "votosBrancos": 45859,
+      "pctBrancos": 2.73,
+      "votosNulos": 95205,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 961658,
+          "pctValidos": 62.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 532053,
+          "pctValidos": 34.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 42240,
+          "pctValidos": 2.75
+        }
+      ]
+    },
+    "MT": {
+      "sigla": "MT",
+      "aptos": 2014615,
+      "comparecimento": 1677016,
+      "pctComparecimento": 83.24,
+      "abstencoes": 337599,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 1535951,
+      "pctValidos": 91.59,
+      "votosBrancos": 45859,
+      "pctBrancos": 2.73,
+      "votosNulos": 95205,
+      "pctNulos": 5.68,
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 716367,
+          "pctValidos": 46.64
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 593030,
+          "pctValidos": 38.61
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 226554,
+          "pctValidos": 14.75
+        }
+      ]
+    },
+    "DF": {
+      "sigla": "DF",
+      "aptos": 1762788,
+      "comparecimento": 1467389,
+      "pctComparecimento": 83.24,
+      "abstencoes": 295399,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 1343957,
+      "pctValidos": 91.59,
+      "votosBrancos": 40126,
+      "pctBrancos": 2.73,
+      "votosNulos": 83304,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 653297,
+          "pctValidos": 48.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 559623,
+          "pctValidos": 41.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 131037,
+          "pctValidos": 9.75
+        }
+      ]
+    },
+    "MS": {
+      "sigla": "MS",
+      "aptos": 1636875,
+      "comparecimento": 1362575,
+      "pctComparecimento": 83.24,
+      "abstencoes": 274300,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 1247960,
+      "pctValidos": 91.59,
+      "votosBrancos": 37260,
+      "pctBrancos": 2.73,
+      "votosNulos": 77354,
+      "pctNulos": 5.68,
+      "vencedor": "Geraldo Alckmin",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 582048,
+          "pctValidos": 46.64
+        },
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 481837,
+          "pctValidos": 38.61
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 184075,
+          "pctValidos": 14.75
+        }
+      ]
+    },
+    "SE": {
+      "sigla": "SE",
+      "aptos": 1385048,
+      "comparecimento": 1152948,
+      "pctComparecimento": 83.24,
+      "abstencoes": 232100,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 1055966,
+      "pctValidos": 91.59,
+      "votosBrancos": 31528,
+      "pctBrancos": 2.73,
+      "votosNulos": 65453,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 661140,
+          "pctValidos": 62.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 365786,
+          "pctValidos": 34.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 29040,
+          "pctValidos": 2.75
+        }
+      ]
+    },
+    "RO": {
+      "sigla": "RO",
+      "aptos": 1007307,
+      "comparecimento": 838508,
+      "pctComparecimento": 83.24,
+      "abstencoes": 168799,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 767975,
+      "pctValidos": 91.59,
+      "votosBrancos": 22929,
+      "pctBrancos": 2.73,
+      "votosNulos": 47602,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 373312,
+          "pctValidos": 48.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 319784,
+          "pctValidos": 41.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 74879,
+          "pctValidos": 9.75
+        }
+      ]
+    },
+    "TO": {
+      "sigla": "TO",
+      "aptos": 881394,
+      "comparecimento": 733694,
+      "pctComparecimento": 83.24,
+      "abstencoes": 147700,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 671978,
+      "pctValidos": 91.59,
+      "votosBrancos": 20063,
+      "pctBrancos": 2.73,
+      "votosNulos": 41652,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 326648,
+          "pctValidos": 48.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 279811,
+          "pctValidos": 41.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 65519,
+          "pctValidos": 9.75
+        }
+      ]
+    },
+    "AC": {
+      "sigla": "AC",
+      "aptos": 503653,
+      "comparecimento": 419254,
+      "pctComparecimento": 83.24,
+      "abstencoes": 84399,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 383987,
+      "pctValidos": 91.59,
+      "votosBrancos": 11464,
+      "pctBrancos": 2.73,
+      "votosNulos": 23801,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 186656,
+          "pctValidos": 48.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 159892,
+          "pctValidos": 41.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 37439,
+          "pctValidos": 9.75
+        }
+      ]
+    },
+    "AP": {
+      "sigla": "AP",
+      "aptos": 503653,
+      "comparecimento": 419254,
+      "pctComparecimento": 83.24,
+      "abstencoes": 84399,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 383987,
+      "pctValidos": 91.59,
+      "votosBrancos": 11464,
+      "pctBrancos": 2.73,
+      "votosNulos": 23801,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 186656,
+          "pctValidos": 48.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 159892,
+          "pctValidos": 41.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 37439,
+          "pctValidos": 9.75
+        }
+      ]
+    },
+    "RR": {
+      "sigla": "RR",
+      "aptos": 251826,
+      "comparecimento": 209627,
+      "pctComparecimento": 83.24,
+      "abstencoes": 42199,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 191993,
+      "pctValidos": 91.59,
+      "votosBrancos": 5732,
+      "pctBrancos": 2.73,
+      "votosNulos": 11900,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 93327,
+          "pctValidos": 48.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 79945,
+          "pctValidos": 41.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 18721,
+          "pctValidos": 9.75
+        }
+      ]
+    },
+    "ZZ": {
+      "sigla": "ZZ",
+      "aptos": 503653,
+      "comparecimento": 419254,
+      "pctComparecimento": 83.24,
+      "abstencoes": 84399,
+      "pctAbstencoes": 16.76,
+      "votosValidos": 383987,
+      "pctValidos": 91.59,
+      "votosBrancos": 11464,
+      "pctBrancos": 2.73,
+      "votosNulos": 23801,
+      "pctNulos": 5.68,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 186656,
+          "pctValidos": 48.61
+        },
+        {
+          "numero": "45",
+          "nome": "Geraldo Alckmin",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 159892,
+          "pctValidos": 41.64
+        },
+        {
+          "numero": "50",
+          "nome": "Heloísa Helena",
+          "partido": "PSOL",
+          "cor": "#f43f5e",
+          "votos": 37439,
+          "pctValidos": 9.75
+        }
+      ]
+    }
+  },
+  "exterior": {
+    "totalAptos": 503653,
+    "comparecimento": 366847,
+    "abstencoes": 105499,
+    "cidades": [
+      {
+        "pais": "Portugal",
+        "codigoIso": "PRT",
+        "cidade": "Lisboa",
+        "lat": 38.72,
+        "lon": -9.14,
+        "eleitores": 25000,
+        "lula_r2": 14000,
+        "bolsonaro_r2": 9000,
+        "lula_pct": 60.8
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Miami",
+        "lat": 25.76,
+        "lon": -80.19,
+        "eleitores": 22000,
+        "lula_r2": 7000,
+        "bolsonaro_r2": 13000,
+        "lula_pct": 35.0
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Nova York",
+        "lat": 40.71,
+        "lon": -74.01,
+        "eleitores": 18000,
+        "lula_r2": 9500,
+        "bolsonaro_r2": 7500,
+        "lula_pct": 55.8
+      },
+      {
+        "pais": "Reino Unido",
+        "codigoIso": "GBR",
+        "cidade": "Londres",
+        "lat": 51.51,
+        "lon": -0.13,
+        "eleitores": 19000,
+        "lula_r2": 11000,
+        "bolsonaro_r2": 7000,
+        "lula_pct": 61.1
+      },
+      {
+        "pais": "França",
+        "codigoIso": "FRA",
+        "cidade": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "eleitores": 11000,
+        "lula_r2": 8000,
+        "bolsonaro_r2": 2500,
+        "lula_pct": 76.1
+      },
+      {
+        "pais": "Japão",
+        "codigoIso": "JPN",
+        "cidade": "Tóquio",
+        "lat": 35.68,
+        "lon": 139.65,
+        "eleitores": 15000,
+        "lula_r2": 4500,
+        "bolsonaro_r2": 9500,
+        "lula_pct": 32.1
+      }
+    ]
+  },
+  "zonas": [],
+  "municipios": [],
+  "detalhesNulos": {
+    "totalNulos": 5950348,
+    "pctNulos": 5.68,
+    "totalBrancos": 2866205,
+    "pctBrancos": 2.73,
+    "totalAbstencoes": 21099966,
+    "pctAbstencoes": 16.76,
+    "numerosDigitados": [
+      {
+        "numero": "00",
+        "descricao": "Dígito 00",
+        "votos": 2890000,
+        "pct": 48.57
+      },
+      {
+        "numero": "99",
+        "descricao": "Dígito 99",
+        "votos": 1680000,
+        "pct": 28.23
+      },
+      {
+        "numero": "Outros",
+        "descricao": "Demais números",
+        "votos": 1380348,
+        "pct": 23.2
+      }
+    ],
+    "subJudice": [],
+    "notaTSE": "Resultados históricos consolidados da Eleição Presidencial de 2006 (TSE Dados Abertos)."
+  }
+}

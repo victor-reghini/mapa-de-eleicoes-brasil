@@ -1,0 +1,150 @@
+{
+  "supportedElections": [
+    {
+      "id": "2022_PRESIDENTE",
+      "ano": 2022,
+      "cargo": "PRESIDENTE",
+      "titulo": "Eleição Presidencial 2022",
+      "turnos": [
+        1,
+        2
+      ],
+      "data1Turno": "2022-10-02",
+      "data2Turno": "2022-10-30",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2018_PRESIDENTE",
+      "ano": 2018,
+      "cargo": "PRESIDENTE",
+      "titulo": "Eleição Presidencial 2018",
+      "turnos": [
+        1,
+        2
+      ],
+      "data1Turno": "2018-10-07",
+      "data2Turno": "2018-10-28",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2014_PRESIDENTE",
+      "ano": 2014,
+      "cargo": "PRESIDENTE",
+      "titulo": "Eleição Presidencial 2014",
+      "turnos": [
+        1,
+        2
+      ],
+      "data1Turno": "2014-10-05",
+      "data2Turno": "2014-10-26",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2010_PRESIDENTE",
+      "ano": 2010,
+      "cargo": "PRESIDENTE",
+      "titulo": "Eleição Presidencial 2010",
+      "turnos": [
+        1,
+        2
+      ],
+      "data1Turno": "2010-10-03",
+      "data2Turno": "2010-10-31",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2006_PRESIDENTE",
+      "ano": 2006,
+      "cargo": "PRESIDENTE",
+      "titulo": "Eleição Presidencial 2006",
+      "turnos": [
+        1,
+        2
+      ],
+      "data1Turno": "2006-10-01",
+      "data2Turno": "2006-10-29",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2002_PRESIDENTE",
+      "ano": 2002,
+      "cargo": "PRESIDENTE",
+      "titulo": "Eleição Presidencial 2002",
+      "turnos": [
+        1,
+        2
+      ],
+      "data1Turno": "2002-10-06",
+      "data2Turno": "2002-10-27",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "1998_PRESIDENTE",
+      "ano": 1998,
+      "cargo": "PRESIDENTE",
+      "titulo": "Eleição Presidencial 1998",
+      "turnos": [
+        1
+      ],
+      "data1Turno": "1998-10-04",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "1994_PRESIDENTE",
+      "ano": 1994,
+      "cargo": "PRESIDENTE",
+      "titulo": "Eleição Presidencial 1994",
+      "turnos": [
+        1
+      ],
+      "data1Turno": "1994-10-03",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "1989_PRESIDENTE",
+      "ano": 1989,
+      "cargo": "PRESIDENTE",
+      "titulo": "Eleição Presidencial 1989",
+      "turnos": [
+        1,
+        2
+      ],
+      "data1Turno": "1989-11-15",
+      "data2Turno": "1989-12-17",
+      "status": "CONSOLIDADO"
+    }
+  ],
+  "futureCargoScalability": [
+    {
+      "cargo": "GOVERNADOR",
+      "descricao": "Governadores de Estado e Distrito Federal"
+    },
+    {
+      "cargo": "SENADOR",
+      "descricao": "Senado Federal"
+    },
+    {
+      "cargo": "DEPUTADO_FEDERAL",
+      "descricao": "Câmara dos Deputados"
+    },
+    {
+      "cargo": "DEPUTADO_ESTADUAL",
+      "descricao": "Assembleias Legislativas"
+    },
+    {
+      "cargo": "PREFEITO",
+      "descricao": "Prefeituras Municipais"
+    },
+    {
+      "cargo": "VEREADOR",
+      "descricao": "Câmaras de Vereadores"
+    }
+  ],
+  "localDatabase": {
+    "engine": "SQLite 3",
+    "file": "data/eleicoes_brasil.db",
+    "publicUrl": "/data/eleicoes_brasil.db",
+    "totalEleicoes": 9,
+    "periodo": "1989 - 2022 (Redemocratização Completa)"
+  }
+}

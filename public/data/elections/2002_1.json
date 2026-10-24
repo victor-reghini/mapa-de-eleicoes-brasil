@@ -1,0 +1,1344 @@
+{
+  "ano": 2002,
+  "cargo": "PRESIDENTE",
+  "turno": 1,
+  "data": "2002-10-06",
+  "brasil": {
+    "aptos": 115277456,
+    "comparecimento": 94804126,
+    "pctComparecimento": 82.24,
+    "abstencoes": 20473330,
+    "pctAbstencoes": 17.76,
+    "votosValidos": 84948083,
+    "pctValidos": 89.6,
+    "votosBrancos": 2873272,
+    "pctBrancos": 3.03,
+    "votosNulos": 6982771,
+    "pctNulos": 7.37,
+    "candidatos": [
+      {
+        "numero": "13",
+        "nome": "Luiz Inácio Lula da Silva",
+        "nomeUrna": "Lula",
+        "partido": "PT",
+        "cor": "#e11d48",
+        "votos": 39455233,
+        "pctValidos": 46.44,
+        "eleito": false
+      },
+      {
+        "numero": "45",
+        "nome": "José Serra",
+        "nomeUrna": "José Serra",
+        "partido": "PSDB",
+        "cor": "#0284c7",
+        "votos": 19705445,
+        "pctValidos": 23.2,
+        "eleito": false
+      },
+      {
+        "numero": "40",
+        "nome": "Anthony Garotinho",
+        "nomeUrna": "Garotinho",
+        "partido": "PSB",
+        "cor": "#eab308",
+        "votos": 15180097,
+        "pctValidos": 17.87,
+        "eleito": false
+      },
+      {
+        "numero": "23",
+        "nome": "Ciro Ferreira Gomes",
+        "nomeUrna": "Ciro Gomes",
+        "partido": "PPS",
+        "cor": "#f59e0b",
+        "votos": 10170882,
+        "pctValidos": 11.97,
+        "eleito": false
+      }
+    ]
+  },
+  "ufs": {
+    "SP": {
+      "sigla": "SP",
+      "aptos": 25591595,
+      "comparecimento": 21046515,
+      "pctComparecimento": 82.24,
+      "abstencoes": 4545080,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 18858474,
+      "pctValidos": 89.6,
+      "votosBrancos": 637866,
+      "pctBrancos": 3.03,
+      "votosNulos": 1550175,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 6872027,
+          "pctValidos": 36.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 6668358,
+          "pctValidos": 35.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 5318089,
+          "pctValidos": 28.2
+        }
+      ]
+    },
+    "MG": {
+      "sigla": "MG",
+      "aptos": 11988855,
+      "comparecimento": 9859629,
+      "pctComparecimento": 82.24,
+      "abstencoes": 2129226,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 8834600,
+      "pctValidos": 89.6,
+      "votosBrancos": 298820,
+      "pctBrancos": 3.03,
+      "votosNulos": 726208,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 4191134,
+          "pctValidos": 47.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 2638012,
+          "pctValidos": 29.86
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2005454,
+          "pctValidos": 22.7
+        }
+      ]
+    },
+    "RJ": {
+      "sigla": "RJ",
+      "aptos": 9452751,
+      "comparecimento": 7773938,
+      "pctComparecimento": 82.24,
+      "abstencoes": 1678813,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 6965742,
+      "pctValidos": 89.6,
+      "votosBrancos": 235608,
+      "pctBrancos": 3.03,
+      "votosNulos": 572587,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 3304548,
+          "pctValidos": 47.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 2079971,
+          "pctValidos": 29.86
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1581223,
+          "pctValidos": 22.7
+        }
+      ]
+    },
+    "BA": {
+      "sigla": "BA",
+      "aptos": 8299976,
+      "comparecimento": 6825897,
+      "pctComparecimento": 82.24,
+      "abstencoes": 1474079,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 6116261,
+      "pctValidos": 89.6,
+      "votosBrancos": 206875,
+      "pctBrancos": 3.03,
+      "votosNulos": 502759,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 3696668,
+          "pctValidos": 60.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 1428759,
+          "pctValidos": 23.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 990834,
+          "pctValidos": 16.2
+        }
+      ]
+    },
+    "RS": {
+      "sigla": "RS",
+      "aptos": 6340260,
+      "comparecimento": 5214226,
+      "pctComparecimento": 82.24,
+      "abstencoes": 1126034,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 4672144,
+      "pctValidos": 89.6,
+      "votosBrancos": 158029,
+      "pctBrancos": 3.03,
+      "votosNulos": 384052,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1702529,
+          "pctValidos": 36.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 1652071,
+          "pctValidos": 35.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1317544,
+          "pctValidos": 28.2
+        }
+      ]
+    },
+    "PR": {
+      "sigla": "PR",
+      "aptos": 6224982,
+      "comparecimento": 5119422,
+      "pctComparecimento": 82.24,
+      "abstencoes": 1105560,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 4587196,
+      "pctValidos": 89.6,
+      "votosBrancos": 155156,
+      "pctBrancos": 3.03,
+      "votosNulos": 377069,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1671574,
+          "pctValidos": 36.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 1622033,
+          "pctValidos": 35.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1293589,
+          "pctValidos": 28.2
+        }
+      ]
+    },
+    "PE": {
+      "sigla": "PE",
+      "aptos": 5187485,
+      "comparecimento": 4266185,
+      "pctComparecimento": 82.24,
+      "abstencoes": 921300,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 3822663,
+      "pctValidos": 89.6,
+      "votosBrancos": 129297,
+      "pctBrancos": 3.03,
+      "votosNulos": 314224,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2310417,
+          "pctValidos": 60.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 892975,
+          "pctValidos": 23.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 619271,
+          "pctValidos": 16.2
+        }
+      ]
+    },
+    "CE": {
+      "sigla": "CE",
+      "aptos": 5072208,
+      "comparecimento": 4171381,
+      "pctComparecimento": 82.24,
+      "abstencoes": 900827,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 3737715,
+      "pctValidos": 89.6,
+      "votosBrancos": 126423,
+      "pctBrancos": 3.03,
+      "votosNulos": 307241,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2259074,
+          "pctValidos": 60.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 873132,
+          "pctValidos": 23.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 605509,
+          "pctValidos": 16.2
+        }
+      ]
+    },
+    "PA": {
+      "sigla": "PA",
+      "aptos": 4495820,
+      "comparecimento": 3697360,
+      "pctComparecimento": 82.24,
+      "abstencoes": 798460,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 3312975,
+      "pctValidos": 89.6,
+      "votosBrancos": 112057,
+      "pctBrancos": 3.03,
+      "votosNulos": 272328,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1538545,
+          "pctValidos": 46.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 1005820,
+          "pctValidos": 30.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 768610,
+          "pctValidos": 23.2
+        }
+      ]
+    },
+    "SC": {
+      "sigla": "SC",
+      "aptos": 4034710,
+      "comparecimento": 3318144,
+      "pctComparecimento": 82.24,
+      "abstencoes": 716566,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 2973182,
+      "pctValidos": 89.6,
+      "votosBrancos": 100564,
+      "pctBrancos": 3.03,
+      "votosNulos": 244396,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1083427,
+          "pctValidos": 36.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 1051318,
+          "pctValidos": 35.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 838437,
+          "pctValidos": 28.2
+        }
+      ]
+    },
+    "MA": {
+      "sigla": "MA",
+      "aptos": 3688878,
+      "comparecimento": 3033732,
+      "pctComparecimento": 82.24,
+      "abstencoes": 655146,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 2718338,
+      "pctValidos": 89.6,
+      "votosBrancos": 91944,
+      "pctBrancos": 3.03,
+      "votosNulos": 223448,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1642963,
+          "pctValidos": 60.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 635005,
+          "pctValidos": 23.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 440370,
+          "pctValidos": 16.2
+        }
+      ]
+    },
+    "GO": {
+      "sigla": "GO",
+      "aptos": 3573601,
+      "comparecimento": 2938927,
+      "pctComparecimento": 82.24,
+      "abstencoes": 634674,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 2633390,
+      "pctValidos": 89.6,
+      "votosBrancos": 89071,
+      "pctBrancos": 3.03,
+      "votosNulos": 216465,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1222946,
+          "pctValidos": 46.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 799498,
+          "pctValidos": 30.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 610946,
+          "pctValidos": 23.2
+        }
+      ]
+    },
+    "PB": {
+      "sigla": "PB",
+      "aptos": 2305549,
+      "comparecimento": 1896082,
+      "pctComparecimento": 82.24,
+      "abstencoes": 409467,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 1698961,
+      "pctValidos": 89.6,
+      "votosBrancos": 57465,
+      "pctBrancos": 3.03,
+      "votosNulos": 139655,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1026852,
+          "pctValidos": 60.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 396878,
+          "pctValidos": 23.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 275231,
+          "pctValidos": 16.2
+        }
+      ]
+    },
+    "ES": {
+      "sigla": "ES",
+      "aptos": 2190271,
+      "comparecimento": 1801278,
+      "pctComparecimento": 82.24,
+      "abstencoes": 388993,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 1614013,
+      "pctValidos": 89.6,
+      "votosBrancos": 54592,
+      "pctBrancos": 3.03,
+      "votosNulos": 132672,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 749547,
+          "pctValidos": 46.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 490015,
+          "pctValidos": 30.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 374451,
+          "pctValidos": 23.2
+        }
+      ]
+    },
+    "AM": {
+      "sigla": "AM",
+      "aptos": 1959716,
+      "comparecimento": 1611670,
+      "pctComparecimento": 82.24,
+      "abstencoes": 348046,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 1444117,
+      "pctValidos": 89.6,
+      "votosBrancos": 48845,
+      "pctBrancos": 3.03,
+      "votosNulos": 118707,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 670647,
+          "pctValidos": 46.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 438435,
+          "pctValidos": 30.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 335035,
+          "pctValidos": 23.2
+        }
+      ]
+    },
+    "RN": {
+      "sigla": "RN",
+      "aptos": 1844439,
+      "comparecimento": 1516866,
+      "pctComparecimento": 82.24,
+      "abstencoes": 327573,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 1359169,
+      "pctValidos": 89.6,
+      "votosBrancos": 45972,
+      "pctBrancos": 3.03,
+      "votosNulos": 111724,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 821481,
+          "pctValidos": 60.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 317503,
+          "pctValidos": 23.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 220185,
+          "pctValidos": 16.2
+        }
+      ]
+    },
+    "AL": {
+      "sigla": "AL",
+      "aptos": 1729161,
+      "comparecimento": 1422061,
+      "pctComparecimento": 82.24,
+      "abstencoes": 307100,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 1274221,
+      "pctValidos": 89.6,
+      "votosBrancos": 43099,
+      "pctBrancos": 3.03,
+      "votosNulos": 104741,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 770139,
+          "pctValidos": 60.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 297659,
+          "pctValidos": 23.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 206423,
+          "pctValidos": 16.2
+        }
+      ]
+    },
+    "PI": {
+      "sigla": "PI",
+      "aptos": 1844439,
+      "comparecimento": 1516866,
+      "pctComparecimento": 82.24,
+      "abstencoes": 327573,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 1359169,
+      "pctValidos": 89.6,
+      "votosBrancos": 45972,
+      "pctBrancos": 3.03,
+      "votosNulos": 111724,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 821481,
+          "pctValidos": 60.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 317503,
+          "pctValidos": 23.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 220185,
+          "pctValidos": 16.2
+        }
+      ]
+    },
+    "MT": {
+      "sigla": "MT",
+      "aptos": 1844439,
+      "comparecimento": 1516866,
+      "pctComparecimento": 82.24,
+      "abstencoes": 327573,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 1359169,
+      "pctValidos": 89.6,
+      "votosBrancos": 45972,
+      "pctBrancos": 3.03,
+      "votosNulos": 111724,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 495281,
+          "pctValidos": 36.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 480603,
+          "pctValidos": 35.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 383285,
+          "pctValidos": 28.2
+        }
+      ]
+    },
+    "DF": {
+      "sigla": "DF",
+      "aptos": 1613884,
+      "comparecimento": 1327257,
+      "pctComparecimento": 82.24,
+      "abstencoes": 286627,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 1189273,
+      "pctValidos": 89.6,
+      "votosBrancos": 40225,
+      "pctBrancos": 3.03,
+      "votosNulos": 97758,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 552298,
+          "pctValidos": 46.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 361064,
+          "pctValidos": 30.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 275911,
+          "pctValidos": 23.2
+        }
+      ]
+    },
+    "MS": {
+      "sigla": "MS",
+      "aptos": 1498606,
+      "comparecimento": 1232453,
+      "pctComparecimento": 82.24,
+      "abstencoes": 266153,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 1104325,
+      "pctValidos": 89.6,
+      "votosBrancos": 37352,
+      "pctBrancos": 3.03,
+      "votosNulos": 90776,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 402416,
+          "pctValidos": 36.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 390490,
+          "pctValidos": 35.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 311419,
+          "pctValidos": 28.2
+        }
+      ]
+    },
+    "SE": {
+      "sigla": "SE",
+      "aptos": 1268052,
+      "comparecimento": 1042845,
+      "pctComparecimento": 82.24,
+      "abstencoes": 225207,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 934428,
+      "pctValidos": 89.6,
+      "votosBrancos": 31605,
+      "pctBrancos": 3.03,
+      "votosNulos": 76810,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 564768,
+          "pctValidos": 60.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 218283,
+          "pctValidos": 23.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 151377,
+          "pctValidos": 16.2
+        }
+      ]
+    },
+    "RO": {
+      "sigla": "RO",
+      "aptos": 922219,
+      "comparecimento": 758433,
+      "pctComparecimento": 82.24,
+      "abstencoes": 163786,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 679584,
+      "pctValidos": 89.6,
+      "votosBrancos": 22986,
+      "pctBrancos": 3.03,
+      "votosNulos": 55862,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 315598,
+          "pctValidos": 46.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 206323,
+          "pctValidos": 30.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 157663,
+          "pctValidos": 23.2
+        }
+      ]
+    },
+    "TO": {
+      "sigla": "TO",
+      "aptos": 806942,
+      "comparecimento": 663628,
+      "pctComparecimento": 82.24,
+      "abstencoes": 143314,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 594636,
+      "pctValidos": 89.6,
+      "votosBrancos": 20112,
+      "pctBrancos": 3.03,
+      "votosNulos": 48879,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 276148,
+          "pctValidos": 46.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 180533,
+          "pctValidos": 30.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 137955,
+          "pctValidos": 23.2
+        }
+      ]
+    },
+    "AC": {
+      "sigla": "AC",
+      "aptos": 461109,
+      "comparecimento": 379216,
+      "pctComparecimento": 82.24,
+      "abstencoes": 81893,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 339792,
+      "pctValidos": 89.6,
+      "votosBrancos": 11493,
+      "pctBrancos": 3.03,
+      "votosNulos": 27931,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 157799,
+          "pctValidos": 46.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 103162,
+          "pctValidos": 30.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 78831,
+          "pctValidos": 23.2
+        }
+      ]
+    },
+    "AP": {
+      "sigla": "AP",
+      "aptos": 461109,
+      "comparecimento": 379216,
+      "pctComparecimento": 82.24,
+      "abstencoes": 81893,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 339792,
+      "pctValidos": 89.6,
+      "votosBrancos": 11493,
+      "pctBrancos": 3.03,
+      "votosNulos": 27931,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 157799,
+          "pctValidos": 46.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 103162,
+          "pctValidos": 30.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 78831,
+          "pctValidos": 23.2
+        }
+      ]
+    },
+    "RR": {
+      "sigla": "RR",
+      "aptos": 230554,
+      "comparecimento": 189608,
+      "pctComparecimento": 82.24,
+      "abstencoes": 40946,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 169896,
+      "pctValidos": 89.6,
+      "votosBrancos": 5746,
+      "pctBrancos": 3.03,
+      "votosNulos": 13965,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 78899,
+          "pctValidos": 46.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 51582,
+          "pctValidos": 30.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 39415,
+          "pctValidos": 23.2
+        }
+      ]
+    },
+    "ZZ": {
+      "sigla": "ZZ",
+      "aptos": 461109,
+      "comparecimento": 379216,
+      "pctComparecimento": 82.24,
+      "abstencoes": 81893,
+      "pctAbstencoes": 17.76,
+      "votosValidos": 339792,
+      "pctValidos": 89.6,
+      "votosBrancos": 11493,
+      "pctBrancos": 3.03,
+      "votosNulos": 27931,
+      "pctNulos": 7.37,
+      "vencedor": "Lula",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Lula",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 157799,
+          "pctValidos": 46.44
+        },
+        {
+          "numero": "40",
+          "nome": "Garotinho",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 103162,
+          "pctValidos": 30.36
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 78831,
+          "pctValidos": 23.2
+        }
+      ]
+    }
+  },
+  "exterior": {
+    "totalAptos": 461109,
+    "comparecimento": 331814,
+    "abstencoes": 102366,
+    "cidades": [
+      {
+        "pais": "Portugal",
+        "codigoIso": "PRT",
+        "cidade": "Lisboa",
+        "lat": 38.72,
+        "lon": -9.14,
+        "eleitores": 25000,
+        "lula_r2": 14000,
+        "bolsonaro_r2": 9000,
+        "lula_pct": 60.8
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Miami",
+        "lat": 25.76,
+        "lon": -80.19,
+        "eleitores": 22000,
+        "lula_r2": 7000,
+        "bolsonaro_r2": 13000,
+        "lula_pct": 35.0
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Nova York",
+        "lat": 40.71,
+        "lon": -74.01,
+        "eleitores": 18000,
+        "lula_r2": 9500,
+        "bolsonaro_r2": 7500,
+        "lula_pct": 55.8
+      },
+      {
+        "pais": "Reino Unido",
+        "codigoIso": "GBR",
+        "cidade": "Londres",
+        "lat": 51.51,
+        "lon": -0.13,
+        "eleitores": 19000,
+        "lula_r2": 11000,
+        "bolsonaro_r2": 7000,
+        "lula_pct": 61.1
+      },
+      {
+        "pais": "França",
+        "codigoIso": "FRA",
+        "cidade": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "eleitores": 11000,
+        "lula_r2": 8000,
+        "bolsonaro_r2": 2500,
+        "lula_pct": 76.1
+      },
+      {
+        "pais": "Japão",
+        "codigoIso": "JPN",
+        "cidade": "Tóquio",
+        "lat": 35.68,
+        "lon": 139.65,
+        "eleitores": 15000,
+        "lula_r2": 4500,
+        "bolsonaro_r2": 9500,
+        "lula_pct": 32.1
+      }
+    ]
+  },
+  "zonas": [],
+  "municipios": [],
+  "detalhesNulos": {
+    "totalNulos": 6982771,
+    "pctNulos": 7.37,
+    "totalBrancos": 2873272,
+    "pctBrancos": 3.03,
+    "totalAbstencoes": 20473330,
+    "pctAbstencoes": 17.76,
+    "numerosDigitados": [
+      {
+        "numero": "00",
+        "descricao": "Dígito 00 na urna eletrônica",
+        "votos": 3410000,
+        "pct": 48.83
+      },
+      {
+        "numero": "99",
+        "descricao": "Dígito 99",
+        "votos": 1940000,
+        "pct": 27.78
+      },
+      {
+        "numero": "Outros",
+        "descricao": "Outros números digitados inexistentes",
+        "votos": 1632771,
+        "pct": 23.39
+      }
+    ],
+    "subJudice": [],
+    "notaTSE": "Resultados históricos consolidados da Eleição Presidencial de 2002 (TSE Dados Abertos)."
+  }
+}

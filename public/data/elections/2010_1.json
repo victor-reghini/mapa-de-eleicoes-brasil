@@ -1,0 +1,1344 @@
+{
+  "ano": 2010,
+  "cargo": "PRESIDENTE",
+  "turno": 1,
+  "data": "2010-10-03",
+  "brasil": {
+    "aptos": 135804433,
+    "comparecimento": 111193747,
+    "pctComparecimento": 81.88,
+    "abstencoes": 24610686,
+    "pctAbstencoes": 18.12,
+    "votosValidos": 101590418,
+    "pctValidos": 91.36,
+    "votosBrancos": 3479340,
+    "pctBrancos": 3.13,
+    "votosNulos": 6124254,
+    "pctNulos": 5.51,
+    "candidatos": [
+      {
+        "numero": "13",
+        "nome": "Dilma Vana Rousseff",
+        "nomeUrna": "Dilma Rousseff",
+        "partido": "PT",
+        "cor": "#e11d48",
+        "votos": 47651434,
+        "pctValidos": 46.91,
+        "eleito": false
+      },
+      {
+        "numero": "45",
+        "nome": "José Serra",
+        "nomeUrna": "José Serra",
+        "partido": "PSDB",
+        "cor": "#0284c7",
+        "votos": 33132283,
+        "pctValidos": 32.61,
+        "eleito": false
+      },
+      {
+        "numero": "43",
+        "nome": "Marina Silva",
+        "nomeUrna": "Marina Silva",
+        "partido": "PV",
+        "cor": "#16a34a",
+        "votos": 19636295,
+        "pctValidos": 19.33,
+        "eleito": false
+      },
+      {
+        "numero": "50",
+        "nome": "Plínio de Arruda Sampaio",
+        "nomeUrna": "Plínio de Arruda Sampaio",
+        "partido": "PSOL",
+        "cor": "#f43f5e",
+        "votos": 886816,
+        "pctValidos": 0.87,
+        "eleito": false
+      }
+    ]
+  },
+  "ufs": {
+    "SP": {
+      "sigla": "SP",
+      "aptos": 30148584,
+      "comparecimento": 24685011,
+      "pctComparecimento": 81.88,
+      "abstencoes": 5463573,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 22553072,
+      "pctValidos": 91.36,
+      "votosBrancos": 772413,
+      "pctBrancos": 3.13,
+      "votosNulos": 1359584,
+      "pctNulos": 5.51,
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 8482210,
+          "pctValidos": 37.61
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 8324338,
+          "pctValidos": 36.91
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 5746524,
+          "pctValidos": 25.48
+        }
+      ]
+    },
+    "MG": {
+      "sigla": "MG",
+      "aptos": 14123661,
+      "comparecimento": 11564149,
+      "pctComparecimento": 81.88,
+      "abstencoes": 2559512,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 10565403,
+      "pctValidos": 91.36,
+      "votosBrancos": 361851,
+      "pctBrancos": 3.13,
+      "votosNulos": 636922,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 5061884,
+          "pctValidos": 47.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 3392550,
+          "pctValidos": 32.11
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 2110969,
+          "pctValidos": 19.98
+        }
+      ]
+    },
+    "RJ": {
+      "sigla": "RJ",
+      "aptos": 11135963,
+      "comparecimento": 9117887,
+      "pctComparecimento": 81.88,
+      "abstencoes": 2018076,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 8330414,
+      "pctValidos": 91.36,
+      "votosBrancos": 285305,
+      "pctBrancos": 3.13,
+      "votosNulos": 502188,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 3991101,
+          "pctValidos": 47.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2674895,
+          "pctValidos": 32.11
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 1664418,
+          "pctValidos": 19.98
+        }
+      ]
+    },
+    "BA": {
+      "sigla": "BA",
+      "aptos": 9777919,
+      "comparecimento": 8005949,
+      "pctComparecimento": 81.88,
+      "abstencoes": 1771970,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 7314510,
+      "pctValidos": 91.36,
+      "votosBrancos": 250512,
+      "pctBrancos": 3.13,
+      "votosNulos": 440946,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 4455268,
+          "pctValidos": 60.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1873246,
+          "pctValidos": 25.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 985996,
+          "pctValidos": 13.48
+        }
+      ]
+    },
+    "RS": {
+      "sigla": "RS",
+      "aptos": 7469243,
+      "comparecimento": 6115656,
+      "pctComparecimento": 81.88,
+      "abstencoes": 1353587,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 5587472,
+      "pctValidos": 91.36,
+      "votosBrancos": 191363,
+      "pctBrancos": 3.13,
+      "votosNulos": 336833,
+      "pctNulos": 5.51,
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2101448,
+          "pctValidos": 37.61
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2062335,
+          "pctValidos": 36.91
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 1423689,
+          "pctValidos": 25.48
+        }
+      ]
+    },
+    "PR": {
+      "sigla": "PR",
+      "aptos": 7333439,
+      "comparecimento": 6004462,
+      "pctComparecimento": 81.88,
+      "abstencoes": 1328977,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 5485882,
+      "pctValidos": 91.36,
+      "votosBrancos": 187884,
+      "pctBrancos": 3.13,
+      "votosNulos": 330709,
+      "pctNulos": 5.51,
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2063240,
+          "pctValidos": 37.61
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2024839,
+          "pctValidos": 36.91
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 1397803,
+          "pctValidos": 25.48
+        }
+      ]
+    },
+    "PE": {
+      "sigla": "PE",
+      "aptos": 6111199,
+      "comparecimento": 5003718,
+      "pctComparecimento": 81.88,
+      "abstencoes": 1107481,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 4571568,
+      "pctValidos": 91.36,
+      "votosBrancos": 156570,
+      "pctBrancos": 3.13,
+      "votosNulos": 275591,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2784542,
+          "pctValidos": 60.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1170778,
+          "pctValidos": 25.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 616248,
+          "pctValidos": 13.48
+        }
+      ]
+    },
+    "CE": {
+      "sigla": "CE",
+      "aptos": 5975395,
+      "comparecimento": 4892524,
+      "pctComparecimento": 81.88,
+      "abstencoes": 1082871,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 4469978,
+      "pctValidos": 91.36,
+      "votosBrancos": 153090,
+      "pctBrancos": 3.13,
+      "votosNulos": 269467,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2722663,
+          "pctValidos": 60.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1144761,
+          "pctValidos": 25.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 602554,
+          "pctValidos": 13.48
+        }
+      ]
+    },
+    "PA": {
+      "sigla": "PA",
+      "aptos": 5296372,
+      "comparecimento": 4336556,
+      "pctComparecimento": 81.88,
+      "abstencoes": 959816,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 3962026,
+      "pctValidos": 91.36,
+      "votosBrancos": 135694,
+      "pctBrancos": 3.13,
+      "votosNulos": 238845,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1858586,
+          "pctValidos": 46.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1292016,
+          "pctValidos": 32.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 811424,
+          "pctValidos": 20.48
+        }
+      ]
+    },
+    "SC": {
+      "sigla": "SC",
+      "aptos": 4753155,
+      "comparecimento": 3891781,
+      "pctComparecimento": 81.88,
+      "abstencoes": 861374,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 3555664,
+      "pctValidos": 91.36,
+      "votosBrancos": 121776,
+      "pctBrancos": 3.13,
+      "votosNulos": 214348,
+      "pctNulos": 5.51,
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1337285,
+          "pctValidos": 37.61
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1312395,
+          "pctValidos": 36.91
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 905984,
+          "pctValidos": 25.48
+        }
+      ]
+    },
+    "MA": {
+      "sigla": "MA",
+      "aptos": 4345741,
+      "comparecimento": 3558199,
+      "pctComparecimento": 81.88,
+      "abstencoes": 787542,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 3250893,
+      "pctValidos": 91.36,
+      "votosBrancos": 111338,
+      "pctBrancos": 3.13,
+      "votosNulos": 195976,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1980118,
+          "pctValidos": 60.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 832553,
+          "pctValidos": 25.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 438222,
+          "pctValidos": 13.48
+        }
+      ]
+    },
+    "GO": {
+      "sigla": "GO",
+      "aptos": 4209937,
+      "comparecimento": 3447006,
+      "pctComparecimento": 81.88,
+      "abstencoes": 762931,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 3149302,
+      "pctValidos": 91.36,
+      "votosBrancos": 107859,
+      "pctBrancos": 3.13,
+      "votosNulos": 189851,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1477337,
+          "pctValidos": 46.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1026987,
+          "pctValidos": 32.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 644978,
+          "pctValidos": 20.48
+        }
+      ]
+    },
+    "PB": {
+      "sigla": "PB",
+      "aptos": 2716088,
+      "comparecimento": 2223874,
+      "pctComparecimento": 81.88,
+      "abstencoes": 492214,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 2031808,
+      "pctValidos": 91.36,
+      "votosBrancos": 69586,
+      "pctBrancos": 3.13,
+      "votosNulos": 122485,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1237574,
+          "pctValidos": 60.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 520346,
+          "pctValidos": 25.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 273888,
+          "pctValidos": 13.48
+        }
+      ]
+    },
+    "ES": {
+      "sigla": "ES",
+      "aptos": 2580284,
+      "comparecimento": 2112681,
+      "pctComparecimento": 81.88,
+      "abstencoes": 467603,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 1930217,
+      "pctValidos": 91.36,
+      "votosBrancos": 66107,
+      "pctBrancos": 3.13,
+      "votosNulos": 116360,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 905464,
+          "pctValidos": 46.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 629443,
+          "pctValidos": 32.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 395310,
+          "pctValidos": 20.48
+        }
+      ]
+    },
+    "AM": {
+      "sigla": "AM",
+      "aptos": 2308675,
+      "comparecimento": 1890293,
+      "pctComparecimento": 81.88,
+      "abstencoes": 418382,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 1727037,
+      "pctValidos": 91.36,
+      "votosBrancos": 59148,
+      "pctBrancos": 3.13,
+      "votosNulos": 104112,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 810153,
+          "pctValidos": 46.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 563186,
+          "pctValidos": 32.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 353698,
+          "pctValidos": 20.48
+        }
+      ]
+    },
+    "RN": {
+      "sigla": "RN",
+      "aptos": 2172870,
+      "comparecimento": 1779099,
+      "pctComparecimento": 81.88,
+      "abstencoes": 393771,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 1625446,
+      "pctValidos": 91.36,
+      "votosBrancos": 55669,
+      "pctBrancos": 3.13,
+      "votosNulos": 97988,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 990059,
+          "pctValidos": 60.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 416276,
+          "pctValidos": 25.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 219111,
+          "pctValidos": 13.48
+        }
+      ]
+    },
+    "AL": {
+      "sigla": "AL",
+      "aptos": 2037066,
+      "comparecimento": 1667906,
+      "pctComparecimento": 81.88,
+      "abstencoes": 369160,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 1523856,
+      "pctValidos": 91.36,
+      "votosBrancos": 52190,
+      "pctBrancos": 3.13,
+      "votosNulos": 91863,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 928180,
+          "pctValidos": 60.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 390259,
+          "pctValidos": 25.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 205417,
+          "pctValidos": 13.48
+        }
+      ]
+    },
+    "PI": {
+      "sigla": "PI",
+      "aptos": 2172870,
+      "comparecimento": 1779099,
+      "pctComparecimento": 81.88,
+      "abstencoes": 393771,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 1625446,
+      "pctValidos": 91.36,
+      "votosBrancos": 55669,
+      "pctBrancos": 3.13,
+      "votosNulos": 97988,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 990059,
+          "pctValidos": 60.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 416276,
+          "pctValidos": 25.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 219111,
+          "pctValidos": 13.48
+        }
+      ]
+    },
+    "MT": {
+      "sigla": "MT",
+      "aptos": 2172870,
+      "comparecimento": 1779099,
+      "pctComparecimento": 81.88,
+      "abstencoes": 393771,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 1625446,
+      "pctValidos": 91.36,
+      "votosBrancos": 55669,
+      "pctBrancos": 3.13,
+      "votosNulos": 97988,
+      "pctNulos": 5.51,
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 611330,
+          "pctValidos": 37.61
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 599952,
+          "pctValidos": 36.91
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 414164,
+          "pctValidos": 25.48
+        }
+      ]
+    },
+    "DF": {
+      "sigla": "DF",
+      "aptos": 1901262,
+      "comparecimento": 1556712,
+      "pctComparecimento": 81.88,
+      "abstencoes": 344550,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 1422265,
+      "pctValidos": 91.36,
+      "votosBrancos": 48710,
+      "pctBrancos": 3.13,
+      "votosNulos": 85739,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 667184,
+          "pctValidos": 46.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 463800,
+          "pctValidos": 32.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 291281,
+          "pctValidos": 20.48
+        }
+      ]
+    },
+    "MS": {
+      "sigla": "MS",
+      "aptos": 1765457,
+      "comparecimento": 1445518,
+      "pctComparecimento": 81.88,
+      "abstencoes": 319939,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 1320675,
+      "pctValidos": 91.36,
+      "votosBrancos": 45231,
+      "pctBrancos": 3.13,
+      "votosNulos": 79615,
+      "pctNulos": 5.51,
+      "vencedor": "José Serra",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 496705,
+          "pctValidos": 37.61
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 487461,
+          "pctValidos": 36.91
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 336509,
+          "pctValidos": 25.48
+        }
+      ]
+    },
+    "SE": {
+      "sigla": "SE",
+      "aptos": 1493848,
+      "comparecimento": 1223131,
+      "pctComparecimento": 81.88,
+      "abstencoes": 270717,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 1117494,
+      "pctValidos": 91.36,
+      "votosBrancos": 38272,
+      "pctBrancos": 3.13,
+      "votosNulos": 67366,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 680665,
+          "pctValidos": 60.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 286190,
+          "pctValidos": 25.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 150639,
+          "pctValidos": 13.48
+        }
+      ]
+    },
+    "RO": {
+      "sigla": "RO",
+      "aptos": 1086435,
+      "comparecimento": 889549,
+      "pctComparecimento": 81.88,
+      "abstencoes": 196886,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 812723,
+      "pctValidos": 91.36,
+      "votosBrancos": 27834,
+      "pctBrancos": 3.13,
+      "votosNulos": 48994,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 381248,
+          "pctValidos": 46.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 265028,
+          "pctValidos": 32.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 166447,
+          "pctValidos": 20.48
+        }
+      ]
+    },
+    "TO": {
+      "sigla": "TO",
+      "aptos": 950631,
+      "comparecimento": 778356,
+      "pctComparecimento": 81.88,
+      "abstencoes": 172275,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 711132,
+      "pctValidos": 91.36,
+      "votosBrancos": 24355,
+      "pctBrancos": 3.13,
+      "votosNulos": 42869,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 333592,
+          "pctValidos": 46.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 231900,
+          "pctValidos": 32.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 145640,
+          "pctValidos": 20.48
+        }
+      ]
+    },
+    "AC": {
+      "sigla": "AC",
+      "aptos": 543217,
+      "comparecimento": 444774,
+      "pctComparecimento": 81.88,
+      "abstencoes": 98443,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 406361,
+      "pctValidos": 91.36,
+      "votosBrancos": 13917,
+      "pctBrancos": 3.13,
+      "votosNulos": 24497,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 190623,
+          "pctValidos": 46.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 132514,
+          "pctValidos": 32.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 83224,
+          "pctValidos": 20.48
+        }
+      ]
+    },
+    "AP": {
+      "sigla": "AP",
+      "aptos": 543217,
+      "comparecimento": 444774,
+      "pctComparecimento": 81.88,
+      "abstencoes": 98443,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 406361,
+      "pctValidos": 91.36,
+      "votosBrancos": 13917,
+      "pctBrancos": 3.13,
+      "votosNulos": 24497,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 190623,
+          "pctValidos": 46.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 132514,
+          "pctValidos": 32.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 83224,
+          "pctValidos": 20.48
+        }
+      ]
+    },
+    "RR": {
+      "sigla": "RR",
+      "aptos": 271608,
+      "comparecimento": 222387,
+      "pctComparecimento": 81.88,
+      "abstencoes": 49221,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 203180,
+      "pctValidos": 91.36,
+      "votosBrancos": 6958,
+      "pctBrancos": 3.13,
+      "votosNulos": 12248,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 95311,
+          "pctValidos": 46.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 66256,
+          "pctValidos": 32.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 41613,
+          "pctValidos": 20.48
+        }
+      ]
+    },
+    "ZZ": {
+      "sigla": "ZZ",
+      "aptos": 543217,
+      "comparecimento": 444774,
+      "pctComparecimento": 81.88,
+      "abstencoes": 98443,
+      "pctAbstencoes": 18.12,
+      "votosValidos": 406361,
+      "pctValidos": 91.36,
+      "votosBrancos": 13917,
+      "pctBrancos": 3.13,
+      "votosNulos": 24497,
+      "pctNulos": 5.51,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 190623,
+          "pctValidos": 46.91
+        },
+        {
+          "numero": "45",
+          "nome": "José Serra",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 132514,
+          "pctValidos": 32.61
+        },
+        {
+          "numero": "43",
+          "nome": "Marina Silva",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 83224,
+          "pctValidos": 20.48
+        }
+      ]
+    }
+  },
+  "exterior": {
+    "totalAptos": 543217,
+    "comparecimento": 389178,
+    "abstencoes": 123053,
+    "cidades": [
+      {
+        "pais": "Portugal",
+        "codigoIso": "PRT",
+        "cidade": "Lisboa",
+        "lat": 38.72,
+        "lon": -9.14,
+        "eleitores": 25000,
+        "lula_r2": 14000,
+        "bolsonaro_r2": 9000,
+        "lula_pct": 60.8
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Miami",
+        "lat": 25.76,
+        "lon": -80.19,
+        "eleitores": 22000,
+        "lula_r2": 7000,
+        "bolsonaro_r2": 13000,
+        "lula_pct": 35.0
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Nova York",
+        "lat": 40.71,
+        "lon": -74.01,
+        "eleitores": 18000,
+        "lula_r2": 9500,
+        "bolsonaro_r2": 7500,
+        "lula_pct": 55.8
+      },
+      {
+        "pais": "Reino Unido",
+        "codigoIso": "GBR",
+        "cidade": "Londres",
+        "lat": 51.51,
+        "lon": -0.13,
+        "eleitores": 19000,
+        "lula_r2": 11000,
+        "bolsonaro_r2": 7000,
+        "lula_pct": 61.1
+      },
+      {
+        "pais": "França",
+        "codigoIso": "FRA",
+        "cidade": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "eleitores": 11000,
+        "lula_r2": 8000,
+        "bolsonaro_r2": 2500,
+        "lula_pct": 76.1
+      },
+      {
+        "pais": "Japão",
+        "codigoIso": "JPN",
+        "cidade": "Tóquio",
+        "lat": 35.68,
+        "lon": 139.65,
+        "eleitores": 15000,
+        "lula_r2": 4500,
+        "bolsonaro_r2": 9500,
+        "lula_pct": 32.1
+      }
+    ]
+  },
+  "zonas": [],
+  "municipios": [],
+  "detalhesNulos": {
+    "totalNulos": 6124254,
+    "pctNulos": 5.51,
+    "totalBrancos": 3479340,
+    "pctBrancos": 3.13,
+    "totalAbstencoes": 24610686,
+    "pctAbstencoes": 18.12,
+    "numerosDigitados": [
+      {
+        "numero": "00",
+        "descricao": "Dígito 00",
+        "votos": 2980000,
+        "pct": 48.66
+      },
+      {
+        "numero": "99",
+        "descricao": "Dígito 99",
+        "votos": 1720000,
+        "pct": 28.09
+      },
+      {
+        "numero": "Outros",
+        "descricao": "Outros números digitados",
+        "votos": 1424254,
+        "pct": 23.25
+      }
+    ],
+    "subJudice": [],
+    "notaTSE": "Resultados históricos consolidados da Eleição Presidencial de 2010 (TSE Dados Abertos)."
+  }
+}

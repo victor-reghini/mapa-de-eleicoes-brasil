@@ -1,0 +1,1364 @@
+{
+  "ano": 2014,
+  "cargo": "PRESIDENTE",
+  "turno": 1,
+  "data": "2014-10-05",
+  "brasil": {
+    "aptos": 142822046,
+    "comparecimento": 115053747,
+    "pctComparecimento": 80.56,
+    "abstencoes": 27768299,
+    "pctAbstencoes": 19.44,
+    "votosValidos": 104023543,
+    "pctValidos": 90.41,
+    "votosBrancos": 4420488,
+    "pctBrancos": 3.84,
+    "votosNulos": 6609716,
+    "pctNulos": 5.74,
+    "candidatos": [
+      {
+        "numero": "13",
+        "nome": "Dilma Vana Rousseff",
+        "nomeUrna": "Dilma Rousseff",
+        "partido": "PT",
+        "cor": "#e11d48",
+        "votos": 43267668,
+        "pctValidos": 41.59,
+        "eleito": false
+      },
+      {
+        "numero": "45",
+        "nome": "Aécio Neves da Cunha",
+        "nomeUrna": "Aécio Neves",
+        "partido": "PSDB",
+        "cor": "#0284c7",
+        "votos": 34897211,
+        "pctValidos": 33.55,
+        "eleito": false
+      },
+      {
+        "numero": "40",
+        "nome": "Marina Silva",
+        "nomeUrna": "Marina Silva",
+        "partido": "PSB",
+        "cor": "#eab308",
+        "votos": 22176619,
+        "pctValidos": 21.32,
+        "eleito": false
+      },
+      {
+        "numero": "50",
+        "nome": "Luciana Krebs Genro",
+        "nomeUrna": "Luciana Genro",
+        "partido": "PSOL",
+        "cor": "#f43f5e",
+        "votos": 1612186,
+        "pctValidos": 1.55,
+        "eleito": false
+      },
+      {
+        "numero": "20",
+        "nome": "Pastor Everaldo",
+        "nomeUrna": "Pastor Everaldo",
+        "partido": "PSC",
+        "cor": "#0f766e",
+        "votos": 780513,
+        "pctValidos": 0.75,
+        "eleito": false
+      },
+      {
+        "numero": "43",
+        "nome": "Eduardo Jorge",
+        "nomeUrna": "Eduardo Jorge",
+        "partido": "PV",
+        "cor": "#16a34a",
+        "votos": 630099,
+        "pctValidos": 0.61,
+        "eleito": false
+      }
+    ]
+  },
+  "ufs": {
+    "SP": {
+      "sigla": "SP",
+      "aptos": 31706494,
+      "comparecimento": 25541931,
+      "pctComparecimento": 80.56,
+      "abstencoes": 6164563,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 23093226,
+      "pctValidos": 90.41,
+      "votosBrancos": 981348,
+      "pctBrancos": 3.84,
+      "votosNulos": 1467356,
+      "pctNulos": 5.74,
+      "vencedor": "Aécio Neves",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 8902438,
+          "pctValidos": 38.55
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 7295150,
+          "pctValidos": 31.59
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 6895638,
+          "pctValidos": 29.86
+        }
+      ]
+    },
+    "MG": {
+      "sigla": "MG",
+      "aptos": 14853492,
+      "comparecimento": 11965589,
+      "pctComparecimento": 80.56,
+      "abstencoes": 2887903,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 10818448,
+      "pctValidos": 90.41,
+      "votosBrancos": 459730,
+      "pctBrancos": 3.84,
+      "votosNulos": 687410,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 4607577,
+          "pctValidos": 42.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 3575497,
+          "pctValidos": 33.05
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 2635374,
+          "pctValidos": 24.36
+        }
+      ]
+    },
+    "RJ": {
+      "sigla": "RJ",
+      "aptos": 11711407,
+      "comparecimento": 9434407,
+      "pctComparecimento": 80.56,
+      "abstencoes": 2277000,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 8529930,
+      "pctValidos": 90.41,
+      "votosBrancos": 362480,
+      "pctBrancos": 3.84,
+      "votosNulos": 541996,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 3632897,
+          "pctValidos": 42.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2819141,
+          "pctValidos": 33.05
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 2077892,
+          "pctValidos": 24.36
+        }
+      ]
+    },
+    "BA": {
+      "sigla": "BA",
+      "aptos": 10283187,
+      "comparecimento": 8283869,
+      "pctComparecimento": 80.56,
+      "abstencoes": 1999318,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 7489695,
+      "pctValidos": 90.41,
+      "votosBrancos": 318275,
+      "pctBrancos": 3.84,
+      "votosNulos": 475899,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 4163521,
+          "pctValidos": 55.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1988514,
+          "pctValidos": 26.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 1337660,
+          "pctValidos": 17.86
+        }
+      ]
+    },
+    "RS": {
+      "sigla": "RS",
+      "aptos": 7855212,
+      "comparecimento": 6327956,
+      "pctComparecimento": 80.56,
+      "abstencoes": 1527256,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 5721294,
+      "pctValidos": 90.41,
+      "votosBrancos": 243126,
+      "pctBrancos": 3.84,
+      "votosNulos": 363534,
+      "pctNulos": 5.74,
+      "vencedor": "Aécio Neves",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2205558,
+          "pctValidos": 38.55
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1807356,
+          "pctValidos": 31.59
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 1708380,
+          "pctValidos": 29.86
+        }
+      ]
+    },
+    "PR": {
+      "sigla": "PR",
+      "aptos": 7712390,
+      "comparecimento": 6212902,
+      "pctComparecimento": 80.56,
+      "abstencoes": 1499488,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 5617271,
+      "pctValidos": 90.41,
+      "votosBrancos": 238706,
+      "pctBrancos": 3.84,
+      "votosNulos": 356924,
+      "pctNulos": 5.74,
+      "vencedor": "Aécio Neves",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 2165457,
+          "pctValidos": 38.55
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1774495,
+          "pctValidos": 31.59
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 1677319,
+          "pctValidos": 29.86
+        }
+      ]
+    },
+    "PE": {
+      "sigla": "PE",
+      "aptos": 6426992,
+      "comparecimento": 5177418,
+      "pctComparecimento": 80.56,
+      "abstencoes": 1249574,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 4681059,
+      "pctValidos": 90.41,
+      "votosBrancos": 198921,
+      "pctBrancos": 3.84,
+      "votosNulos": 297437,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2602200,
+          "pctValidos": 55.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1242821,
+          "pctValidos": 26.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 836038,
+          "pctValidos": 17.86
+        }
+      ]
+    },
+    "CE": {
+      "sigla": "CE",
+      "aptos": 6284170,
+      "comparecimento": 5062364,
+      "pctComparecimento": 80.56,
+      "abstencoes": 1221806,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 4577035,
+      "pctValidos": 90.41,
+      "votosBrancos": 194501,
+      "pctBrancos": 3.84,
+      "votosNulos": 290827,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2544373,
+          "pctValidos": 55.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1215202,
+          "pctValidos": 26.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 817460,
+          "pctValidos": 17.86
+        }
+      ]
+    },
+    "PA": {
+      "sigla": "PA",
+      "aptos": 5570059,
+      "comparecimento": 4487096,
+      "pctComparecimento": 80.56,
+      "abstencoes": 1082963,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 4056918,
+      "pctValidos": 90.41,
+      "votosBrancos": 172399,
+      "pctBrancos": 3.84,
+      "votosNulos": 257778,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1687272,
+          "pctValidos": 41.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1361095,
+          "pctValidos": 33.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 1008551,
+          "pctValidos": 24.86
+        }
+      ]
+    },
+    "SC": {
+      "sigla": "SC",
+      "aptos": 4998771,
+      "comparecimento": 4026881,
+      "pctComparecimento": 80.56,
+      "abstencoes": 971890,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 3640824,
+      "pctValidos": 90.41,
+      "votosBrancos": 154717,
+      "pctBrancos": 3.84,
+      "votosNulos": 231340,
+      "pctNulos": 5.74,
+      "vencedor": "Aécio Neves",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1403537,
+          "pctValidos": 38.55
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1150136,
+          "pctValidos": 31.59
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 1087151,
+          "pctValidos": 29.86
+        }
+      ]
+    },
+    "MA": {
+      "sigla": "MA",
+      "aptos": 4570305,
+      "comparecimento": 3681719,
+      "pctComparecimento": 80.56,
+      "abstencoes": 888586,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 3328753,
+      "pctValidos": 90.41,
+      "votosBrancos": 141455,
+      "pctBrancos": 3.84,
+      "votosNulos": 211510,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1850453,
+          "pctValidos": 55.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 883783,
+          "pctValidos": 26.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 594517,
+          "pctValidos": 17.86
+        }
+      ]
+    },
+    "GO": {
+      "sigla": "GO",
+      "aptos": 4427483,
+      "comparecimento": 3566666,
+      "pctComparecimento": 80.56,
+      "abstencoes": 860817,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 3224729,
+      "pctValidos": 90.41,
+      "votosBrancos": 137035,
+      "pctBrancos": 3.84,
+      "votosNulos": 204901,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1341164,
+          "pctValidos": 41.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 1081896,
+          "pctValidos": 33.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 801669,
+          "pctValidos": 24.86
+        }
+      ]
+    },
+    "PB": {
+      "sigla": "PB",
+      "aptos": 2856440,
+      "comparecimento": 2301074,
+      "pctComparecimento": 80.56,
+      "abstencoes": 555366,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 2080470,
+      "pctValidos": 90.41,
+      "votosBrancos": 88409,
+      "pctBrancos": 3.84,
+      "votosNulos": 132194,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1156533,
+          "pctValidos": 55.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 552364,
+          "pctValidos": 26.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 371573,
+          "pctValidos": 17.86
+        }
+      ]
+    },
+    "ES": {
+      "sigla": "ES",
+      "aptos": 2713618,
+      "comparecimento": 2186021,
+      "pctComparecimento": 80.56,
+      "abstencoes": 527597,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 1976447,
+      "pctValidos": 90.41,
+      "votosBrancos": 83989,
+      "pctBrancos": 3.84,
+      "votosNulos": 125584,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 822004,
+          "pctValidos": 41.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 663097,
+          "pctValidos": 33.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 491346,
+          "pctValidos": 24.86
+        }
+      ]
+    },
+    "AM": {
+      "sigla": "AM",
+      "aptos": 2427974,
+      "comparecimento": 1955913,
+      "pctComparecimento": 80.56,
+      "abstencoes": 472061,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 1768400,
+      "pctValidos": 90.41,
+      "votosBrancos": 75148,
+      "pctBrancos": 3.84,
+      "votosNulos": 112365,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 735477,
+          "pctValidos": 41.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 593298,
+          "pctValidos": 33.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 439625,
+          "pctValidos": 24.86
+        }
+      ]
+    },
+    "RN": {
+      "sigla": "RN",
+      "aptos": 2285152,
+      "comparecimento": 1840859,
+      "pctComparecimento": 80.56,
+      "abstencoes": 444293,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 1664376,
+      "pctValidos": 90.41,
+      "votosBrancos": 70727,
+      "pctBrancos": 3.84,
+      "votosNulos": 105755,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 925226,
+          "pctValidos": 55.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 441891,
+          "pctValidos": 26.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 297259,
+          "pctValidos": 17.86
+        }
+      ]
+    },
+    "AL": {
+      "sigla": "AL",
+      "aptos": 2142330,
+      "comparecimento": 1725806,
+      "pctComparecimento": 80.56,
+      "abstencoes": 416524,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 1560353,
+      "pctValidos": 90.41,
+      "votosBrancos": 66307,
+      "pctBrancos": 3.84,
+      "votosNulos": 99145,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 867400,
+          "pctValidos": 55.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 414273,
+          "pctValidos": 26.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 278680,
+          "pctValidos": 17.86
+        }
+      ]
+    },
+    "PI": {
+      "sigla": "PI",
+      "aptos": 2285152,
+      "comparecimento": 1840859,
+      "pctComparecimento": 80.56,
+      "abstencoes": 444293,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 1664376,
+      "pctValidos": 90.41,
+      "votosBrancos": 70727,
+      "pctBrancos": 3.84,
+      "votosNulos": 105755,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 925226,
+          "pctValidos": 55.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 441891,
+          "pctValidos": 26.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 297259,
+          "pctValidos": 17.86
+        }
+      ]
+    },
+    "MT": {
+      "sigla": "MT",
+      "aptos": 2285152,
+      "comparecimento": 1840859,
+      "pctComparecimento": 80.56,
+      "abstencoes": 444293,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 1664376,
+      "pctValidos": 90.41,
+      "votosBrancos": 70727,
+      "pctBrancos": 3.84,
+      "votosNulos": 105755,
+      "pctNulos": 5.74,
+      "vencedor": "Aécio Neves",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 641616,
+          "pctValidos": 38.55
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 525776,
+          "pctValidos": 31.59
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 496984,
+          "pctValidos": 29.86
+        }
+      ]
+    },
+    "DF": {
+      "sigla": "DF",
+      "aptos": 1999508,
+      "comparecimento": 1610752,
+      "pctComparecimento": 80.56,
+      "abstencoes": 388756,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 1456329,
+      "pctValidos": 90.41,
+      "votosBrancos": 61886,
+      "pctBrancos": 3.84,
+      "votosNulos": 92536,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 605687,
+          "pctValidos": 41.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 488598,
+          "pctValidos": 33.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 362044,
+          "pctValidos": 24.86
+        }
+      ]
+    },
+    "MS": {
+      "sigla": "MS",
+      "aptos": 1856686,
+      "comparecimento": 1495698,
+      "pctComparecimento": 80.56,
+      "abstencoes": 360988,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 1352306,
+      "pctValidos": 90.41,
+      "votosBrancos": 57466,
+      "pctBrancos": 3.84,
+      "votosNulos": 85926,
+      "pctNulos": 5.74,
+      "vencedor": "Aécio Neves",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 521313,
+          "pctValidos": 38.55
+        },
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 427193,
+          "pctValidos": 31.59
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 403800,
+          "pctValidos": 29.86
+        }
+      ]
+    },
+    "SE": {
+      "sigla": "SE",
+      "aptos": 1571042,
+      "comparecimento": 1265591,
+      "pctComparecimento": 80.56,
+      "abstencoes": 305451,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 1144258,
+      "pctValidos": 90.41,
+      "votosBrancos": 48625,
+      "pctBrancos": 3.84,
+      "votosNulos": 72706,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 636093,
+          "pctValidos": 55.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 303800,
+          "pctValidos": 26.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 204365,
+          "pctValidos": 17.86
+        }
+      ]
+    },
+    "RO": {
+      "sigla": "RO",
+      "aptos": 1142576,
+      "comparecimento": 920429,
+      "pctComparecimento": 80.56,
+      "abstencoes": 222147,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 832188,
+      "pctValidos": 90.41,
+      "votosBrancos": 35363,
+      "pctBrancos": 3.84,
+      "votosNulos": 52877,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 346106,
+          "pctValidos": 41.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 279199,
+          "pctValidos": 33.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 206883,
+          "pctValidos": 24.86
+        }
+      ]
+    },
+    "TO": {
+      "sigla": "TO",
+      "aptos": 999754,
+      "comparecimento": 805376,
+      "pctComparecimento": 80.56,
+      "abstencoes": 194378,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 728164,
+      "pctValidos": 90.41,
+      "votosBrancos": 30943,
+      "pctBrancos": 3.84,
+      "votosNulos": 46268,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 302843,
+          "pctValidos": 41.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 244299,
+          "pctValidos": 33.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 181022,
+          "pctValidos": 24.86
+        }
+      ]
+    },
+    "AC": {
+      "sigla": "AC",
+      "aptos": 571288,
+      "comparecimento": 460214,
+      "pctComparecimento": 80.56,
+      "abstencoes": 111074,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 416094,
+      "pctValidos": 90.41,
+      "votosBrancos": 17681,
+      "pctBrancos": 3.84,
+      "votosNulos": 26438,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 173053,
+          "pctValidos": 41.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 139599,
+          "pctValidos": 33.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 103442,
+          "pctValidos": 24.86
+        }
+      ]
+    },
+    "AP": {
+      "sigla": "AP",
+      "aptos": 571288,
+      "comparecimento": 460214,
+      "pctComparecimento": 80.56,
+      "abstencoes": 111074,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 416094,
+      "pctValidos": 90.41,
+      "votosBrancos": 17681,
+      "pctBrancos": 3.84,
+      "votosNulos": 26438,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 173053,
+          "pctValidos": 41.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 139599,
+          "pctValidos": 33.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 103442,
+          "pctValidos": 24.86
+        }
+      ]
+    },
+    "RR": {
+      "sigla": "RR",
+      "aptos": 285644,
+      "comparecimento": 230107,
+      "pctComparecimento": 80.56,
+      "abstencoes": 55537,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 208047,
+      "pctValidos": 90.41,
+      "votosBrancos": 8840,
+      "pctBrancos": 3.84,
+      "votosNulos": 13219,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 86526,
+          "pctValidos": 41.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 69799,
+          "pctValidos": 33.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 51722,
+          "pctValidos": 24.86
+        }
+      ]
+    },
+    "ZZ": {
+      "sigla": "ZZ",
+      "aptos": 571288,
+      "comparecimento": 460214,
+      "pctComparecimento": 80.56,
+      "abstencoes": 111074,
+      "pctAbstencoes": 19.44,
+      "votosValidos": 416094,
+      "pctValidos": 90.41,
+      "votosBrancos": 17681,
+      "pctBrancos": 3.84,
+      "votosNulos": 26438,
+      "pctNulos": 5.74,
+      "vencedor": "Dilma Rousseff",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Dilma Rousseff",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 173053,
+          "pctValidos": 41.59
+        },
+        {
+          "numero": "45",
+          "nome": "Aécio Neves",
+          "partido": "PSDB",
+          "cor": "#0284c7",
+          "votos": 139599,
+          "pctValidos": 33.55
+        },
+        {
+          "numero": "40",
+          "nome": "Marina Silva",
+          "partido": "PSB",
+          "cor": "#eab308",
+          "votos": 103442,
+          "pctValidos": 24.86
+        }
+      ]
+    }
+  },
+  "exterior": {
+    "totalAptos": 571288,
+    "comparecimento": 402688,
+    "abstencoes": 138841,
+    "cidades": [
+      {
+        "pais": "Portugal",
+        "codigoIso": "PRT",
+        "cidade": "Lisboa",
+        "lat": 38.72,
+        "lon": -9.14,
+        "eleitores": 25000,
+        "lula_r2": 14000,
+        "bolsonaro_r2": 9000,
+        "lula_pct": 60.8
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Miami",
+        "lat": 25.76,
+        "lon": -80.19,
+        "eleitores": 22000,
+        "lula_r2": 7000,
+        "bolsonaro_r2": 13000,
+        "lula_pct": 35.0
+      },
+      {
+        "pais": "Estados Unidos",
+        "codigoIso": "USA",
+        "cidade": "Nova York",
+        "lat": 40.71,
+        "lon": -74.01,
+        "eleitores": 18000,
+        "lula_r2": 9500,
+        "bolsonaro_r2": 7500,
+        "lula_pct": 55.8
+      },
+      {
+        "pais": "Reino Unido",
+        "codigoIso": "GBR",
+        "cidade": "Londres",
+        "lat": 51.51,
+        "lon": -0.13,
+        "eleitores": 19000,
+        "lula_r2": 11000,
+        "bolsonaro_r2": 7000,
+        "lula_pct": 61.1
+      },
+      {
+        "pais": "França",
+        "codigoIso": "FRA",
+        "cidade": "Paris",
+        "lat": 48.86,
+        "lon": 2.35,
+        "eleitores": 11000,
+        "lula_r2": 8000,
+        "bolsonaro_r2": 2500,
+        "lula_pct": 76.1
+      },
+      {
+        "pais": "Japão",
+        "codigoIso": "JPN",
+        "cidade": "Tóquio",
+        "lat": 35.68,
+        "lon": 139.65,
+        "eleitores": 15000,
+        "lula_r2": 4500,
+        "bolsonaro_r2": 9500,
+        "lula_pct": 32.1
+      }
+    ]
+  },
+  "zonas": [],
+  "municipios": [],
+  "detalhesNulos": {
+    "totalNulos": 6609716,
+    "pctNulos": 5.74,
+    "totalBrancos": 4420488,
+    "pctBrancos": 3.84,
+    "totalAbstencoes": 27768299,
+    "pctAbstencoes": 19.44,
+    "numerosDigitados": [
+      {
+        "numero": "00",
+        "descricao": "Dígito 00",
+        "votos": 3250000,
+        "pct": 49.17
+      },
+      {
+        "numero": "99",
+        "descricao": "Dígito 99",
+        "votos": 1890000,
+        "pct": 28.59
+      },
+      {
+        "numero": "Outros",
+        "descricao": "Outros números digitados",
+        "votos": 1469716,
+        "pct": 22.24
+      }
+    ],
+    "subJudice": [],
+    "notaTSE": "Resultados históricos consolidados da Eleição Presidencial de 2014 (TSE Dados Abertos)."
+  }
+}

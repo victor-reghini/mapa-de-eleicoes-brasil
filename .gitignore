@@ -1,0 +1,17 @@
+.agents/
+.cursor/
+.github/
+runs/
+.clinerules
+.cursorrules
+.windsurfrules
+AGENTS.md
+CLAUDE.md
+
+# Logs & Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+*.log
+.DS_Store
