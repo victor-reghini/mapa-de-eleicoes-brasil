@@ -1,0 +1,1169 @@
+{
+  "ano": 2022,
+  "cargo": "GOVERNADOR",
+  "turno": 1,
+  "data": "2022-10-02",
+  "titulo": "Eleições Gerais 2022 • Governadores (1º Turno)",
+  "brasil": {
+    "aptos": 156454011,
+    "comparecimento": 123598668,
+    "pctComparecimento": 79.0,
+    "abstencoes": 32855343,
+    "pctAbstencoes": 21.0,
+    "votosValidos": 114946761,
+    "pctValidos": 93.0,
+    "votosBrancos": 3707960,
+    "pctBrancos": 3.0,
+    "votosNulos": 4943947,
+    "pctNulos": 4.0,
+    "candidatos": [],
+    "partidos": [
+      {
+        "partido": "UNIÃO",
+        "nomeCompleto": "União Brasil",
+        "cor": "#4338ca",
+        "eleitos": 4,
+        "pctEleitos": 14.81,
+        "votos": 13420000,
+        "pctVotos": 12.37
+      },
+      {
+        "partido": "PT",
+        "nomeCompleto": "Partido dos Trabalhadores",
+        "cor": "#e11d48",
+        "eleitos": 4,
+        "pctEleitos": 14.81,
+        "votos": 18560000,
+        "pctVotos": 17.11
+      },
+      {
+        "partido": "PSDB",
+        "nomeCompleto": "Partido da Social Democracia Brasileira",
+        "cor": "#0ea5e9",
+        "eleitos": 3,
+        "pctEleitos": 11.11,
+        "votos": 11480000,
+        "pctVotos": 10.58
+      },
+      {
+        "partido": "MDB",
+        "nomeCompleto": "Movimento Democrático Brasileiro",
+        "cor": "#059669",
+        "eleitos": 3,
+        "pctEleitos": 11.11,
+        "votos": 9820000,
+        "pctVotos": 9.05
+      },
+      {
+        "partido": "PSB",
+        "nomeCompleto": "Partido Socialista Brasileiro",
+        "cor": "#dc2626",
+        "eleitos": 3,
+        "pctEleitos": 11.11,
+        "votos": 8240000,
+        "pctVotos": 7.59
+      },
+      {
+        "partido": "PL",
+        "nomeCompleto": "Partido Liberal",
+        "cor": "#2563eb",
+        "eleitos": 2,
+        "pctEleitos": 7.41,
+        "votos": 16950000,
+        "pctVotos": 15.62
+      },
+      {
+        "partido": "REPUBLICANOS",
+        "nomeCompleto": "Republicanos",
+        "cor": "#0284c7",
+        "eleitos": 2,
+        "pctEleitos": 7.41,
+        "votos": 14210000,
+        "pctVotos": 13.1
+      },
+      {
+        "partido": "PSD",
+        "nomeCompleto": "Partido Social Democrático",
+        "cor": "#d97706",
+        "eleitos": 2,
+        "pctEleitos": 7.41,
+        "votos": 7650000,
+        "pctVotos": 7.05
+      },
+      {
+        "partido": "PP",
+        "nomeCompleto": "Progressistas",
+        "cor": "#0891b2",
+        "eleitos": 2,
+        "pctEleitos": 7.41,
+        "votos": 2410000,
+        "pctVotos": 2.22
+      },
+      {
+        "partido": "NOVO",
+        "nomeCompleto": "Partido Novo",
+        "cor": "#f97316",
+        "eleitos": 1,
+        "pctEleitos": 3.7,
+        "votos": 6094000,
+        "pctVotos": 5.62
+      },
+      {
+        "partido": "SOLIDARIEDADE",
+        "nomeCompleto": "Solidariedade",
+        "cor": "#f59e0b",
+        "eleitos": 1,
+        "pctEleitos": 3.7,
+        "votos": 1890000,
+        "pctVotos": 1.74
+      }
+    ]
+  },
+  "ufs": {
+    "AC": {
+      "sigla": "AC",
+      "aptos": 588433,
+      "comparecimento": 444398,
+      "pctComparecimento": 75.52,
+      "abstencoes": 144035,
+      "pctAbstencoes": 24.48,
+      "votosValidos": 426385,
+      "pctValidos": 95.95,
+      "votosBrancos": 4920,
+      "pctBrancos": 1.11,
+      "votosNulos": 13093,
+      "pctNulos": 2.95,
+      "vencedor": "Gladson Cameli",
+      "vencedorPartido": "PP",
+      "vencedorCor": "#0891b2",
+      "candidatos": [
+        {
+          "numero": "11",
+          "nome": "Gladson Cameli",
+          "nomeUrna": "Gladson Cameli",
+          "partido": "PP",
+          "cor": "#0891b2",
+          "votos": 242129,
+          "pctValidos": 56.75,
+          "eleito": true
+        },
+        {
+          "numero": "44",
+          "nome": "Jorge Viana",
+          "nomeUrna": "Jorge Viana",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 103265,
+          "pctValidos": 24.21
+        }
+      ]
+    },
+    "AL": {
+      "sigla": "AL",
+      "aptos": 2325656,
+      "comparecimento": 1756400,
+      "pctComparecimento": 75.52,
+      "abstencoes": 569256,
+      "pctAbstencoes": 24.48,
+      "votosValidos": 1676564,
+      "pctValidos": 95.45,
+      "votosBrancos": 27400,
+      "pctBrancos": 1.56,
+      "votosNulos": 52436,
+      "pctNulos": 2.99,
+      "vencedor": "Paulo Dantas",
+      "vencedorPartido": "MDB",
+      "vencedorCor": "#059669",
+      "candidatos": [
+        {
+          "numero": "15",
+          "nome": "Paulo Dantas",
+          "nomeUrna": "Paulo Dantas",
+          "partido": "MDB",
+          "cor": "#059669",
+          "votos": 834278,
+          "pctValidos": 52.33,
+          "eleito": true
+        },
+        {
+          "numero": "44",
+          "nome": "Rodrigo Cunha",
+          "nomeUrna": "Rodrigo Cunha",
+          "partido": "UNIÃO",
+          "cor": "#4338ca",
+          "votos": 760552,
+          "pctValidos": 47.67
+        }
+      ]
+    },
+    "AM": {
+      "sigla": "AM",
+      "aptos": 2647748,
+      "comparecimento": 2095944,
+      "pctComparecimento": 79.16,
+      "abstencoes": 551804,
+      "pctAbstencoes": 20.84,
+      "votosValidos": 2011899,
+      "pctValidos": 95.99,
+      "votosBrancos": 27805,
+      "pctBrancos": 1.33,
+      "votosNulos": 56240,
+      "pctNulos": 2.68,
+      "vencedor": "Wilson Lima",
+      "vencedorPartido": "UNIÃO",
+      "vencedorCor": "#4338ca",
+      "candidatos": [
+        {
+          "numero": "44",
+          "nome": "Wilson Lima",
+          "nomeUrna": "Wilson Lima",
+          "partido": "UNIÃO",
+          "cor": "#4338ca",
+          "votos": 1039192,
+          "pctValidos": 56.65,
+          "eleito": true
+        },
+        {
+          "numero": "77",
+          "nome": "Eduardo Braga",
+          "nomeUrna": "Eduardo Braga",
+          "partido": "MDB",
+          "cor": "#059669",
+          "votos": 795098,
+          "pctValidos": 43.35
+        }
+      ]
+    },
+    "AP": {
+      "sigla": "AP",
+      "aptos": 550697,
+      "comparecimento": 446755,
+      "pctComparecimento": 81.13,
+      "abstencoes": 103942,
+      "pctAbstencoes": 18.87,
+      "votosValidos": 431149,
+      "pctValidos": 96.51,
+      "votosBrancos": 4625,
+      "pctBrancos": 1.04,
+      "votosNulos": 10981,
+      "pctNulos": 2.46,
+      "vencedor": "Clécio Luís",
+      "vencedorPartido": "SOLIDARIEDADE",
+      "vencedorCor": "#f59e0b",
+      "candidatos": [
+        {
+          "numero": "77",
+          "nome": "Clécio Luís",
+          "nomeUrna": "Clécio Luís",
+          "partido": "SOLIDARIEDADE",
+          "cor": "#f59e0b",
+          "votos": 222168,
+          "pctValidos": 53.69,
+          "eleito": true
+        },
+        {
+          "numero": "16",
+          "nome": "Jaime Nunes",
+          "nomeUrna": "Jaime Nunes",
+          "partido": "PSD",
+          "cor": "#d97706",
+          "votos": 176223,
+          "pctValidos": 42.58
+        }
+      ]
+    },
+    "BA": {
+      "sigla": "BA",
+      "aptos": 11297150,
+      "comparecimento": 8780300,
+      "pctComparecimento": 77.72,
+      "abstencoes": 2516850,
+      "pctAbstencoes": 22.28,
+      "votosValidos": 8309680,
+      "pctValidos": 94.64,
+      "votosBrancos": 158000,
+      "pctBrancos": 1.8,
+      "votosNulos": 312620,
+      "pctNulos": 3.56,
+      "vencedor": "Jerônimo Rodrigues",
+      "vencedorPartido": "PT",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Jerônimo Rodrigues",
+          "nomeUrna": "Jerônimo",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 4484473,
+          "pctValidos": 52.79,
+          "eleito": true
+        },
+        {
+          "numero": "44",
+          "nome": "ACM Neto",
+          "nomeUrna": "ACM Neto",
+          "partido": "UNIÃO",
+          "cor": "#4338ca",
+          "votos": 4007023,
+          "pctValidos": 47.21
+        }
+      ]
+    },
+    "CE": {
+      "sigla": "CE",
+      "aptos": 6820673,
+      "comparecimento": 5845100,
+      "pctComparecimento": 85.7,
+      "abstencoes": 975573,
+      "pctAbstencoes": 14.3,
+      "votosValidos": 5649380,
+      "pctValidos": 96.65,
+      "votosBrancos": 62400,
+      "pctBrancos": 1.07,
+      "votosNulos": 133320,
+      "pctNulos": 2.28,
+      "vencedor": "Elmano de Freitas",
+      "vencedorPartido": "PT",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Elmano de Freitas",
+          "nomeUrna": "Elmano de Freitas",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 2808300,
+          "pctValidos": 54.02,
+          "eleito": true
+        },
+        {
+          "numero": "44",
+          "nome": "Capitão Wagner",
+          "nomeUrna": "Capitão Wagner",
+          "partido": "UNIÃO",
+          "cor": "#4338ca",
+          "votos": 1649213,
+          "pctValidos": 31.72
+        }
+      ]
+    },
+    "DF": {
+      "sigla": "DF",
+      "aptos": 2203045,
+      "comparecimento": 1815300,
+      "pctComparecimento": 82.4,
+      "abstencoes": 387745,
+      "pctAbstencoes": 17.6,
+      "votosValidos": 1729177,
+      "pctValidos": 95.26,
+      "votosBrancos": 27800,
+      "pctBrancos": 1.53,
+      "votosNulos": 58323,
+      "pctNulos": 3.21,
+      "vencedor": "Ibaneis Rocha",
+      "vencedorPartido": "MDB",
+      "vencedorCor": "#059669",
+      "candidatos": [
+        {
+          "numero": "15",
+          "nome": "Ibaneis Rocha",
+          "nomeUrna": "Ibaneis Rocha",
+          "partido": "MDB",
+          "cor": "#059669",
+          "votos": 832638,
+          "pctValidos": 50.3,
+          "eleito": true
+        },
+        {
+          "numero": "40",
+          "nome": "Leandro Grass",
+          "nomeUrna": "Leandro Grass",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 434587,
+          "pctValidos": 26.25
+        }
+      ]
+    },
+    "ES": {
+      "sigla": "ES",
+      "aptos": 2921506,
+      "comparecimento": 2362400,
+      "pctComparecimento": 80.86,
+      "abstencoes": 559106,
+      "pctAbstencoes": 19.14,
+      "votosValidos": 2264873,
+      "pctValidos": 95.87,
+      "votosBrancos": 38500,
+      "pctBrancos": 1.63,
+      "votosNulos": 59027,
+      "pctNulos": 2.5,
+      "vencedor": "Renato Casagrande",
+      "vencedorPartido": "PSB",
+      "vencedorCor": "#dc2626",
+      "candidatos": [
+        {
+          "numero": "40",
+          "nome": "Renato Casagrande",
+          "nomeUrna": "Renato Casagrande",
+          "partido": "PSB",
+          "cor": "#dc2626",
+          "votos": 1171288,
+          "pctValidos": 53.8,
+          "eleito": true
+        },
+        {
+          "numero": "22",
+          "nome": "Carlos Manato",
+          "nomeUrna": "Manato",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 1006021,
+          "pctValidos": 46.2
+        }
+      ]
+    },
+    "GO": {
+      "sigla": "GO",
+      "aptos": 4870354,
+      "comparecimento": 3858900,
+      "pctComparecimento": 79.23,
+      "abstencoes": 1011454,
+      "pctAbstencoes": 20.77,
+      "votosValidos": 3689126,
+      "pctValidos": 95.6,
+      "votosBrancos": 58200,
+      "pctBrancos": 1.51,
+      "votosNulos": 111574,
+      "pctNulos": 2.89,
+      "vencedor": "Ronaldo Caiado",
+      "vencedorPartido": "UNIÃO",
+      "vencedorCor": "#4338ca",
+      "candidatos": [
+        {
+          "numero": "44",
+          "nome": "Ronaldo Caiado",
+          "nomeUrna": "Ronaldo Caiado",
+          "partido": "UNIÃO",
+          "cor": "#4338ca",
+          "votos": 1806892,
+          "pctValidos": 51.81,
+          "eleito": true
+        },
+        {
+          "numero": "15",
+          "nome": "Gustavo Mendanha",
+          "nomeUrna": "Gustavo Mendanha",
+          "partido": "PATRIOTA",
+          "cor": "#15803d",
+          "votos": 878000,
+          "pctValidos": 25.2
+        }
+      ]
+    },
+    "MA": {
+      "sigla": "MA",
+      "aptos": 5042999,
+      "comparecimento": 3935200,
+      "pctComparecimento": 78.03,
+      "abstencoes": 1107799,
+      "pctAbstencoes": 21.97,
+      "votosValidos": 3740323,
+      "pctValidos": 95.05,
+      "votosBrancos": 53200,
+      "pctBrancos": 1.35,
+      "votosNulos": 141677,
+      "pctNulos": 3.6,
+      "vencedor": "Carlos Brandão",
+      "vencedorPartido": "PSB",
+      "vencedorCor": "#dc2626",
+      "candidatos": [
+        {
+          "numero": "40",
+          "nome": "Carlos Brandão",
+          "nomeUrna": "Carlos Brandão",
+          "partido": "PSB",
+          "cor": "#dc2626",
+          "votos": 1761252,
+          "pctValidos": 51.29,
+          "eleito": true
+        },
+        {
+          "numero": "44",
+          "nome": "Lahesio Bonfim",
+          "nomeUrna": "Lahesio Bonfim",
+          "partido": "PSC",
+          "cor": "#065f46",
+          "votos": 857744,
+          "pctValidos": 24.87
+        }
+      ]
+    },
+    "MG": {
+      "sigla": "MG",
+      "aptos": 16290870,
+      "comparecimento": 12658900,
+      "pctComparecimento": 77.71,
+      "abstencoes": 3631970,
+      "pctAbstencoes": 22.29,
+      "votosValidos": 11870275,
+      "pctValidos": 93.77,
+      "votosBrancos": 252000,
+      "pctBrancos": 1.99,
+      "votosNulos": 536625,
+      "pctNulos": 4.24,
+      "vencedor": "Romeu Zema",
+      "vencedorPartido": "NOVO",
+      "vencedorCor": "#f97316",
+      "candidatos": [
+        {
+          "numero": "30",
+          "nome": "Romeu Zema",
+          "nomeUrna": "Romeu Zema",
+          "partido": "NOVO",
+          "cor": "#f97316",
+          "votos": 6094136,
+          "pctValidos": 56.18,
+          "eleito": true
+        },
+        {
+          "numero": "55",
+          "nome": "Alexandre Kalil",
+          "nomeUrna": "Alexandre Kalil",
+          "partido": "PSD",
+          "cor": "#d97706",
+          "votos": 3805182,
+          "pctValidos": 35.08
+        }
+      ]
+    },
+    "MS": {
+      "sigla": "MS",
+      "aptos": 1996510,
+      "comparecimento": 1568200,
+      "pctComparecimento": 78.55,
+      "abstencoes": 428310,
+      "pctAbstencoes": 21.45,
+      "votosValidos": 1505324,
+      "pctValidos": 95.99,
+      "votosBrancos": 24100,
+      "pctBrancos": 1.54,
+      "votosNulos": 38776,
+      "pctNulos": 2.47,
+      "vencedor": "Eduardo Riedel",
+      "vencedorPartido": "PSDB",
+      "vencedorCor": "#0ea5e9",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Eduardo Riedel",
+          "nomeUrna": "Eduardo Riedel",
+          "partido": "PSDB",
+          "cor": "#0ea5e9",
+          "votos": 808210,
+          "pctValidos": 56.9,
+          "eleito": true
+        },
+        {
+          "numero": "28",
+          "nome": "Capitão Contar",
+          "nomeUrna": "Capitão Contar",
+          "partido": "PRTB",
+          "cor": "#eab308",
+          "votos": 612708,
+          "pctValidos": 43.1
+        }
+      ]
+    },
+    "MT": {
+      "sigla": "MT",
+      "aptos": 2469014,
+      "comparecimento": 1935600,
+      "pctComparecimento": 78.4,
+      "abstencoes": 533414,
+      "pctAbstencoes": 21.6,
+      "votosValidos": 1864600,
+      "pctValidos": 96.33,
+      "votosBrancos": 28400,
+      "pctBrancos": 1.47,
+      "votosNulos": 42600,
+      "pctNulos": 2.2,
+      "vencedor": "Mauro Mendes",
+      "vencedorPartido": "UNIÃO",
+      "vencedorCor": "#4338ca",
+      "candidatos": [
+        {
+          "numero": "44",
+          "nome": "Mauro Mendes",
+          "nomeUrna": "Mauro Mendes",
+          "partido": "UNIÃO",
+          "cor": "#4338ca",
+          "votos": 1114549,
+          "pctValidos": 68.45,
+          "eleito": true
+        },
+        {
+          "numero": "43",
+          "nome": "Márcia Pinheiro",
+          "nomeUrna": "Márcia Pinheiro",
+          "partido": "PV",
+          "cor": "#16a34a",
+          "votos": 267172,
+          "pctValidos": 16.41
+        }
+      ]
+    },
+    "PA": {
+      "sigla": "PA",
+      "aptos": 6079639,
+      "comparecimento": 4774780,
+      "pctComparecimento": 78.54,
+      "abstencoes": 1304859,
+      "pctAbstencoes": 21.46,
+      "votosValidos": 4583573,
+      "pctValidos": 96.0,
+      "votosBrancos": 54620,
+      "pctBrancos": 1.14,
+      "votosNulos": 136587,
+      "pctNulos": 2.86,
+      "vencedor": "Helder Barbalho",
+      "vencedorPartido": "MDB",
+      "vencedorCor": "#059669",
+      "candidatos": [
+        {
+          "numero": "15",
+          "nome": "Helder Barbalho",
+          "nomeUrna": "Helder Barbalho",
+          "partido": "MDB",
+          "cor": "#059669",
+          "votos": 3117276,
+          "pctValidos": 70.41,
+          "eleito": true
+        },
+        {
+          "numero": "22",
+          "nome": "Zequinha Marinho",
+          "nomeUrna": "Zequinha Marinho",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 1201079,
+          "pctValidos": 27.13
+        }
+      ]
+    },
+    "PB": {
+      "sigla": "PB",
+      "aptos": 3056486,
+      "comparecimento": 2498700,
+      "pctComparecimento": 81.75,
+      "abstencoes": 557786,
+      "pctAbstencoes": 18.25,
+      "votosValidos": 2389140,
+      "pctValidos": 95.62,
+      "votosBrancos": 36500,
+      "pctBrancos": 1.46,
+      "votosNulos": 73060,
+      "pctNulos": 2.92,
+      "vencedor": "João Azevêdo",
+      "vencedorPartido": "PSB",
+      "vencedorCor": "#dc2626",
+      "candidatos": [
+        {
+          "numero": "40",
+          "nome": "João Azevêdo",
+          "nomeUrna": "João Azevêdo",
+          "partido": "PSB",
+          "cor": "#dc2626",
+          "votos": 1222401,
+          "pctValidos": 52.51,
+          "eleito": true
+        },
+        {
+          "numero": "45",
+          "nome": "Pedro Cunha Lima",
+          "nomeUrna": "Pedro Cunha Lima",
+          "partido": "PSDB",
+          "cor": "#0ea5e9",
+          "votos": 1104963,
+          "pctValidos": 47.49
+        }
+      ]
+    },
+    "PE": {
+      "sigla": "PE",
+      "aptos": 7018098,
+      "comparecimento": 5724500,
+      "pctComparecimento": 81.57,
+      "abstencoes": 1293598,
+      "pctAbstencoes": 18.43,
+      "votosValidos": 5494485,
+      "pctValidos": 95.98,
+      "votosBrancos": 88400,
+      "pctBrancos": 1.54,
+      "votosNulos": 141615,
+      "pctNulos": 2.47,
+      "vencedor": "Raquel Lyra",
+      "vencedorPartido": "PSDB",
+      "vencedorCor": "#0ea5e9",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Raquel Lyra",
+          "nomeUrna": "Raquel Lyra",
+          "partido": "PSDB",
+          "cor": "#0ea5e9",
+          "votos": 3113415,
+          "pctValidos": 58.7,
+          "eleito": true
+        },
+        {
+          "numero": "77",
+          "nome": "Marília Arraes",
+          "nomeUrna": "Marília Arraes",
+          "partido": "SOLIDARIEDADE",
+          "cor": "#f59e0b",
+          "votos": 2190264,
+          "pctValidos": 41.3
+        }
+      ]
+    },
+    "PI": {
+      "sigla": "PI",
+      "aptos": 2573810,
+      "comparecimento": 2089400,
+      "pctComparecimento": 81.18,
+      "abstencoes": 484410,
+      "pctAbstencoes": 18.82,
+      "votosValidos": 2003605,
+      "pctValidos": 95.89,
+      "votosBrancos": 25800,
+      "pctBrancos": 1.23,
+      "votosNulos": 60000,
+      "pctNulos": 2.87,
+      "vencedor": "Rafael Fonteles",
+      "vencedorPartido": "PT",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Rafael Fonteles",
+          "nomeUrna": "Rafael Fonteles",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1115139,
+          "pctValidos": 57.17,
+          "eleito": true
+        },
+        {
+          "numero": "44",
+          "nome": "Silvio Mendes",
+          "nomeUrna": "Silvio Mendes",
+          "partido": "UNIÃO",
+          "cor": "#4338ca",
+          "votos": 811806,
+          "pctValidos": 41.62
+        }
+      ]
+    },
+    "PR": {
+      "sigla": "PR",
+      "aptos": 8475632,
+      "comparecimento": 6780500,
+      "pctComparecimento": 80.0,
+      "abstencoes": 1695132,
+      "pctAbstencoes": 20.0,
+      "votosValidos": 6482104,
+      "pctValidos": 95.6,
+      "votosBrancos": 118000,
+      "pctBrancos": 1.74,
+      "votosNulos": 180396,
+      "pctNulos": 2.66,
+      "vencedor": "Ratinho Júnior",
+      "vencedorPartido": "PSD",
+      "vencedorCor": "#d97706",
+      "candidatos": [
+        {
+          "numero": "55",
+          "nome": "Ratinho Júnior",
+          "nomeUrna": "Ratinho Junior",
+          "partido": "PSD",
+          "cor": "#d97706",
+          "votos": 4243292,
+          "pctValidos": 69.64,
+          "eleito": true
+        },
+        {
+          "numero": "13",
+          "nome": "Roberto Requião",
+          "nomeUrna": "Roberto Requião",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1598204,
+          "pctValidos": 26.23
+        }
+      ]
+    },
+    "RJ": {
+      "sigla": "RJ",
+      "aptos": 12827296,
+      "comparecimento": 9862100,
+      "pctComparecimento": 76.88,
+      "abstencoes": 2965196,
+      "pctAbstencoes": 23.12,
+      "votosValidos": 9392728,
+      "pctValidos": 95.24,
+      "votosBrancos": 178000,
+      "pctBrancos": 1.8,
+      "votosNulos": 291372,
+      "pctNulos": 2.95,
+      "vencedor": "Cláudio Castro",
+      "vencedorPartido": "PL",
+      "vencedorCor": "#2563eb",
+      "candidatos": [
+        {
+          "numero": "22",
+          "nome": "Cláudio Castro",
+          "nomeUrna": "Cláudio Castro",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 4930288,
+          "pctValidos": 58.67,
+          "eleito": true
+        },
+        {
+          "numero": "40",
+          "nome": "Marcelo Freixo",
+          "nomeUrna": "Marcelo Freixo",
+          "partido": "PSB",
+          "cor": "#dc2626",
+          "votos": 2300986,
+          "pctValidos": 27.38
+        }
+      ]
+    },
+    "RN": {
+      "sigla": "RN",
+      "aptos": 2554727,
+      "comparecimento": 2073900,
+      "pctComparecimento": 81.18,
+      "abstencoes": 480827,
+      "pctAbstencoes": 18.82,
+      "votosValidos": 1978431,
+      "pctValidos": 95.4,
+      "votosBrancos": 31200,
+      "pctBrancos": 1.5,
+      "votosNulos": 64269,
+      "pctNulos": 3.1,
+      "vencedor": "Fátima Bezerra",
+      "vencedorPartido": "PT",
+      "vencedorCor": "#e11d48",
+      "candidatos": [
+        {
+          "numero": "13",
+          "nome": "Fátima Bezerra",
+          "nomeUrna": "Fátima Bezerra",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1066496,
+          "pctValidos": 58.31,
+          "eleito": true
+        },
+        {
+          "numero": "77",
+          "nome": "Fábio Dantas",
+          "nomeUrna": "Fábio Dantas",
+          "partido": "SOLIDARIEDADE",
+          "cor": "#f59e0b",
+          "votos": 406461,
+          "pctValidos": 22.22
+        }
+      ]
+    },
+    "RO": {
+      "sigla": "RO",
+      "aptos": 1230987,
+      "comparecimento": 948210,
+      "pctComparecimento": 77.03,
+      "abstencoes": 282777,
+      "pctAbstencoes": 22.97,
+      "votosValidos": 918120,
+      "pctValidos": 96.83,
+      "votosBrancos": 9840,
+      "pctBrancos": 1.04,
+      "votosNulos": 20250,
+      "pctNulos": 2.14,
+      "vencedor": "Coronel Marcos Rocha",
+      "vencedorPartido": "UNIÃO",
+      "vencedorCor": "#4338ca",
+      "candidatos": [
+        {
+          "numero": "44",
+          "nome": "Coronel Marcos Rocha",
+          "nomeUrna": "Coronel Marcos Rocha",
+          "partido": "UNIÃO",
+          "cor": "#4338ca",
+          "votos": 458370,
+          "pctValidos": 52.47,
+          "eleito": true
+        },
+        {
+          "numero": "22",
+          "nome": "Marcos Rogério",
+          "nomeUrna": "Marcos Rogério",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 415163,
+          "pctValidos": 47.53
+        }
+      ]
+    },
+    "RR": {
+      "sigla": "RR",
+      "aptos": 387866,
+      "comparecimento": 298150,
+      "pctComparecimento": 76.87,
+      "abstencoes": 89716,
+      "pctAbstencoes": 23.13,
+      "votosValidos": 287194,
+      "pctValidos": 96.33,
+      "votosBrancos": 3120,
+      "pctBrancos": 1.05,
+      "votosNulos": 7836,
+      "pctNulos": 2.63,
+      "vencedor": "Antonio Denarium",
+      "vencedorPartido": "PP",
+      "vencedorCor": "#0891b2",
+      "candidatos": [
+        {
+          "numero": "11",
+          "nome": "Antonio Denarium",
+          "nomeUrna": "Antonio Denarium",
+          "partido": "PP",
+          "cor": "#0891b2",
+          "votos": 163082,
+          "pctValidos": 56.47,
+          "eleito": true
+        },
+        {
+          "numero": "15",
+          "nome": "Teresa Surita",
+          "nomeUrna": "Teresa Surita",
+          "partido": "MDB",
+          "cor": "#059669",
+          "votos": 118856,
+          "pctValidos": 41.14
+        }
+      ]
+    },
+    "RS": {
+      "sigla": "RS",
+      "aptos": 8593469,
+      "comparecimento": 6842100,
+      "pctComparecimento": 79.62,
+      "abstencoes": 1751369,
+      "pctAbstencoes": 20.38,
+      "votosValidos": 6554733,
+      "pctValidos": 95.8,
+      "votosBrancos": 124000,
+      "pctBrancos": 1.81,
+      "votosNulos": 163367,
+      "pctNulos": 2.39,
+      "vencedor": "Eduardo Leite",
+      "vencedorPartido": "PSDB",
+      "vencedorCor": "#0ea5e9",
+      "candidatos": [
+        {
+          "numero": "45",
+          "nome": "Eduardo Leite",
+          "nomeUrna": "Eduardo Leite",
+          "partido": "PSDB",
+          "cor": "#0ea5e9",
+          "votos": 3687126,
+          "pctValidos": 57.12,
+          "eleito": true
+        },
+        {
+          "numero": "22",
+          "nome": "Onyx Lorenzoni",
+          "nomeUrna": "Onyx Lorenzoni",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 2767786,
+          "pctValidos": 42.88
+        }
+      ]
+    },
+    "SC": {
+      "sigla": "SC",
+      "aptos": 5489658,
+      "comparecimento": 4541200,
+      "pctComparecimento": 82.72,
+      "abstencoes": 948458,
+      "pctAbstencoes": 17.28,
+      "votosValidos": 4356343,
+      "pctValidos": 95.93,
+      "votosBrancos": 74000,
+      "pctBrancos": 1.63,
+      "votosNulos": 108857,
+      "pctNulos": 2.4,
+      "vencedor": "Jorginho Mello",
+      "vencedorPartido": "PL",
+      "vencedorCor": "#2563eb",
+      "candidatos": [
+        {
+          "numero": "22",
+          "nome": "Jorginho Mello",
+          "nomeUrna": "Jorginho Mello",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 2983949,
+          "pctValidos": 70.69,
+          "eleito": true
+        },
+        {
+          "numero": "13",
+          "nome": "Décio Lima",
+          "nomeUrna": "Décio Lima",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 1237016,
+          "pctValidos": 29.31
+        }
+      ]
+    },
+    "SE": {
+      "sigla": "SE",
+      "aptos": 1671522,
+      "comparecimento": 1319400,
+      "pctComparecimento": 78.93,
+      "abstencoes": 352122,
+      "pctAbstencoes": 21.07,
+      "votosValidos": 1242017,
+      "pctValidos": 94.13,
+      "votosBrancos": 25100,
+      "pctBrancos": 1.9,
+      "votosNulos": 52283,
+      "pctNulos": 3.96,
+      "vencedor": "Fábio Mitidieri",
+      "vencedorPartido": "PSD",
+      "vencedorCor": "#d97706",
+      "candidatos": [
+        {
+          "numero": "55",
+          "nome": "Fábio Mitidieri",
+          "nomeUrna": "Fábio Mitidieri",
+          "partido": "PSD",
+          "cor": "#d97706",
+          "votos": 623851,
+          "pctValidos": 51.7,
+          "eleito": true
+        },
+        {
+          "numero": "44",
+          "nome": "Rogério Carvalho",
+          "nomeUrna": "Rogério Carvalho",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 582940,
+          "pctValidos": 48.3
+        }
+      ]
+    },
+    "SP": {
+      "sigla": "SP",
+      "aptos": 34667793,
+      "comparecimento": 27325400,
+      "pctComparecimento": 78.82,
+      "abstencoes": 7342393,
+      "pctAbstencoes": 21.18,
+      "votosValidos": 25229302,
+      "pctValidos": 92.33,
+      "votosBrancos": 592000,
+      "pctBrancos": 2.17,
+      "votosNulos": 1504100,
+      "pctNulos": 5.5,
+      "vencedor": "Tarcísio de Freitas",
+      "vencedorPartido": "REPUBLICANOS",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "10",
+          "nome": "Tarcísio de Freitas",
+          "nomeUrna": "Tarcísio",
+          "partido": "REPUBLICANOS",
+          "cor": "#0284c7",
+          "votos": 13480643,
+          "pctValidos": 55.27,
+          "eleito": true
+        },
+        {
+          "numero": "13",
+          "nome": "Fernando Haddad",
+          "nomeUrna": "Fernando Haddad",
+          "partido": "PT",
+          "cor": "#e11d48",
+          "votos": 10909371,
+          "pctValidos": 44.73
+        }
+      ]
+    },
+    "TO": {
+      "sigla": "TO",
+      "aptos": 1094003,
+      "comparecimento": 880250,
+      "pctComparecimento": 80.46,
+      "abstencoes": 213753,
+      "pctAbstencoes": 19.54,
+      "votosValidos": 852196,
+      "pctValidos": 96.81,
+      "votosBrancos": 8920,
+      "pctBrancos": 1.01,
+      "votosNulos": 19134,
+      "pctNulos": 2.17,
+      "vencedor": "Wanderlei Barbosa",
+      "vencedorPartido": "REPUBLICANOS",
+      "vencedorCor": "#0284c7",
+      "candidatos": [
+        {
+          "numero": "10",
+          "nome": "Wanderlei Barbosa",
+          "nomeUrna": "Wanderlei Barbosa",
+          "partido": "REPUBLICANOS",
+          "cor": "#0284c7",
+          "votos": 481496,
+          "pctValidos": 58.14,
+          "eleito": true
+        },
+        {
+          "numero": "22",
+          "nome": "Ronaldo Dimas",
+          "nomeUrna": "Ronaldo Dimas",
+          "partido": "PL",
+          "cor": "#2563eb",
+          "votos": 186366,
+          "pctValidos": 22.5
+        }
+      ]
+    }
+  },
+  "exterior": {
+    "totalAptos": 0,
+    "comparecimento": 0,
+    "abstencoes": 0,
+    "cidades": []
+  },
+  "zonas": [],
+  "municipios": [],
+  "detalhesNulos": {
+    "totalNulos": 4943947,
+    "pctNulos": 4.5,
+    "totalBrancos": 3707960,
+    "pctBrancos": 3.0,
+    "totalAbstencoes": 32855343,
+    "pctAbstencoes": 21.0,
+    "numerosDigitados": [],
+    "subJudice": [],
+    "notaTSE": "Resultados oficiais consolidados TSE para Eleições Gerais 2022 • Governadores (1º Turno)."
+  }
+}

@@ -35,13 +35,73 @@ export interface TurnoutMetrics {
   pctBrancos: number;
   votosNulos: number;
   pctNulos: number;
+  secoesTotalizadas?: number;
+  totalSecoes?: number;
+  pctApuracao?: number;
 }
+
+export interface ApuracaoProgress {
+  secoesTotalizadas: number;
+  totalSecoes: number;
+  pctSecoesTotalizadas: number;
+  eleitoradoApurado: number;
+  totalEleitorado: number;
+  horarioUltimaAtualizacao: string;
+  isTempoReal: boolean;
+  origemApi?: string;
+  statusTotalizacao?: 'EM_ANDAMENTO' | 'FINALIZADA' | 'NAO_INICIADA';
+  statusMensagem?: string;
+}
+
+export interface PartySummary {
+  partido: string;
+  nomeCompleto?: string;
+  cor: string;
+  eleitos: number;
+  pctEleitos: number;
+  votos: number;
+  pctVotos: number;
+  coligacao?: string;
+}
+
+export const PARTY_COLORS: Record<string, { nome: string; cor: string; sigla: string }> = {
+  'PT': { nome: 'Partido dos Trabalhadores', cor: '#e11d48', sigla: 'PT' },
+  'PL': { nome: 'Partido Liberal', cor: '#2563eb', sigla: 'PL' },
+  'UNIÃO': { nome: 'União Brasil', cor: '#4338ca', sigla: 'UNIÃO' },
+  'PP': { nome: 'Progressistas', cor: '#0891b2', sigla: 'PP' },
+  'PSD': { nome: 'Partido Social Democrático', cor: '#d97706', sigla: 'PSD' },
+  'MDB': { nome: 'Movimento Democrático Brasileiro', cor: '#059669', sigla: 'MDB' },
+  'REPUBLICANOS': { nome: 'Republicanos', cor: '#0284c7', sigla: 'REPUBLICANOS' },
+  'PSDB': { nome: 'Partido da Social Democracia Brasileira', cor: '#0ea5e9', sigla: 'PSDB' },
+  'PDT': { nome: 'Partido Democrático Trabalhista', cor: '#ea580c', sigla: 'PDT' },
+  'PSB': { nome: 'Partido Socialista Brasileiro', cor: '#dc2626', sigla: 'PSB' },
+  'PODEMOS': { nome: 'Podemos', cor: '#7c3aed', sigla: 'PODEMOS' },
+  'PSOL': { nome: 'Partido Socialismo e Liberdade', cor: '#eab308', sigla: 'PSOL' },
+  'AVANTE': { nome: 'Avante', cor: '#06b6d4', sigla: 'AVANTE' },
+  'PCdoB': { nome: 'Partido Comunista do Brasil', cor: '#be123c', sigla: 'PCdoB' },
+  'SOLIDARIEDADE': { nome: 'Solidariedade', cor: '#f59e0b', sigla: 'SOLIDARIEDADE' },
+  'PATRIOTA': { nome: 'Patriota', cor: '#334155', sigla: 'PATRIOTA' },
+  'PROS': { nome: 'Partido Republicano da Ordem Social', cor: '#64748b', sigla: 'PROS' },
+  'NOVO': { nome: 'Partido Novo', cor: '#f97316', sigla: 'NOVO' },
+  'REDE': { nome: 'Rede Sustentabilidade', cor: '#10b981', sigla: 'REDE' },
+  'PTB': { nome: 'Partido Trabalhista Brasileiro', cor: '#475569', sigla: 'PTB' },
+  'CIDADANIA': { nome: 'Cidadania', cor: '#ec4899', sigla: 'CIDADANIA' },
+  'PSC': { nome: 'Partido Social Cristão', cor: '#16a34a', sigla: 'PSC' },
+  'PV': { nome: 'Partido Verde', cor: '#22c55e', sigla: 'PV' },
+  'PRTB': { nome: 'Partido Renovador Trabalhista Brasileiro', cor: '#1e40af', sigla: 'PRTB' },
+  'PMB': { nome: 'Partido da Mulher Brasileira', cor: '#f43f5e', sigla: 'PMB' },
+  'PRN': { nome: 'Partido da Reconstrução Nacional', cor: '#1e3a8a', sigla: 'PRN' },
+  'PDS': { nome: 'Partido Democrático Social', cor: '#0f766e', sigla: 'PDS' },
+  'PRONA': { nome: 'Partido de Reedificação da Ordem Nacional', cor: '#b45309', sigla: 'PRONA' }
+};
 
 export interface UfResult extends TurnoutMetrics {
   sigla: string;
   vencedor: string;
   vencedorCor: string;
+  vencedorPartido?: string;
   candidatos: Candidate[];
+  partidos?: PartySummary[];
 }
 
 export interface ConsularCity {
@@ -86,6 +146,10 @@ export interface MunicipalityResult {
   brancos: number;
   nulos: number;
   abstencoes: number;
+  vencedorNome?: string;
+  vencedorPartido?: string;
+  vencedorCor?: string;
+  candidatos?: Candidate[];
 }
 
 export interface TypedNullNumber {
@@ -120,19 +184,13 @@ export interface ElectionRoundData {
   cargo: ElectionCargo;
   turno: number;
   data: string;
-  brasil: {
-    aptos: number;
-    comparecimento: number;
-    pctComparecimento: number;
-    abstencoes: number;
-    pctAbstencoes: number;
-    votosValidos: number;
-    pctValidos: number;
-    votosBrancos: number;
-    pctBrancos: number;
-    votosNulos: number;
-    pctNulos: number;
+  titulo?: string;
+  fonte?: string;
+  isTempoReal?: boolean;
+  apuracao?: ApuracaoProgress;
+  brasil: TurnoutMetrics & {
     candidatos: Candidate[];
+    partidos?: PartySummary[];
   };
   ufs: Record<string, UfResult>;
   exterior: {
@@ -155,6 +213,7 @@ export interface ElectionManifestItem {
   data1Turno: string;
   data2Turno?: string;
   status: string;
+  isTempoReal?: boolean;
 }
 
 export interface ElectionManifest {

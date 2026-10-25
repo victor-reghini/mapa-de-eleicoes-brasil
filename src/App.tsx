@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import type { 
+  ElectionCargo,
   ElectionManifest, 
   ElectionRoundData, 
   GranularityMode, 
@@ -7,6 +8,7 @@ import type {
   ConsularCity 
 } from './types/election';
 import { electionService } from './services/electionService';
+import { realtimeTseService } from './services/realtimeTseService';
 import { Header } from './components/Header';
 import { Subbar } from './components/Subbar';
 import { Map2D } from './components/Map2D';
@@ -21,6 +23,7 @@ export function App() {
   const [manifest, setManifest] = useState<ElectionManifest | null>(null);
   const [selectedAno, setSelectedAno] = useState<number>(2022);
   const [selectedTurno, setSelectedTurno] = useState<number>(2);
+  const [selectedCargo, setSelectedCargo] = useState<ElectionCargo>('PRESIDENTE');
   const [electionData, setElectionData] = useState<ElectionRoundData | null>(null);
   const [munIndex, setMunIndex] = useState<MunicipalityIndexItem[]>([]);
 
@@ -57,12 +60,12 @@ export function App() {
     init();
   }, []);
 
-  // Fetch Election Data on Year or Turno Change
+  // Fetch Election Data on Year, Turno, or Cargo Change
   useEffect(() => {
     async function loadData() {
       setIsLoading(true);
       try {
-        const data = await electionService.getElectionData(selectedAno, selectedTurno);
+        const data = await electionService.getElectionData(selectedAno, selectedTurno, selectedCargo);
         setElectionData(data);
       } catch (err) {
         console.error('Erro ao carregar dados da eleição:', err);
@@ -71,14 +74,81 @@ export function App() {
       }
     }
     loadData();
-  }, [selectedAno, selectedTurno]);
+  }, [selectedAno, selectedTurno, selectedCargo]);
+
+  const [liveRefreshInterval, setLiveRefreshInterval] = useState<number>(15);
+
+  // Polling for live apuração when 2026 2º Turno is selected
+  useEffect(() => {
+    if (selectedAno === 2026 && selectedTurno === 2 && selectedCargo === 'PRESIDENTE' && liveRefreshInterval > 0) {
+      const cancelPolling = realtimeTseService.startPolling(
+        2026, 
+        2, 
+        (liveData) => {
+          setElectionData(liveData);
+        }, 
+        liveRefreshInterval * 1000
+      );
+      return () => cancelPolling();
+    }
+  }, [selectedAno, selectedTurno, selectedCargo, liveRefreshInterval]);
+
+  const handleRefreshLive = async () => {
+    if (selectedAno === 2026 && selectedTurno === 2) {
+      try {
+        setIsLoading(true);
+        const liveData = await realtimeTseService.fetchLiveApuracao(2026, 2);
+        setElectionData(liveData);
+      } catch (err) {
+        console.error('Falha ao atualizar apuração ao vivo:', err);
+      } finally {
+        setIsLoading(false);
+      }
+    }
+  };
+
+  const isMunicipalCargo = (cargo: ElectionCargo) => cargo === 'PREFEITO' || cargo === 'VEREADOR';
+
+  // Handler when cargo changes
+  const handleSelectCargo = (cargo: ElectionCargo) => {
+    setSelectedCargo(cargo);
+    if (cargo !== 'PRESIDENTE' && granularity === 'EXTERIOR_GLOBE') {
+      setGranularity('ESTADOS');
+    }
+
+    const wasMunicipal = isMunicipalCargo(selectedCargo);
+    const nowMunicipal = isMunicipalCargo(cargo);
+
+    if (nowMunicipal && !wasMunicipal) {
+      // Switching from general to municipal: switch to latest municipal election (2024)
+      setSelectedAno(2024);
+      setSelectedTurno(cargo === 'VEREADOR' ? 1 : 2);
+    } else if (!nowMunicipal && wasMunicipal) {
+      // Switching from municipal to general: switch to latest general election (2022)
+      setSelectedAno(2022);
+      const isSingleRound = ['SENADOR', 'DEPUTADO_FEDERAL', 'DEPUTADO_ESTADUAL'].includes(cargo);
+      setSelectedTurno(isSingleRound ? 1 : 2);
+    } else {
+      const isSingleRound = ['SENADOR', 'DEPUTADO_FEDERAL', 'DEPUTADO_ESTADUAL', 'VEREADOR'].includes(cargo);
+      if (isSingleRound && selectedTurno !== 1) {
+        setSelectedTurno(1);
+      }
+    }
+  };
 
   // Handler when year changes
   const handleSelectAno = (ano: number) => {
     setSelectedAno(ano);
-    const election = manifest?.supportedElections.find(e => e.ano === ano);
-    if (election && !election.turnos.includes(selectedTurno)) {
-      setSelectedTurno(election.turnos[0]);
+    const isSingleRound = ['SENADOR', 'DEPUTADO_FEDERAL', 'DEPUTADO_ESTADUAL', 'VEREADOR'].includes(selectedCargo);
+    if (isSingleRound) {
+      setSelectedTurno(1);
+    } else {
+      const election = manifest?.supportedElections.find(
+        e => e.ano === ano && (e.cargo === selectedCargo || (!e.cargo && selectedCargo === 'PRESIDENTE'))
+      );
+      if (election && !election.turnos.includes(selectedTurno)) {
+        setSelectedTurno(election.turnos[0]);
+      }
     }
     setSelectedCity(null);
   };
@@ -131,8 +201,10 @@ export function App() {
         manifest={manifest}
         selectedAno={selectedAno}
         selectedTurno={selectedTurno}
+        selectedCargo={selectedCargo}
         onSelectAno={handleSelectAno}
         onSelectTurno={setSelectedTurno}
+        onSelectCargo={handleSelectCargo}
         onOpenScalabilityModal={() => setIsScalabilityModalOpen(true)}
         onOpenSourcesModal={() => setIsSourcesModalOpen(true)}
       />
@@ -240,6 +312,9 @@ export function App() {
           onClearSelection={handleClearSelection}
           onOpenNullModal={() => setIsNullModalOpen(true)}
           onOpenSourcesModal={() => setIsSourcesModalOpen(true)}
+          onRefreshLive={handleRefreshLive}
+          refreshInterval={liveRefreshInterval}
+          onChangeRefreshInterval={setLiveRefreshInterval}
         />
       </main>
 

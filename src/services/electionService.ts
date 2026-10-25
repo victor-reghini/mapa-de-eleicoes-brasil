@@ -1,8 +1,11 @@
 import type { 
+  ElectionCargo,
   ElectionManifest, 
   ElectionRoundData, 
   MunicipalityIndexItem 
 } from '../types/election';
+import { getElectionDataForCargo } from '../data/cargosData';
+import { realtimeTseService } from './realtimeTseService';
 
 class ElectionService {
   private cacheManifest: ElectionManifest | null = null;
@@ -20,14 +23,55 @@ class ElectionService {
     return this.cacheManifest!;
   }
 
-  async getElectionData(ano: number, turno: number): Promise<ElectionRoundData> {
-    const key = `${ano}_${turno}`;
+  async getElectionData(ano: number, turno: number, cargo: ElectionCargo = 'PRESIDENTE'): Promise<ElectionRoundData> {
+    const key = `${ano}_${cargo}_${turno}`;
+
+    // Real-time live apuração for 2026 2º turno
+    if (ano === 2026 && turno === 2 && cargo === 'PRESIDENTE') {
+      try {
+        const liveData = await realtimeTseService.fetchLiveApuracao(2026, 2);
+        this.cacheElectionData.set(key, liveData);
+        return liveData;
+      } catch (e) {
+        console.warn('Usando dataset sincronizado do 2º turno de 2026:', e);
+      }
+    }
+
     if (this.cacheElectionData.has(key)) {
       return this.cacheElectionData.get(key)!;
     }
-    const res = await fetch(`/data/elections/${ano}_${turno}.json?v=${Date.now()}`, { cache: 'no-cache' });
-    if (!res.ok) throw new Error(`Falha ao carregar dados da eleição ${ano} turno ${turno}`);
-    const data: ElectionRoundData = await res.json();
+
+    // 1. Try to fetch dedicated cargo file (e.g. 2024_PREFEITO_2.json or 2018_GOVERNADOR_1.json)
+    if (cargo !== 'PRESIDENTE') {
+      try {
+        const cargoRes = await fetch(`/data/elections/${ano}_${cargo}_${turno}.json?v=${Date.now()}`, { cache: 'no-cache' });
+        if (cargoRes.ok) {
+          const cargoData: ElectionRoundData = await cargoRes.json();
+          this.cacheElectionData.set(key, cargoData);
+          return cargoData;
+        }
+      } catch {
+        // Fallback to dynamic synthesis below
+      }
+    }
+
+    // 2. Fetch base data (for presidential or synthesis fallback)
+    const baseKey = `${ano}_PRESIDENTE_${turno}`;
+    let baseData: ElectionRoundData;
+    if (this.cacheElectionData.has(baseKey)) {
+      baseData = this.cacheElectionData.get(baseKey)!;
+    } else {
+      let res = await fetch(`/data/elections/${ano}_${turno}.json?v=${Date.now()}`, { cache: 'no-cache' });
+      if (!res.ok) {
+        // If year is not a presidential year (e.g. 2024, 2020), use 2022_1.json as base geometry
+        res = await fetch(`/data/elections/2022_1.json?v=${Date.now()}`, { cache: 'no-cache' });
+        if (!res.ok) throw new Error(`Falha ao carregar dados da eleição ${ano} turno ${turno}`);
+      }
+      baseData = await res.json();
+      this.cacheElectionData.set(baseKey, baseData);
+    }
+
+    const data: ElectionRoundData = getElectionDataForCargo(ano, turno, cargo, baseData);
     this.cacheElectionData.set(key, data);
     return data;
   }

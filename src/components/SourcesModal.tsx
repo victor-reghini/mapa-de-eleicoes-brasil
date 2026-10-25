@@ -31,6 +31,38 @@ interface ElectionSource {
 
 const FONTES_ELEICOES: ElectionSource[] = [
   {
+    ano: 2026,
+    titulo: "Eleição Presidencial 2026 (Apuração em Tempo Real & Dados Abertos)",
+    periodo: "04/10/2026 (1ºT) • 25/10/2026 (2ºT Ao Vivo)",
+    tseAppUrl: "https://www.tse.jus.br/eleicoes/informacoes-tecnicas-sobre-a-divulgacao-de-resultados",
+    tseDadosAbertosUrl: "https://dadosabertos.tse.jus.br/dataset/resultados-2026",
+    tseHistoricoUrl: "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.json",
+    arquivosCsv: [
+      "votacao_candidato_munzona_2026_BRASIL.csv",
+      "detalhe_votacao_munzona_2026_BRASIL.csv",
+      "tse_live_api_c0001_e006258_u.json"
+    ],
+    descricao: "Apuração em tempo real com streaming de totalização seções por estado (API oficial do TSE) e resultados consolidados do 1º turno via Dados Abertos.",
+    eleitores: "156.454.011 eleitores aptos",
+    vencedor: "Disputa ao vivo: Lula (PT) vs Tarcísio de Freitas (Republicanos)"
+  },
+  {
+    ano: 2024,
+    titulo: "Eleições Municipais 2024 (Prefeitos e Vereadores)",
+    periodo: "06/10/2024 (1ºT) • 27/10/2024 (2ºT)",
+    tseAppUrl: "https://resultados.tse.jus.br/oficial/app/index.html#/eleicao/619/uf/br/cargo/11/vis/nominal/resultados",
+    tseDadosAbertosUrl: "https://dadosabertos.tse.jus.br/dataset/resultados-2024",
+    tseHistoricoUrl: "https://www.tse.jus.br/eleicoes/eleicoes-2024",
+    arquivosCsv: [
+      "votacao_candidato_munzona_2024_BRASIL.csv",
+      "detalhe_votacao_munzona_2024_BRASIL.csv",
+      "consulta_cand_2024_BRASIL.csv"
+    ],
+    descricao: "Eleições municipais em todo o Brasil para prefeitos e vereadores em 5.569 municípios, com 2º turno em 51 cidades.",
+    eleitores: "155.912.680 eleitores aptos",
+    vencedor: "PSD (888 prefeitos) • MDB (856) • PP (747)"
+  },
+  {
     ano: 2022,
     titulo: "Eleição Presidencial 2022 (2º Turno)",
     periodo: "02/10/2022 (1ºT) • 30/10/2022 (2ºT)",

@@ -1,14 +1,16 @@
 import React from 'react';
 import { Vote, Database, ShieldCheck } from 'lucide-react';
-import type { ElectionManifest } from '../types/election';
+import type { ElectionCargo, ElectionManifest } from '../types/election';
 
 interface HeaderProps {
   manifest: ElectionManifest | null;
   selectedAno: number;
   selectedTurno: number;
+  selectedCargo: ElectionCargo;
   onSelectAno: (ano: number) => void;
   onSelectTurno: (turno: number) => void;
-  onOpenScalabilityModal: () => void;
+  onSelectCargo: (cargo: ElectionCargo) => void;
+  onOpenScalabilityModal?: () => void;
   onOpenSourcesModal: () => void;
 }
 
@@ -16,13 +18,36 @@ export const Header: React.FC<HeaderProps> = ({
   manifest,
   selectedAno,
   selectedTurno,
+  selectedCargo,
   onSelectAno,
   onSelectTurno,
-  onOpenScalabilityModal,
+  onSelectCargo,
+  onOpenScalabilityModal: _onOpenScalabilityModal,
   onOpenSourcesModal
 }) => {
-  const currentElection = manifest?.supportedElections.find(e => e.ano === selectedAno);
-  const availableTurnos = currentElection?.turnos || [1, 2];
+  const isMunicipalCargo = selectedCargo === 'PREFEITO' || selectedCargo === 'VEREADOR';
+
+  // Filter supported elections by whether they are municipal or general
+  const filteredElections = (manifest?.supportedElections || []).filter(e => {
+    const isMun = e.cargo === 'PREFEITO' || e.cargo === 'VEREADOR';
+    return isMunicipalCargo ? isMun : !isMun;
+  });
+
+  // Extract unique sorted years for this category
+  const availableYears = Array.from(
+    new Set(filteredElections.map(e => e.ano))
+  ).sort((a, b) => b - a);
+
+  // Fallback to standard cycles if manifest is loading
+  const displayYears = availableYears.length > 0 
+    ? availableYears 
+    : (isMunicipalCargo ? [2024, 2020, 2016, 2012] : [2026, 2022, 2018, 2014, 2010, 2006, 2002, 1998, 1994, 1989]);
+
+  const isSingleRoundCargo = ['SENADOR', 'DEPUTADO_FEDERAL', 'DEPUTADO_ESTADUAL', 'VEREADOR'].includes(selectedCargo);
+  const currentElection = filteredElections.find(
+    e => e.ano === selectedAno && (e.cargo === selectedCargo || selectedCargo === 'PRESIDENTE')
+  );
+  const availableTurnos = isSingleRoundCargo ? [1] : (currentElection?.turnos || [1, 2]);
 
   return (
     <header className="app-header">
@@ -50,29 +75,25 @@ export const Header: React.FC<HeaderProps> = ({
       </div>
 
       <div className="header-controls">
-        {/* Cargo Selector (Minimized Select with disabled placeholders) */}
+        {/* Cargo Selector */}
         <div className="select-group">
           <select
             className="control-select"
-            defaultValue="PRESIDENTE"
-            onChange={(e) => {
-              if (e.target.value !== 'PRESIDENTE') {
-                onOpenScalabilityModal();
-              }
-            }}
+            value={selectedCargo}
+            onChange={(e) => onSelectCargo(e.target.value as ElectionCargo)}
             aria-label="Selecionar Cargo Eletivo"
           >
             <option value="PRESIDENTE">Presidente</option>
-            <option value="GOVERNADOR" disabled>Governador</option>
-            <option value="SENADOR" disabled>Senador</option>
-            <option value="DEPUTADO_FEDERAL" disabled>Deputado Federal</option>
-            <option value="DEPUTADO_ESTADUAL" disabled>Deputado Estadual</option>
-            <option value="PREFEITO" disabled>Prefeito</option>
-            <option value="VEREADOR" disabled>Vereador</option>
+            <option value="GOVERNADOR">Governador</option>
+            <option value="SENADOR">Senador</option>
+            <option value="DEPUTADO_FEDERAL">Deputado Federal</option>
+            <option value="DEPUTADO_ESTADUAL">Deputado Estadual</option>
+            <option value="PREFEITO">Prefeito</option>
+            <option value="VEREADOR">Vereador</option>
           </select>
         </div>
 
-        {/* Year Selector (Only Year numbers: 2022, 2018, ...) */}
+        {/* Year Selector */}
         <div className="select-group">
           <select
             className="control-select"
@@ -80,25 +101,30 @@ export const Header: React.FC<HeaderProps> = ({
             onChange={(e) => onSelectAno(Number(e.target.value))}
             aria-label="Selecionar Ano"
           >
-            {manifest?.supportedElections.map((elec) => (
-              <option key={elec.id} value={elec.ano}>
-                {elec.ano}
+            {displayYears.map((ano) => (
+              <option key={ano} value={ano}>
+                {ano}
               </option>
             ))}
           </select>
         </div>
 
-        {/* Turno Selector (kept as is) */}
+        {/* Turno Selector */}
         <div className="turno-pill-group" role="group" aria-label="Selecionar Turno">
-          {availableTurnos.map((t) => (
-            <button
-              key={t}
-              className={`turno-btn ${selectedTurno === t ? 'active' : ''}`}
-              onClick={() => onSelectTurno(t)}
-            >
-              {t}º Turno
-            </button>
-          ))}
+          {availableTurnos.map((t) => {
+            const isLive = selectedAno === 2026 && t === 2;
+            return (
+              <button
+                key={t}
+                className={`turno-btn ${selectedTurno === t ? 'active' : ''} ${isLive ? 'live-turno' : ''}`}
+                onClick={() => onSelectTurno(t)}
+                title={isLive ? 'Apuração em tempo real oficial do TSE' : `${t}º Turno`}
+              >
+                {isLive && <span className="live-dot" />}
+                {t}º Turno {isLive ? '(Ao Vivo)' : ''}
+              </button>
+            );
+          })}
         </div>
 
         {/* Minimized Database Icon Button */}
@@ -106,7 +132,7 @@ export const Header: React.FC<HeaderProps> = ({
           href="/data/eleicoes_brasil.db"
           download="eleicoes_brasil.db"
           className="db-icon-btn"
-          title="Baixar banco SQLite local (1989-2022)"
+          title="Baixar banco SQLite local (1989-2026)"
           aria-label="Baixar banco SQLite"
         >
           <Database size={16} />

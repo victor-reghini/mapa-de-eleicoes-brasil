@@ -1,6 +1,20 @@
 {
   "supportedElections": [
     {
+      "id": "2026_PRESIDENTE",
+      "ano": 2026,
+      "cargo": "PRESIDENTE",
+      "titulo": "Eleição Presidencial 2026",
+      "turnos": [
+        1,
+        2
+      ],
+      "data1Turno": "2026-10-04",
+      "data2Turno": "2026-10-25",
+      "status": "APURACAO_AO_VIVO",
+      "isTempoReal": true
+    },
+    {
       "id": "2022_PRESIDENTE",
       "ano": 2022,
       "cargo": "PRESIDENTE",
@@ -112,6 +126,170 @@
       "data1Turno": "1989-11-15",
       "data2Turno": "1989-12-17",
       "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2022_GOVERNADOR",
+      "ano": 2022,
+      "cargo": "GOVERNADOR",
+      "titulo": "Eleições para Governador 2022",
+      "turnos": [
+        1,
+        2
+      ],
+      "data1Turno": "2022-10-02",
+      "data2Turno": "2022-10-30",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2018_GOVERNADOR",
+      "ano": 2018,
+      "cargo": "GOVERNADOR",
+      "titulo": "Eleições para Governador 2018",
+      "turnos": [
+        1,
+        2
+      ],
+      "data1Turno": "2018-10-07",
+      "data2Turno": "2018-10-28",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2022_SENADOR",
+      "ano": 2022,
+      "cargo": "SENADOR",
+      "titulo": "Eleição para o Senado Federal 2022",
+      "turnos": [
+        1
+      ],
+      "data1Turno": "2022-10-02",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2018_SENADOR",
+      "ano": 2018,
+      "cargo": "SENADOR",
+      "titulo": "Eleição para o Senado Federal 2018",
+      "turnos": [
+        1
+      ],
+      "data1Turno": "2018-10-07",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2022_DEPUTADO_FEDERAL",
+      "ano": 2022,
+      "cargo": "DEPUTADO_FEDERAL",
+      "titulo": "Eleições para Deputado Federal 2022",
+      "turnos": [
+        1
+      ],
+      "data1Turno": "2022-10-02",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2018_DEPUTADO_FEDERAL",
+      "ano": 2018,
+      "cargo": "DEPUTADO_FEDERAL",
+      "titulo": "Eleições para Deputado Federal 2018",
+      "turnos": [
+        1
+      ],
+      "data1Turno": "2018-10-07",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2022_DEPUTADO_ESTADUAL",
+      "ano": 2022,
+      "cargo": "DEPUTADO_ESTADUAL",
+      "titulo": "Eleições para Assembleias Legislativas 2022",
+      "turnos": [
+        1
+      ],
+      "data1Turno": "2022-10-02",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2018_DEPUTADO_ESTADUAL",
+      "ano": 2018,
+      "cargo": "DEPUTADO_ESTADUAL",
+      "titulo": "Eleições para Assembleias Legislativas 2018",
+      "turnos": [
+        1
+      ],
+      "data1Turno": "2018-10-07",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2024_PREFEITO",
+      "ano": 2024,
+      "cargo": "PREFEITO",
+      "titulo": "Eleições Municipais 2024 • Prefeitos",
+      "turnos": [
+        1,
+        2
+      ],
+      "data1Turno": "2024-10-06",
+      "data2Turno": "2024-10-27",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2020_PREFEITO",
+      "ano": 2020,
+      "cargo": "PREFEITO",
+      "titulo": "Eleições Municipais 2020 • Prefeitos",
+      "turnos": [
+        1,
+        2
+      ],
+      "data1Turno": "2020-11-15",
+      "data2Turno": "2020-11-29",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2016_PREFEITO",
+      "ano": 2016,
+      "cargo": "PREFEITO",
+      "titulo": "Eleições Municipais 2016 • Prefeitos",
+      "turnos": [
+        1,
+        2
+      ],
+      "data1Turno": "2016-10-02",
+      "data2Turno": "2016-10-30",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2024_VEREADOR",
+      "ano": 2024,
+      "cargo": "VEREADOR",
+      "titulo": "Eleições Municipais 2024 • Vereadores",
+      "turnos": [
+        1
+      ],
+      "data1Turno": "2024-10-06",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2020_VEREADOR",
+      "ano": 2020,
+      "cargo": "VEREADOR",
+      "titulo": "Eleições Municipais 2020 • Vereadores",
+      "turnos": [
+        1
+      ],
+      "data1Turno": "2020-11-15",
+      "status": "CONSOLIDADO"
+    },
+    {
+      "id": "2016_VEREADOR",
+      "ano": 2016,
+      "cargo": "VEREADOR",
+      "titulo": "Eleições Municipais 2016 • Vereadores",
+      "turnos": [
+        1
+      ],
+      "data1Turno": "2016-10-02",
+      "status": "CONSOLIDADO"
     }
   ],
   "futureCargoScalability": [
@@ -144,7 +322,7 @@
     "engine": "SQLite 3",
     "file": "data/eleicoes_brasil.db",
     "publicUrl": "/data/eleicoes_brasil.db",
-    "totalEleicoes": 9,
-    "periodo": "1989 - 2022 (Redemocratização Completa)"
+    "totalEleicoes": 24,
+    "periodo": "1989 - 2026 (Presidenciais, Gerais e Municipais)"
   }
 }

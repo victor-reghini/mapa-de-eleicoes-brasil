@@ -1,12 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
-import { ZoomIn, ZoomOut, RotateCcw, Home } from 'lucide-react';
+import { ZoomIn, ZoomOut, RotateCcw, Home, Activity } from 'lucide-react';
 import type { 
   ElectionRoundData, 
   GranularityMode, 
   MunicipalityIndexItem, 
   ElectoralZone 
 } from '../types/election';
+import { PARTY_COLORS } from '../types/election';
 import { electionService } from '../services/electionService';
 
 interface Map2DProps {
@@ -47,6 +48,7 @@ export const Map2D: React.FC<Map2DProps> = ({
   const [statesGeo, setStatesGeo] = useState<any>(null);
   const [munGeo, setMunGeo] = useState<any>(null);
   const [tooltip, setTooltip] = useState<TooltipData | null>(null);
+  const [showApuracaoOverlay, setShowApuracaoOverlay] = useState<boolean>(true);
 
   // Load States GeoJSON on mount
   useEffect(() => {
@@ -115,24 +117,30 @@ export const Map2D: React.FC<Map2DProps> = ({
       .attr('fill', (d: any) => {
         const sigla = d.properties.sigla;
         const ufResult = electionData.ufs[sigla];
-        if (!ufResult || !ufResult.candidatos || ufResult.candidatos.length === 0) {
+        if (!ufResult) {
           return '#1e293b';
         }
-        const winner = ufResult.candidatos[0];
         // If state is selected, keep bright; if another state selected in Mun mode, slightly dim
         const isSelected = selectedUf === sigla;
         if (selectedUf && !isSelected) {
           return '#172033';
         }
-        return winner.cor || '#3b82f6';
+        // In real-time live mode before 17:00, domestic states have 0 votes and are awaiting apuração
+        if (electionData.isTempoReal && (!ufResult.pctApuracao || ufResult.votosValidos === 0)) {
+          return '#1e293b';
+        }
+        return ufResult.vencedorCor || (ufResult.vencedorPartido && PARTY_COLORS[ufResult.vencedorPartido]?.cor) || ufResult.candidatos?.[0]?.cor || '#3b82f6';
       })
       .attr('fill-opacity', (d: any) => {
         const sigla = d.properties.sigla;
         if (selectedUf && selectedUf !== sigla) return 0.25;
         const ufResult = electionData.ufs[sigla];
         if (!ufResult) return 0.4;
+        if (electionData.isTempoReal && (!ufResult.pctApuracao || ufResult.votosValidos === 0)) {
+          return 0.6;
+        }
         // Opacity reflects margin of victory
-        const top = ufResult.candidatos[0]?.pctValidos || 50;
+        const top = ufResult.candidatos?.[0]?.pctValidos || 50;
         return Math.min(0.9, Math.max(0.55, (top - 35) / 45));
       })
       .attr('stroke', (d: any) => {
@@ -151,11 +159,20 @@ export const Map2D: React.FC<Map2DProps> = ({
         const clientX = event.clientX - (bounds?.left || 0);
         const clientY = event.clientY - (bounds?.top || 0);
 
+        const isAwaitingApuracao = electionData.isTempoReal && (!ufResult.pctApuracao || ufResult.votosValidos === 0);
+        const sub = isAwaitingApuracao
+          ? '⏳ Votação em andamento (08h às 17h) • Apuração inicia às 17h00 BRT'
+          : electionData.isTempoReal && ufResult.pctApuracao !== undefined
+            ? `⚡ Apuração: ${ufResult.pctApuracao.toFixed(1)}% (${(ufResult.secoesTotalizadas || 0).toLocaleString('pt-BR')}/${(ufResult.totalSecoes || 0).toLocaleString('pt-BR')} seções)`
+            : electionData.cargo === 'PRESIDENTE'
+              ? `Comparecimento: ${ufResult.pctComparecimento}% • Abstenção: ${ufResult.pctAbstencoes}%`
+              : `Partido Maioritário: ${ufResult.vencedorPartido || 'Líder'} • Vencedor: ${ufResult.vencedor}`;
+
         setTooltip({
           title: `${d.properties.nome} (${sigla})`,
-          subtitle: `Comparecimento: ${ufResult.pctComparecimento}% • Abstenção: ${ufResult.pctAbstencoes}%`,
-          cands: ufResult.candidatos.slice(0, 3).map(c => ({
-            nome: c.nome,
+          subtitle: sub,
+          cands: isAwaitingApuracao ? [] : (ufResult.candidatos || []).slice(0, 3).map(c => ({
+            nome: c.nomeUrna || c.nome,
             partido: c.partido,
             votos: c.votos,
             pctValidos: c.pctValidos,
@@ -189,6 +206,118 @@ export const Map2D: React.FC<Map2DProps> = ({
         onSelectUf(d.properties.sigla);
       });
 
+    // 1.5. Render Real-time Apuração Badges on State Centroids (indicador visual no mapa)
+    if (electionData.isTempoReal && !isMunView && showApuracaoOverlay) {
+      const apurGroup = g.append('g').attr('class', 'apuracao-badges-layer');
+
+      statesGeo.features.forEach((d: any) => {
+        const sigla = d.properties.sigla;
+        const ufResult = electionData.ufs[sigla];
+        const pct = ufResult?.pctApuracao ?? electionData.apuracao?.pctSecoesTotalizadas;
+        if (pct === undefined) return;
+
+        const centroid = pathGenerator.centroid(d);
+        if (!centroid || isNaN(centroid[0]) || isNaN(centroid[1])) return;
+
+        // Custom manual nudge for small or irregular states so labels remain centered
+        let [cx, cy] = centroid;
+        if (sigla === 'RN') { cx += 5; cy -= 3; }
+        else if (sigla === 'PB') { cx += 7; }
+        else if (sigla === 'PE') { cx += 8; cy += 2; }
+        else if (sigla === 'AL') { cx += 7; cy += 2; }
+        else if (sigla === 'SE') { cx += 5; cy += 2; }
+        else if (sigla === 'DF') { cx += 4; }
+
+        const isZero = pct === 0;
+        const isComplete = pct >= 99.0;
+        const isNearComplete = pct >= 95.0 && pct < 99.0;
+        const statusColor = isZero ? '#64748b' : isComplete ? '#10b981' : isNearComplete ? '#38bdf8' : '#f59e0b';
+        const isSelected = selectedUf === sigla;
+
+        const badgeGroup = apurGroup.append('g')
+          .attr('class', `state-apur-badge ${isSelected ? 'active-badge' : ''}`)
+          .attr('transform', `translate(${cx}, ${cy})`)
+          .style('cursor', 'pointer');
+
+        // Badge Background Pill
+        const badgeWidth = 48;
+        const badgeHeight = 20;
+
+        badgeGroup.append('rect')
+          .attr('x', -badgeWidth / 2)
+          .attr('y', -badgeHeight / 2)
+          .attr('width', badgeWidth)
+          .attr('height', badgeHeight)
+          .attr('rx', 10)
+          .attr('ry', 10)
+          .attr('fill', '#090d16')
+          .attr('fill-opacity', 0.88)
+          .attr('stroke', isSelected ? '#ffffff' : statusColor)
+          .attr('stroke-width', isSelected ? 1.8 : 1)
+          .style('filter', 'drop-shadow(0 2px 4px rgba(0,0,0,0.6))');
+
+        // Status Indicator Dot
+        badgeGroup.append('circle')
+          .attr('cx', -badgeWidth / 2 + 7)
+          .attr('cy', 0)
+          .attr('r', 2.8)
+          .attr('fill', statusColor);
+
+        // State Sigla Text
+        badgeGroup.append('text')
+          .attr('x', -badgeWidth / 2 + 13)
+          .attr('y', 3.5)
+          .attr('fill', '#e2e8f0')
+          .attr('font-size', '8px')
+          .attr('font-weight', '700')
+          .attr('font-family', 'sans-serif')
+          .text(sigla);
+
+        // Percentage Text (or 17h when awaiting)
+        badgeGroup.append('text')
+          .attr('x', badgeWidth / 2 - 4)
+          .attr('y', 3.5)
+          .attr('text-anchor', 'end')
+          .attr('fill', statusColor)
+          .attr('font-size', isZero ? '7.5px' : '8.5px')
+          .attr('font-weight', '700')
+          .attr('font-family', 'sans-serif')
+          .text(isZero ? '17h' : `${Math.round(pct)}%`);
+
+        // Tooltip and Click events on the badge
+        badgeGroup
+          .on('mouseenter', (event) => {
+            const bounds = containerRef.current?.getBoundingClientRect();
+            const clientX = event.clientX - (bounds?.left || 0);
+            const clientY = event.clientY - (bounds?.top || 0);
+
+            const isAwaitingApuracao = isZero || (!ufResult?.pctApuracao && ufResult?.votosValidos === 0);
+            const apurDetail = isAwaitingApuracao
+              ? '⏳ Votação em andamento (08h às 17h) • Apuração no estado inicia às 17h00 BRT'
+              : `⚡ Apuração: ${ufResult?.pctApuracao?.toFixed(1) ?? pct}% (${(ufResult?.secoesTotalizadas || 0).toLocaleString('pt-BR')}/${(ufResult?.totalSecoes || 0).toLocaleString('pt-BR')} seções)`;
+
+            setTooltip({
+              title: `${d.properties.nome} (${sigla})`,
+              subtitle: apurDetail,
+              cands: isAwaitingApuracao ? [] : (ufResult?.candidatos || []).slice(0, 3).map(c => ({
+                nome: c.nomeUrna || c.nome,
+                partido: c.partido,
+                votos: c.votos,
+                pctValidos: c.pctValidos,
+                cor: c.cor
+              })),
+              x: clientX,
+              y: clientY
+            });
+          })
+          .on('mouseleave', () => setTooltip(null))
+          .on('click', (event) => {
+            event.stopPropagation();
+            onSelectUf(sigla);
+          });
+      });
+    }
+
     // 2. Render Municipalities Layer (ONLY in MUNICIPIOS mode)
     if (isMunView && munGeo && munGeo.features) {
       const munGroup = g.append('g').attr('class', 'mun-layer');
@@ -203,11 +332,17 @@ export const Map2D: React.FC<Map2DProps> = ({
           const munId = d.properties.id;
           const munData = electionData.municipios?.find(m => m.id === munId);
           if (munData) {
-            return munData.lula_pct > munData.bolsonaro_pct ? '#e11d48' : '#2563eb';
+            if (munData.vencedorCor) return munData.vencedorCor;
+            if (munData.vencedorPartido && PARTY_COLORS[munData.vencedorPartido]) {
+              return PARTY_COLORS[munData.vencedorPartido].cor;
+            }
+            if (munData.lula_pct !== undefined && munData.bolsonaro_pct !== undefined) {
+              return munData.lula_pct > munData.bolsonaro_pct ? '#e11d48' : '#2563eb';
+            }
           }
-          // Default state dominant color with varied brightness
+          // Default state dominant color
           const ufRes = selectedUf ? electionData.ufs[selectedUf] : null;
-          return ufRes?.vencedorCor || '#3b82f6';
+          return ufRes?.vencedorCor || (ufRes?.vencedorPartido && PARTY_COLORS[ufRes.vencedorPartido]?.cor) || '#3b82f6';
         })
         .attr('fill-opacity', (d: any) => {
           const isSelected = selectedMun?.id === d.properties.id;
@@ -226,20 +361,30 @@ export const Map2D: React.FC<Map2DProps> = ({
           const munData = electionData.municipios?.find(m => m.id === munId);
           const bounds = containerRef.current?.getBoundingClientRect();
 
-          const cands = munData ? [
-            { nome: 'Lula', partido: 'PT', pctValidos: munData.lula_pct, cor: '#e11d48', votos: munData.lula_r2 },
-            { nome: 'Jair Bolsonaro', partido: 'PL', pctValidos: munData.bolsonaro_pct, cor: '#2563eb', votos: munData.bolsonaro_r2 }
-          ].sort((a, b) => (b.pctValidos || 0) - (a.pctValidos || 0)) : (
-            selectedUf && electionData.ufs[selectedUf]
-              ? electionData.ufs[selectedUf].candidatos.slice(0, 3)
-              : electionData.brasil.candidatos.slice(0, 3)
-          );
+          let cands: Array<{ nome: string; partido?: string; votos?: number; pctValidos?: number; cor?: string }> = [];
+          if (munData?.candidatos && munData.candidatos.length > 0) {
+            cands = munData.candidatos.slice(0, 3);
+          } else if (munData && electionData.cargo === 'PRESIDENTE') {
+            cands = [
+              { nome: 'Lula', partido: 'PT', pctValidos: munData.lula_pct, cor: '#e11d48', votos: munData.lula_r2 },
+              { nome: 'Jair Bolsonaro', partido: 'PL', pctValidos: munData.bolsonaro_pct, cor: '#2563eb', votos: munData.bolsonaro_r2 }
+            ].sort((a, b) => (b.pctValidos || 0) - (a.pctValidos || 0));
+          } else if (selectedUf && electionData.ufs[selectedUf]) {
+            cands = electionData.ufs[selectedUf].candidatos.slice(0, 3);
+          }
+
+          let sub = '';
+          if (munData?.vencedorNome) {
+            sub = `Vencedor: ${munData.vencedorNome} (${munData.vencedorPartido || ''})`;
+          } else if (munData?.aptos) {
+            sub = `Aptos: ${munData.aptos.toLocaleString('pt-BR')}`;
+          } else {
+            sub = `Sem detalhamento municipal (${electionData.ano}) • Exibindo geral`;
+          }
 
           setTooltip({
             title: `${d.properties.name} - ${selectedUf}`,
-            subtitle: munData 
-              ? `Aptos: ${munData.aptos.toLocaleString('pt-BR')}` 
-              : `Sem detalhamento municipal (${electionData.ano}) • Exibindo geral`,
+            subtitle: sub,
             cands,
             x: event.clientX - (bounds?.left || 0),
             y: event.clientY - (bounds?.top || 0)
@@ -338,7 +483,7 @@ export const Map2D: React.FC<Map2DProps> = ({
       });
     }
 
-  }, [statesGeo, munGeo, electionData, granularity, selectedUf, selectedMun, selectedZona]);
+  }, [statesGeo, munGeo, electionData, granularity, selectedUf, selectedMun, selectedZona, showApuracaoOverlay]);
 
   const handleZoomIn = () => {
     if (svgRef.current && zoomBehaviorRef.current) {
@@ -400,20 +545,67 @@ export const Map2D: React.FC<Map2DProps> = ({
             <Home size={17} />
           </button>
         )}
+        {electionData?.isTempoReal && (
+          <button 
+            className={`map-control-btn ${showApuracaoOverlay ? 'active-indicator-btn' : ''}`} 
+            onClick={() => setShowApuracaoOverlay(!showApuracaoOverlay)} 
+            title={showApuracaoOverlay ? "Ocultar Porcentagens de Apuração no Mapa" : "Exibir Porcentagens de Apuração no Mapa"}
+            aria-label="Alternar Indicadores de Apuração"
+            style={{ color: showApuracaoOverlay ? '#10b981' : '#64748b' }}
+          >
+            <Activity size={17} />
+          </button>
+        )}
       </div>
 
       {/* Map Legend */}
-      <div className="map-legend">
-        <div className="legend-title">Candidatos Líderes</div>
-        <div className="legend-items">
-          {electionData?.brasil?.candidatos.slice(0, 4).map((c, i) => (
-            <div key={i} className="legend-item">
-              <div className="legend-color-dot" style={{ background: c.cor || '#3b82f6' }} />
-              <span>{c.nomeUrna || c.nome} ({c.partido})</span>
+      {electionData && (
+        <div className="map-legend">
+          <div className="legend-title">
+            {electionData.cargo === 'PRESIDENTE' ? 'Candidatos Líderes' : 'Partidos / Maiorias'}
+          </div>
+          <div className="legend-items">
+            {electionData.cargo === 'PRESIDENTE' ? (
+              electionData.brasil.candidatos.slice(0, 4).map((c, i) => (
+                <div key={i} className="legend-item">
+                  <div className="legend-color-dot" style={{ background: c.cor || '#3b82f6' }} />
+                  <span>{c.nomeUrna || c.nome} ({c.partido})</span>
+                </div>
+              ))
+            ) : (
+              (electionData.brasil.partidos || []).slice(0, 5).map((p, i) => (
+                <div key={i} className="legend-item">
+                  <div className="legend-color-dot" style={{ background: p.cor }} />
+                  <span>{p.partido} ({p.pctEleitos}%)</span>
+                </div>
+              ))
+            )}
+          </div>
+
+          {electionData.isTempoReal && (
+            <div className="legend-apuracao-section" style={{ marginTop: 8, paddingTop: 8, borderTop: '1px solid rgba(255,255,255,0.08)' }}>
+              <div style={{ fontSize: '0.7rem', color: '#94a3b8', marginBottom: 4, display: 'flex', alignItems: 'center', gap: 4 }}>
+                <span className="live-dot" style={{ width: 6, height: 6 }} />
+                <span>Apuração por Estado:</span>
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 3, fontSize: '0.68rem', color: '#cbd5e1' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                  <div style={{ width: 7, height: 7, borderRadius: '50%', background: '#10b981' }} />
+                  <span>≥ 99% Concluída</span>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                  <div style={{ width: 7, height: 7, borderRadius: '50%', background: '#38bdf8' }} />
+                  <span>95% – 99% Reta Final</span>
+                </div>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                  <div style={{ width: 7, height: 7, borderRadius: '50%', background: '#f59e0b' }} />
+                  <span>&lt; 95% Em Andamento</span>
+                </div>
+              </div>
             </div>
-          ))}
+          )}
         </div>
-      </div>
+      )}
 
       {/* SVG Canvas for D3 Map */}
       <svg 
