@@ -80,9 +80,9 @@ export const Map2D: React.FC<Map2DProps> = ({
 
     const g = svg.append('g').attr('class', 'map-root-group');
 
-    // Setup Zoom
+    // Setup Zoom (permite afastar até 0.18x para visualização ampla do país)
     const zoom = d3.zoom<SVGSVGElement, unknown>()
-      .scaleExtent([1, 14])
+      .scaleExtent([0.18, 30])
       .on('zoom', (event) => {
         g.attr('transform', event.transform);
       });
@@ -96,9 +96,9 @@ export const Map2D: React.FC<Map2DProps> = ({
     // If granularity is MUNICIPIOS and a state is selected and we have municipality geometry for it, fit projection to that state
     const isMunView = granularity === 'MUNICIPIOS' && Boolean(selectedUf && munGeo && munGeo.features && munGeo.features.length > 0);
     if (isMunView) {
-      projection.fitSize([width, height], munGeo);
+      projection.fitExtent([[width * 0.04, height * 0.04], [width * 0.96, height * 0.96]], munGeo);
     } else {
-      projection.fitSize([width, height], statesGeo);
+      projection.fitExtent([[width * 0.04, height * 0.04], [width * 0.96, height * 0.96]], statesGeo);
     }
 
     const pathGenerator = d3.geoPath().projection(projection);
@@ -229,11 +229,17 @@ export const Map2D: React.FC<Map2DProps> = ({
           const cands = munData ? [
             { nome: 'Lula', partido: 'PT', pctValidos: munData.lula_pct, cor: '#e11d48', votos: munData.lula_r2 },
             { nome: 'Jair Bolsonaro', partido: 'PL', pctValidos: munData.bolsonaro_pct, cor: '#2563eb', votos: munData.bolsonaro_r2 }
-          ].sort((a, b) => (b.pctValidos || 0) - (a.pctValidos || 0)) : [];
+          ].sort((a, b) => (b.pctValidos || 0) - (a.pctValidos || 0)) : (
+            selectedUf && electionData.ufs[selectedUf]
+              ? electionData.ufs[selectedUf].candidatos.slice(0, 3)
+              : electionData.brasil.candidatos.slice(0, 3)
+          );
 
           setTooltip({
             title: `${d.properties.name} - ${selectedUf}`,
-            subtitle: munData ? `Aptos: ${munData.aptos.toLocaleString('pt-BR')}` : 'Dados municipais TSE consolidados',
+            subtitle: munData 
+              ? `Aptos: ${munData.aptos.toLocaleString('pt-BR')}` 
+              : `Sem detalhamento municipal (${electionData.ano}) • Exibindo geral`,
             cands,
             x: event.clientX - (bounds?.left || 0),
             y: event.clientY - (bounds?.top || 0)

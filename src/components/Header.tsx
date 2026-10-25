@@ -33,8 +33,8 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="brand-titles">
           <h1>
             Mapa Eleitoral Brasil
-            <span 
-              className="brand-tag clickable" 
+            <span
+              className="brand-tag clickable"
               onClick={onOpenSourcesModal}
               title="Abrir Fontes Oficiais & Auditoria dos Dados (TSE & IBGE)"
               role="button"
@@ -44,7 +44,7 @@ export const Header: React.FC<HeaderProps> = ({
             </span>
           </h1>
           <p className="brand-subtitle">
-            Visualizador Geoespacial Presidencial • 1989 a 2022 (Redemocratização)
+            Resultados das últimas eleições
           </p>
         </div>
       </div>
@@ -52,7 +52,7 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="header-controls">
         {/* Cargo Selector (Minimized Select with disabled placeholders) */}
         <div className="select-group">
-          <select 
+          <select
             className="control-select"
             defaultValue="PRESIDENTE"
             onChange={(e) => {
@@ -63,18 +63,18 @@ export const Header: React.FC<HeaderProps> = ({
             aria-label="Selecionar Cargo Eletivo"
           >
             <option value="PRESIDENTE">Presidente</option>
-            <option value="GOVERNADOR" disabled>Governador (em breve)</option>
-            <option value="SENADOR" disabled>Senador (em breve)</option>
-            <option value="DEPUTADO_FEDERAL" disabled>Deputado Federal (em breve)</option>
-            <option value="DEPUTADO_ESTADUAL" disabled>Deputado Estadual (em breve)</option>
-            <option value="PREFEITO" disabled>Prefeito (em breve)</option>
-            <option value="VEREADOR" disabled>Vereador (em breve)</option>
+            <option value="GOVERNADOR" disabled>Governador</option>
+            <option value="SENADOR" disabled>Senador</option>
+            <option value="DEPUTADO_FEDERAL" disabled>Deputado Federal</option>
+            <option value="DEPUTADO_ESTADUAL" disabled>Deputado Estadual</option>
+            <option value="PREFEITO" disabled>Prefeito</option>
+            <option value="VEREADOR" disabled>Vereador</option>
           </select>
         </div>
 
         {/* Year Selector (Only Year numbers: 2022, 2018, ...) */}
         <div className="select-group">
-          <select 
+          <select
             className="control-select"
             value={selectedAno}
             onChange={(e) => onSelectAno(Number(e.target.value))}
@@ -102,8 +102,8 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
 
         {/* Minimized Database Icon Button */}
-        <a 
-          href="/data/eleicoes_brasil.db" 
+        <a
+          href="/data/eleicoes_brasil.db"
           download="eleicoes_brasil.db"
           className="db-icon-btn"
           title="Baixar banco SQLite local (1989-2022)"

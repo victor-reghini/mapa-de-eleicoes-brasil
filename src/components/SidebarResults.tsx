@@ -5,6 +5,7 @@ import {
   UserX, 
   HelpCircle,
   AlertTriangle,
+  AlertCircle,
   X,
   ShieldCheck
 } from 'lucide-react';
@@ -45,6 +46,8 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
   let title = 'Brasil (Total Nacional)';
   let subtitle = `Total de ${electionData.brasil.aptos.toLocaleString('pt-BR')} eleitores aptos`;
   let scopeTag = 'Nacional';
+  let isMissingMunDetails = false;
+  let fallbackScopeName = '';
 
   let candidates: Candidate[] = electionData.brasil.candidatos;
   let aptos = electionData.brasil.aptos;
@@ -151,11 +154,11 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
       ].sort((a, b) => b.votos - a.votos);
     }
   } else if (selectedMun) {
-    const munData = electionData.municipios.find(m => m.id === selectedMun.id);
+    const munData = electionData.municipios?.find(m => m.id === selectedMun.id);
     title = `${selectedMun.name} - ${selectedMun.uf}`;
-    subtitle = `Município IBGE ${selectedMun.id}`;
     scopeTag = 'Município';
     if (munData) {
+      subtitle = `Município IBGE ${selectedMun.id}`;
       aptos = munData.aptos;
       validos = munData.lula_r2 + munData.bolsonaro_r2;
       brancos = munData.brancos;
@@ -185,6 +188,28 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
           pctValidos: munData.bolsonaro_pct
         }
       ].sort((a, b) => b.votos - a.votos);
+    } else {
+      isMissingMunDetails = true;
+      const ufData = selectedMun.uf ? electionData.ufs[selectedMun.uf] : null;
+      if (ufData) {
+        fallbackScopeName = `Estado de ${selectedMun.uf}`;
+        subtitle = `Sem detalhamento municipal (${electionData.ano}) • Exibindo resultado estadual (${selectedMun.uf})`;
+        aptos = ufData.aptos;
+        comparecimento = ufData.comparecimento;
+        pctComparecimento = ufData.pctComparecimento;
+        abstencoes = ufData.abstencoes;
+        pctAbstencoes = ufData.pctAbstencoes;
+        validos = ufData.votosValidos;
+        pctValidos = ufData.pctValidos;
+        brancos = ufData.votosBrancos;
+        pctBrancos = ufData.pctBrancos;
+        nulos = ufData.votosNulos;
+        pctNulos = ufData.pctNulos;
+        candidates = ufData.candidatos;
+      } else {
+        fallbackScopeName = 'Resultado Geral (Brasil)';
+        subtitle = `Sem detalhamento municipal (${electionData.ano}) • Exibindo resultado geral`;
+      }
     }
   } else if (selectedUf && electionData.ufs[selectedUf]) {
     const ufData = electionData.ufs[selectedUf];
@@ -239,6 +264,16 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
         </div>
         <h2 className="sidebar-title">{title}</h2>
         <p className="sidebar-subtitle">{subtitle}</p>
+
+        {isMissingMunDetails && (
+          <div className="missing-mun-warning-banner" role="status">
+            <AlertCircle size={16} className="missing-mun-warning-icon" />
+            <div className="missing-mun-warning-content">
+              <strong>Sem detalhamento municipal neste pleito ({electionData.ano})</strong>
+              <span>Os dados mostrados no ranking são referentes ao resultado geral ({fallbackScopeName}).</span>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Candidates Ranking */}
