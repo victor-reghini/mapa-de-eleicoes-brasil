@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import type { 
-  ElectionCargo,
+  ElectionCargo, 
   ElectionManifest, 
   ElectionRoundData, 
   GranularityMode, 
@@ -10,15 +10,19 @@ import type {
 import { electionService } from './services/electionService';
 import { realtimeTseService } from './services/realtimeTseService';
 import { Header } from './components/Header';
-import { Subbar } from './components/Subbar';
+import { AppSidebarNav, type NavSection } from './components/AppSidebarNav';
+import { MapControlPanel, type ExportFormat } from './components/MapControlPanel';
+import { TotalizationPanel } from './components/TotalizationPanel';
 import { Map2D } from './components/Map2D';
 import { Globe3D } from './components/Globe3D';
-import { SidebarResults } from './components/SidebarResults';
 import { NullDetailModal } from './components/NullDetailModal';
 import { CargoScalabilityModal } from './components/CargoScalabilityModal';
 import { SourcesModal } from './components/SourcesModal';
+import { CityDeepDiveModal } from './components/CityDeepDiveModal';
 import { ShareToast } from './components/ShareToast';
-import { Loader2, Map as MapIcon, BarChart3 } from 'lucide-react';
+import { exportMapImage } from './utils/exportMapImage';
+import { DEFAULT_CANDIDATE_A, DEFAULT_CANDIDATE_B } from './utils/colorScales';
+import { Loader2, MapPin } from 'lucide-react';
 
 const getInitialUrlParams = () => {
   if (typeof window === 'undefined') return {};
@@ -45,7 +49,7 @@ const getInitialUrlParams = () => {
 export function App() {
   const initialParams = getInitialUrlParams();
   const [manifest, setManifest] = useState<ElectionManifest | null>(null);
-  const [selectedAno, setSelectedAno] = useState<number>(initialParams.ano || 2022);
+  const [selectedAno, setSelectedAno] = useState<number>(initialParams.ano || 2026);
   const [selectedTurno, setSelectedTurno] = useState<number>(initialParams.turno || 2);
   const [selectedCargo, setSelectedCargo] = useState<ElectionCargo>(initialParams.cargo || 'PRESIDENTE');
   const [electionData, setElectionData] = useState<ElectionRoundData | null>(null);
@@ -58,17 +62,26 @@ export function App() {
   const [selectedZona, setSelectedZona] = useState<string | null>(null);
   const [selectedCity, setSelectedCity] = useState<ConsularCity | null>(null);
 
-  // Mobile View Toggle: 'map' vs 'results'
-  const [mobileTab, setMobileTab] = useState<'map' | 'results'>('map');
+  // 4-Column Workspace Navigation & Panels
+  const [activeNavSection, setActiveNavSection] = useState<NavSection>('mapa');
+  const [isSidebarCollapsed, setIsSidebarCollapsed] = useState<boolean>(false);
+
+  // Comparison A vs B State
+  const [comparisonMode, setComparisonMode] = useState<boolean>(true);
+  const [candANumero, setCandANumero] = useState<string>('13');
+  const [candBNumero, setCandBNumero] = useState<string>('22');
+  const [comparativoData, setComparativoData] = useState<Record<string, any> | null>(null);
+  const [mapSvgElement, setMapSvgElement] = useState<SVGSVGElement | null>(null);
 
   // Modals & Feedback
+  const [isCityModalOpen, setIsCityModalOpen] = useState(false);
   const [isNullModalOpen, setIsNullModalOpen] = useState(false);
   const [isScalabilityModalOpen, setIsScalabilityModalOpen] = useState(false);
   const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
-  // Initial Data Load
+  // Initial Data Load (Manifest & Municipality Index)
   useEffect(() => {
     async function init() {
       try {
@@ -101,38 +114,35 @@ export function App() {
     loadData();
   }, [selectedAno, selectedTurno, selectedCargo]);
 
-  const [liveRefreshInterval, setLiveRefreshInterval] = useState<number>(15);
+  // Fetch Bivariate Comparison Matrix (from SQLite / PostgreSQL / API)
+  useEffect(() => {
+    if (comparisonMode && candANumero && candBNumero) {
+      electionService.getComparativo(selectedAno, selectedTurno, candANumero, candBNumero)
+        .then(res => {
+          if (res && res.municipios) {
+            setComparativoData(res.municipios);
+          }
+        })
+        .catch(console.error);
+    }
+  }, [comparisonMode, selectedAno, selectedTurno, candANumero, candBNumero]);
 
   // Polling for live apuração when 2026 2º Turno is selected
   useEffect(() => {
-    if (selectedAno === 2026 && selectedTurno === 2 && selectedCargo === 'PRESIDENTE' && liveRefreshInterval > 0) {
+    if (selectedAno === 2026 && selectedTurno === 2 && selectedCargo === 'PRESIDENTE') {
       const cancelPolling = realtimeTseService.startPolling(
         2026, 
         2, 
         (liveData) => {
           setElectionData(liveData);
         }, 
-        liveRefreshInterval * 1000
+        15000
       );
       return () => cancelPolling();
     }
-  }, [selectedAno, selectedTurno, selectedCargo, liveRefreshInterval]);
+  }, [selectedAno, selectedTurno, selectedCargo]);
 
-  const handleRefreshLive = async () => {
-    if (selectedAno === 2026 && selectedTurno === 2) {
-      try {
-        setIsLoading(true);
-        const liveData = await realtimeTseService.fetchLiveApuracao(2026, 2);
-        setElectionData(liveData);
-      } catch (err) {
-        console.error('Falha ao atualizar apuração ao vivo:', err);
-      } finally {
-        setIsLoading(false);
-      }
-    }
-  };
-
-  // Keep URL search query synchronized for shareability & bookmarking
+  // URL synchronization
   useEffect(() => {
     if (typeof window === 'undefined') return;
     const params = new URLSearchParams();
@@ -147,23 +157,35 @@ export function App() {
     window.history.replaceState(null, '', newUrl);
   }, [selectedCargo, selectedAno, selectedTurno, selectedUf, granularity]);
 
+  const candidatesList = electionData?.brasil?.candidatos?.map(c => ({
+    numero: c.numero,
+    nomeUrna: c.nomeUrna || c.nome,
+    partido: c.partido,
+    pctValidos: c.pctValidos || 0,
+    votos: c.votos || 0,
+    cor: c.cor || '#3b82f6',
+    eleito: c.eleito
+  })) || [
+    { ...DEFAULT_CANDIDATE_A, pctValidos: 50.9, votos: 60345999, eleito: true },
+    { ...DEFAULT_CANDIDATE_B, pctValidos: 49.1, votos: 58206354, eleito: false }
+  ];
+
+  const candidateA = candidatesList.find(c => c.numero === candANumero) || candidatesList[0];
+  const candidateB = candidatesList.find(c => c.numero === candBNumero) || (candidatesList[1] || candidatesList[0]);
+
   const handleShare = async () => {
     const shareUrl = window.location.href;
-    const shareTitle = `Apuração ${selectedCargo} ${selectedAno} - ${selectedTurno}º Turno`;
-    const shareText = `Confira a apuração oficial no Mapa Eleitoral Brasil: ${selectedCargo} ${selectedAno}`;
+    const shareTitle = `Radar do Voto · ${selectedCargo} ${selectedAno} - ${selectedTurno}º Turno`;
+    const shareText = `Confira a apuração e mapa oficial no Radar do Voto: ${selectedCargo} ${selectedAno}`;
 
     if (navigator.share) {
       try {
-        await navigator.share({
-          title: shareTitle,
-          text: shareText,
-          url: shareUrl
-        });
+        await navigator.share({ title: shareTitle, text: shareText, url: shareUrl });
         setToastMessage('Link compartilhado com sucesso!');
         setTimeout(() => setToastMessage(null), 3200);
         return;
-      } catch (err) {
-        // User cancelled or share unallowed, fallback to clipboard
+      } catch {
+        // Fallback below
       }
     }
 
@@ -171,101 +193,81 @@ export function App() {
       await navigator.clipboard.writeText(shareUrl);
       setToastMessage('Link copiado para a área de transferência!');
     } catch {
-      setToastMessage('Link da apuração pronto na barra de endereços!');
+      setToastMessage('Link pronto na barra de endereços!');
     }
     setTimeout(() => setToastMessage(null), 3200);
   };
 
-  const isMunicipalCargo = (cargo: ElectionCargo) => cargo === 'PREFEITO' || cargo === 'VEREADOR';
+  const handleExportMap = async (format: ExportFormat) => {
+    if (!mapSvgElement) {
+      setToastMessage('Aguarde o mapa carregar completamente para exportar.');
+      setTimeout(() => setToastMessage(null), 2500);
+      return;
+    }
+    try {
+      await exportMapImage(mapSvgElement, format, {
+        ano: selectedAno,
+        turno: selectedTurno,
+        cargo: selectedCargo,
+        candA: comparisonMode && candidateA ? { nome: candidateA.nomeUrna, partido: candidateA.partido, cor: candidateA.cor } : undefined,
+        candB: comparisonMode && candidateB ? { nome: candidateB.nomeUrna, partido: candidateB.partido, cor: candidateB.cor } : undefined,
+        pctApuracao: electionData?.apuracao?.pctSecoesTotalizadas
+      });
+      setToastMessage(`Mapa em alta resolução exportado com sucesso (${format.toUpperCase()})!`);
+    } catch (err) {
+      console.error('Falha ao exportar imagem do mapa:', err);
+      setToastMessage('Não foi possível gerar a imagem.');
+    }
+    setTimeout(() => setToastMessage(null), 3500);
+  };
 
-  // Handler when cargo changes
   const handleSelectCargo = (cargo: ElectionCargo) => {
     setSelectedCargo(cargo);
     if (cargo !== 'PRESIDENTE' && granularity === 'EXTERIOR_GLOBE') {
       setGranularity('ESTADOS');
     }
-
-    const wasMunicipal = isMunicipalCargo(selectedCargo);
-    const nowMunicipal = isMunicipalCargo(cargo);
-
-    if (nowMunicipal && !wasMunicipal) {
-      // Switching from general to municipal: switch to latest municipal election (2024)
-      setSelectedAno(2024);
-      setSelectedTurno(cargo === 'VEREADOR' ? 1 : 2);
-    } else if (!nowMunicipal && wasMunicipal) {
-      // Switching from municipal to general: switch to latest general election (2022)
-      setSelectedAno(2022);
-      const isSingleRound = ['SENADOR', 'DEPUTADO_FEDERAL', 'DEPUTADO_ESTADUAL'].includes(cargo);
-      setSelectedTurno(isSingleRound ? 1 : 2);
-    } else {
-      const isSingleRound = ['SENADOR', 'DEPUTADO_FEDERAL', 'DEPUTADO_ESTADUAL', 'VEREADOR'].includes(cargo);
-      if (isSingleRound && selectedTurno !== 1) {
-        setSelectedTurno(1);
-      }
+    const isSingleRound = ['SENADOR', 'DEPUTADO_FEDERAL', 'DEPUTADO_ESTADUAL', 'VEREADOR'].includes(cargo);
+    if (isSingleRound && selectedTurno !== 1) {
+      setSelectedTurno(1);
     }
   };
 
-  // Handler when year changes
   const handleSelectAno = (ano: number) => {
     setSelectedAno(ano);
     const isSingleRound = ['SENADOR', 'DEPUTADO_FEDERAL', 'DEPUTADO_ESTADUAL', 'VEREADOR'].includes(selectedCargo);
     if (isSingleRound) {
       setSelectedTurno(1);
-    } else {
-      const election = manifest?.supportedElections.find(
-        e => e.ano === ano && (e.cargo === selectedCargo || (!e.cargo && selectedCargo === 'PRESIDENTE'))
-      );
-      if (election && !election.turnos.includes(selectedTurno)) {
-        setSelectedTurno(election.turnos[0]);
-      }
     }
     setSelectedCity(null);
   };
 
-  // Handler when state is selected on map or search
-  const handleSelectUf = (uf: string) => {
-    if (!uf) {
-      setSelectedUf(null);
-      setSelectedMun(null);
-      setSelectedZona(null);
-      return;
-    }
+  const handleSelectUf = (uf: string | null) => {
     setSelectedUf(uf);
     setSelectedMun(null);
     setSelectedZona(null);
-  };
-
-  // Handler when municipality is selected
-  const handleSelectMun = (mun: MunicipalityIndexItem) => {
-    setSelectedMun(mun);
-    setSelectedUf(mun.uf);
-    setSelectedZona(null);
-    if (granularity !== 'MUNICIPIOS' && granularity !== 'ZONAS') {
+    if (uf && granularity === 'ESTADOS') {
       setGranularity('MUNICIPIOS');
     }
   };
 
-  // Handler when electoral zone is selected
+  const handleSelectMun = (mun: MunicipalityIndexItem) => {
+    setSelectedMun(mun);
+    setSelectedUf(mun.uf);
+    setSelectedZona(null);
+    setGranularity('MUNICIPIOS');
+  };
+
   const handleSelectZona = (zona: string) => {
     setSelectedZona(zona);
   };
 
-  // Handler when consular city is selected on 3D Globe
   const handleSelectConsularCity = (city: ConsularCity) => {
     setSelectedCity(city);
   };
 
-  const handleClearSelection = () => {
-    setSelectedUf(null);
-    setSelectedMun(null);
-    setSelectedZona(null);
-    setSelectedCity(null);
-    setGranularity('ESTADOS');
-  };
-
   return (
     <div className="app-container">
-      {/* Top Header */}
+      {/* Top Header Bar */}
       <Header
         manifest={manifest}
         selectedAno={selectedAno}
@@ -279,120 +281,125 @@ export function App() {
         onShare={handleShare}
       />
 
-      {/* Subbar with Granularity Tabs, Breadcrumbs, and Search */}
-      <Subbar
-        granularity={granularity}
-        onSelectGranularity={(mode) => {
-          setGranularity(mode);
-          if (mode === 'ESTADOS') {
-            setSelectedUf(null);
-            setSelectedMun(null);
-            setSelectedZona(null);
-            setSelectedCity(null);
-          } else if (mode === 'EXTERIOR_GLOBE') {
-            setSelectedUf(null);
-            setSelectedMun(null);
-            setSelectedZona(null);
-          } else {
-            setSelectedCity(null);
-          }
-        }}
-        selectedUf={selectedUf}
-        selectedMun={selectedMun}
-        selectedZona={selectedZona}
-        onClearUf={() => setSelectedUf(null)}
-        onClearMun={() => setSelectedMun(null)}
-        onClearZona={() => setSelectedZona(null)}
-        munIndex={munIndex}
-        onSelectMunicipalityFromSearch={handleSelectMun}
-        onSelectUfFromSearch={handleSelectUf}
-      />
-
-      {/* Mobile Segmented Toggle between Map and Results */}
-      <div className="mobile-view-toggle">
-        <button 
-          className={`mobile-tab-btn ${mobileTab === 'map' ? 'active' : ''}`}
-          onClick={() => setMobileTab('map')}
-          aria-label="Exibir mapa"
-        >
-          <MapIcon size={16} />
-          <span>Ver Mapa / Globo</span>
-        </button>
-        <button 
-          className={`mobile-tab-btn ${mobileTab === 'results' ? 'active' : ''}`}
-          onClick={() => setMobileTab('results')}
-          aria-label="Exibir ranking e resultados"
-        >
-          <BarChart3 size={16} />
-          <span>Ranking & Votos</span>
-        </button>
-      </div>
-
-      {/* Main View Area */}
-      <main className={`app-main mobile-tab-${mobileTab}`}>
-        {isLoading && (
-          <div 
-            style={{
-              position: 'absolute',
-              inset: 0,
-              background: 'rgba(9, 13, 22, 0.7)',
-              backdropFilter: 'blur(6px)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              zIndex: 35,
-              gap: 10,
-              fontSize: '0.9rem',
-              color: '#38bdf8'
-            }}
-          >
-            <Loader2 className="animate-spin" size={24} />
-            <span>Carregando dados oficiais do TSE...</span>
-          </div>
-        )}
-
-        {/* View Switcher: 2D Brazil Map vs 3D Interactive Globe */}
-        {granularity === 'EXTERIOR_GLOBE' ? (
-          <Globe3D
-            electionData={electionData}
-            onSelectConsularCity={handleSelectConsularCity}
-            selectedCity={selectedCity}
-          />
-        ) : (
-          <Map2D
-            electionData={electionData}
-            granularity={granularity}
-            selectedUf={selectedUf}
-            selectedMun={selectedMun}
-            selectedZona={selectedZona}
-            onSelectUf={handleSelectUf}
-            onSelectMun={handleSelectMun}
-            onSelectZona={handleSelectZona}
-          />
-        )}
-
-        {/* Sticky Results & Turnout Sidebar */}
-        <SidebarResults
-          electionData={electionData}
-          granularity={granularity}
-          selectedUf={selectedUf}
-          selectedMun={selectedMun}
-          selectedZona={selectedZona}
-          selectedCity={selectedCity}
-          onClearSelection={handleClearSelection}
-          onOpenNullModal={() => setIsNullModalOpen(true)}
-          onOpenSourcesModal={() => setIsSourcesModalOpen(true)}
-          onRefreshLive={handleRefreshLive}
-          refreshInterval={liveRefreshInterval}
-          onChangeRefreshInterval={setLiveRefreshInterval}
-          onSelectUf={handleSelectUf}
-          onSwitchToGovernorCargo={(uf) => {
-            handleSelectCargo('GOVERNADOR');
-            handleSelectUf(uf);
+      {/* 4-Column Workspace Layout (Radar do Voto Reference Architecture) */}
+      <div className="radar-workspace-layout">
+        {/* COLUMN 1: Left Navigation Rail */}
+        <AppSidebarNav
+          activeSection={activeNavSection}
+          onSelectSection={(sec) => {
+            setActiveNavSection(sec);
+            if (sec === 'comparativo') setComparisonMode(true);
+            if (sec === 'mapa') setComparisonMode(false);
           }}
+          isCollapsed={isSidebarCollapsed}
+          onToggleCollapse={() => setIsSidebarCollapsed(!isSidebarCollapsed)}
+        />
+
+        {/* COLUMN 2: Map Controls & Social Export */}
+        <MapControlPanel
+          selectedAno={selectedAno}
+          selectedTurno={selectedTurno}
+          selectedCargo={selectedCargo}
+          selectedUf={selectedUf}
+          candidatos={candidatesList}
+          onSelectAno={handleSelectAno}
+          onSelectTurno={setSelectedTurno}
+          onSelectCargo={handleSelectCargo}
+          onSelectUf={handleSelectUf}
+          onExportMap={handleExportMap}
           onShare={handleShare}
         />
-      </main>
+
+        {/* COLUMN 3: Center Map Stage */}
+        <div className="radar-map-center-stage">
+          {isLoading && (
+            <div 
+              style={{
+                position: 'absolute',
+                inset: 0,
+                background: 'rgba(9, 13, 22, 0.7)',
+                backdropFilter: 'blur(6px)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                zIndex: 35,
+                gap: 10,
+                fontSize: '0.9rem',
+                color: '#38bdf8'
+              }}
+            >
+              <Loader2 className="animate-spin" size={24} />
+              <span>Carregando dados oficiais do TSE...</span>
+            </div>
+          )}
+
+          {granularity === 'EXTERIOR_GLOBE' ? (
+            <Globe3D
+              electionData={electionData}
+              onSelectConsularCity={handleSelectConsularCity}
+              selectedCity={selectedCity}
+            />
+          ) : (
+            <Map2D
+              electionData={electionData}
+              granularity={granularity}
+              selectedUf={selectedUf}
+              selectedMun={selectedMun}
+              selectedZona={selectedZona}
+              onSelectUf={(uf) => handleSelectUf(uf || null)}
+              onSelectMun={handleSelectMun}
+              onSelectZona={handleSelectZona}
+              comparisonMode={comparisonMode}
+              onToggleComparisonMode={setComparisonMode}
+              candidateA={candidateA}
+              candidateB={candidateB}
+              availableCandidates={candidatesList}
+              onSelectCandidateA={setCandANumero}
+              onSelectCandidateB={setCandBNumero}
+              comparativoData={comparativoData}
+              onSvgReady={setMapSvgElement}
+            />
+          )}
+
+          <div className="center-stage-actions">
+            <button 
+              className="city-spotlight-btn"
+              onClick={() => setIsCityModalOpen(true)}
+              title="Abrir Raio-X Eleitoral na sua Cidade"
+            >
+              <MapPin size={15} />
+              <span>Na sua Cidade · Raio-X</span>
+            </button>
+          </div>
+
+          <div className="map-watermark-stamp">
+            <span className="watermark-brand">RADAR DO VOTO</span>
+            <span className="watermark-handle">Dados oficiais TSE · Atualização contínua</span>
+          </div>
+        </div>
+
+        {/* COLUMN 4: Right Totalization & Participation Panel */}
+        <TotalizationPanel
+          electionData={electionData}
+          selectedAno={selectedAno}
+          selectedTurno={selectedTurno}
+          munIndex={munIndex}
+          onSelectMunicipality={(mun) => {
+            handleSelectMun(mun);
+            setIsCityModalOpen(true);
+          }}
+          onSelectUf={(uf) => handleSelectUf(uf)}
+          onOpenNullModal={() => setIsNullModalOpen(true)}
+        />
+      </div>
+
+      {/* Widget "Na sua Cidade" - Raio-X Eleitoral (Atividade 5.1) */}
+      <CityDeepDiveModal
+        isOpen={isCityModalOpen}
+        onClose={() => setIsCityModalOpen(false)}
+        initialMun={selectedMun}
+        munIndex={munIndex}
+      />
 
       {/* Deep Dive Modal: Null and Annulled Votes */}
       <NullDetailModal

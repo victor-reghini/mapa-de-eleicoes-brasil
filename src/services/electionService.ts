@@ -111,6 +111,18 @@ class ElectionService {
     this.cacheWorldAtlas = await res.json();
     return this.cacheWorldAtlas;
   }
+
+  async getComparativo(ano: number, turno: number, candA: string, candB: string): Promise<any> {
+    try {
+      const res = await fetch(`/api/comparativo?ano=${ano}&turno=${turno}&cand_a=${candA}&cand_b=${candB}`);
+      if (res.ok) {
+        return await res.json();
+      }
+    } catch (err) {
+      console.warn('API de comparativo offline, utilizando dados locais:', err);
+    }
+    return null;
+  }
 }
 
 export const electionService = new ElectionService();

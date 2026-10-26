@@ -122,6 +122,103 @@ def seed_election_from_json(json_path: Path, conn):
     conn.commit()
 
 
+def seed_municipalities_and_comparison(conn):
+    mun_path = Path("public/geo/municipalities_index.json")
+    if not mun_path.exists():
+        print("[AVISO] Arquivo de municípios não encontrado.")
+        return
+
+    with open(mun_path, "r", encoding="utf-8") as f:
+        muns = json.load(f)
+
+    print(f"-> Populando {len(muns)} municípios e gerando dados comparativos A vs B...")
+    cursor = conn.cursor()
+    is_pg = is_postgres()
+    param = "%s" if is_pg else "?"
+
+    # 1. Inserir municípios
+    sql_mun = f"""
+    INSERT INTO municipios (cd_municipio_tse, cd_ibge, nm_municipio, sg_uf, latitude, longitude, total_eleitores)
+    VALUES ({param}, {param}, {param}, {param}, {param}, {param}, {param})
+    ON CONFLICT (cd_municipio_tse) DO UPDATE SET
+        nm_municipio = EXCLUDED.nm_municipio,
+        sg_uf = EXCLUDED.sg_uf;
+    """
+    mun_rows = [
+        (m["id"], m["id"], m["name"], m["uf"], m.get("lat"), m.get("lon"), 25000)
+        for m in muns
+    ]
+    cursor.executemany(sql_mun, mun_rows)
+
+    # 2. Gerar votacao_municipio_comparada para 2026 Turno 2 (13 Lula vs 22 Flávio Bolsonaro)
+    # Tendências históricas regionais reais para simulação calibrada
+    norte_nordeste = {"MA", "PI", "CE", "RN", "PB", "PE", "AL", "SE", "BA", "PA", "AM", "AP", "TO"}
+    sul_centro_oeste = {"PR", "SC", "RS", "MS", "MT", "GO", "DF", "RO", "AC", "RR"}
+
+    import random
+    random.seed(2026)
+
+    comp_rows = []
+    vot_rows = []
+
+    for m in muns:
+        ibge = m["id"]
+        uf = m["uf"]
+        eleitores = 5000 + (hash(ibge) % 80000)
+        comparecimento = int(eleitores * 0.81)
+
+        # Determinar percentuais de voto com base na região
+        if uf in norte_nordeste:
+            pct_a = 58.0 + (hash(ibge) % 2500) / 100.0  # Lula 58% a 83%
+        elif uf in sul_centro_oeste:
+            pct_a = 32.0 + (hash(ibge) % 2000) / 100.0  # Lula 32% a 52%
+        else: # Sudeste (SP, RJ, MG, ES)
+            pct_a = 46.0 + (hash(ibge) % 1100) / 100.0  # Disputa acirrada 46% a 57%
+
+        pct_a = max(20.0, min(88.0, round(pct_a, 2)))
+        pct_b = round(100.0 - pct_a, 2)
+        votos_a = int(comparecimento * (pct_a / 100.0))
+        votos_b = comparecimento - votos_a
+        margem = round(pct_a - pct_b, 2)
+        lider = "13" if margem >= 0 else "22"
+
+        comp_rows.append((
+            "2026_PRESIDENTE", 2, ibge, ibge, uf,
+            "13", "22", votos_a, votos_b, pct_a, pct_b, margem, lider
+        ))
+
+        vot_rows.append(("2026_PRESIDENTE", 2, ibge, "13", votos_a, pct_a))
+        vot_rows.append(("2026_PRESIDENTE", 2, ibge, "22", votos_b, pct_b))
+
+    sql_comp = f"""
+    INSERT INTO votacao_municipio_comparada (
+        eleicao_id, turno, cd_municipio_tse, cd_ibge, sg_uf,
+        nr_cand_a, nr_cand_b, votos_cand_a, votos_cand_b,
+        pct_cand_a, pct_cand_b, margem_pct, lider_numero
+    ) VALUES (
+        {param}, {param}, {param}, {param}, {param},
+        {param}, {param}, {param}, {param},
+        {param}, {param}, {param}, {param}
+    ) ON CONFLICT (eleicao_id, turno, cd_municipio_tse, nr_cand_a, nr_cand_b) DO UPDATE SET
+        margem_pct = EXCLUDED.margem_pct,
+        lider_numero = EXCLUDED.lider_numero;
+    """
+    cursor.executemany(sql_comp, comp_rows)
+
+    sql_vot = f"""
+    INSERT INTO votacao_municipio (
+        eleicao_id, turno, cd_municipio_tse, numero_candidato, votos, pct_votos
+    ) VALUES ({param}, {param}, {param}, {param}, {param}, {param})
+    ON CONFLICT (eleicao_id, turno, cd_municipio_tse, numero_candidato) DO UPDATE SET
+        votos = EXCLUDED.votos,
+        pct_votos = EXCLUDED.pct_votos;
+    """
+    cursor.executemany(sql_vot, vot_rows)
+
+    conn.commit()
+    print(f"[OK] {len(muns)} municípios e {len(comp_rows)} comparativos A vs B inseridos com sucesso!")
+
+
 def main():
     print("=" * 60)
     print(" SEED TEST DATA - MAPA ELEITORAL BRASIL")
@@ -146,9 +243,12 @@ def main():
             seed_election_from_json(p, conn)
             count += 1
 
+    seed_municipalities_and_comparison(conn)
+
     conn.close()
     print(f"\n[OK] Seed de testes concluído com sucesso! ({count} eleições sincronizadas)")
 
 
 if __name__ == "__main__":
     main()
+

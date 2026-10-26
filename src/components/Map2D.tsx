@@ -10,6 +10,16 @@ import type {
 import { PARTY_COLORS } from '../types/election';
 import { electionService } from '../services/electionService';
 import { StateGridCartogram } from './StateGridCartogram';
+import { getBivariateTierColor } from '../utils/colorScales';
+
+export interface CandidateSummary {
+  numero: string;
+  nomeUrna: string;
+  partido: string;
+  cor: string;
+  votos?: number;
+  pctValidos?: number;
+}
 
 interface Map2DProps {
   electionData: ElectionRoundData | null;
@@ -20,6 +30,15 @@ interface Map2DProps {
   onSelectUf: (uf: string) => void;
   onSelectMun: (mun: MunicipalityIndexItem) => void;
   onSelectZona: (zona: string) => void;
+  comparisonMode?: boolean;
+  onToggleComparisonMode?: (active: boolean) => void;
+  candidateA?: CandidateSummary;
+  candidateB?: CandidateSummary;
+  availableCandidates?: CandidateSummary[];
+  onSelectCandidateA?: (numero: string) => void;
+  onSelectCandidateB?: (numero: string) => void;
+  comparativoData?: Record<string, { margem: number; lider: string; pctA: number; pctB: number; votosA: number; votosB: number; uf?: string }> | null;
+  onSvgReady?: (svg: SVGSVGElement | null) => void;
 }
 
 interface TooltipData {
@@ -40,11 +59,24 @@ export const Map2D: React.FC<Map2DProps> = ({
   selectedZona,
   onSelectUf,
   onSelectMun,
-  onSelectZona
+  onSelectZona,
+  comparisonMode = false,
+  onToggleComparisonMode,
+  candidateA,
+  candidateB,
+  availableCandidates = [],
+  onSelectCandidateA,
+  onSelectCandidateB,
+  comparativoData,
+  onSvgReady
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const zoomBehaviorRef = useRef<d3.ZoomBehavior<SVGSVGElement, unknown> | null>(null);
+
+  useEffect(() => {
+    onSvgReady?.(svgRef.current);
+  }, [onSvgReady]);
 
   const [statesGeo, setStatesGeo] = useState<any>(null);
   const [munGeo, setMunGeo] = useState<any>(null);
@@ -126,6 +158,16 @@ export const Map2D: React.FC<Map2DProps> = ({
         if (!ufResult) {
           return '#1e293b';
         }
+
+        if (comparisonMode && candidateA && candidateB) {
+          const candARes = ufResult.candidatos?.find(c => c.numero === candidateA.numero);
+          const candBRes = ufResult.candidatos?.find(c => c.numero === candidateB.numero);
+          const pctA = candARes?.pctValidos || 0;
+          const pctB = candBRes?.pctValidos || 0;
+          const margem = pctA - pctB;
+          return getBivariateTierColor(margem >= 0, Math.abs(margem), candidateA.cor, candidateB.cor);
+        }
+
         // If state is selected, keep bright; if another state selected in Mun mode, slightly dim
         const isSelected = selectedUf === sigla;
         if (selectedUf && !isSelected) {
@@ -142,6 +184,7 @@ export const Map2D: React.FC<Map2DProps> = ({
         if (selectedUf && selectedUf !== sigla) return 0.25;
         const ufResult = electionData.ufs[sigla];
         if (!ufResult) return 0.4;
+        if (comparisonMode) return 0.9;
         if (electionData.isTempoReal && (!ufResult.pctApuracao || ufResult.votosValidos === 0)) {
           return 0.6;
         }
@@ -164,6 +207,29 @@ export const Map2D: React.FC<Map2DProps> = ({
         const bounds = containerRef.current?.getBoundingClientRect();
         const clientX = event.clientX - (bounds?.left || 0);
         const clientY = event.clientY - (bounds?.top || 0);
+
+        if (comparisonMode && candidateA && candidateB) {
+          const candARes = ufResult.candidatos?.find(c => c.numero === candidateA.numero);
+          const candBRes = ufResult.candidatos?.find(c => c.numero === candidateB.numero);
+          const pctA = candARes?.pctValidos || 0;
+          const pctB = candBRes?.pctValidos || 0;
+          const margem = pctA - pctB;
+          const liderNome = margem >= 0 ? candidateA.nomeUrna : candidateB.nomeUrna;
+          setTooltip({
+            title: `${d.properties.nome} (${sigla})`,
+            subtitle: `Vantagem de +${Math.abs(margem).toFixed(1)}% para ${liderNome}`,
+            cands: [
+              { nome: candidateA.nomeUrna, partido: candidateA.partido, pctValidos: pctA, votos: candARes?.votos, cor: candidateA.cor },
+              { nome: candidateB.nomeUrna, partido: candidateB.partido, pctValidos: pctB, votos: candBRes?.votos, cor: candidateB.cor }
+            ],
+            x: clientX,
+            y: clientY
+          });
+          d3.select(event.currentTarget as SVGPathElement)
+            .attr('stroke', '#ffffff')
+            .attr('stroke-width', 2);
+          return;
+        }
 
         const isAwaitingApuracao = electionData.isTempoReal && (!ufResult.pctApuracao || ufResult.votosValidos === 0);
         const sub = isAwaitingApuracao
@@ -335,8 +401,22 @@ export const Map2D: React.FC<Map2DProps> = ({
         .attr('d', pathGenerator as any)
         .attr('class', 'municipality-feature')
         .attr('fill', (d: any) => {
-          const munId = d.properties.id;
-          const munData = electionData.municipios?.find(m => m.id === munId);
+          const munId = String(d.properties.id);
+
+          if (comparisonMode && candidateA && candidateB) {
+            const comp = comparativoData?.[munId];
+            if (comp) {
+              const isA = comp.lider === candidateA.numero || comp.margem >= 0;
+              return getBivariateTierColor(isA, Math.abs(comp.margem), candidateA.cor, candidateB.cor);
+            }
+            const munData = electionData.municipios?.find(m => String(m.id) === munId);
+            if (munData && munData.lula_pct !== undefined && munData.bolsonaro_pct !== undefined) {
+              const margem = munData.lula_pct - munData.bolsonaro_pct;
+              return getBivariateTierColor(margem >= 0, Math.abs(margem), candidateA.cor, candidateB.cor);
+            }
+          }
+
+          const munData = electionData.municipios?.find(m => String(m.id) === munId);
           if (munData) {
             if (munData.vencedorCor) return munData.vencedorCor;
             if (munData.vencedorPartido && PARTY_COLORS[munData.vencedorPartido]) {
@@ -353,7 +433,7 @@ export const Map2D: React.FC<Map2DProps> = ({
         .attr('fill-opacity', (d: any) => {
           const isSelected = selectedMun?.id === d.properties.id;
           if (isSelected) return 1.0;
-          return 0.75;
+          return comparisonMode ? 0.9 : 0.75;
         })
         .attr('stroke', (d: any) => {
           return selectedMun?.id === d.properties.id ? '#ffffff' : 'rgba(255, 255, 255, 0.25)';
@@ -363,9 +443,32 @@ export const Map2D: React.FC<Map2DProps> = ({
         })
         .style('cursor', 'pointer')
         .on('mouseenter', (event, d: any) => {
-          const munId = d.properties.id;
-          const munData = electionData.municipios?.find(m => m.id === munId);
+          const munId = String(d.properties.id);
           const bounds = containerRef.current?.getBoundingClientRect();
+
+          if (comparisonMode && candidateA && candidateB) {
+            const comp = comparativoData?.[munId];
+            if (comp) {
+              const isA = comp.lider === candidateA.numero || comp.margem >= 0;
+              const liderNome = isA ? candidateA.nomeUrna : candidateB.nomeUrna;
+              setTooltip({
+                title: `${d.properties.name} - ${comp.uf || selectedUf}`,
+                subtitle: `Vantagem de +${Math.abs(comp.margem).toFixed(1)}% para ${liderNome}`,
+                cands: [
+                  { nome: candidateA.nomeUrna, partido: candidateA.partido, pctValidos: comp.pctA, votos: comp.votosA, cor: candidateA.cor },
+                  { nome: candidateB.nomeUrna, partido: candidateB.partido, pctValidos: comp.pctB, votos: comp.votosB, cor: candidateB.cor }
+                ],
+                x: event.clientX - (bounds?.left || 0),
+                y: event.clientY - (bounds?.top || 0)
+              });
+              d3.select(event.currentTarget as SVGPathElement)
+                .attr('stroke', '#38bdf8')
+                .attr('stroke-width', 1.5);
+              return;
+            }
+          }
+
+          const munData = electionData.municipios?.find(m => String(m.id) === munId);
 
           let cands: Array<{ nome: string; partido?: string; votos?: number; pctValidos?: number; cor?: string }> = [];
           if (munData?.candidatos && munData.candidatos.length > 0) {
@@ -489,7 +592,20 @@ export const Map2D: React.FC<Map2DProps> = ({
       });
     }
 
-  }, [statesGeo, munGeo, electionData, granularity, selectedUf, selectedMun, selectedZona, showApuracaoOverlay]);
+  }, [
+    statesGeo, 
+    munGeo, 
+    electionData, 
+    granularity, 
+    selectedUf, 
+    selectedMun, 
+    selectedZona, 
+    showApuracaoOverlay,
+    comparisonMode,
+    candidateA,
+    candidateB,
+    comparativoData
+  ]);
 
   const handleZoomIn = () => {
     if (svgRef.current && zoomBehaviorRef.current) {
@@ -511,6 +627,57 @@ export const Map2D: React.FC<Map2DProps> = ({
 
   return (
     <div className="map-viewport" ref={containerRef}>
+      {/* Topbar: Visualização (Mais votado vs Comparação A vs B) */}
+      <div className="map-topbar-controls">
+        <div className="map-view-selector-group">
+          <span className="selector-label">Ver no mapa:</span>
+          <select 
+            value={comparisonMode ? 'comparativo' : 'lider'} 
+            onChange={(e) => onToggleComparisonMode?.(e.target.value === 'comparativo')}
+            className="styled-select-compact"
+          >
+            <option value="lider">Candidato mais votado</option>
+            <option value="comparativo">Comparação entre candidatos</option>
+          </select>
+        </div>
+
+        {comparisonMode && availableCandidates && availableCandidates.length >= 2 && (
+          <div className="candidate-compare-selectors">
+            <div className="compare-cand-chip">
+              <span className="cand-letter" style={{ backgroundColor: candidateA?.cor || '#e11d48' }}>A</span>
+              <select 
+                value={candidateA?.numero} 
+                onChange={(e) => onSelectCandidateA?.(e.target.value)}
+                className="styled-select-compact"
+              >
+                {availableCandidates.map(c => (
+                  <option key={c.numero} value={c.numero}>
+                    {c.nomeUrna} ({c.partido})
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <span className="vs-badge">vs</span>
+
+            <div className="compare-cand-chip">
+              <span className="cand-letter" style={{ backgroundColor: candidateB?.cor || '#2563eb' }}>B</span>
+              <select 
+                value={candidateB?.numero} 
+                onChange={(e) => onSelectCandidateB?.(e.target.value)}
+                className="styled-select-compact"
+              >
+                {availableCandidates.map(c => (
+                  <option key={c.numero} value={c.numero}>
+                    {c.nomeUrna} ({c.partido})
+                  </option>
+                ))}
+              </select>
+            </div>
+          </div>
+        )}
+      </div>
+
       {/* Floating Zoom Controls */}
       <div className="map-floating-controls">
         <button 
@@ -574,52 +741,79 @@ export const Map2D: React.FC<Map2DProps> = ({
       </div>
 
       {/* Map Legend */}
-      {!isCartogramMode && electionData && (
-        <div className="map-legend">
-          <div className="legend-title">
-            {electionData.cargo === 'PRESIDENTE' ? 'Candidatos Líderes' : 'Partidos / Maiorias'}
+      {!isCartogramMode && (
+        comparisonMode && candidateA && candidateB ? (
+          <div className="map-legend bivariate-legend">
+            <div className="bivariate-labels-row">
+              <span className="cand-a-tag" style={{ color: candidateA.cor }}>
+                ▲ {candidateA.nomeUrna} ({candidateA.partido})
+              </span>
+              <span className="bivariate-mid-tag">Margem de Vitória</span>
+              <span className="cand-b-tag" style={{ color: candidateB.cor }}>
+                {candidateB.nomeUrna} ({candidateB.partido}) ▲
+              </span>
+            </div>
+            <div className="bivariate-swatches-bar">
+              <div className="swatch" title={`${candidateA.nomeUrna} +40%+`} style={{ background: '#881337' }}>+40%</div>
+              <div className="swatch" title={`${candidateA.nomeUrna} +25-40%`} style={{ background: '#be123c' }}>+25%</div>
+              <div className="swatch" title={`${candidateA.nomeUrna} +15-25%`} style={{ background: candidateA.cor }}>+15%</div>
+              <div className="swatch" title={`${candidateA.nomeUrna} +5-15%`} style={{ background: '#f43f5e' }}>+5%</div>
+              <div className="swatch" title={`${candidateA.nomeUrna} +0-5%`} style={{ background: '#fda4af' }}>0%</div>
+              <div className="swatch-divider"></div>
+              <div className="swatch" title={`${candidateB.nomeUrna} +0-5%`} style={{ background: '#93c5fd' }}>0%</div>
+              <div className="swatch" title={`${candidateB.nomeUrna} +5-15%`} style={{ background: '#60a5fa' }}>+5%</div>
+              <div className="swatch" title={`${candidateB.nomeUrna} +15-25%`} style={{ background: candidateB.cor }}>+15%</div>
+              <div className="swatch" title={`${candidateB.nomeUrna} +25-40%`} style={{ background: '#1d4ed8' }}>+25%</div>
+              <div className="swatch" title={`${candidateB.nomeUrna} +40%+`} style={{ background: '#1e3a8a' }}>+40%</div>
+            </div>
           </div>
-          <div className="legend-items">
-            {electionData.cargo === 'PRESIDENTE' ? (
-              electionData.brasil.candidatos.slice(0, 4).map((c, i) => (
-                <div key={i} className="legend-item">
-                  <div className="legend-color-dot" style={{ background: c.cor || '#3b82f6' }} />
-                  <span>{c.nomeUrna || c.nome} ({c.partido})</span>
+        ) : electionData ? (
+          <div className="map-legend">
+            <div className="legend-title">
+              {electionData.cargo === 'PRESIDENTE' ? 'Candidatos Líderes' : 'Partidos / Maiorias'}
+            </div>
+            <div className="legend-items">
+              {electionData.cargo === 'PRESIDENTE' ? (
+                electionData.brasil.candidatos.slice(0, 4).map((c, i) => (
+                  <div key={i} className="legend-item">
+                    <div className="legend-color-dot" style={{ background: c.cor || '#3b82f6' }} />
+                    <span>{c.nomeUrna || c.nome} ({c.partido})</span>
+                  </div>
+                ))
+              ) : (
+                (electionData.brasil.partidos || []).slice(0, 5).map((p, i) => (
+                  <div key={i} className="legend-item">
+                    <div className="legend-color-dot" style={{ background: p.cor }} />
+                    <span>{p.partido} ({p.pctEleitos}%)</span>
+                  </div>
+                ))
+              )}
+            </div>
+
+            {electionData.isTempoReal && (
+              <div className="legend-apuracao-section" style={{ marginTop: 8, paddingTop: 8, borderTop: '1px solid rgba(255,255,255,0.08)' }}>
+                <div style={{ fontSize: '0.7rem', color: '#94a3b8', marginBottom: 4, display: 'flex', alignItems: 'center', gap: 4 }}>
+                  <span className="live-dot" style={{ width: 6, height: 6 }} />
+                  <span>Apuração por Estado:</span>
                 </div>
-              ))
-            ) : (
-              (electionData.brasil.partidos || []).slice(0, 5).map((p, i) => (
-                <div key={i} className="legend-item">
-                  <div className="legend-color-dot" style={{ background: p.cor }} />
-                  <span>{p.partido} ({p.pctEleitos}%)</span>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 3, fontSize: '0.68rem', color: '#cbd5e1' }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                    <div style={{ width: 7, height: 7, borderRadius: '50%', background: '#10b981' }} />
+                    <span>≥ 99% Concluída</span>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                    <div style={{ width: 7, height: 7, borderRadius: '50%', background: '#38bdf8' }} />
+                    <span>95% – 99% Reta Final</span>
+                  </div>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                    <div style={{ width: 7, height: 7, borderRadius: '50%', background: '#f59e0b' }} />
+                    <span>&lt; 95% Em Andamento</span>
+                  </div>
                 </div>
-              ))
+              </div>
             )}
           </div>
-
-          {electionData.isTempoReal && (
-            <div className="legend-apuracao-section" style={{ marginTop: 8, paddingTop: 8, borderTop: '1px solid rgba(255,255,255,0.08)' }}>
-              <div style={{ fontSize: '0.7rem', color: '#94a3b8', marginBottom: 4, display: 'flex', alignItems: 'center', gap: 4 }}>
-                <span className="live-dot" style={{ width: 6, height: 6 }} />
-                <span>Apuração por Estado:</span>
-              </div>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 3, fontSize: '0.68rem', color: '#cbd5e1' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                  <div style={{ width: 7, height: 7, borderRadius: '50%', background: '#10b981' }} />
-                  <span>≥ 99% Concluída</span>
-                </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                  <div style={{ width: 7, height: 7, borderRadius: '50%', background: '#38bdf8' }} />
-                  <span>95% – 99% Reta Final</span>
-                </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                  <div style={{ width: 7, height: 7, borderRadius: '50%', background: '#f59e0b' }} />
-                  <span>&lt; 95% Em Andamento</span>
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
+        ) : null
       )}
 
       {/* Cartogram Grid or SVG Canvas for D3 Map */}
