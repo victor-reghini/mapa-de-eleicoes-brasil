@@ -1,5 +1,5 @@
 import React from 'react';
-import { Vote, Database, ShieldCheck } from 'lucide-react';
+import { Vote, Database, ShieldCheck, Share2 } from 'lucide-react';
 import type { ElectionCargo, ElectionManifest } from '../types/election';
 
 interface HeaderProps {
@@ -12,6 +12,7 @@ interface HeaderProps {
   onSelectCargo: (cargo: ElectionCargo) => void;
   onOpenScalabilityModal?: () => void;
   onOpenSourcesModal: () => void;
+  onShare?: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -23,7 +24,8 @@ export const Header: React.FC<HeaderProps> = ({
   onSelectTurno,
   onSelectCargo,
   onOpenScalabilityModal: _onOpenScalabilityModal,
-  onOpenSourcesModal
+  onOpenSourcesModal,
+  onShare
 }) => {
   const isMunicipalCargo = selectedCargo === 'PREFEITO' || selectedCargo === 'VEREADOR';
 
@@ -126,6 +128,20 @@ export const Header: React.FC<HeaderProps> = ({
             );
           })}
         </div>
+
+        {/* Share Button (mapaeleitoral.com.br style) */}
+        {onShare && (
+          <button
+            type="button"
+            onClick={onShare}
+            className="share-header-btn"
+            title="Compartilhar esta apuração"
+            aria-label="Compartilhar link da apuração"
+          >
+            <Share2 size={15} />
+            <span className="share-btn-text">Compartilhar</span>
+          </button>
+        )}
 
         {/* Minimized Database Icon Button */}
         <a

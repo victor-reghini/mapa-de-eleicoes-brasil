@@ -17,19 +17,43 @@ import { SidebarResults } from './components/SidebarResults';
 import { NullDetailModal } from './components/NullDetailModal';
 import { CargoScalabilityModal } from './components/CargoScalabilityModal';
 import { SourcesModal } from './components/SourcesModal';
+import { ShareToast } from './components/ShareToast';
 import { Loader2, Map as MapIcon, BarChart3 } from 'lucide-react';
 
+const getInitialUrlParams = () => {
+  if (typeof window === 'undefined') return {};
+  const params = new URLSearchParams(window.location.search);
+  const cargoParam = params.get('cargo')?.toUpperCase() as ElectionCargo | undefined;
+  const validCargos: ElectionCargo[] = ['PRESIDENTE', 'GOVERNADOR', 'SENADOR', 'DEPUTADO_FEDERAL', 'DEPUTADO_ESTADUAL', 'PREFEITO', 'VEREADOR'];
+  const cargo = validCargos.includes(cargoParam as any) ? cargoParam : undefined;
+
+  const anoParam = params.get('ano');
+  const ano = anoParam ? parseInt(anoParam, 10) : undefined;
+
+  const turnoParam = params.get('turno');
+  const turno = turnoParam ? parseInt(turnoParam, 10) : undefined;
+
+  const uf = params.get('uf')?.toUpperCase() || undefined;
+
+  const modoParam = params.get('modo')?.toUpperCase() as GranularityMode | undefined;
+  const validModos: GranularityMode[] = ['ESTADOS', 'MUNICIPIOS', 'ZONAS', 'EXTERIOR_GLOBE', 'GRADE_CARTOGRAMA'];
+  const modo = validModos.includes(modoParam as any) ? modoParam : undefined;
+
+  return { cargo, ano, turno, uf, modo };
+};
+
 export function App() {
+  const initialParams = getInitialUrlParams();
   const [manifest, setManifest] = useState<ElectionManifest | null>(null);
-  const [selectedAno, setSelectedAno] = useState<number>(2022);
-  const [selectedTurno, setSelectedTurno] = useState<number>(2);
-  const [selectedCargo, setSelectedCargo] = useState<ElectionCargo>('PRESIDENTE');
+  const [selectedAno, setSelectedAno] = useState<number>(initialParams.ano || 2022);
+  const [selectedTurno, setSelectedTurno] = useState<number>(initialParams.turno || 2);
+  const [selectedCargo, setSelectedCargo] = useState<ElectionCargo>(initialParams.cargo || 'PRESIDENTE');
   const [electionData, setElectionData] = useState<ElectionRoundData | null>(null);
   const [munIndex, setMunIndex] = useState<MunicipalityIndexItem[]>([]);
 
   // Navigation State
-  const [granularity, setGranularity] = useState<GranularityMode>('ESTADOS');
-  const [selectedUf, setSelectedUf] = useState<string | null>(null);
+  const [granularity, setGranularity] = useState<GranularityMode>(initialParams.modo || 'ESTADOS');
+  const [selectedUf, setSelectedUf] = useState<string | null>(initialParams.uf || null);
   const [selectedMun, setSelectedMun] = useState<MunicipalityIndexItem | null>(null);
   const [selectedZona, setSelectedZona] = useState<string | null>(null);
   const [selectedCity, setSelectedCity] = useState<ConsularCity | null>(null);
@@ -37,10 +61,11 @@ export function App() {
   // Mobile View Toggle: 'map' vs 'results'
   const [mobileTab, setMobileTab] = useState<'map' | 'results'>('map');
 
-  // Modals
+  // Modals & Feedback
   const [isNullModalOpen, setIsNullModalOpen] = useState(false);
   const [isScalabilityModalOpen, setIsScalabilityModalOpen] = useState(false);
   const [isSourcesModalOpen, setIsSourcesModalOpen] = useState(false);
+  const [toastMessage, setToastMessage] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
   // Initial Data Load
@@ -105,6 +130,50 @@ export function App() {
         setIsLoading(false);
       }
     }
+  };
+
+  // Keep URL search query synchronized for shareability & bookmarking
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams();
+    if (selectedCargo && selectedCargo !== 'PRESIDENTE') params.set('cargo', selectedCargo);
+    if (selectedAno) params.set('ano', selectedAno.toString());
+    if (selectedTurno && selectedTurno !== 2) params.set('turno', selectedTurno.toString());
+    if (selectedUf) params.set('uf', selectedUf);
+    if (granularity && granularity !== 'ESTADOS') params.set('modo', granularity);
+
+    const qs = params.toString();
+    const newUrl = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+    window.history.replaceState(null, '', newUrl);
+  }, [selectedCargo, selectedAno, selectedTurno, selectedUf, granularity]);
+
+  const handleShare = async () => {
+    const shareUrl = window.location.href;
+    const shareTitle = `Apuração ${selectedCargo} ${selectedAno} - ${selectedTurno}º Turno`;
+    const shareText = `Confira a apuração oficial no Mapa Eleitoral Brasil: ${selectedCargo} ${selectedAno}`;
+
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: shareTitle,
+          text: shareText,
+          url: shareUrl
+        });
+        setToastMessage('Link compartilhado com sucesso!');
+        setTimeout(() => setToastMessage(null), 3200);
+        return;
+      } catch (err) {
+        // User cancelled or share unallowed, fallback to clipboard
+      }
+    }
+
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+      setToastMessage('Link copiado para a área de transferência!');
+    } catch {
+      setToastMessage('Link da apuração pronto na barra de endereços!');
+    }
+    setTimeout(() => setToastMessage(null), 3200);
   };
 
   const isMunicipalCargo = (cargo: ElectionCargo) => cargo === 'PREFEITO' || cargo === 'VEREADOR';
@@ -207,6 +276,7 @@ export function App() {
         onSelectCargo={handleSelectCargo}
         onOpenScalabilityModal={() => setIsScalabilityModalOpen(true)}
         onOpenSourcesModal={() => setIsSourcesModalOpen(true)}
+        onShare={handleShare}
       />
 
       {/* Subbar with Granularity Tabs, Breadcrumbs, and Search */}
@@ -315,6 +385,12 @@ export function App() {
           onRefreshLive={handleRefreshLive}
           refreshInterval={liveRefreshInterval}
           onChangeRefreshInterval={setLiveRefreshInterval}
+          onSelectUf={handleSelectUf}
+          onSwitchToGovernorCargo={(uf) => {
+            handleSelectCargo('GOVERNADOR');
+            handleSelectUf(uf);
+          }}
+          onShare={handleShare}
         />
       </main>
 
@@ -340,6 +416,9 @@ export function App() {
         onClose={() => setIsSourcesModalOpen(false)}
         initialAno={selectedAno}
       />
+
+      {/* Floating Share Feedback Toast */}
+      <ShareToast message={toastMessage} />
     </div>
   );
 }

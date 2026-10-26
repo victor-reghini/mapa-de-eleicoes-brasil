@@ -12,7 +12,8 @@ import {
   RotateCw,
   Activity,
   ExternalLink,
-  Clock
+  Clock,
+  Share2
 } from 'lucide-react';
 import type { 
   ElectionRoundData, 
@@ -22,6 +23,8 @@ import type {
   Candidate,
   PartySummary
 } from '../types/election';
+import { calculatePartyDiff } from '../utils/historicalComparison';
+import { GovernorsOverview } from './GovernorsOverview';
 
 interface SidebarResultsProps {
   electionData: ElectionRoundData | null;
@@ -36,6 +39,9 @@ interface SidebarResultsProps {
   onRefreshLive?: () => void;
   refreshInterval?: number;
   onChangeRefreshInterval?: (intervalSeconds: number) => void;
+  onSelectUf?: (uf: string) => void;
+  onSwitchToGovernorCargo?: (uf: string) => void;
+  onShare?: () => void;
 }
 
 export const SidebarResults: React.FC<SidebarResultsProps> = ({
@@ -50,7 +56,10 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
   onOpenSourcesModal,
   onRefreshLive,
   refreshInterval = 15,
-  onChangeRefreshInterval
+  onChangeRefreshInterval,
+  onSelectUf,
+  onSwitchToGovernorCargo,
+  onShare
 }) => {
   const [partyMetric, setPartyMetric] = useState<'eleitos' | 'votos'>('eleitos');
 
@@ -391,27 +400,39 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
           <div className="sidebar-scope-badge">
             {scopeTag}
           </div>
-          {!isNational && (
-            <button
-              onClick={onClearSelection}
-              title="Voltar ao total Brasil"
-              style={{
-                background: 'rgba(255,255,255,0.06)',
-                border: '1px solid var(--border-subtle)',
-                color: 'var(--text-muted)',
-                borderRadius: 4,
-                padding: '4px 8px',
-                fontSize: '0.72rem',
-                cursor: 'pointer',
-                display: 'flex',
-                alignItems: 'center',
-                gap: 4
-              }}
-            >
-              <X size={12} />
-              <span>Ver Brasil</span>
-            </button>
-          )}
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+            {onShare && (
+              <button
+                onClick={onShare}
+                title="Compartilhar esta apuração"
+                className="sidebar-share-action-btn"
+              >
+                <Share2 size={12} />
+                <span>Compartilhar</span>
+              </button>
+            )}
+            {!isNational && (
+              <button
+                onClick={onClearSelection}
+                title="Voltar ao total Brasil"
+                style={{
+                  background: 'rgba(255,255,255,0.06)',
+                  border: '1px solid var(--border-subtle)',
+                  color: 'var(--text-muted)',
+                  borderRadius: 4,
+                  padding: '4px 8px',
+                  fontSize: '0.72rem',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: 4
+                }}
+              >
+                <X size={12} />
+                <span>Ver Brasil</span>
+              </button>
+            )}
+          </div>
         </div>
         <h2 className="sidebar-title">{title}</h2>
         <p className="sidebar-subtitle">{subtitle}</p>
@@ -656,6 +677,31 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
             <span>{candidates.length} Candidatos</span>
           </div>
 
+          {/* Narrative Summary (mapaeleitoral.com.br style) */}
+          <div className="narrative-summary-card">
+            <p>
+              {electionData.isTempoReal ? (
+                <>
+                  Apuração do 2º turno para presidente no Brasil: <strong>{((electionData.apuracao?.pctSecoesTotalizadas || 0)).toFixed(2)}%</strong> apurado. Líder no momento:{' '}
+                  <strong style={{ color: candidates[0]?.cor || '#38bdf8' }}>
+                    {candidates[0]?.nomeUrna || candidates[0]?.nome} ({candidates[0]?.pctValidos?.toFixed(2)}%)
+                  </strong>
+                  . A apuração em território nacional inicia às 17h00 de Brasília; seções do exterior seguem sendo totalizadas.
+                </>
+              ) : (
+                <>
+                  Resultado do {electionData.turno}º turno para {cargoLabel.toLowerCase()} ({electionData.ano}):{' '}
+                  {candidates[0] && (
+                    <>
+                      <strong>{candidates[0].nomeUrna || candidates[0].nome}</strong> liderou com{' '}
+                      <strong>{candidates[0].pctValidos?.toFixed(2)}%</strong> dos votos válidos ({candidates[0].votos.toLocaleString('pt-BR')} votos).
+                    </>
+                  )}
+                </>
+              )}
+            </p>
+          </div>
+
           {/* Pending Apuração Notice for Domestic State in Live Mode */}
           {electionData.isTempoReal && selectedUf && electionData.ufs[selectedUf] && (!electionData.ufs[selectedUf].pctApuracao || electionData.ufs[selectedUf].votosValidos === 0) && (
             <div className="state-awaiting-card">
@@ -672,6 +718,14 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
             const isRound2Qualified = Boolean(electionData.turno === 1 && !isElected && index < 2 && cand.votos > 0);
             const isLeadingLive = Boolean(electionData.isTempoReal && cand.votos > 0 && index === 0);
             const isAwaitingDomestic = Boolean(electionData.isTempoReal && cand.votos === 0);
+
+            // Historical difference vs previous election
+            const partyDiff = calculatePartyDiff(
+              electionData.ano,
+              electionData.turno,
+              cand.partido,
+              cand.pctValidos || 0
+            );
 
             return (
               <div 
@@ -740,6 +794,24 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
                       <span className="candidate-party-info">
                         <strong>{cand.partido}</strong> • Nº {cand.numero}
                       </span>
+
+                      {/* Historical Comparison: p.p. difference vs previous election */}
+                      {partyDiff && cand.votos > 0 && (
+                        <div className="candidate-historical-diff">
+                          <span className="diff-year-label">
+                            {cand.partido} em {partyDiff.previousYear}: {partyDiff.previousPct.toFixed(2)}%
+                          </span>
+                          <span 
+                            className="diff-badge" 
+                            style={{ 
+                              color: partyDiff.isNeutral ? '#94a3b8' : partyDiff.isPositive ? '#10b981' : '#f43f5e',
+                              fontWeight: 700 
+                            }}
+                          >
+                            {partyDiff.formattedDiff}
+                          </span>
+                        </div>
+                      )}
                     </div>
                   </div>
 
@@ -834,6 +906,16 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
           </div>
         </div>
       </div>
+
+      {/* Governors Overview in General Elections (mapaeleitoral.com.br feature) */}
+      {electionData.cargo === 'PRESIDENTE' && onSelectUf && onSwitchToGovernorCargo && (
+        <GovernorsOverview
+          electionData={electionData}
+          selectedUf={selectedUf}
+          onSelectUf={onSelectUf}
+          onSwitchToGovernorCargo={onSwitchToGovernorCargo}
+        />
+      )}
 
       {/* CTA Buttons */}
       <div className="null-cta-wrapper">

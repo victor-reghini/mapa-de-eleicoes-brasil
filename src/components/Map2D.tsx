@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
-import { ZoomIn, ZoomOut, RotateCcw, Home, Activity } from 'lucide-react';
+import { ZoomIn, ZoomOut, RotateCcw, Home, Activity, LayoutGrid, Map as MapIcon } from 'lucide-react';
 import type { 
   ElectionRoundData, 
   GranularityMode, 
@@ -9,6 +9,7 @@ import type {
 } from '../types/election';
 import { PARTY_COLORS } from '../types/election';
 import { electionService } from '../services/electionService';
+import { StateGridCartogram } from './StateGridCartogram';
 
 interface Map2DProps {
   electionData: ElectionRoundData | null;
@@ -49,6 +50,11 @@ export const Map2D: React.FC<Map2DProps> = ({
   const [munGeo, setMunGeo] = useState<any>(null);
   const [tooltip, setTooltip] = useState<TooltipData | null>(null);
   const [showApuracaoOverlay, setShowApuracaoOverlay] = useState<boolean>(true);
+  const [isCartogramMode, setIsCartogramMode] = useState<boolean>(granularity === 'GRADE_CARTOGRAMA');
+
+  useEffect(() => {
+    setIsCartogramMode(granularity === 'GRADE_CARTOGRAMA');
+  }, [granularity]);
 
   // Load States GeoJSON on mount
   useEffect(() => {
@@ -556,10 +562,19 @@ export const Map2D: React.FC<Map2DProps> = ({
             <Activity size={17} />
           </button>
         )}
+        <button 
+          className={`map-control-btn ${isCartogramMode ? 'active-indicator-btn' : ''}`} 
+          onClick={() => setIsCartogramMode(!isCartogramMode)} 
+          title={isCartogramMode ? "Voltar ao Mapa Geográfico" : "Alternar para Cartograma em Grade dos Estados (7x8)"}
+          aria-label="Alternar Cartograma em Grade"
+          style={{ color: isCartogramMode ? '#38bdf8' : '#cbd5e1' }}
+        >
+          {isCartogramMode ? <MapIcon size={17} /> : <LayoutGrid size={17} />}
+        </button>
       </div>
 
       {/* Map Legend */}
-      {electionData && (
+      {!isCartogramMode && electionData && (
         <div className="map-legend">
           <div className="legend-title">
             {electionData.cargo === 'PRESIDENTE' ? 'Candidatos Líderes' : 'Partidos / Maiorias'}
@@ -607,11 +622,21 @@ export const Map2D: React.FC<Map2DProps> = ({
         </div>
       )}
 
-      {/* SVG Canvas for D3 Map */}
-      <svg 
-        ref={svgRef} 
-        style={{ width: '100%', height: '100%', display: 'block' }} 
-      />
+      {/* Cartogram Grid or SVG Canvas for D3 Map */}
+      {isCartogramMode ? (
+        <div className="cartogram-view-overlay">
+          <StateGridCartogram
+            electionData={electionData}
+            selectedUf={selectedUf}
+            onSelectUf={onSelectUf}
+          />
+        </div>
+      ) : (
+        <svg 
+          ref={svgRef} 
+          style={{ width: '100%', height: '100%', display: 'block' }} 
+        />
+      )}
 
       {/* Floating Hover Tooltip */}
       {tooltip && (

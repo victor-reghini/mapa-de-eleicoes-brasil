@@ -1903,3 +1903,525 @@ body {
   margin-bottom: 2px;
 }
 
+/* ==========================================================================
+   MapaEleitoral.com.br Inspired Features: Cartogram, Narrative, Governors & Share
+   ========================================================================== */
+
+/* Cartogram View Overlay */
+.cartogram-view-overlay {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+  background: radial-gradient(circle at 50% 40%, rgba(15, 23, 42, 0.95), rgba(9, 13, 22, 1));
+}
+
+.cartogram-container {
+  max-width: 680px;
+  width: 100%;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-lg);
+  padding: 20px 24px;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
+}
+
+.cartogram-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 14px;
+}
+
+.cartogram-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #f8fafc;
+  margin: 0 0 4px 0;
+}
+
+.cartogram-subtitle {
+  font-size: 0.78rem;
+  color: #94a3b8;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.cartogram-legend-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cartogram-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 9999px;
+  padding: 4px 10px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.cartogram-pill-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* Cartogram 7-Column Grid */
+.cartogram-grid-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cartogram-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cartogram-row {
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+}
+
+.cartogram-cell-empty {
+  width: 48px;
+  height: 48px;
+  visibility: hidden;
+}
+
+.cartogram-tile {
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  background: #1e293b;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.18s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.15s ease, box-shadow 0.18s ease;
+  user-select: none;
+}
+
+.cartogram-tile:hover {
+  transform: scale(1.12);
+  border-color: #38bdf8;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  z-index: 10;
+}
+
+.cartogram-tile.is-selected {
+  border: 2px solid #38bdf8;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.5);
+  z-index: 8;
+}
+
+.cartogram-tile.is-hovered {
+  border-color: #38bdf8;
+}
+
+.cartogram-fill {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: height 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  opacity: 0.88;
+  pointer-events: none;
+}
+
+.cartogram-sigla {
+  position: relative;
+  z-index: 2;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  line-height: 1;
+}
+
+.cartogram-pct {
+  position: relative;
+  z-index: 2;
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.95);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+  margin-top: 2px;
+  line-height: 1;
+}
+
+/* Hover Card for Cartogram */
+.cartogram-hover-card {
+  position: absolute;
+  bottom: -68px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0f172a;
+  border: 1px solid rgba(56, 189, 248, 0.35);
+  border-radius: 8px;
+  padding: 8px 14px;
+  min-width: 260px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  z-index: 20;
+  pointer-events: none;
+  animation: fadeIn 0.15s ease;
+}
+
+.cartogram-hover-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.78rem;
+  color: #f1f5f9;
+  margin-bottom: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 4px;
+}
+
+.cartogram-hover-tag {
+  font-size: 0.7rem;
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.cartogram-hover-cands {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.cartogram-hover-cand-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.72rem;
+}
+
+.cartogram-hover-cand-row .cand-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.cartogram-hover-cand-row .cand-name {
+  color: #cbd5e1;
+  flex: 1;
+}
+
+.cartogram-hover-cand-row .cand-score {
+  font-weight: 700;
+  color: #f8fafc;
+}
+
+/* Narrative Summary Card */
+.narrative-summary-card {
+  background: rgba(56, 189, 248, 0.06);
+  border: 1px solid rgba(56, 189, 248, 0.22);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  margin-bottom: 14px;
+}
+
+.narrative-summary-card p {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.5;
+  color: #cbd5e1;
+}
+
+.narrative-summary-card strong {
+  color: #f1f5f9;
+  font-weight: 600;
+}
+
+/* Historical Diff (p.p. vs Previous Election) */
+.candidate-historical-diff {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 3px;
+  font-size: 0.68rem;
+}
+
+.diff-year-label {
+  color: #94a3b8;
+}
+
+.diff-badge {
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 0.68rem;
+}
+
+/* Governors Overview Section */
+.governors-overview-section {
+  padding: 18px 24px;
+  border-top: 1px solid var(--border-subtle);
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.governors-section-header {
+  margin-bottom: 12px;
+}
+
+.governors-section-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin: 0;
+}
+
+.governors-section-subtitle {
+  font-size: 0.72rem;
+  color: #94a3b8;
+  margin: 3px 0 0 0;
+  line-height: 1.35;
+}
+
+.governors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 10px;
+}
+
+.governor-card {
+  background: rgba(30, 41, 59, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  padding: 10px 12px;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.governor-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(56, 189, 248, 0.35);
+  background: rgba(30, 41, 59, 0.7);
+}
+
+.governor-card.is-selected-card {
+  border-color: #38bdf8;
+  background: rgba(56, 189, 248, 0.08);
+}
+
+.governor-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gov-uf-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.gov-uf-sigla {
+  font-weight: 800;
+  font-size: 0.78rem;
+  color: #38bdf8;
+}
+
+.gov-uf-nome {
+  font-size: 0.74rem;
+  color: #cbd5e1;
+}
+
+.gov-status-pill {
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.gov-candidates-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.gov-cand-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.72rem;
+}
+
+.gov-cand-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.gov-cand-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.gov-cand-name {
+  font-weight: 600;
+  color: #e2e8f0;
+}
+
+.gov-cand-party {
+  color: #94a3b8;
+  font-size: 0.68rem;
+}
+
+.gov-cand-pct {
+  font-weight: 700;
+  color: #f1f5f9;
+}
+
+.gov-progress-container {
+  margin-top: 4px;
+}
+
+.gov-progress-bar {
+  height: 4px;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.gov-progress-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.gov-progress-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.68rem;
+  color: #94a3b8;
+  margin-top: 4px;
+}
+
+.gov-detail-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: #38bdf8;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.68rem;
+  padding: 0;
+}
+
+.gov-detail-link:hover {
+  text-decoration: underline;
+}
+
+/* Share Button in Header & Sidebar */
+.share-header-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(56, 189, 248, 0.12);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  color: #38bdf8;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.76rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.share-header-btn:hover {
+  background: rgba(56, 189, 248, 0.22);
+  border-color: #38bdf8;
+}
+
+.sidebar-share-action-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-muted);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 0.72rem;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.sidebar-share-action-btn:hover {
+  color: #38bdf8;
+  border-color: rgba(56, 189, 248, 0.3);
+  background: rgba(56, 189, 248, 0.1);
+}
+
+/* Floating Share Toast Notification */
+.share-toast-notification {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #0f172a;
+  border: 1px solid #10b981;
+  color: #10b981;
+  padding: 10px 16px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  font-size: 0.8rem;
+  font-weight: 600;
+  animation: slideUpFade 0.25s ease;
+}
+
+.share-toast-icon {
+  flex-shrink: 0;
+}
+
+@keyframes slideUpFade {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+

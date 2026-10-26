@@ -1,4 +1,4 @@
-export type GranularityMode = 'ESTADOS' | 'MUNICIPIOS' | 'ZONAS' | 'EXTERIOR_GLOBE';
+export type GranularityMode = 'ESTADOS' | 'GRADE_CARTOGRAMA' | 'MUNICIPIOS' | 'ZONAS' | 'EXTERIOR_GLOBE';
 
 export type ElectionCargo = 
   | 'PRESIDENTE' 
