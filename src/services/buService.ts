@@ -83,15 +83,86 @@ export interface BuQueryResponse {
   isStaticFallback?: boolean;
 }
 
-let cachedUfSummary: Record<string, unknown>[] | null = null;
-
-async function queryStaticUfFallback(params: BuQueryParams): Promise<BuQueryResponse> {
-  if (!cachedUfSummary) {
-    const res = await fetch('/data/bu/uf_summary.json');
-    if (!res.ok) {
-      throw new Error('Dados estáticos de resumo UF não encontrados.');
+function parseTabular(data: { cols: string[]; rows: (string | number | null)[][] }): Record<string, unknown>[] {
+  const { cols, rows } = data;
+  const colCount = cols.length;
+  const out: Record<string, unknown>[] = new Array(rows.length);
+  for (let r = 0; r < rows.length; r++) {
+    const rowVals = rows[r];
+    const obj: Record<string, unknown> = {};
+    for (let c = 0; c < colCount; c++) {
+      obj[cols[c]] = rowVals[c];
     }
-    cachedUfSummary = (await res.json()) as Record<string, unknown>[];
+    out[r] = obj;
+  }
+  return out;
+}
+
+const staticDataCache = new Map<string, Record<string, unknown>[]>();
+
+async function fetchStaticRound(
+  level: BuAggregationLevel,
+  ano: number,
+  turno: number,
+  uf?: string
+): Promise<Record<string, unknown>[]> {
+  if (level === 'uf') {
+    const cacheKey = 'uf_summary';
+    if (!staticDataCache.has(cacheKey)) {
+      const res = await fetch('/data/bu/uf_summary.json');
+      if (!res.ok) throw new Error('Resumo de UFs estático não encontrado.');
+      const data = (await res.json()) as Record<string, unknown>[];
+      staticDataCache.set(cacheKey, data);
+    }
+    const all = staticDataCache.get(cacheKey)!;
+    return all.filter((r) => Number(r.ano) === ano && Number(r.turno) === turno);
+  }
+
+  if (level === 'municipio') {
+    const cacheKey = `mun_${ano}_${turno}`;
+    if (!staticDataCache.has(cacheKey)) {
+      const res = await fetch(`/data/bu/municipios/${ano}_${turno}.json`);
+      if (!res.ok) throw new Error(`Dados municipais para ${ano} (${turno}ºT) não encontrados.`);
+      const raw = (await res.json()) as { cols: string[]; rows: (string | number | null)[][] };
+      staticDataCache.set(cacheKey, parseTabular(raw));
+    }
+    return staticDataCache.get(cacheKey)!;
+  }
+
+  if (level === 'zona') {
+    const cacheKey = `zona_${ano}_${turno}`;
+    if (!staticDataCache.has(cacheKey)) {
+      const res = await fetch(`/data/bu/zonas/${ano}_${turno}.json`);
+      if (!res.ok) throw new Error(`Dados de zonas para ${ano} (${turno}ºT) não encontrados.`);
+      const raw = (await res.json()) as { cols: string[]; rows: (string | number | null)[][] };
+      staticDataCache.set(cacheKey, parseTabular(raw));
+    }
+    return staticDataCache.get(cacheKey)!;
+  }
+
+  // level === 'secao' or 'local'
+  const stateUf = (uf || 'SP').toUpperCase();
+  const cacheKey = `secao_${ano}_${turno}_${stateUf}`;
+  if (!staticDataCache.has(cacheKey)) {
+    const res = await fetch(`/data/bu/secoes/${ano}_${turno}_${stateUf}.json`);
+    if (!res.ok) {
+      throw new Error(`Dados de seções eleitorais para ${stateUf} em ${ano} (${turno}ºT) não encontrados.`);
+    }
+    const raw = (await res.json()) as { cols: string[]; rows: (string | number | null)[][] };
+    staticDataCache.set(cacheKey, parseTabular(raw));
+  }
+  return staticDataCache.get(cacheKey)!;
+}
+
+async function queryStaticData(params: BuQueryParams): Promise<BuQueryResponse> {
+  const t0 = performance.now();
+  const effectiveUf = params.uf || (params.level === 'secao' || params.level === 'local' ? 'SP' : undefined);
+
+  let rawA: Record<string, unknown>[] = [];
+  try {
+    rawA = await fetchStaticRound(params.level, params.anoA, params.turnoA, effectiveUf);
+  } catch (err) {
+    throw new Error(err instanceof Error ? err.message : 'Falha ao carregar dados estáticos.');
   }
 
   const getCandVotes = (row: Record<string, unknown>, nr: number): number => {
@@ -112,12 +183,17 @@ async function queryStaticUfFallback(params: BuQueryParams): Promise<BuQueryResp
     return val > 0 ? Math.round((getCandVotes(row, nr) * 10000) / val) / 100 : 0;
   };
 
-  const rowsA = cachedUfSummary.filter(
-    (r) =>
-      Number(r.ano) === params.anoA &&
-      Number(r.turno) === params.turnoA &&
-      (!params.uf || String(r.sg_uf) === params.uf)
-  );
+  const rowsA = rawA.filter((r) => {
+    if (params.uf && String(r.sg_uf) !== params.uf) return false;
+    if (params.cdMunicipio && Number(r.cd_municipio) !== params.cdMunicipio) return false;
+    if (params.searchMun && !String(r.nm_municipio || '').toUpperCase().includes(params.searchMun.toUpperCase())) return false;
+    if (params.zona && Number(r.nr_zona) !== Number(params.zona)) return false;
+    if (params.secao && Number(r.nr_secao) !== Number(params.secao)) return false;
+    if (params.local && Number(r.nr_local_votacao) !== Number(params.local)) return false;
+    if (params.urna && Number(r.nr_urna_efetivada) !== Number(params.urna)) return false;
+    if (params.minAptos && Number(r.qt_aptos) < Number(params.minAptos)) return false;
+    return true;
+  });
 
   let built: Record<string, string | number | null>[] = [];
 
@@ -137,14 +213,27 @@ async function queryStaticUfFallback(params: BuQueryParams): Promise<BuQueryResp
       return out;
     });
   } else {
-    const mapB = new Map<string, Record<string, unknown>>();
-    for (const r of cachedUfSummary) {
-      if (Number(r.ano) === params.anoB && Number(r.turno) === params.turnoB) {
-        mapB.set(String(r.sg_uf), r);
-      }
+    let rawB: Record<string, unknown>[] = [];
+    try {
+      rawB = await fetchStaticRound(params.level, params.anoB, params.turnoB, effectiveUf);
+    } catch {
+      rawB = [];
     }
+
+    const getJoinKey = (r: Record<string, unknown>): string => {
+      if (params.level === 'uf') return String(r.sg_uf);
+      if (params.level === 'municipio') return `${r.sg_uf}_${r.cd_municipio}`;
+      if (params.level === 'zona') return `${r.sg_uf}_${r.cd_municipio}_${r.nr_zona}`;
+      return `${r.sg_uf}_${r.cd_municipio}_${r.nr_zona}_${r.nr_secao}`;
+    };
+
+    const mapB = new Map<string, Record<string, unknown>>();
+    for (const r of rawB) {
+      mapB.set(getJoinKey(r), r);
+    }
+
     for (const a of rowsA) {
-      const b = mapB.get(String(a.sg_uf));
+      const b = mapB.get(getJoinKey(a));
       if (!b) continue;
       const vA = getCandVotes(a, params.candA);
       const pA = getCandPct(a, params.candA);
@@ -152,8 +241,15 @@ async function queryStaticUfFallback(params: BuQueryParams): Promise<BuQueryResp
       const pB = getCandPct(b, params.candB);
       const item: Record<string, string | number | null> = {
         sg_uf: String(a.sg_uf),
-        qt_secoes_a: Number(a.qt_secoes),
-        qt_secoes_b: Number(b.qt_secoes),
+        cd_municipio: a.cd_municipio !== undefined ? Number(a.cd_municipio) : null,
+        nm_municipio: a.nm_municipio !== undefined ? String(a.nm_municipio) : null,
+        nr_zona: a.nr_zona !== undefined ? Number(a.nr_zona) : null,
+        nr_secao: a.nr_secao !== undefined ? Number(a.nr_secao) : null,
+        nr_local_votacao: a.nr_local_votacao !== undefined ? Number(a.nr_local_votacao) : null,
+        nr_urna_efetivada_a: a.nr_urna_efetivada !== undefined ? Number(a.nr_urna_efetivada) : null,
+        nr_urna_efetivada_b: b.nr_urna_efetivada !== undefined ? Number(b.nr_urna_efetivada) : null,
+        qt_secoes_a: Number(a.qt_secoes ?? 1),
+        qt_secoes_b: Number(b.qt_secoes ?? 1),
         qt_aptos_a: Number(a.qt_aptos),
         qt_aptos_b: Number(b.qt_aptos),
         delta_aptos: Number(a.qt_aptos) - Number(b.qt_aptos),
@@ -252,13 +348,14 @@ async function queryStaticUfFallback(params: BuQueryParams): Promise<BuQueryResp
     return String(vx ?? '').localeCompare(String(vy ?? ''), 'pt-BR') * dir;
   });
 
+  const elapsedMs = Math.max(1, Math.round(performance.now() - t0));
   return {
     total: built.length,
     limit: params.limit,
     offset: params.offset,
     sortBy: params.sortBy,
     sortDir: params.sortDir,
-    elapsedMs: 1,
+    elapsedMs,
     rows: built.slice(params.offset, params.offset + params.limit),
     isStaticFallback: true,
   };
@@ -292,12 +389,26 @@ export const buService = {
       const res = await fetch(`/api/bu/municipios?${qs.toString()}`);
       if (res.ok && res.headers.get('content-type')?.includes('application/json')) {
         const data = (await res.json()) as { municipios: BuMunicipioOption[] };
-        return data.municipios || [];
+        if (data.municipios && data.municipios.length > 0) {
+          return data.municipios;
+        }
       }
     } catch {
-      // Sem lista municipal quando rodando apenas estático
+      // Fallback para dataset estático municipal
     }
-    return [];
+
+    try {
+      const muns = await fetchStaticRound('municipio', ano, turno);
+      const filtered = uf ? muns.filter((m) => String(m.sg_uf) === uf) : muns;
+      return filtered.map((m) => ({
+        sg_uf: String(m.sg_uf),
+        cd_municipio: Number(m.cd_municipio),
+        nm_municipio: String(m.nm_municipio),
+        qt_secoes: Number(m.qt_secoes || 1),
+      }));
+    } catch {
+      return [];
+    }
   },
 
   async queryTable(params: BuQueryParams): Promise<BuQueryResponse> {
@@ -333,16 +444,9 @@ export const buService = {
       if (res.ok && res.headers.get('content-type')?.includes('application/json')) {
         return (await res.json()) as BuQueryResponse;
       }
-      if (res.status === 503 && params.level === 'uf') {
-        return queryStaticUfFallback(params);
-      }
-      const errBody = await res.json().catch(() => ({ error: 'Falha ao consultar Boletins de Urna.' }));
-      throw new Error(errBody.error || `Erro HTTP ${res.status}`);
-    } catch (err) {
-      if (params.level === 'uf') {
-        return queryStaticUfFallback(params);
-      }
-      throw err;
+      return queryStaticData(params);
+    } catch {
+      return queryStaticData(params);
     }
   },
 };

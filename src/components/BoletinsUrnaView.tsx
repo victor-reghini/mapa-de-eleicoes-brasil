@@ -1246,7 +1246,7 @@ export const BoletinsUrnaView: React.FC<BoletinsUrnaViewProps> = ({
           </span>
           {isStaticFallback && (
             <span className="bu-fallback-tag">
-              Modo estático UF ativo (rode npm run dev para consultar as 3,7M seções no SQLite)
+              Modo estático oficial ativo ({LEVEL_LABELS[level]})
             </span>
           )}
         </div>
