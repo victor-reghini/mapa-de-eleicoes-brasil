@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c16"/>
+      <stop offset="50%" stop-color="#0b1324"/>
+      <stop offset="100%" stop-color="#0f1e36"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative subtle grid circles -->
+  <circle cx="1050" cy="150" r="320" fill="#1e3a8a" opacity="0.15" filter="blur(60px)"/>
+  <circle cx="150" cy="500" r="280" fill="#047857" opacity="0.12" filter="blur(60px)"/>
+
+  <!-- Border Frame -->
+  <rect x="20" y="20" width="1160" height="590" rx="16" fill="none" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Brand Icon (Flag Symbol) -->
+  <g transform="translate(80, 80)">
+    <circle cx="48" cy="48" r="46" fill="#059669"/>
+    <path d="M48 14 L82 48 L48 82 L14 48 Z" fill="#facc15"/>
+    <circle cx="48" cy="48" r="19" fill="#1d4ed8"/>
+    <path d="M33 48 Q48 40 63 48" stroke="#ffffff" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- Header Category Badge -->
+  <g transform="translate(195, 88)">
+    <rect width="180" height="34" rx="17" fill="#0f2744" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="90" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#7dd3fc" text-anchor="middle" letter-spacing="1">TSE DADOS ABERTOS</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="80" y="220" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="54" font-weight="900" fill="#ffffff" letter-spacing="-1">
+    Mapa Eleitoral Brasil
+  </text>
+
+  <!-- Subtitle -->
+  <text x="80" y="280" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" font-weight="600" fill="#94a3b8">
+    Resultados Oficiais, Boletins de Urna e Comparativos de Eleições
+  </text>
+  <text x="80" y="325" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="400" fill="#64748b">
+    Histórico presidencial completo de 2014 a 2026 com detalhamento por seção e município.
+  </text>
+
+  <!-- Feature Stat Cards -->
+  <g transform="translate(80, 390)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="240" height="130" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="24" y="44" font-family="monospace, sans-serif" font-size="28" font-weight="700" fill="#38bdf8">3.709.071</text>
+    <text x="24" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#e2e8f0">Boletins de Urna</text>
+    <text x="24" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#64748b">Todas as seções do Brasil</text>
+
+    <!-- Card 2 -->
+    <rect x="260" y="0" width="240" height="130" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="284" y="44" font-family="monospace, sans-serif" font-size="28" font-weight="700" fill="#10b981">5.715</text>
+    <text x="284" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#e2e8f0">Municípios &amp; ZZ</text>
+    <text x="284" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#64748b">Cidades no Brasil e exterior</text>
+
+    <!-- Card 3 -->
+    <rect x="520" y="0" width="240" height="130" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="544" y="44" font-family="monospace, sans-serif" font-size="28" font-weight="700" fill="#f59e0b">2014 a 2026</text>
+    <text x="544" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#e2e8f0">Comparativo 1º e 2º T</text>
+    <text x="544" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#64748b">Diferenças e auditoria</text>
+
+    <!-- Card 4 -->
+    <rect x="780" y="0" width="260" height="130" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <text x="804" y="44" font-family="monospace, sans-serif" font-size="28" font-weight="700" fill="#a855f7">100% Oficial</text>
+    <text x="804" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#e2e8f0">Dados Consolidados</text>
+    <text x="804" y="102" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="400" fill="#64748b">Base pública do TSE</text>
+  </g>
+
+  <!-- URL Tagline -->
+  <text x="1100" y="580" font-family="monospace, sans-serif" font-size="15" font-weight="500" fill="#475569" text-anchor="end">
+    mapa-eleicoes-brasil.netlify.app
+  </text>
+</svg>
+
