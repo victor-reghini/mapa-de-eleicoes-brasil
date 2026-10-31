@@ -1,8 +1,19 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { DatabaseSync } from 'node:sqlite';
+import { createRequire } from 'node:module';
 import type { IncomingMessage, ServerResponse } from 'node:http';
 import type { Plugin } from 'vite';
+
+const require = createRequire(import.meta.url);
+
+let DatabaseSyncClass: any = null;
+try {
+  // node:sqlite is available in Node.js 22.5+
+  const sqlite = require('node:sqlite');
+  DatabaseSyncClass = sqlite?.DatabaseSync ?? null;
+} catch {
+  DatabaseSyncClass = null;
+}
 
 const TRACKED_NUMBERS = new Set([13, 22, 17, 45, 12, 15, 40, 30, 55, 70, 14]);
 const VALID_LEVELS = new Set(['secao', 'local', 'zona', 'municipio', 'uf']);
@@ -275,11 +286,11 @@ function sendJson(res: ServerResponse, status: number, payload: unknown): void {
 export function buApiPlugin(): Plugin {
   const dbPath = path.resolve(process.cwd(), 'data/bu_presidente.db');
   const metaJsonPath = path.resolve(process.cwd(), 'public/data/bu/meta.json');
-  let db: DatabaseSync | null = null;
+  let db: any = null;
   let dbMtimeMs = 0;
 
-  function getDb(): DatabaseSync | null {
-    if (!fs.existsSync(dbPath)) {
+  function getDb(): any {
+    if (!DatabaseSyncClass || !fs.existsSync(dbPath)) {
       db = null;
       return null;
     }
@@ -292,7 +303,7 @@ export function buApiPlugin(): Plugin {
           // ignore close error on hot reload
         }
       }
-      db = new DatabaseSync(dbPath, { readOnly: true });
+      db = new DatabaseSyncClass(dbPath, { readOnly: true });
       dbMtimeMs = stat.mtimeMs;
     }
     return db;
