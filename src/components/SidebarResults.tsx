@@ -183,10 +183,12 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
     if (munData) {
       subtitle = `Município IBGE ${selectedMun.id}`;
       aptos = munData.aptos;
-      validos = munData.lula_r2 ? munData.lula_r2 + munData.bolsonaro_r2 : (munData.candidatos?.reduce((acc, c) => acc + c.votos, 0) || 50000);
+      validos = munData.votosValidos !== undefined
+        ? munData.votosValidos
+        : (munData.lula_r2 ? munData.lula_r2 + munData.bolsonaro_r2 : (munData.candidatos?.reduce((acc, c) => acc + c.votos, 0) || 50000));
       brancos = munData.brancos;
       nulos = munData.nulos;
-      comparecimento = validos + brancos + nulos;
+      comparecimento = munData.comparecimento !== undefined ? munData.comparecimento : (validos + brancos + nulos);
       abstencoes = munData.abstencoes;
       pctComparecimento = Number(((comparecimento / aptos) * 100).toFixed(2));
       pctAbstencoes = Number(((abstencoes / aptos) * 100).toFixed(2));
@@ -370,7 +372,9 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
     ? Math.max(...sortedParties.map(p => partyMetric === 'eleitos' ? p.pctEleitos : p.pctVotos)) 
     : 100;
 
-  const seatUnitLabel = electionData.cargo === 'GOVERNADOR' 
+  const seatUnitLabel = electionData.cargo === 'PRESIDENTE'
+    ? 'presidentes'
+    : electionData.cargo === 'GOVERNADOR' 
     ? 'governadores' 
     : electionData.cargo === 'SENADOR' 
       ? 'senadores' 
@@ -380,7 +384,9 @@ export const SidebarResults: React.FC<SidebarResultsProps> = ({
           ? 'vereadores'
           : 'deputados';
 
-  const cargoLabel = electionData.cargo === 'GOVERNADOR' 
+  const cargoLabel = electionData.cargo === 'PRESIDENTE'
+    ? 'Presidente'
+    : electionData.cargo === 'GOVERNADOR' 
     ? 'Governador' 
     : electionData.cargo === 'SENADOR' 
       ? 'Senador' 

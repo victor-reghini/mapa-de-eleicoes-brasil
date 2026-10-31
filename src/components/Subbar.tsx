@@ -8,7 +8,8 @@ import {
   ChevronRight, 
   X,
   Compass,
-  LayoutGrid
+  LayoutGrid,
+  Table2
 } from 'lucide-react';
 import type { GranularityMode, MunicipalityIndexItem } from '../types/election';
 
@@ -69,6 +70,17 @@ export const Subbar: React.FC<SubbarProps> = ({
       <div className="granularity-tabs" role="tablist">
         <button
           role="tab"
+          aria-selected={granularity === 'BOLETINS_URNA'}
+          className={`granularity-tab bu-tab ${granularity === 'BOLETINS_URNA' ? 'active' : ''}`}
+          onClick={() => onSelectGranularity('BOLETINS_URNA')}
+          title="Criar e comparar tabelas dos Boletins de Urna por seção eleitoral (2014 a 2026)"
+        >
+          <Table2 size={15} />
+          <span>Boletins de Urna (Tabelas)</span>
+        </button>
+
+        <button
+          role="tab"
           aria-selected={granularity === 'ESTADOS'}
           className={`granularity-tab ${granularity === 'ESTADOS' ? 'active' : ''}`}
           onClick={() => {
@@ -126,111 +138,115 @@ export const Subbar: React.FC<SubbarProps> = ({
         </button>
       </div>
 
-      {/* Breadcrumb Trail */}
-      <div className="breadcrumb-container" aria-label="Navegação da visualização">
-        <Compass size={14} color="#94a3b8" />
-        <span 
-          className={`breadcrumb-crumb ${!selectedUf ? 'active' : ''}`}
-          onClick={() => {
-            onClearUf();
-            onClearMun();
-            onClearZona();
-          }}
-        >
-          Brasil
-        </span>
-
-        {selectedUf && (
-          <>
-            <ChevronRight size={13} className="breadcrumb-sep" />
+      {granularity !== 'BOLETINS_URNA' && (
+        <>
+          {/* Breadcrumb Trail */}
+          <div className="breadcrumb-container" aria-label="Navegação da visualização">
+            <Compass size={14} color="#94a3b8" />
             <span 
-              className={`breadcrumb-crumb ${!selectedMun ? 'active' : ''}`}
+              className={`breadcrumb-crumb ${!selectedUf ? 'active' : ''}`}
               onClick={() => {
+                onClearUf();
                 onClearMun();
                 onClearZona();
               }}
             >
-              {selectedUf}
+              Brasil
             </span>
-          </>
-        )}
 
-        {selectedMun && (
-          <>
-            <ChevronRight size={13} className="breadcrumb-sep" />
-            <span 
-              className={`breadcrumb-crumb ${!selectedZona ? 'active' : ''}`}
-              onClick={onClearZona}
-            >
-              {selectedMun.name}
-            </span>
-          </>
-        )}
-
-        {selectedZona && (
-          <>
-            <ChevronRight size={13} className="breadcrumb-sep" />
-            <span className="breadcrumb-crumb active">
-              Zona {selectedZona}
-            </span>
-          </>
-        )}
-      </div>
-
-      {/* Municipality Search Bar with Autocomplete */}
-      <div className="search-wrapper" ref={searchRef}>
-        <div className="search-input-box">
-          <Search size={14} color="#94a3b8" />
-          <input
-            type="text"
-            placeholder="Buscar cidade ou estado..."
-            value={searchTerm}
-            onChange={(e) => {
-              setSearchTerm(e.target.value);
-              setIsOpen(true);
-            }}
-            onFocus={() => setIsOpen(true)}
-          />
-          {searchTerm && (
-            <button 
-              onClick={() => { setSearchTerm(''); setIsOpen(false); }}
-              style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#94a3b8', display: 'flex' }}
-            >
-              <X size={14} />
-            </button>
-          )}
-        </div>
-
-        {isOpen && searchResults.length > 0 && (
-          <div className="search-dropdown">
-            {searchResults.map((item) => (
-              <div
-                key={item.id}
-                className="search-item"
-                onClick={() => {
-                  onSelectMunicipalityFromSearch(item);
-                  setSearchTerm('');
-                  setIsOpen(false);
-                }}
-              >
-                <span>{item.name}</span>
+            {selectedUf && (
+              <>
+                <ChevronRight size={13} className="breadcrumb-sep" />
                 <span 
-                  className="search-item-uf"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    onSelectUfFromSearch(item.uf);
-                    setSearchTerm('');
-                    setIsOpen(false);
+                  className={`breadcrumb-crumb ${!selectedMun ? 'active' : ''}`}
+                  onClick={() => {
+                    onClearMun();
+                    onClearZona();
                   }}
-                  title={`Filtrar apenas estado ${item.uf}`}
                 >
-                  {item.uf}
+                  {selectedUf}
                 </span>
-              </div>
-            ))}
+              </>
+            )}
+
+            {selectedMun && (
+              <>
+                <ChevronRight size={13} className="breadcrumb-sep" />
+                <span 
+                  className={`breadcrumb-crumb ${!selectedZona ? 'active' : ''}`}
+                  onClick={onClearZona}
+                >
+                  {selectedMun.name}
+                </span>
+              </>
+            )}
+
+            {selectedZona && (
+              <>
+                <ChevronRight size={13} className="breadcrumb-sep" />
+                <span className="breadcrumb-crumb active">
+                  Zona {selectedZona}
+                </span>
+              </>
+            )}
           </div>
-        )}
-      </div>
+
+          {/* Municipality Search Bar with Autocomplete */}
+          <div className="search-wrapper" ref={searchRef}>
+            <div className="search-input-box">
+              <Search size={14} color="#94a3b8" />
+              <input
+                type="text"
+                placeholder="Buscar cidade ou estado..."
+                value={searchTerm}
+                onChange={(e) => {
+                  setSearchTerm(e.target.value);
+                  setIsOpen(true);
+                }}
+                onFocus={() => setIsOpen(true)}
+              />
+              {searchTerm && (
+                <button 
+                  onClick={() => { setSearchTerm(''); setIsOpen(false); }}
+                  style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#94a3b8', display: 'flex' }}
+                >
+                  <X size={14} />
+                </button>
+              )}
+            </div>
+
+            {isOpen && searchResults.length > 0 && (
+              <div className="search-dropdown">
+                {searchResults.map((item) => (
+                  <div
+                    key={item.id}
+                    className="search-item"
+                    onClick={() => {
+                      onSelectMunicipalityFromSearch(item);
+                      setSearchTerm('');
+                      setIsOpen(false);
+                    }}
+                  >
+                    <span>{item.name}</span>
+                    <span 
+                      className="search-item-uf"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onSelectUfFromSearch(item.uf);
+                        setSearchTerm('');
+                        setIsOpen(false);
+                      }}
+                      title={`Filtrar apenas estado ${item.uf}`}
+                    >
+                      {item.uf}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        </>
+      )}
     </div>
   );
 };

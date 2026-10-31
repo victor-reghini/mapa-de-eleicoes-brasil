@@ -1,0 +1,477 @@
+{
+  "generatedAt": "2026-10-31T15:00:15Z",
+  "rounds": [
+    {
+      "key": "2026_1",
+      "ano": 2026,
+      "turno": 1,
+      "totalSecoes": 499206,
+      "totalMunicipios": 5716,
+      "totalZonas": 2641,
+      "totalLocais": 77949,
+      "aptos": 158745007,
+      "comparecimento": 125275835,
+      "abstencoes": 33469172,
+      "validos": 119306034,
+      "brancos": 2300798,
+      "nulos": 3669003,
+      "candidatos": [
+        {
+          "numero": 22,
+          "nome": "FLAVIO BOLSONARO",
+          "partido": "PL",
+          "votos": 56104503
+        },
+        {
+          "numero": 13,
+          "nome": "LULA",
+          "partido": "PT",
+          "votos": 53879538
+        },
+        {
+          "numero": 70,
+          "nome": "ESCRITOR AUGUSTO CURY",
+          "partido": "AVANTE",
+          "votos": 3448569
+        },
+        {
+          "numero": 14,
+          "nome": "RENAN SANTOS",
+          "partido": "MISSÃO",
+          "votos": 2675887
+        },
+        {
+          "numero": 55,
+          "nome": "RONALDO CAIADO",
+          "partido": "PSD",
+          "votos": 2605148
+        },
+        {
+          "numero": 30,
+          "nome": "ZEMA",
+          "partido": "NOVO",
+          "votos": 326488
+        },
+        {
+          "numero": 80,
+          "nome": "SAMARA",
+          "partido": "UP",
+          "votos": 122911
+        },
+        {
+          "numero": 16,
+          "nome": "HERTZ DIAS",
+          "partido": "PSTU",
+          "votos": 43103
+        },
+        {
+          "numero": 27,
+          "nome": "CLARIANA BARAO",
+          "partido": "DC",
+          "votos": 40043
+        },
+        {
+          "numero": 21,
+          "nome": "EDMILSON COSTA",
+          "partido": "PCB",
+          "votos": 22693
+        },
+        {
+          "numero": 35,
+          "nome": "VETERINÁRIO WILSON GRASSI",
+          "partido": "DEMOCRATA",
+          "votos": 16881
+        },
+        {
+          "numero": 29,
+          "nome": "RUI COSTA PIMENTA",
+          "partido": "PCO",
+          "votos": 15024
+        },
+        {
+          "numero": 28,
+          "nome": "LEONARDO AVALANCHE",
+          "partido": "PRTB",
+          "votos": 5246
+        }
+      ]
+    },
+    {
+      "key": "2026_2",
+      "ano": 2026,
+      "turno": 2,
+      "totalSecoes": 499205,
+      "totalMunicipios": 5715,
+      "totalZonas": 2641,
+      "totalLocais": 77949,
+      "aptos": 158744977,
+      "comparecimento": 128236074,
+      "abstencoes": 30508903,
+      "validos": 124082273,
+      "brancos": 1430496,
+      "nulos": 2723305,
+      "candidatos": [
+        {
+          "numero": 13,
+          "nome": "LULA",
+          "partido": "PT",
+          "votos": 64256232
+        },
+        {
+          "numero": 22,
+          "nome": "FLAVIO BOLSONARO",
+          "partido": "PL",
+          "votos": 59826041
+        }
+      ]
+    },
+    {
+      "key": "2022_1",
+      "ano": 2022,
+      "turno": 1,
+      "totalSecoes": 472028,
+      "totalMunicipios": 5710,
+      "totalZonas": 2637,
+      "totalLocais": 75406,
+      "aptos": 156453354,
+      "comparecimento": 123682372,
+      "abstencoes": 32770982,
+      "validos": 118229719,
+      "brancos": 1964779,
+      "nulos": 3487874,
+      "candidatos": [
+        {
+          "numero": 13,
+          "nome": "LULA",
+          "partido": "PT",
+          "votos": 57259504
+        },
+        {
+          "numero": 22,
+          "nome": "JAIR BOLSONARO",
+          "partido": "PL",
+          "votos": 51072345
+        },
+        {
+          "numero": 15,
+          "nome": "SIMONE TEBET",
+          "partido": "MDB",
+          "votos": 4915423
+        },
+        {
+          "numero": 12,
+          "nome": "CIRO GOMES",
+          "partido": "PDT",
+          "votos": 3599287
+        },
+        {
+          "numero": 44,
+          "nome": "SORAYA THRONICKE",
+          "partido": "UNIÃO",
+          "votos": 600955
+        },
+        {
+          "numero": 30,
+          "nome": "FELIPE D'AVILA",
+          "partido": "NOVO",
+          "votos": 559708
+        },
+        {
+          "numero": 14,
+          "nome": "PADRE KELMON",
+          "partido": "PTB",
+          "votos": 81129
+        },
+        {
+          "numero": 80,
+          "nome": "LÉO PÉRICLES",
+          "partido": "UP",
+          "votos": 53519
+        },
+        {
+          "numero": 21,
+          "nome": "SOFIA MANZANO",
+          "partido": "PCB",
+          "votos": 45620
+        },
+        {
+          "numero": 16,
+          "nome": "VERA",
+          "partido": "PSTU",
+          "votos": 25625
+        },
+        {
+          "numero": 27,
+          "nome": "CONSTITUINTE EYMAEL",
+          "partido": "DC",
+          "votos": 16604
+        }
+      ]
+    },
+    {
+      "key": "2022_2",
+      "ano": 2022,
+      "turno": 2,
+      "totalSecoes": 472028,
+      "totalMunicipios": 5710,
+      "totalZonas": 2637,
+      "totalLocais": 75406,
+      "aptos": 156453354,
+      "comparecimento": 124252796,
+      "abstencoes": 32200558,
+      "validos": 118552353,
+      "brancos": 1769678,
+      "nulos": 3930765,
+      "candidatos": [
+        {
+          "numero": 13,
+          "nome": "LULA",
+          "partido": "PT",
+          "votos": 60345999
+        },
+        {
+          "numero": 22,
+          "nome": "JAIR BOLSONARO",
+          "partido": "PL",
+          "votos": 58206354
+        }
+      ]
+    },
+    {
+      "key": "2018_1",
+      "ano": 2018,
+      "turno": 1,
+      "totalSecoes": 454450,
+      "totalMunicipios": 5708,
+      "totalZonas": 2645,
+      "totalLocais": 75866,
+      "aptos": 147305825,
+      "comparecimento": 117364560,
+      "abstencoes": 29941265,
+      "validos": 107050673,
+      "brancos": 3106936,
+      "nulos": 7206205,
+      "candidatos": [
+        {
+          "numero": 17,
+          "nome": "JAIR BOLSONARO",
+          "partido": "PSL",
+          "votos": 49276990
+        },
+        {
+          "numero": 13,
+          "nome": "FERNANDO HADDAD",
+          "partido": "PT",
+          "votos": 31342005
+        },
+        {
+          "numero": 12,
+          "nome": "CIRO GOMES",
+          "partido": "PDT",
+          "votos": 13344366
+        },
+        {
+          "numero": 45,
+          "nome": "GERALDO ALCKMIN",
+          "partido": "PSDB",
+          "votos": 5096349
+        },
+        {
+          "numero": 30,
+          "nome": "JOÃO AMOÊDO",
+          "partido": "NOVO",
+          "votos": 2679744
+        },
+        {
+          "numero": 51,
+          "nome": "CABO DACIOLO",
+          "partido": "PATRI",
+          "votos": 1348323
+        },
+        {
+          "numero": 15,
+          "nome": "HENRIQUE MEIRELLES",
+          "partido": "MDB",
+          "votos": 1288948
+        },
+        {
+          "numero": 18,
+          "nome": "MARINA SILVA",
+          "partido": "REDE",
+          "votos": 1069577
+        },
+        {
+          "numero": 19,
+          "nome": "ALVARO DIAS",
+          "partido": "PODE",
+          "votos": 859601
+        },
+        {
+          "numero": 50,
+          "nome": "GUILHERME BOULOS",
+          "partido": "PSOL",
+          "votos": 617122
+        },
+        {
+          "numero": 16,
+          "nome": "VERA",
+          "partido": "PSTU",
+          "votos": 55762
+        },
+        {
+          "numero": 27,
+          "nome": "EYMAEL",
+          "partido": "DC",
+          "votos": 41710
+        },
+        {
+          "numero": 54,
+          "nome": "JOÃO GOULART FILHO",
+          "partido": "PPL",
+          "votos": 30176
+        }
+      ]
+    },
+    {
+      "key": "2018_2",
+      "ano": 2018,
+      "turno": 2,
+      "totalSecoes": 454448,
+      "totalMunicipios": 5708,
+      "totalZonas": 2645,
+      "totalLocais": 75866,
+      "aptos": 147305155,
+      "comparecimento": 115933451,
+      "abstencoes": 31371704,
+      "validos": 104838753,
+      "brancos": 2486593,
+      "nulos": 8608105,
+      "candidatos": [
+        {
+          "numero": 17,
+          "nome": "JAIR BOLSONARO",
+          "partido": "PSL",
+          "votos": 57797847
+        },
+        {
+          "numero": 13,
+          "nome": "FERNANDO HADDAD",
+          "partido": "PT",
+          "votos": 47040906
+        }
+      ]
+    },
+    {
+      "key": "2014_1",
+      "ano": 2014,
+      "turno": 1,
+      "totalSecoes": 428854,
+      "totalMunicipios": 5701,
+      "totalZonas": 3033,
+      "totalLocais": 76833,
+      "aptos": 142821358,
+      "comparecimento": 115122883,
+      "abstencoes": 27698475,
+      "validos": 104023802,
+      "brancos": 4420489,
+      "nulos": 6678592,
+      "candidatos": [
+        {
+          "numero": 13,
+          "nome": "DILMA",
+          "partido": "PT",
+          "votos": 43267668
+        },
+        {
+          "numero": 45,
+          "nome": "AÉCIO NEVES",
+          "partido": "PSDB",
+          "votos": 34897211
+        },
+        {
+          "numero": 40,
+          "nome": "MARINA SILVA",
+          "partido": "PSB",
+          "votos": 22176619
+        },
+        {
+          "numero": 50,
+          "nome": "LUCIANA GENRO",
+          "partido": "PSOL",
+          "votos": 1612186
+        },
+        {
+          "numero": 20,
+          "nome": "PASTOR EVERALDO",
+          "partido": "PSC",
+          "votos": 780513
+        },
+        {
+          "numero": 43,
+          "nome": "EDUARDO JORGE",
+          "partido": "PV",
+          "votos": 630099
+        },
+        {
+          "numero": 28,
+          "nome": "LEVY FIDELIX",
+          "partido": "PRTB",
+          "votos": 446878
+        },
+        {
+          "numero": 16,
+          "nome": "ZÉ MARIA",
+          "partido": "PSTU",
+          "votos": 91209
+        },
+        {
+          "numero": 27,
+          "nome": "EYMAEL",
+          "partido": "PSDC",
+          "votos": 61250
+        },
+        {
+          "numero": 21,
+          "nome": "MAURO IASI",
+          "partido": "PCB",
+          "votos": 47845
+        },
+        {
+          "numero": 29,
+          "nome": "RUI COSTA PIMENTA",
+          "partido": "PCO",
+          "votos": 12324
+        }
+      ]
+    },
+    {
+      "key": "2014_2",
+      "ano": 2014,
+      "turno": 2,
+      "totalSecoes": 428852,
+      "totalMunicipios": 5701,
+      "totalZonas": 3033,
+      "totalLocais": 76832,
+      "aptos": 142821298,
+      "comparecimento": 112683879,
+      "abstencoes": 30137419,
+      "validos": 105542273,
+      "brancos": 1921819,
+      "nulos": 5219787,
+      "candidatos": [
+        {
+          "numero": 13,
+          "nome": "DILMA",
+          "partido": "PT",
+          "votos": 54501118
+        },
+        {
+          "numero": 45,
+          "nome": "AÉCIO NEVES",
+          "partido": "PSDB",
+          "votos": 51041155
+        }
+      ]
+    }
+  ]
+}

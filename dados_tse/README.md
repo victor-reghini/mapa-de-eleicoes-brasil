@@ -1,14 +1,14 @@
 # Repositório Local de Dados Abertos do TSE
 
-Data de atualização do catálogo: 2026-10-26 10:39:26
+Data de atualização do catálogo: 2026-10-31
 
-Total de datasets catalogados: **1344**
+Total de datasets catalogados: **1372** (incluindo os 224 pacotes de Boletins de Urna de 1º e 2º turnos para Presidente de 2014, 2018, 2022 e 2026 baixados integralmente em `dados_tse/boletins_urna/` e indexados em `data/bu_presidente.db` com **3.709.071** boletins por seção eleitoral).
 
 ## Distribuição por Categoria
 
 | Categoria | Total Datasets |
 | :--- | :---: |
-| Boletins de Urna (BUs) Consolidados | 302 |
+| Boletins de Urna (BUs) Consolidados | 330 |
 | Candidaturas e Declaração de Bens | 586 |
 | Detalhe da Apuração por Seção Eleitoral | 30 |
 | Perfil do Eleitorado e Locais de Votação | 193 |

@@ -1,4 +1,4 @@
-export type GranularityMode = 'ESTADOS' | 'GRADE_CARTOGRAMA' | 'MUNICIPIOS' | 'ZONAS' | 'EXTERIOR_GLOBE';
+export type GranularityMode = 'ESTADOS' | 'GRADE_CARTOGRAMA' | 'MUNICIPIOS' | 'ZONAS' | 'EXTERIOR_GLOBE' | 'BOLETINS_URNA';
 
 export type ElectionCargo = 
   | 'PRESIDENTE' 
@@ -139,6 +139,8 @@ export interface MunicipalityResult {
   nome: string;
   uf: string;
   aptos: number;
+  comparecimento?: number;
+  votosValidos?: number;
   lula_r2: number;
   bolsonaro_r2: number;
   lula_pct: number;

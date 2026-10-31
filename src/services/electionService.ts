@@ -5,7 +5,6 @@ import type {
   MunicipalityIndexItem 
 } from '../types/election';
 import { getElectionDataForCargo } from '../data/cargosData';
-import { realtimeTseService } from './realtimeTseService';
 
 class ElectionService {
   private cacheManifest: ElectionManifest | null = null;
@@ -25,17 +24,6 @@ class ElectionService {
 
   async getElectionData(ano: number, turno: number, cargo: ElectionCargo = 'PRESIDENTE'): Promise<ElectionRoundData> {
     const key = `${ano}_${cargo}_${turno}`;
-
-    // Real-time live apuração for 2026 2º turno
-    if (ano === 2026 && turno === 2 && cargo === 'PRESIDENTE') {
-      try {
-        const liveData = await realtimeTseService.fetchLiveApuracao(2026, 2);
-        this.cacheElectionData.set(key, liveData);
-        return liveData;
-      } catch (e) {
-        console.warn('Usando dataset sincronizado do 2º turno de 2026:', e);
-      }
-    }
 
     if (this.cacheElectionData.has(key)) {
       return this.cacheElectionData.get(key)!;

@@ -7,6 +7,13 @@ runs/
 .windsurfrules
 AGENTS.md
 CLAUDE.md
+.cgcignore
+
+# Raw TSE Downloads & Local BU SQLite Index
+dados_tse/boletins_urna/
+data/bu_presidente.db
+data/bu_presidente.db-shm
+data/bu_presidente.db-wal
 
 # Logs & Dependencies
 node_modules/

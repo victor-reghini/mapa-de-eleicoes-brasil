@@ -8,7 +8,6 @@ import type {
   ConsularCity 
 } from './types/election';
 import { electionService } from './services/electionService';
-import { realtimeTseService } from './services/realtimeTseService';
 import { Header } from './components/Header';
 import { Subbar } from './components/Subbar';
 import { Map2D } from './components/Map2D';
@@ -18,6 +17,8 @@ import { NullDetailModal } from './components/NullDetailModal';
 import { CargoScalabilityModal } from './components/CargoScalabilityModal';
 import { SourcesModal } from './components/SourcesModal';
 import { ShareToast } from './components/ShareToast';
+import { BoletinsUrnaView } from './components/BoletinsUrnaView';
+import { ElectionViewControls } from './components/ElectionViewControls';
 import { Loader2, Map as MapIcon, BarChart3 } from 'lucide-react';
 
 const getInitialUrlParams = () => {
@@ -36,7 +37,7 @@ const getInitialUrlParams = () => {
   const uf = params.get('uf')?.toUpperCase() || undefined;
 
   const modoParam = params.get('modo')?.toUpperCase() as GranularityMode | undefined;
-  const validModos: GranularityMode[] = ['ESTADOS', 'MUNICIPIOS', 'ZONAS', 'EXTERIOR_GLOBE', 'GRADE_CARTOGRAMA'];
+  const validModos: GranularityMode[] = ['ESTADOS', 'MUNICIPIOS', 'ZONAS', 'EXTERIOR_GLOBE', 'GRADE_CARTOGRAMA', 'BOLETINS_URNA'];
   const modo = validModos.includes(modoParam as any) ? modoParam : undefined;
 
   return { cargo, ano, turno, uf, modo };
@@ -45,14 +46,14 @@ const getInitialUrlParams = () => {
 export function App() {
   const initialParams = getInitialUrlParams();
   const [manifest, setManifest] = useState<ElectionManifest | null>(null);
-  const [selectedAno, setSelectedAno] = useState<number>(initialParams.ano || 2022);
+  const [selectedAno, setSelectedAno] = useState<number>(initialParams.ano || 2026);
   const [selectedTurno, setSelectedTurno] = useState<number>(initialParams.turno || 2);
   const [selectedCargo, setSelectedCargo] = useState<ElectionCargo>(initialParams.cargo || 'PRESIDENTE');
   const [electionData, setElectionData] = useState<ElectionRoundData | null>(null);
   const [munIndex, setMunIndex] = useState<MunicipalityIndexItem[]>([]);
 
   // Navigation State
-  const [granularity, setGranularity] = useState<GranularityMode>(initialParams.modo || 'ESTADOS');
+  const [granularity, setGranularity] = useState<GranularityMode>(initialParams.modo || 'BOLETINS_URNA');
   const [selectedUf, setSelectedUf] = useState<string | null>(initialParams.uf || null);
   const [selectedMun, setSelectedMun] = useState<MunicipalityIndexItem | null>(null);
   const [selectedZona, setSelectedZona] = useState<string | null>(null);
@@ -85,8 +86,9 @@ export function App() {
     init();
   }, []);
 
-  // Fetch Election Data on Year, Turno, or Cargo Change
+  // Fetch Election Data on Year, Turno, or Cargo Change (when map/globe view is active)
   useEffect(() => {
+    if (granularity === 'BOLETINS_URNA') return;
     async function loadData() {
       setIsLoading(true);
       try {
@@ -99,36 +101,19 @@ export function App() {
       }
     }
     loadData();
-  }, [selectedAno, selectedTurno, selectedCargo]);
+  }, [selectedAno, selectedTurno, selectedCargo, granularity]);
 
-  const [liveRefreshInterval, setLiveRefreshInterval] = useState<number>(15);
-
-  // Polling for live apuração when 2026 2º Turno is selected
-  useEffect(() => {
-    if (selectedAno === 2026 && selectedTurno === 2 && selectedCargo === 'PRESIDENTE' && liveRefreshInterval > 0) {
-      const cancelPolling = realtimeTseService.startPolling(
-        2026, 
-        2, 
-        (liveData) => {
-          setElectionData(liveData);
-        }, 
-        liveRefreshInterval * 1000
-      );
-      return () => cancelPolling();
-    }
-  }, [selectedAno, selectedTurno, selectedCargo, liveRefreshInterval]);
+  const [liveRefreshInterval, setLiveRefreshInterval] = useState<number>(0);
 
   const handleRefreshLive = async () => {
-    if (selectedAno === 2026 && selectedTurno === 2) {
-      try {
-        setIsLoading(true);
-        const liveData = await realtimeTseService.fetchLiveApuracao(2026, 2);
-        setElectionData(liveData);
-      } catch (err) {
-        console.error('Falha ao atualizar apuração ao vivo:', err);
-      } finally {
-        setIsLoading(false);
-      }
+    try {
+      setIsLoading(true);
+      const data = await electionService.getElectionData(selectedAno, selectedTurno, selectedCargo);
+      setElectionData(data);
+    } catch (err) {
+      console.error('Falha ao recarregar apuração:', err);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -140,7 +125,7 @@ export function App() {
     if (selectedAno) params.set('ano', selectedAno.toString());
     if (selectedTurno && selectedTurno !== 2) params.set('turno', selectedTurno.toString());
     if (selectedUf) params.set('uf', selectedUf);
-    if (granularity && granularity !== 'ESTADOS') params.set('modo', granularity);
+    if (granularity) params.set('modo', granularity);
 
     const qs = params.toString();
     const newUrl = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
@@ -181,7 +166,7 @@ export function App() {
   // Handler when cargo changes
   const handleSelectCargo = (cargo: ElectionCargo) => {
     setSelectedCargo(cargo);
-    if (cargo !== 'PRESIDENTE' && granularity === 'EXTERIOR_GLOBE') {
+    if (cargo !== 'PRESIDENTE' && (granularity === 'EXTERIOR_GLOBE' || granularity === 'BOLETINS_URNA')) {
       setGranularity('ESTADOS');
     }
 
@@ -193,8 +178,8 @@ export function App() {
       setSelectedAno(2024);
       setSelectedTurno(cargo === 'VEREADOR' ? 1 : 2);
     } else if (!nowMunicipal && wasMunicipal) {
-      // Switching from municipal to general: switch to latest general election (2022)
-      setSelectedAno(2022);
+      // Switching from municipal to general: switch to latest general election (2026)
+      setSelectedAno(2026);
       const isSingleRound = ['SENADOR', 'DEPUTADO_FEDERAL', 'DEPUTADO_ESTADUAL'].includes(cargo);
       setSelectedTurno(isSingleRound ? 1 : 2);
     } else {
@@ -267,14 +252,6 @@ export function App() {
     <div className="app-container">
       {/* Top Header */}
       <Header
-        manifest={manifest}
-        selectedAno={selectedAno}
-        selectedTurno={selectedTurno}
-        selectedCargo={selectedCargo}
-        onSelectAno={handleSelectAno}
-        onSelectTurno={setSelectedTurno}
-        onSelectCargo={handleSelectCargo}
-        onOpenScalabilityModal={() => setIsScalabilityModalOpen(true)}
         onOpenSourcesModal={() => setIsSourcesModalOpen(true)}
         onShare={handleShare}
       />
@@ -309,89 +286,114 @@ export function App() {
       />
 
       {/* Mobile Segmented Toggle between Map and Results */}
-      <div className="mobile-view-toggle">
-        <button 
-          className={`mobile-tab-btn ${mobileTab === 'map' ? 'active' : ''}`}
-          onClick={() => setMobileTab('map')}
-          aria-label="Exibir mapa"
-        >
-          <MapIcon size={16} />
-          <span>Ver Mapa / Globo</span>
-        </button>
-        <button 
-          className={`mobile-tab-btn ${mobileTab === 'results' ? 'active' : ''}`}
-          onClick={() => setMobileTab('results')}
-          aria-label="Exibir ranking e resultados"
-        >
-          <BarChart3 size={16} />
-          <span>Ranking & Votos</span>
-        </button>
-      </div>
+      {granularity !== 'BOLETINS_URNA' && (
+        <div className="mobile-view-toggle">
+          <button 
+            className={`mobile-tab-btn ${mobileTab === 'map' ? 'active' : ''}`}
+            onClick={() => setMobileTab('map')}
+            aria-label="Exibir mapa"
+          >
+            <MapIcon size={16} />
+            <span>Ver Mapa / Globo</span>
+          </button>
+          <button 
+            className={`mobile-tab-btn ${mobileTab === 'results' ? 'active' : ''}`}
+            onClick={() => setMobileTab('results')}
+            aria-label="Exibir ranking e resultados"
+          >
+            <BarChart3 size={16} />
+            <span>Ranking & Votos</span>
+          </button>
+        </div>
+      )}
 
       {/* Main View Area */}
-      <main className={`app-main mobile-tab-${mobileTab}`}>
-        {isLoading && (
-          <div 
-            style={{
-              position: 'absolute',
-              inset: 0,
-              background: 'rgba(9, 13, 22, 0.7)',
-              backdropFilter: 'blur(6px)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              zIndex: 35,
-              gap: 10,
-              fontSize: '0.9rem',
-              color: '#38bdf8'
-            }}
-          >
-            <Loader2 className="animate-spin" size={24} />
-            <span>Carregando dados oficiais do TSE...</span>
-          </div>
-        )}
-
-        {/* View Switcher: 2D Brazil Map vs 3D Interactive Globe */}
-        {granularity === 'EXTERIOR_GLOBE' ? (
-          <Globe3D
-            electionData={electionData}
-            onSelectConsularCity={handleSelectConsularCity}
-            selectedCity={selectedCity}
+      <main className={`app-main mobile-tab-${mobileTab} ${granularity === 'BOLETINS_URNA' ? 'app-main-bu' : 'app-main-map'}`}>
+        {granularity === 'BOLETINS_URNA' ? (
+          <BoletinsUrnaView
+            initialAno={selectedAno}
+            initialTurno={selectedTurno}
+            selectedUf={selectedUf}
+            onSelectUf={handleSelectUf}
           />
         ) : (
-          <Map2D
-            electionData={electionData}
-            granularity={granularity}
-            selectedUf={selectedUf}
-            selectedMun={selectedMun}
-            selectedZona={selectedZona}
-            onSelectUf={handleSelectUf}
-            onSelectMun={handleSelectMun}
-            onSelectZona={handleSelectZona}
-          />
-        )}
+          <div className="map-results-workspace">
+            <ElectionViewControls
+              manifest={manifest}
+              selectedAno={selectedAno}
+              selectedTurno={selectedTurno}
+              selectedCargo={selectedCargo}
+              onSelectAno={handleSelectAno}
+              onSelectTurno={setSelectedTurno}
+              onSelectCargo={handleSelectCargo}
+            />
 
-        {/* Sticky Results & Turnout Sidebar */}
-        <SidebarResults
-          electionData={electionData}
-          granularity={granularity}
-          selectedUf={selectedUf}
-          selectedMun={selectedMun}
-          selectedZona={selectedZona}
-          selectedCity={selectedCity}
-          onClearSelection={handleClearSelection}
-          onOpenNullModal={() => setIsNullModalOpen(true)}
-          onOpenSourcesModal={() => setIsSourcesModalOpen(true)}
-          onRefreshLive={handleRefreshLive}
-          refreshInterval={liveRefreshInterval}
-          onChangeRefreshInterval={setLiveRefreshInterval}
-          onSelectUf={handleSelectUf}
-          onSwitchToGovernorCargo={(uf) => {
-            handleSelectCargo('GOVERNADOR');
-            handleSelectUf(uf);
-          }}
-          onShare={handleShare}
-        />
+            <div className="map-results-body">
+              {isLoading && (
+                <div 
+                  style={{
+                    position: 'absolute',
+                    inset: 0,
+                    background: 'rgba(9, 13, 22, 0.7)',
+                    backdropFilter: 'blur(6px)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    zIndex: 35,
+                    gap: 10,
+                    fontSize: '0.9rem',
+                    color: '#38bdf8'
+                  }}
+                >
+                  <Loader2 className="animate-spin" size={24} />
+                  <span>Carregando dados oficiais do TSE...</span>
+                </div>
+              )}
+
+              {/* View Switcher: 2D Brazil Map vs 3D Interactive Globe */}
+              {granularity === 'EXTERIOR_GLOBE' ? (
+                <Globe3D
+                  electionData={electionData}
+                  onSelectConsularCity={handleSelectConsularCity}
+                  selectedCity={selectedCity}
+                />
+              ) : (
+                <Map2D
+                  electionData={electionData}
+                  granularity={granularity}
+                  selectedUf={selectedUf}
+                  selectedMun={selectedMun}
+                  selectedZona={selectedZona}
+                  onSelectUf={handleSelectUf}
+                  onSelectMun={handleSelectMun}
+                  onSelectZona={handleSelectZona}
+                />
+              )}
+
+              {/* Sticky Results & Turnout Sidebar */}
+              <SidebarResults
+                electionData={electionData}
+                granularity={granularity}
+                selectedUf={selectedUf}
+                selectedMun={selectedMun}
+                selectedZona={selectedZona}
+                selectedCity={selectedCity}
+                onClearSelection={handleClearSelection}
+                onOpenNullModal={() => setIsNullModalOpen(true)}
+                onOpenSourcesModal={() => setIsSourcesModalOpen(true)}
+                onRefreshLive={handleRefreshLive}
+                refreshInterval={liveRefreshInterval}
+                onChangeRefreshInterval={setLiveRefreshInterval}
+                onSelectUf={handleSelectUf}
+                onSwitchToGovernorCargo={(uf) => {
+                  handleSelectCargo('GOVERNADOR');
+                  handleSelectUf(uf);
+                }}
+                onShare={handleShare}
+              />
+            </div>
+          </div>
+        )}
       </main>
 
       {/* Deep Dive Modal: Null and Annulled Votes */}

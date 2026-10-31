@@ -1,5 +1,1069 @@
 [
   {
+    "id": "d12f4e2a-4bd8-45e3-a596-34f659362f50",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "AC - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_AC_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "AC",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_AC_051020261403.zip",
+    "tamanho_bytes": 16959055,
+    "tamanho_formatado": "16.17 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_AC_051020261403.zip"
+  },
+  {
+    "id": "4753eb99-062b-484a-b569-04c51d039885",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "AC - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_AC_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "AC",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_AC_261020260742.zip",
+    "tamanho_bytes": 1254611,
+    "tamanho_formatado": "1.20 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_AC_261020260742.zip"
+  },
+  {
+    "id": "64e3b797-d7ee-42b1-b980-c7479c4a84b2",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "AL - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_AL_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "AL",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_AL_051020261403.zip",
+    "tamanho_bytes": 48253491,
+    "tamanho_formatado": "46.02 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_AL_051020261403.zip"
+  },
+  {
+    "id": "35cb0003-abb1-4f19-a8ac-34da3148688d",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "AL - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_AL_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "AL",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_AL_261020260742.zip",
+    "tamanho_bytes": 1945168,
+    "tamanho_formatado": "1.86 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_AL_261020260742.zip"
+  },
+  {
+    "id": "71b6e06c-3f79-4e0c-9892-aefd9ecdef21",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "AM - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_AM_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "AM",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_AM_051020261403.zip",
+    "tamanho_bytes": 77017934,
+    "tamanho_formatado": "73.45 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_AM_051020261403.zip"
+  },
+  {
+    "id": "94220270-b671-4ce7-bdd6-74e606dcd62c",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "AM - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_AM_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "AM",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_AM_261020260742.zip",
+    "tamanho_bytes": 4276454,
+    "tamanho_formatado": "4.08 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_AM_261020260742.zip"
+  },
+  {
+    "id": "14e60d24-3b2c-4140-ba6f-fddb52216477",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "AP - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_AP_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "AP",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_AP_051020261403.zip",
+    "tamanho_bytes": 16659046,
+    "tamanho_formatado": "15.89 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_AP_051020261403.zip"
+  },
+  {
+    "id": "98212ac3-aaf9-4046-97a5-a26423eefeb3",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "AP - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_AP_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "AP",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_AP_261020260742.zip",
+    "tamanho_bytes": 596704,
+    "tamanho_formatado": "582.72 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_AP_261020260742.zip"
+  },
+  {
+    "id": "5065758c-2dc7-467f-bccd-2310bca548e8",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "BA - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_BA_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "BA",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_BA_051020261403.zip",
+    "tamanho_bytes": 324997821,
+    "tamanho_formatado": "309.94 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_BA_051020261403.zip"
+  },
+  {
+    "id": "cf6303d6-b988-4584-9592-0dcabef0d5c5",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "BA - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_BA_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "BA",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_BA_261020260742.zip",
+    "tamanho_bytes": 9513048,
+    "tamanho_formatado": "9.07 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_BA_261020260742.zip"
+  },
+  {
+    "id": "04ba699b-0b81-44de-b279-d4c78a862503",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "CE - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_CE_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "CE",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_CE_051020261403.zip",
+    "tamanho_bytes": 203005857,
+    "tamanho_formatado": "193.60 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_CE_051020261403.zip"
+  },
+  {
+    "id": "fc928d98-c341-497e-9f7e-0aaa06926fd3",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "CE - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_CE_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "CE",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_CE_261020260742.zip",
+    "tamanho_bytes": 6151144,
+    "tamanho_formatado": "5.87 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_CE_261020260742.zip"
+  },
+  {
+    "id": "7fbf7cf2-8c58-49ed-881d-00755d24cafd",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "DF - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_DF_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "DF",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_DF_051020261403.zip",
+    "tamanho_bytes": 77026962,
+    "tamanho_formatado": "73.46 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_DF_051020261403.zip"
+  },
+  {
+    "id": "81eede48-f4d7-4075-ad97-3858b8b2f920",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "DF - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_DF_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "DF",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_DF_261020260742.zip",
+    "tamanho_bytes": 3846786,
+    "tamanho_formatado": "3.67 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_DF_261020260742.zip"
+  },
+  {
+    "id": "feef6bdf-fd1b-4010-b1fd-1ee692720f89",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "ES - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_ES_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "ES",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_ES_051020261403.zip",
+    "tamanho_bytes": 81978606,
+    "tamanho_formatado": "78.18 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_ES_051020261403.zip"
+  },
+  {
+    "id": "6d629b42-413e-43ce-82f4-6c9990be0eed",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "ES - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_ES_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "ES",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_ES_261020260742.zip",
+    "tamanho_bytes": 5275706,
+    "tamanho_formatado": "5.03 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_ES_261020260742.zip"
+  },
+  {
+    "id": "a8762410-6c5e-4591-8934-190653b02836",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "GO - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_GO_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "GO",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_GO_051020261403.zip",
+    "tamanho_bytes": 157210218,
+    "tamanho_formatado": "149.93 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_GO_051020261403.zip"
+  },
+  {
+    "id": "daf741dd-e688-4682-bafd-330b36257de5",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "GO - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_GO_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "GO",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_GO_261020260742.zip",
+    "tamanho_bytes": 4248869,
+    "tamanho_formatado": "4.05 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_GO_261020260742.zip"
+  },
+  {
+    "id": "a77732be-2dc0-4b94-b761-18dc7f5993bb",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "MA - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_MA_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "MA",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_MA_051020261403.zip",
+    "tamanho_bytes": 142453462,
+    "tamanho_formatado": "135.85 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_MA_051020261403.zip"
+  },
+  {
+    "id": "8d0d8a96-22ee-41d1-8ec6-10775813096f",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "MA - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_MA_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "MA",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_MA_261020260742.zip",
+    "tamanho_bytes": 4609442,
+    "tamanho_formatado": "4.40 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_MA_261020260742.zip"
+  },
+  {
+    "id": "c0389446-6384-4c8c-a447-ac5dfd12b5e2",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "MG - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_MG_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "MG",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_MG_051020261403.zip",
+    "tamanho_bytes": 489306781,
+    "tamanho_formatado": "466.64 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_MG_051020261403.zip"
+  },
+  {
+    "id": "6c3e6458-fe4d-4af2-bef7-dc5861c2e525",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "MG - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_MG_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "MG",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_MG_261020260742.zip",
+    "tamanho_bytes": 14071007,
+    "tamanho_formatado": "13.42 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_MG_261020260742.zip"
+  },
+  {
+    "id": "0f8d5eca-4110-4358-a860-2aa8cbdca6b6",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "MS - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_MS_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "MS",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_MS_051020261403.zip",
+    "tamanho_bytes": 51978602,
+    "tamanho_formatado": "49.57 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_MS_051020261403.zip"
+  },
+  {
+    "id": "d60fd644-1e3f-4170-81e9-c1e13a3636ac",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "MS - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_MS_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "MS",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_MS_261020260742.zip",
+    "tamanho_bytes": 1863398,
+    "tamanho_formatado": "1.78 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_MS_261020260742.zip"
+  },
+  {
+    "id": "8cc4cad8-fc91-4f3b-97ce-4b0af8f02393",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "MT - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_MT_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "MT",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_MT_051020261403.zip",
+    "tamanho_bytes": 63492478,
+    "tamanho_formatado": "60.55 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_MT_051020261403.zip"
+  },
+  {
+    "id": "4fc6a94d-94c8-4d03-91ff-72aefb954d33",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "MT - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_MT_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "MT",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_MT_261020260742.zip",
+    "tamanho_bytes": 2204666,
+    "tamanho_formatado": "2.10 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_MT_261020260742.zip"
+  },
+  {
+    "id": "b3af3634-32d1-41bc-8292-2548d4a518d1",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "PA - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_PA_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "PA",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_PA_051020261403.zip",
+    "tamanho_bytes": 172050487,
+    "tamanho_formatado": "164.08 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_PA_051020261403.zip"
+  },
+  {
+    "id": "4d2aeaf2-4bf9-445a-9eb4-4eb211f634f6",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "PA - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_PA_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "PA",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_PA_261020260742.zip",
+    "tamanho_bytes": 5158441,
+    "tamanho_formatado": "4.92 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_PA_261020260742.zip"
+  },
+  {
+    "id": "03e105fb-f340-4aaf-9ab0-76cf6da5569c",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "PB - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_PB_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "PB",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_PB_051020261403.zip",
+    "tamanho_bytes": 77916707,
+    "tamanho_formatado": "74.31 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_PB_051020261403.zip"
+  },
+  {
+    "id": "f309a3af-1652-4440-8e33-9d7e412f9a32",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "PB - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_PB_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "PB",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_PB_261020260742.zip",
+    "tamanho_bytes": 2871353,
+    "tamanho_formatado": "2.74 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_PB_261020260742.zip"
+  },
+  {
+    "id": "6f7228a2-3fac-4aa7-bd23-942c4ee73481",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "PE - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_PE_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "PE",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_PE_051020261403.zip",
+    "tamanho_bytes": 204972135,
+    "tamanho_formatado": "195.48 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_PE_051020261403.zip"
+  },
+  {
+    "id": "7c11291c-59fe-464a-92d8-b82627bda1a7",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "PE - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_PE_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "PE",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_PE_261020260742.zip",
+    "tamanho_bytes": 5761723,
+    "tamanho_formatado": "5.49 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_PE_261020260742.zip"
+  },
+  {
+    "id": "9fa55147-5b1b-41c4-8742-6c646c873189",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "PI - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_PI_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "PI",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_PI_051020261403.zip",
+    "tamanho_bytes": 66216824,
+    "tamanho_formatado": "63.15 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_PI_051020261403.zip"
+  },
+  {
+    "id": "2e89fb03-478f-43c8-97f6-3159b6dd7a79",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "PI - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_PI_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "PI",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_PI_261020260742.zip",
+    "tamanho_bytes": 2648710,
+    "tamanho_formatado": "2.53 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_PI_261020260742.zip"
+  },
+  {
+    "id": "5946ead8-a9ba-44ac-aade-20f967ac0750",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "PR - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_PR_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "PR",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_PR_051020261403.zip",
+    "tamanho_bytes": 270246858,
+    "tamanho_formatado": "257.73 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_PR_051020261403.zip"
+  },
+  {
+    "id": "15a97b2a-1888-41d3-9683-4467cfed7d58",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "PR - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_PR_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "PR",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_PR_261020260742.zip",
+    "tamanho_bytes": 7189112,
+    "tamanho_formatado": "6.86 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_PR_261020260742.zip"
+  },
+  {
+    "id": "d824e28a-359c-432d-8d7c-55988d82bf96",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "RJ - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_RJ_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "RJ",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_RJ_051020261403.zip",
+    "tamanho_bytes": 536375038,
+    "tamanho_formatado": "511.53 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_RJ_051020261403.zip"
+  },
+  {
+    "id": "2f6eaf77-3abf-4abc-a6ab-f810a91457db",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "RJ - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_RJ_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "RJ",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_RJ_261020260742.zip",
+    "tamanho_bytes": 10004912,
+    "tamanho_formatado": "9.54 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_RJ_261020260742.zip"
+  },
+  {
+    "id": "14521fa7-39fe-4819-b952-98309958742a",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "RN - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_RN_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "RN",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_RN_051020261403.zip",
+    "tamanho_bytes": 54412606,
+    "tamanho_formatado": "51.89 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_RN_051020261403.zip"
+  },
+  {
+    "id": "741e6cd6-ef18-4bdf-9ebd-d5aa5371ec3b",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "RN - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_RN_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "RN",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_RN_261020260742.zip",
+    "tamanho_bytes": 4424654,
+    "tamanho_formatado": "4.22 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_RN_261020260742.zip"
+  },
+  {
+    "id": "9d1376fd-3706-43e5-b6bc-9f644a70def4",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "RO - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_RO_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "RO",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_RO_051020261403.zip",
+    "tamanho_bytes": 36216443,
+    "tamanho_formatado": "34.54 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_RO_051020261403.zip"
+  },
+  {
+    "id": "f5f40a47-72c3-450c-b8de-6b82c5b26896",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "RO - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_RO_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "RO",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_RO_261020260742.zip",
+    "tamanho_bytes": 1250142,
+    "tamanho_formatado": "1.19 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_RO_261020260742.zip"
+  },
+  {
+    "id": "589282af-5a03-42f2-96a3-76ed3d4b8645",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "RR - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_RR_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "RR",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_RR_051020261403.zip",
+    "tamanho_bytes": 11931936,
+    "tamanho_formatado": "11.38 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_RR_051020261403.zip"
+  },
+  {
+    "id": "e54adb15-931b-462e-a506-7b6330dd2a9d",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "RR - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_RR_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "RR",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_RR_261020260742.zip",
+    "tamanho_bytes": 500520,
+    "tamanho_formatado": "488.79 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_RR_261020260742.zip"
+  },
+  {
+    "id": "b616ca1a-a3b0-4d21-829e-0475f8fe5e95",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "RS - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_RS_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "RS",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_RS_051020261403.zip",
+    "tamanho_bytes": 270859776,
+    "tamanho_formatado": "258.31 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_RS_051020261403.zip"
+  },
+  {
+    "id": "8a087956-743e-4a09-8d1a-29dc5e3ed3b8",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "RS - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_RS_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "RS",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_RS_261020260742.zip",
+    "tamanho_bytes": 7410270,
+    "tamanho_formatado": "7.07 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_RS_261020260742.zip"
+  },
+  {
+    "id": "6b41d6e9-1de3-4091-a543-9e1b7da96b2d",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "SC - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_SC_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "SC",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_SC_051020261403.zip",
+    "tamanho_bytes": 153178332,
+    "tamanho_formatado": "146.08 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_SC_051020261403.zip"
+  },
+  {
+    "id": "7c874499-a9dd-440e-9526-d46033e93625",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "SC - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_SC_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "SC",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_SC_261020260742.zip",
+    "tamanho_bytes": 4487185,
+    "tamanho_formatado": "4.28 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_SC_261020260742.zip"
+  },
+  {
+    "id": "ddf793b9-a2dc-4497-912c-2f1998cac982",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "SE - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_SE_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "SE",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_SE_051020261403.zip",
+    "tamanho_bytes": 46931962,
+    "tamanho_formatado": "44.76 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_SE_051020261403.zip"
+  },
+  {
+    "id": "f79a726a-aa9c-449e-a3b5-e2a8add696e6",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "SE - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_SE_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "SE",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_SE_261020260742.zip",
+    "tamanho_bytes": 1645477,
+    "tamanho_formatado": "1.57 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_SE_261020260742.zip"
+  },
+  {
+    "id": "cf27bba1-3ee0-4952-ad36-3be435799623",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "SP - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_SP_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "SP",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_SP_051020261403.zip",
+    "tamanho_bytes": 1395007777,
+    "tamanho_formatado": "1.30 GB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_SP_051020261403.zip"
+  },
+  {
+    "id": "f6205a0c-a6af-4e94-abad-f82488590efb",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "SP - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_SP_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "SP",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_SP_261020260742.zip",
+    "tamanho_bytes": 28188300,
+    "tamanho_formatado": "26.88 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_SP_261020260742.zip"
+  },
+  {
+    "id": "2f8a1291-e92c-46c3-b185-700314d7db03",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "TO - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_TO_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "TO",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_TO_051020261403.zip",
+    "tamanho_bytes": 29667347,
+    "tamanho_formatado": "28.29 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_TO_051020261403.zip"
+  },
+  {
+    "id": "3d632f58-de62-4412-87ac-5db598ea0c34",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "TO - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_TO_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "TO",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_TO_261020260742.zip",
+    "tamanho_bytes": 2383586,
+    "tamanho_formatado": "2.27 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_TO_261020260742.zip"
+  },
+  {
+    "id": "7ea139ab-ed7c-4a67-b58b-a0b59802b534",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "ZZ - Boletim de Urna - Primeiro turno - 05.10.2026",
+    "arquivo_nome": "bweb_1t_ZZ_051020261403.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "ZZ",
+    "turno": "1",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_ZZ_051020261403.zip",
+    "tamanho_bytes": 1039125,
+    "tamanho_formatado": "1014.77 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_ZZ_051020261403.zip"
+  },
+  {
+    "id": "530d0fcb-a578-4f08-8b87-8ae048394686",
+    "ano": 2026,
+    "categoria": "boletins_urna",
+    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
+    "pacote_id": "resultados-2026-boletim-de-urna",
+    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
+    "recurso_nome": "ZZ - Boletim de Urna - Segundo turno - 26.10.2026",
+    "arquivo_nome": "bweb_2t_ZZ_261020260742.zip",
+    "formato": "CSV",
+    "escopo": "estadual",
+    "uf": "ZZ",
+    "turno": "2",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_2t_ZZ_261020260742.zip",
+    "tamanho_bytes": 502322,
+    "tamanho_formatado": "490.55 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2026/bweb_2t_ZZ_261020260742.zip"
+  },
+  {
     "id": "7748de82-a23b-47c4-9ec1-35535d945e5b",
     "ano": 2026,
     "categoria": "candidaturas_bens",
@@ -2901,538 +3965,6 @@
     "uf": "ZZ",
     "turno": "N/A",
     "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/relatorio_resultado_totalizacao/Relatorio_Resultado_Totalizacao_2026_ZZ.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "d12f4e2a-4bd8-45e3-a596-34f659362f50",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "AC - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_AC_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "AC",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_AC_051020261403.zip",
-    "tamanho_bytes": 16959055,
-    "tamanho_formatado": "16.17 MB",
-    "baixado": true,
-    "caminho_local": "dados_tse/boletins_urna/2026/bweb_1t_AC_051020261403.zip"
-  },
-  {
-    "id": "64e3b797-d7ee-42b1-b980-c7479c4a84b2",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "AL - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_AL_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "AL",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_AL_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "71b6e06c-3f79-4e0c-9892-aefd9ecdef21",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "AM - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_AM_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "AM",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_AM_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "14e60d24-3b2c-4140-ba6f-fddb52216477",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "AP - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_AP_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "AP",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_AP_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "5065758c-2dc7-467f-bccd-2310bca548e8",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "BA - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_BA_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "BA",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_BA_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "04ba699b-0b81-44de-b279-d4c78a862503",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "CE - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_CE_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "CE",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_CE_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "7fbf7cf2-8c58-49ed-881d-00755d24cafd",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "DF - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_DF_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "DF",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_DF_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "feef6bdf-fd1b-4010-b1fd-1ee692720f89",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "ES - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_ES_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "ES",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_ES_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "a8762410-6c5e-4591-8934-190653b02836",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "GO - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_GO_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "GO",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_GO_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "a77732be-2dc0-4b94-b761-18dc7f5993bb",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "MA - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_MA_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "MA",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_MA_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "c0389446-6384-4c8c-a447-ac5dfd12b5e2",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "MG - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_MG_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "MG",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_MG_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "0f8d5eca-4110-4358-a860-2aa8cbdca6b6",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "MS - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_MS_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "MS",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_MS_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "8cc4cad8-fc91-4f3b-97ce-4b0af8f02393",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "MT - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_MT_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "MT",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_MT_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "b3af3634-32d1-41bc-8292-2548d4a518d1",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "PA - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_PA_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "PA",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_PA_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "03e105fb-f340-4aaf-9ab0-76cf6da5569c",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "PB - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_PB_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "PB",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_PB_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "6f7228a2-3fac-4aa7-bd23-942c4ee73481",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "PE - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_PE_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "PE",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_PE_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "9fa55147-5b1b-41c4-8742-6c646c873189",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "PI - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_PI_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "PI",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_PI_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "5946ead8-a9ba-44ac-aade-20f967ac0750",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "PR - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_PR_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "PR",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_PR_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "d824e28a-359c-432d-8d7c-55988d82bf96",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "RJ - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_RJ_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "RJ",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_RJ_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "14521fa7-39fe-4819-b952-98309958742a",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "RN - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_RN_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "RN",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_RN_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "9d1376fd-3706-43e5-b6bc-9f644a70def4",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "RO - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_RO_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "RO",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_RO_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "589282af-5a03-42f2-96a3-76ed3d4b8645",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "RR - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_RR_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "RR",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_RR_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "b616ca1a-a3b0-4d21-829e-0475f8fe5e95",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "RS - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_RS_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "RS",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_RS_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "6b41d6e9-1de3-4091-a543-9e1b7da96b2d",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "SC - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_SC_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "SC",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_SC_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "ddf793b9-a2dc-4497-912c-2f1998cac982",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "SE - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_SE_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "SE",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_SE_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "cf27bba1-3ee0-4952-ad36-3be435799623",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "SP - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_SP_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "SP",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_SP_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "2f8a1291-e92c-46c3-b185-700314d7db03",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "TO - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_TO_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "TO",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_TO_051020261403.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
-  },
-  {
-    "id": "7ea139ab-ed7c-4a67-b58b-a0b59802b534",
-    "ano": 2026,
-    "categoria": "boletins_urna",
-    "categoria_desc": "Boletins de Urna (BUs) Consolidados",
-    "pacote_id": "resultados-2026-boletim-de-urna",
-    "pacote_titulo": "Resultados - 2026 - Boletim de Urna",
-    "recurso_nome": "ZZ - Boletim de Urna - Primeiro turno - 05.10.2026",
-    "arquivo_nome": "bweb_1t_ZZ_051020261403.zip",
-    "formato": "CSV",
-    "escopo": "estadual",
-    "uf": "ZZ",
-    "turno": "1",
-    "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/buweb/bweb_1t_ZZ_051020261403.zip",
     "tamanho_bytes": 0,
     "tamanho_formatado": "N/D",
     "baixado": false,
@@ -11394,10 +11926,10 @@
     "uf": "AL",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_AL_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 15222584,
+    "tamanho_formatado": "14.52 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_AL_051020221321.zip"
   },
   {
     "id": "9974e5a8-9359-410d-86c0-611b811ceaf2",
@@ -11413,10 +11945,10 @@
     "uf": "AL",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_AL_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1341316,
+    "tamanho_formatado": "1.28 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_AL_311020221535.zip"
   },
   {
     "id": "388c4aed-577e-49ed-836b-dd9ea3da7ed3",
@@ -11432,10 +11964,10 @@
     "uf": "AM",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_AM_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 22350241,
+    "tamanho_formatado": "21.31 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_AM_051020221321.zip"
   },
   {
     "id": "947cf29b-49ec-4310-9d68-7affbf944ab8",
@@ -11451,10 +11983,10 @@
     "uf": "AM",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_AM_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1480749,
+    "tamanho_formatado": "1.41 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_AM_311020221535.zip"
   },
   {
     "id": "8144dbb3-3d79-4623-afd5-590ecc74e0e2",
@@ -11470,10 +12002,10 @@
     "uf": "AP",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_AP_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 6436152,
+    "tamanho_formatado": "6.14 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_AP_051020221321.zip"
   },
   {
     "id": "f38dcc7e-523c-497f-8ad9-a10e63004121",
@@ -11489,10 +12021,10 @@
     "uf": "AP",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_AP_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 501229,
+    "tamanho_formatado": "489.48 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_AP_311020221535.zip"
   },
   {
     "id": "c1881ece-aa58-4295-994d-c2d2c0ed486d",
@@ -11508,10 +12040,10 @@
     "uf": "BA",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_BA_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 87291644,
+    "tamanho_formatado": "83.25 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_BA_051020221321.zip"
   },
   {
     "id": "5ddc12f6-afad-49bf-872a-cb2e0f3797fc",
@@ -11527,10 +12059,10 @@
     "uf": "BA",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_BA_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 5522366,
+    "tamanho_formatado": "5.27 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_BA_311020221535.zip"
   },
   {
     "id": "ae3b27ba-46d8-453b-a1db-61f94e664ddc",
@@ -11546,10 +12078,10 @@
     "uf": "CE",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_CE_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 52916380,
+    "tamanho_formatado": "50.46 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_CE_051020221321.zip"
   },
   {
     "id": "9b6629a6-1250-4a8e-a803-89d1adae77ba",
@@ -11565,10 +12097,10 @@
     "uf": "CE",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_CE_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 2613744,
+    "tamanho_formatado": "2.49 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_CE_311020221535.zip"
   },
   {
     "id": "3a52e471-5054-4012-8867-d6c33fea92b8",
@@ -11584,10 +12116,10 @@
     "uf": "DF",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_DF_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 27597689,
+    "tamanho_formatado": "26.32 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_DF_051020221321.zip"
   },
   {
     "id": "5649a238-1d7e-428b-8163-1d02cca9a837",
@@ -11603,10 +12135,10 @@
     "uf": "DF",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_DF_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 998403,
+    "tamanho_formatado": "975.00 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_DF_311020221535.zip"
   },
   {
     "id": "202229ee-352c-4942-a446-3234c125ca4b",
@@ -11622,10 +12154,10 @@
     "uf": "ES",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_ES_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 25757607,
+    "tamanho_formatado": "24.56 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_ES_051020221321.zip"
   },
   {
     "id": "6eb7b097-ff3f-48f9-b11e-460cbdf34863",
@@ -11641,10 +12173,10 @@
     "uf": "ES",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_ES_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1717142,
+    "tamanho_formatado": "1.64 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_ES_311020221535.zip"
   },
   {
     "id": "e2086de4-031d-4e13-9d16-b053603f686c",
@@ -11660,10 +12192,10 @@
     "uf": "GO",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_GO_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 46400104,
+    "tamanho_formatado": "44.25 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_GO_051020221321.zip"
   },
   {
     "id": "88d8d118-34b1-43d7-91ac-74ddb065e2c2",
@@ -11679,10 +12211,10 @@
     "uf": "GO",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_GO_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1786175,
+    "tamanho_formatado": "1.70 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_GO_311020221535.zip"
   },
   {
     "id": "be7af28f-f81f-49c1-b413-32bd84469dd0",
@@ -11698,10 +12230,10 @@
     "uf": "MA",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_MA_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 36578532,
+    "tamanho_formatado": "34.88 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_MA_051020221321.zip"
   },
   {
     "id": "fb779e5f-a5f5-4738-9257-91feea600385",
@@ -11717,10 +12249,10 @@
     "uf": "MA",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_MA_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1965703,
+    "tamanho_formatado": "1.87 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_MA_311020221535.zip"
   },
   {
     "id": "d3c3d3e4-8b5b-47f0-97dc-56a6d5d1a8ce",
@@ -11736,10 +12268,10 @@
     "uf": "MG",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_MG_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 140857575,
+    "tamanho_formatado": "134.33 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_MG_051020221321.zip"
   },
   {
     "id": "74f23cac-718f-440a-becf-305fd7f75da5",
@@ -11755,10 +12287,10 @@
     "uf": "MG",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_MG_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 5283911,
+    "tamanho_formatado": "5.04 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_MG_311020221535.zip"
   },
   {
     "id": "bf8b2303-fe48-46b7-87cf-96f60a7ff158",
@@ -11774,10 +12306,10 @@
     "uf": "MS",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_MS_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 18973011,
+    "tamanho_formatado": "18.09 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_MS_051020221321.zip"
   },
   {
     "id": "189bbf4e-1407-4547-a2a1-bb057b41bd88",
@@ -11793,10 +12325,10 @@
     "uf": "MS",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_MS_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1380373,
+    "tamanho_formatado": "1.32 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_MS_311020221535.zip"
   },
   {
     "id": "fd6558d9-0e6f-43a6-9c24-b1c35e77bbe7",
@@ -11812,10 +12344,10 @@
     "uf": "MT",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_MT_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 17735163,
+    "tamanho_formatado": "16.91 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_MT_051020221321.zip"
   },
   {
     "id": "097dc255-be50-4931-8caa-9eca9f08af7c",
@@ -11831,10 +12363,10 @@
     "uf": "MT",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_MT_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1081503,
+    "tamanho_formatado": "1.03 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_MT_311020221535.zip"
   },
   {
     "id": "2f83840f-cf21-415a-9626-168d7d4deb7c",
@@ -11850,10 +12382,10 @@
     "uf": "PA",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_PA_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 45665057,
+    "tamanho_formatado": "43.55 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_PA_051020221321.zip"
   },
   {
     "id": "d76d4bcf-790f-40e1-9c91-ff16f30016a3",
@@ -11869,10 +12401,10 @@
     "uf": "PA",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_PA_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 2118855,
+    "tamanho_formatado": "2.02 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_PA_311020221535.zip"
   },
   {
     "id": "922ad74c-9b9b-4a5e-afff-d6279a1e8056",
@@ -11888,10 +12420,10 @@
     "uf": "PB",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_PB_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 22035297,
+    "tamanho_formatado": "21.01 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_PB_051020221321.zip"
   },
   {
     "id": "ab8cc270-240c-4338-b073-fd816560408f",
@@ -11907,10 +12439,10 @@
     "uf": "PB",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_PB_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1806259,
+    "tamanho_formatado": "1.72 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_PB_311020221535.zip"
   },
   {
     "id": "f0aa6c0b-05b3-480d-bbb8-f403740830d8",
@@ -11926,10 +12458,10 @@
     "uf": "PE",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_PE_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 58455957,
+    "tamanho_formatado": "55.75 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_PE_051020221321.zip"
   },
   {
     "id": "ae837fd2-1f5e-4739-bf10-80425eea8c27",
@@ -11945,10 +12477,10 @@
     "uf": "PE",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_PE_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 3469891,
+    "tamanho_formatado": "3.31 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_PE_311020221535.zip"
   },
   {
     "id": "a01fabe5-1478-4e2c-b65c-835c165b9fc5",
@@ -11964,10 +12496,10 @@
     "uf": "PI",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_PI_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 16343646,
+    "tamanho_formatado": "15.59 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_PI_051020221321.zip"
   },
   {
     "id": "a9973da0-3c69-4c1c-9f40-1767d9a7f6ad",
@@ -11983,10 +12515,10 @@
     "uf": "PI",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_PI_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1227487,
+    "tamanho_formatado": "1.17 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_PI_311020221535.zip"
   },
   {
     "id": "55bd5c37-369c-43b1-afa1-3d9cd0d51ffe",
@@ -12002,10 +12534,10 @@
     "uf": "PR",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_PR_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 74642306,
+    "tamanho_formatado": "71.18 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_PR_051020221321.zip"
   },
   {
     "id": "e16f0285-8a5f-4625-adea-d949f16cc494",
@@ -12021,10 +12553,10 @@
     "uf": "PR",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_PR_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 2855742,
+    "tamanho_formatado": "2.72 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_PR_311020221535.zip"
   },
   {
     "id": "b1e24aec-ffce-4ffe-bcfb-37f8700ac7e5",
@@ -12040,10 +12572,10 @@
     "uf": "RJ",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_RJ_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 148585987,
+    "tamanho_formatado": "141.70 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_RJ_051020221321.zip"
   },
   {
     "id": "d5777bab-250c-45cc-bd7f-be539d7a320c",
@@ -12059,10 +12591,10 @@
     "uf": "RJ",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_RJ_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 3728044,
+    "tamanho_formatado": "3.56 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_RJ_311020221535.zip"
   },
   {
     "id": "645504da-69ca-4a18-874e-6b1a79630ac1",
@@ -12078,10 +12610,10 @@
     "uf": "RN",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_RN_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 18274320,
+    "tamanho_formatado": "17.43 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_RN_051020221321.zip"
   },
   {
     "id": "a5a68f4d-c79c-4cf2-8e43-2676d3418e3d",
@@ -12097,10 +12629,10 @@
     "uf": "RN",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_RN_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1090336,
+    "tamanho_formatado": "1.04 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_RN_311020221535.zip"
   },
   {
     "id": "4fb84a15-6bf9-477e-9ec9-b57a3b77216b",
@@ -12116,10 +12648,10 @@
     "uf": "RO",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_RO_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 11353207,
+    "tamanho_formatado": "10.83 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_RO_051020221321.zip"
   },
   {
     "id": "69395461-5e0a-4957-b753-c3591b8f0bb7",
@@ -12135,10 +12667,10 @@
     "uf": "RO",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_RO_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 959055,
+    "tamanho_formatado": "936.58 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_RO_311020221535.zip"
   },
   {
     "id": "c346543b-7224-4683-9333-477ce8b15b21",
@@ -12154,10 +12686,10 @@
     "uf": "RR",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_RR_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 4571547,
+    "tamanho_formatado": "4.36 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_RR_051020221321.zip"
   },
   {
     "id": "c80d1662-463f-43ab-b693-f2f5a871d396",
@@ -12173,10 +12705,10 @@
     "uf": "RR",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_RR_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 450233,
+    "tamanho_formatado": "439.68 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_RR_311020221535.zip"
   },
   {
     "id": "5f58a4f7-4e1d-42b2-be5f-265408fdaebd",
@@ -12192,10 +12724,10 @@
     "uf": "RS",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_RS_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 79844060,
+    "tamanho_formatado": "76.15 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_RS_051020221321.zip"
   },
   {
     "id": "942ca704-22ba-4759-866a-1f2eda2a54a4",
@@ -12211,10 +12743,10 @@
     "uf": "RS",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_RS_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 4537987,
+    "tamanho_formatado": "4.33 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_RS_311020221535.zip"
   },
   {
     "id": "0af05cd2-a257-4582-894f-35524912f4de",
@@ -12230,10 +12762,10 @@
     "uf": "SC",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_SC_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 45911156,
+    "tamanho_formatado": "43.78 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_SC_051020221321.zip"
   },
   {
     "id": "4f5dffa3-f07a-4b7b-9022-7a196bf7b334",
@@ -12249,10 +12781,10 @@
     "uf": "SC",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_SC_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 2776735,
+    "tamanho_formatado": "2.65 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_SC_311020221535.zip"
   },
   {
     "id": "10477b6c-475f-4158-962a-526a142b0b81",
@@ -12268,10 +12800,10 @@
     "uf": "SE",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_SE_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 13823584,
+    "tamanho_formatado": "13.18 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_SE_051020221321.zip"
   },
   {
     "id": "b179b736-fa05-4f32-bbb8-7f49d29cb433",
@@ -12287,10 +12819,10 @@
     "uf": "SE",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_SE_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1168873,
+    "tamanho_formatado": "1.11 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_SE_311020221535.zip"
   },
   {
     "id": "55fc7b3d-c888-483f-9a6f-3a306f40f115",
@@ -12306,10 +12838,10 @@
     "uf": "SP",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_SP_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 404292177,
+    "tamanho_formatado": "385.56 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_SP_051020221321.zip"
   },
   {
     "id": "5729e0c0-c756-4ecf-8556-d98340135428",
@@ -12325,10 +12857,10 @@
     "uf": "SP",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_SP_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 16096583,
+    "tamanho_formatado": "15.35 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_SP_311020221535.zip"
   },
   {
     "id": "bb0b55c1-053d-433a-acae-fad2547351d7",
@@ -12344,10 +12876,10 @@
     "uf": "TO",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_TO_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 9257360,
+    "tamanho_formatado": "8.83 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_TO_051020221321.zip"
   },
   {
     "id": "619ad1a7-8e1f-40cb-8a73-d954491b9d91",
@@ -12363,10 +12895,10 @@
     "uf": "TO",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_TO_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 721111,
+    "tamanho_formatado": "704.21 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_TO_311020221535.zip"
   },
   {
     "id": "bba67be0-421e-4fed-ab61-e9a090faf820",
@@ -12382,10 +12914,10 @@
     "uf": "ZZ",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_1t_ZZ_051020221321.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 503717,
+    "tamanho_formatado": "491.91 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_1t_ZZ_051020221321.zip"
   },
   {
     "id": "9d310b95-6d7d-4027-b88d-299bcbaa6863",
@@ -12401,10 +12933,10 @@
     "uf": "ZZ",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2022/buweb/bweb_2t_ZZ_311020221535.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 433558,
+    "tamanho_formatado": "423.40 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2022/bweb_2t_ZZ_311020221535.zip"
   },
   {
     "id": "8a6ff7bd-5a22-4d1a-9353-cce06f9f5e35",
@@ -19868,10 +20400,10 @@
     "uf": "AL",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_AL_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 14745786,
+    "tamanho_formatado": "14.06 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_AL_101020181938.zip"
   },
   {
     "id": "e3361229-78a4-40d7-8ecb-a093b8c7cf30",
@@ -19887,10 +20419,10 @@
     "uf": "AL",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_AL_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 877133,
+    "tamanho_formatado": "856.58 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_AL_301020181744.zip"
   },
   {
     "id": "e2199f02-4dcf-4e75-ad45-28e7a041f4cf",
@@ -19906,10 +20438,10 @@
     "uf": "AM",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_AM_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 22128366,
+    "tamanho_formatado": "21.10 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_AM_101020181938.zip"
   },
   {
     "id": "65c35f91-2ea6-4876-a039-4bd15ee9c37d",
@@ -19925,10 +20457,10 @@
     "uf": "AM",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_AM_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1559466,
+    "tamanho_formatado": "1.49 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_AM_301020181744.zip"
   },
   {
     "id": "50ff44ee-fdba-4d5a-85b9-459b19000bb6",
@@ -19944,10 +20476,10 @@
     "uf": "AP",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_AP_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 6634284,
+    "tamanho_formatado": "6.33 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_AP_101020181938.zip"
   },
   {
     "id": "19f88dd2-aa2e-457f-b077-0b4c07f31d15",
@@ -19963,10 +20495,10 @@
     "uf": "AP",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_AP_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 605450,
+    "tamanho_formatado": "591.26 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_AP_301020181744.zip"
   },
   {
     "id": "aa7a218e-2ca2-4d96-8dd2-918d82c07b8c",
@@ -19982,10 +20514,10 @@
     "uf": "BA",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_BA_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 76266045,
+    "tamanho_formatado": "72.73 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_BA_101020181938.zip"
   },
   {
     "id": "a95b51ae-c744-4b00-93c2-0f65a50e6ced",
@@ -20001,10 +20533,10 @@
     "uf": "BA",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_BA_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 3117790,
+    "tamanho_formatado": "2.97 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_BA_301020181744.zip"
   },
   {
     "id": "d6cb94a9-ad36-4beb-b5b2-f86ee7fff688",
@@ -20020,10 +20552,10 @@
     "uf": "CE",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_CE_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 49167907,
+    "tamanho_formatado": "46.89 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_CE_101020181938.zip"
   },
   {
     "id": "aed47376-9962-41bd-a751-d32cc47ce631",
@@ -20039,10 +20571,10 @@
     "uf": "CE",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_CE_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 2251510,
+    "tamanho_formatado": "2.15 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_CE_301020181744.zip"
   },
   {
     "id": "0f2fa59e-1886-45f7-a4bb-35543602af5f",
@@ -20058,10 +20590,10 @@
     "uf": "DF",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_DF_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 30528551,
+    "tamanho_formatado": "29.11 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_DF_101020181938.zip"
   },
   {
     "id": "6ed70f8b-2a22-4ea5-a746-3e3424cf3590",
@@ -20077,10 +20609,10 @@
     "uf": "DF",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_DF_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1524675,
+    "tamanho_formatado": "1.45 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_DF_301020181744.zip"
   },
   {
     "id": "9ba3108a-b987-4086-9433-8b1358726c85",
@@ -20096,10 +20628,10 @@
     "uf": "ES",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_ES_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 25154899,
+    "tamanho_formatado": "23.99 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_ES_101020181938.zip"
   },
   {
     "id": "ea3e31ee-78b7-4c65-9adb-bdda4ac39bb1",
@@ -20115,10 +20647,10 @@
     "uf": "ES",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_ES_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1088824,
+    "tamanho_formatado": "1.04 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_ES_301020181744.zip"
   },
   {
     "id": "04fd8e28-401e-4189-ad71-7257e833efb1",
@@ -20134,10 +20666,10 @@
     "uf": "GO",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_GO_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 40424506,
+    "tamanho_formatado": "38.55 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_GO_101020181938.zip"
   },
   {
     "id": "cebabde7-6f9b-40ed-ae5a-b13dfe0331bf",
@@ -20153,10 +20685,10 @@
     "uf": "GO",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_GO_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1569917,
+    "tamanho_formatado": "1.50 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_GO_301020181744.zip"
   },
   {
     "id": "4e1a7622-04d3-4b11-aa4e-89a297e4cb7b",
@@ -20172,10 +20704,10 @@
     "uf": "MA",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_MA_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 34172768,
+    "tamanho_formatado": "32.59 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_MA_101020181938.zip"
   },
   {
     "id": "cc744356-55a3-43a2-877e-2cf4cd8223b4",
@@ -20191,10 +20723,10 @@
     "uf": "MA",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_MA_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1725548,
+    "tamanho_formatado": "1.65 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_MA_301020181744.zip"
   },
   {
     "id": "896c6f54-98c5-4eab-907a-9d7828b3652e",
@@ -20210,10 +20742,10 @@
     "uf": "MG",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_MG_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 145883137,
+    "tamanho_formatado": "139.13 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_MG_101020181938.zip"
   },
   {
     "id": "fd5e40b2-a26c-40c6-844c-7ef0793a6c07",
@@ -20229,10 +20761,10 @@
     "uf": "MG",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_MG_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 8926694,
+    "tamanho_formatado": "8.51 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_MG_301020181744.zip"
   },
   {
     "id": "476802ac-1804-4df4-88aa-6ce1b81b57f5",
@@ -20248,10 +20780,10 @@
     "uf": "MS",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_MS_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 16947370,
+    "tamanho_formatado": "16.16 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_MS_101020181938.zip"
   },
   {
     "id": "75155067-cd02-4dd3-bff3-1515b45f8228",
@@ -20267,10 +20799,10 @@
     "uf": "MS",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_MS_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1471088,
+    "tamanho_formatado": "1.40 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_MS_301020181744.zip"
   },
   {
     "id": "40d57624-91c1-4e94-8711-7e344b60df47",
@@ -20286,10 +20818,10 @@
     "uf": "MT",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_MT_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 19064877,
+    "tamanho_formatado": "18.18 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_MT_101020181938.zip"
   },
   {
     "id": "b02a32e8-6706-42b4-ae14-5a2179b89c9e",
@@ -20305,10 +20837,10 @@
     "uf": "MT",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_MT_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 949104,
+    "tamanho_formatado": "926.86 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_MT_301020181744.zip"
   },
   {
     "id": "1615eb32-ebd0-4f4e-bfeb-d828aecae27b",
@@ -20324,10 +20856,10 @@
     "uf": "PA",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_PA_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 43220151,
+    "tamanho_formatado": "41.22 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_PA_101020181938.zip"
   },
   {
     "id": "11b00e75-48de-4921-b648-dc19be18e0a2",
@@ -20343,10 +20875,10 @@
     "uf": "PA",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_PA_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 3367242,
+    "tamanho_formatado": "3.21 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_PA_301020181744.zip"
   },
   {
     "id": "785c93c2-a6d1-43fb-a49e-f683bf462682",
@@ -20362,10 +20894,10 @@
     "uf": "PB",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_PB_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 20888768,
+    "tamanho_formatado": "19.92 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_PB_101020181938.zip"
   },
   {
     "id": "e70ba944-ebf7-409d-a051-ba2e2968118b",
@@ -20381,10 +20913,10 @@
     "uf": "PB",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_PB_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1199622,
+    "tamanho_formatado": "1.14 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_PB_301020181744.zip"
   },
   {
     "id": "04c38962-fcf2-4d2d-b7ee-9f26def2a531",
@@ -20400,10 +20932,10 @@
     "uf": "PE",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_PE_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 51811550,
+    "tamanho_formatado": "49.41 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_PE_101020181938.zip"
   },
   {
     "id": "757c5f5d-f939-412c-aa25-37b08a387f60",
@@ -20419,10 +20951,10 @@
     "uf": "PE",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_PE_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 2074761,
+    "tamanho_formatado": "1.98 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_PE_301020181744.zip"
   },
   {
     "id": "eea7a508-947d-458f-b4ba-8eb9b6225b15",
@@ -20438,10 +20970,10 @@
     "uf": "PI",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_PI_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 18077138,
+    "tamanho_formatado": "17.24 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_PI_101020181938.zip"
   },
   {
     "id": "812f3618-f279-4abf-901a-658139f1a84d",
@@ -20457,10 +20989,10 @@
     "uf": "PI",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_PI_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1108347,
+    "tamanho_formatado": "1.06 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_PI_301020181744.zip"
   },
   {
     "id": "14305a02-33fc-4efc-ab5b-8d867c944a13",
@@ -20476,10 +21008,10 @@
     "uf": "PR",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_PR_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 74882383,
+    "tamanho_formatado": "71.41 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_PR_101020181938.zip"
   },
   {
     "id": "d9beb71a-288a-40b7-9237-b4d45f7beda1",
@@ -20495,10 +21027,10 @@
     "uf": "PR",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_PR_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 2652967,
+    "tamanho_formatado": "2.53 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_PR_301020181744.zip"
   },
   {
     "id": "35be51c9-a399-42fc-bf07-2b1d63ca4052",
@@ -20514,10 +21046,10 @@
     "uf": "RJ",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_RJ_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 150529105,
+    "tamanho_formatado": "143.56 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_RJ_101020181938.zip"
   },
   {
     "id": "63649b88-5725-4d95-ba03-838d229cf959",
@@ -20533,10 +21065,10 @@
     "uf": "RJ",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_RJ_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 6488942,
+    "tamanho_formatado": "6.19 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_RJ_301020181744.zip"
   },
   {
     "id": "f120a90b-32e8-453a-83d9-2363b908c63b",
@@ -20552,10 +21084,10 @@
     "uf": "RN",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_RN_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 18367850,
+    "tamanho_formatado": "17.52 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_RN_101020181938.zip"
   },
   {
     "id": "af438440-5131-453e-8d34-00a8d1300cf9",
@@ -20571,10 +21103,10 @@
     "uf": "RN",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_RN_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1640857,
+    "tamanho_formatado": "1.56 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_RN_301020181744.zip"
   },
   {
     "id": "80fd8671-a362-46aa-a55d-1d9a48aac6a1",
@@ -20590,10 +21122,10 @@
     "uf": "RO",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_RO_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 11585609,
+    "tamanho_formatado": "11.05 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_RO_101020181938.zip"
   },
   {
     "id": "f92cff03-c8e5-4549-b7f1-bb3aa17fc2ba",
@@ -20609,10 +21141,10 @@
     "uf": "RO",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_RO_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1058933,
+    "tamanho_formatado": "1.01 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_RO_301020181744.zip"
   },
   {
     "id": "a65fa011-4033-49f8-be83-952098126235",
@@ -20628,10 +21160,10 @@
     "uf": "RR",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_RR_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 4751642,
+    "tamanho_formatado": "4.53 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_RR_101020181938.zip"
   },
   {
     "id": "0906ce0d-3feb-4d1e-84d5-cbcae2aa49ce",
@@ -20647,10 +21179,10 @@
     "uf": "RR",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_RR_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 516876,
+    "tamanho_formatado": "504.76 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_RR_301020181744.zip"
   },
   {
     "id": "452078b3-883e-43d0-80bc-bf1adbbd57ec",
@@ -20666,10 +21198,10 @@
     "uf": "RS",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_RS_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 82168182,
+    "tamanho_formatado": "78.36 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_RS_101020181938.zip"
   },
   {
     "id": "59f3f172-3760-4152-ac62-260a1a433870",
@@ -20685,10 +21217,10 @@
     "uf": "RS",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_RS_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 5321281,
+    "tamanho_formatado": "5.07 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_RS_301020181744.zip"
   },
   {
     "id": "985bfe56-56b0-4ae9-abe1-7f800925fa2d",
@@ -20704,10 +21236,10 @@
     "uf": "SC",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_SC_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 42687517,
+    "tamanho_formatado": "40.71 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_SC_101020181938.zip"
   },
   {
     "id": "8efe92dc-4872-45c8-8065-2287bf93e4b9",
@@ -20723,10 +21255,10 @@
     "uf": "SC",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_SC_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 3106315,
+    "tamanho_formatado": "2.96 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_SC_301020181744.zip"
   },
   {
     "id": "d049cf98-a8b5-460e-bff2-6a6462ecd81d",
@@ -20742,10 +21274,10 @@
     "uf": "SE",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_SE_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 13261589,
+    "tamanho_formatado": "12.65 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_SE_101020181938.zip"
   },
   {
     "id": "8ee8d62d-1ef3-485f-86b1-50aea6061fe2",
@@ -20761,10 +21293,10 @@
     "uf": "SE",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_SE_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1242173,
+    "tamanho_formatado": "1.18 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_SE_301020181744.zip"
   },
   {
     "id": "c2974724-9b61-4f9c-9aca-0beb99c7bd8f",
@@ -20780,10 +21312,10 @@
     "uf": "SP",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_SP_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 370286807,
+    "tamanho_formatado": "353.13 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_SP_101020181938.zip"
   },
   {
     "id": "903d309b-5486-41f5-869f-edad1034eeb1",
@@ -20799,10 +21331,10 @@
     "uf": "SP",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_SP_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 17587277,
+    "tamanho_formatado": "16.77 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_SP_301020181744.zip"
   },
   {
     "id": "52898679-4f3c-42fa-8b49-8cf16f07ce60",
@@ -20818,10 +21350,10 @@
     "uf": "TO",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_TO_101020181938.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 8081926,
+    "tamanho_formatado": "7.71 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_TO_101020181938.zip"
   },
   {
     "id": "f8ba415c-4b38-4344-9346-25b46cbbee19",
@@ -20837,10 +21369,10 @@
     "uf": "TO",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_TO_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 649734,
+    "tamanho_formatado": "634.51 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_TO_301020181744.zip"
   },
   {
     "id": "f17e3241-5e5d-4d02-a7f0-b061ac1ba733",
@@ -20856,10 +21388,10 @@
     "uf": "ZZ",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_1t_ZZ_111020181508.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 442785,
+    "tamanho_formatado": "432.41 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_1t_ZZ_111020181508.zip"
   },
   {
     "id": "c7414574-6d42-4ef7-9161-ab152c7d7fe8",
@@ -20875,10 +21407,10 @@
     "uf": "ZZ",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2018/buweb/BWEB_2t_ZZ_301020181744.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 376323,
+    "tamanho_formatado": "367.50 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2018/BWEB_2t_ZZ_301020181744.zip"
   },
   {
     "id": "e1728cbf-de82-4c4a-85d5-f9ac0d4590cb",
@@ -23877,10 +24409,10 @@
     "uf": "AL",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_AL_14102014131724.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 8985443,
+    "tamanho_formatado": "8.57 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_AL_14102014131724.zip"
   },
   {
     "id": "283ef399-83ea-4c70-bdd7-383ff115fac5",
@@ -23896,10 +24428,10 @@
     "uf": "AL",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_AL_28102014114941.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 477512,
+    "tamanho_formatado": "466.32 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_AL_28102014114941.zip"
   },
   {
     "id": "8ff9ecf4-f216-4b01-9664-f764010b8d6f",
@@ -23915,10 +24447,10 @@
     "uf": "AP",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_AP_14102014132239.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 3899099,
+    "tamanho_formatado": "3.72 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_AP_14102014132239.zip"
   },
   {
     "id": "c44671ba-d1a1-4380-9d37-74a6eb5bef20",
@@ -23934,10 +24466,10 @@
     "uf": "AP",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_AP_28102014115835.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 200410,
+    "tamanho_formatado": "195.71 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_AP_28102014115835.zip"
   },
   {
     "id": "e874e428-3474-4004-acd1-ad8013415c47",
@@ -23953,10 +24485,10 @@
     "uf": "AM",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_AM_14102014131956.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 13533501,
+    "tamanho_formatado": "12.91 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_AM_14102014131956.zip"
   },
   {
     "id": "96789f74-fa7a-4d34-b0e8-a22e75f5799f",
@@ -23972,10 +24504,10 @@
     "uf": "AM",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_AM_28102014115349.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 833022,
+    "tamanho_formatado": "813.50 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_AM_28102014115349.zip"
   },
   {
     "id": "891357e8-70f6-4cee-a5e8-d22790521169",
@@ -23991,10 +24523,10 @@
     "uf": "BA",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_BA_14102014132437.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 48958032,
+    "tamanho_formatado": "46.69 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_BA_14102014132437.zip"
   },
   {
     "id": "38e3d06e-b874-420f-952e-661882129a7c",
@@ -24010,10 +24542,10 @@
     "uf": "BA",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_BA_28102014120236.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 2381439,
+    "tamanho_formatado": "2.27 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_BA_28102014120236.zip"
   },
   {
     "id": "3311046b-7233-4812-bb78-66e1f9e457ba",
@@ -24029,10 +24561,10 @@
     "uf": "CE",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_CE_14102014132811.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 30762203,
+    "tamanho_formatado": "29.34 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_CE_14102014132811.zip"
   },
   {
     "id": "f0f81d64-6df1-4d8b-963c-7d8bfca3b912",
@@ -24048,10 +24580,10 @@
     "uf": "CE",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_CE_28102014120643.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 2473231,
+    "tamanho_formatado": "2.36 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_CE_28102014120643.zip"
   },
   {
     "id": "c6933e6a-cafc-409b-aa5e-01b9122cec7f",
@@ -24067,10 +24599,10 @@
     "uf": "DF",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_DF_14102014133057.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 19014321,
+    "tamanho_formatado": "18.13 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_DF_14102014133057.zip"
   },
   {
     "id": "450fd3f5-099d-404e-a45f-f2a3392f779a",
@@ -24086,10 +24618,10 @@
     "uf": "DF",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_DF_28102014121036.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 831561,
+    "tamanho_formatado": "812.07 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_DF_28102014121036.zip"
   },
   {
     "id": "c2de8c9f-3be4-4502-b48e-c8eaa0ac8039",
@@ -24105,10 +24637,10 @@
     "uf": "ES",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_ES_14102014133258.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 14227098,
+    "tamanho_formatado": "13.57 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_ES_14102014133258.zip"
   },
   {
     "id": "e359c3e0-6cb7-4d29-a55f-ed86b424cd5f",
@@ -24124,10 +24656,10 @@
     "uf": "ES",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_ES_28102014121431.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 615738,
+    "tamanho_formatado": "601.31 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_ES_28102014121431.zip"
   },
   {
     "id": "5635e071-94f0-48de-bf96-d4b2cffcf034",
@@ -24143,10 +24675,10 @@
     "uf": "GO",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_GO_14102014133534.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 22346810,
+    "tamanho_formatado": "21.31 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_GO_14102014133534.zip"
   },
   {
     "id": "35cc3b48-49fc-4f48-a5c4-472a32cdf2d4",
@@ -24162,10 +24694,10 @@
     "uf": "GO",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_GO_28102014121839.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1647937,
+    "tamanho_formatado": "1.57 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_GO_28102014121839.zip"
   },
   {
     "id": "5a27b71f-046a-47a0-8a49-0aae8b8573f8",
@@ -24181,10 +24713,10 @@
     "uf": "MA",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_MA_14102014133746.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 21417704,
+    "tamanho_formatado": "20.43 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_MA_14102014133746.zip"
   },
   {
     "id": "10c24cb2-430d-4407-bfb8-9826bc750e92",
@@ -24200,10 +24732,10 @@
     "uf": "MA",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_MA_28102014122307.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1182763,
+    "tamanho_formatado": "1.13 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_MA_28102014122307.zip"
   },
   {
     "id": "92b29cc4-f331-4e04-9f5c-4299ddb5a613",
@@ -24219,10 +24751,10 @@
     "uf": "MT",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_MT_14102014134508.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 8708716,
+    "tamanho_formatado": "8.31 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_MT_14102014134508.zip"
   },
   {
     "id": "9d6b3cdf-6b20-4fc7-b976-466702b6fb53",
@@ -24238,10 +24770,10 @@
     "uf": "MT",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_MT_28102014123633.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 520378,
+    "tamanho_formatado": "508.18 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_MT_28102014123633.zip"
   },
   {
     "id": "d2510295-96d7-47a1-b334-86a6885e9dac",
@@ -24257,10 +24789,10 @@
     "uf": "MS",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_MS_14102014134342.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 9019012,
+    "tamanho_formatado": "8.60 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_MS_14102014134342.zip"
   },
   {
     "id": "8b1c9433-37d3-49a2-b641-3355ba1ec01b",
@@ -24276,10 +24808,10 @@
     "uf": "MS",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_MS_28102014123155.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 662352,
+    "tamanho_formatado": "646.83 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_MS_28102014123155.zip"
   },
   {
     "id": "69d59728-5c4b-4152-9caf-79cde1c4de35",
@@ -24295,10 +24827,10 @@
     "uf": "MG",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_MG_14102014133941.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 77099223,
+    "tamanho_formatado": "73.53 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_MG_14102014133941.zip"
   },
   {
     "id": "ee9b8304-1dcf-49e8-b949-dafc144cfb9e",
@@ -24314,10 +24846,10 @@
     "uf": "MG",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_MG_28102014122730.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 3486971,
+    "tamanho_formatado": "3.33 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_MG_28102014122730.zip"
   },
   {
     "id": "c1cd8f50-4331-4962-ad24-b5ff85b0567a",
@@ -24333,10 +24865,10 @@
     "uf": "PA",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_PA_14102014134622.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 26165300,
+    "tamanho_formatado": "24.95 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_PA_14102014134622.zip"
   },
   {
     "id": "a912de00-6551-404c-b241-357c02165691",
@@ -24352,10 +24884,10 @@
     "uf": "PA",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_PA_28102014124021.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1961217,
+    "tamanho_formatado": "1.87 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_PA_28102014124021.zip"
   },
   {
     "id": "d971076e-f031-49c7-be2a-2cdfd0ad4f67",
@@ -24371,10 +24903,10 @@
     "uf": "PB",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_PB_14102014134816.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 12852512,
+    "tamanho_formatado": "12.26 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_PB_14102014134816.zip"
   },
   {
     "id": "60fb778a-f732-4f71-819a-6bb8350d1504",
@@ -24390,10 +24922,10 @@
     "uf": "PB",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_PB_28102014124426.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1198589,
+    "tamanho_formatado": "1.14 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_PB_28102014124426.zip"
   },
   {
     "id": "60087d6f-fe2f-4eb6-830f-7e52a3fe40d6",
@@ -24409,10 +24941,10 @@
     "uf": "PR",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_PR_14102014135330.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 41815417,
+    "tamanho_formatado": "39.88 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_PR_14102014135330.zip"
   },
   {
     "id": "a44f51f9-63cf-400e-a560-025de3bd4fa1",
@@ -24428,10 +24960,10 @@
     "uf": "PR",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_PR_28102014125604.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1905381,
+    "tamanho_formatado": "1.82 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_PR_28102014125604.zip"
   },
   {
     "id": "d1e0b6f9-3b1b-4132-b8fb-977261bff195",
@@ -24447,10 +24979,10 @@
     "uf": "PE",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_PE_14102014134940.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 29443033,
+    "tamanho_formatado": "28.08 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_PE_14102014134940.zip"
   },
   {
     "id": "9efaab23-0e44-43ce-b125-b1496256d8dd",
@@ -24466,10 +24998,10 @@
     "uf": "PE",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_PE_28102014124827.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1443288,
+    "tamanho_formatado": "1.38 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_PE_28102014124827.zip"
   },
   {
     "id": "f2fa35b2-d763-4988-bcbd-b2b53140db28",
@@ -24485,10 +25017,10 @@
     "uf": "PI",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_PI_14102014135200.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 9253706,
+    "tamanho_formatado": "8.83 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_PI_14102014135200.zip"
   },
   {
     "id": "37fddccf-fc7a-4a8a-808d-987e614cbeaf",
@@ -24504,10 +25036,10 @@
     "uf": "PI",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_PI_28102014125213.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 617938,
+    "tamanho_formatado": "603.46 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_PI_28102014125213.zip"
   },
   {
     "id": "cb55fc21-eec3-4860-9691-bfb86f6cc90a",
@@ -24523,10 +25055,10 @@
     "uf": "RJ",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_RJ_14102014135555.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 91674209,
+    "tamanho_formatado": "87.43 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_RJ_14102014135555.zip"
   },
   {
     "id": "ec27b228-86eb-425c-927b-1fccd6bf016e",
@@ -24542,10 +25074,10 @@
     "uf": "RJ",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_RJ_28102014130047.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 4174837,
+    "tamanho_formatado": "3.98 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_RJ_28102014130047.zip"
   },
   {
     "id": "f565ccdb-7f68-4d34-8f01-8178f4b6bcfd",
@@ -24561,10 +25093,10 @@
     "uf": "RN",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_RN_14102014140015.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 9307657,
+    "tamanho_formatado": "8.88 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_RN_14102014140015.zip"
   },
   {
     "id": "4f7a2eab-f219-4b2a-ad3a-3e4f6a07417c",
@@ -24580,10 +25112,10 @@
     "uf": "RN",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_RN_28102014130526.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 906144,
+    "tamanho_formatado": "884.91 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_RN_28102014130526.zip"
   },
   {
     "id": "84e8a61f-3d77-43b2-b338-fd2c21007f21",
@@ -24599,10 +25131,10 @@
     "uf": "RS",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_RS_14102014140344.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 50647562,
+    "tamanho_formatado": "48.30 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_RS_14102014140344.zip"
   },
   {
     "id": "8004e4e3-532f-4e0e-b789-af1ce78605ca",
@@ -24618,10 +25150,10 @@
     "uf": "RS",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_RS_28102014131811.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 3297256,
+    "tamanho_formatado": "3.14 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_RS_28102014131811.zip"
   },
   {
     "id": "e52d189c-7a7b-4fd5-a151-c10550141a3f",
@@ -24637,10 +25169,10 @@
     "uf": "RO",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_RO_14102014140131.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 6055319,
+    "tamanho_formatado": "5.77 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_RO_14102014140131.zip"
   },
   {
     "id": "6242a0ba-a64c-443e-978e-aae5678f9519",
@@ -24656,10 +25188,10 @@
     "uf": "RO",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_RO_28102014130948.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 461394,
+    "tamanho_formatado": "450.58 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_RO_28102014130948.zip"
   },
   {
     "id": "c44ea00e-a9c3-4605-adb9-7f924964417a",
@@ -24675,10 +25207,10 @@
     "uf": "RR",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_RR_14102014140241.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 2465171,
+    "tamanho_formatado": "2.35 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_RR_14102014140241.zip"
   },
   {
     "id": "093c5297-889f-4e1b-b5bd-ea681f7deafb",
@@ -24694,10 +25226,10 @@
     "uf": "RR",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_RR_28102014131402.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 146290,
+    "tamanho_formatado": "142.86 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_RR_28102014131402.zip"
   },
   {
     "id": "f9466f4a-40b8-4299-87fd-594f72e85053",
@@ -24713,10 +25245,10 @@
     "uf": "SC",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_SC_14102014140606.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 22063174,
+    "tamanho_formatado": "21.04 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_SC_14102014140606.zip"
   },
   {
     "id": "cd7f5275-3f51-4992-ba15-e3a41507e1ec",
@@ -24732,10 +25264,10 @@
     "uf": "SC",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_SC_28102014132154.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 1123766,
+    "tamanho_formatado": "1.07 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_SC_28102014132154.zip"
   },
   {
     "id": "3da05ecd-b2bd-4022-b9e5-b072a433eeac",
@@ -24751,10 +25283,10 @@
     "uf": "SP",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_SP_14102014140937.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 218729150,
+    "tamanho_formatado": "208.60 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_SP_14102014140937.zip"
   },
   {
     "id": "cc44e342-846d-4630-9858-4009460604af",
@@ -24770,10 +25302,10 @@
     "uf": "SP",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_SP_28102014133018.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 6731119,
+    "tamanho_formatado": "6.42 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_SP_28102014133018.zip"
   },
   {
     "id": "8caeb083-66f5-42ca-9eb2-ae31827dd1dc",
@@ -24789,10 +25321,10 @@
     "uf": "SE",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_SE_14102014140814.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 5957729,
+    "tamanho_formatado": "5.68 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_SE_14102014140814.zip"
   },
   {
     "id": "45f9bdef-9dac-4eda-ba15-8beed78baa62",
@@ -24808,10 +25340,10 @@
     "uf": "SE",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_SE_28102014132556.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 384291,
+    "tamanho_formatado": "375.28 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_SE_28102014132556.zip"
   },
   {
     "id": "1be4090e-608e-441f-98d8-d8914cde93b3",
@@ -24827,10 +25359,10 @@
     "uf": "TO",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_TO_14102014141909.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 4152501,
+    "tamanho_formatado": "3.96 MB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_TO_14102014141909.zip"
   },
   {
     "id": "825f7046-301d-4b67-9aa0-664f3ea4bb1b",
@@ -24846,10 +25378,10 @@
     "uf": "TO",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_TO_28102014133436.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 282481,
+    "tamanho_formatado": "275.86 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_TO_28102014133436.zip"
   },
   {
     "id": "8d7a7d5e-3d3f-4cac-babe-f19301ec402e",
@@ -24865,10 +25397,10 @@
     "uf": "ZZ",
     "turno": "1",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_1t_ZZ_14102014142031.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 137570,
+    "tamanho_formatado": "134.35 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_1t_ZZ_14102014142031.zip"
   },
   {
     "id": "ec1cf500-d175-457a-a700-362e669384fa",
@@ -24884,10 +25416,10 @@
     "uf": "ZZ",
     "turno": "2",
     "url": "https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2014/buweb/bweb_2t_ZZ_28102014133904.zip",
-    "tamanho_bytes": 0,
-    "tamanho_formatado": "N/D",
-    "baixado": false,
-    "caminho_local": null
+    "tamanho_bytes": 91400,
+    "tamanho_formatado": "89.26 KB",
+    "baixado": true,
+    "caminho_local": "dados_tse/boletins_urna/2014/bweb_2t_ZZ_28102014133904.zip"
   },
   {
     "id": "5b4ddb1b-378c-487b-bc4e-420928c19686",
