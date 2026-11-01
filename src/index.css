@@ -2823,6 +2823,16 @@ body {
   font-size: 0.73rem;
 }
 
+.bu-live-tag {
+  background: rgba(16, 185, 129, 0.16);
+  border: 1px solid #10b981;
+  color: #6ee7b7;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.73rem;
+  font-weight: 500;
+}
+
 .bu-pagination-controls {
   display: flex;
   align-items: center;

@@ -579,6 +579,9 @@ export const BoletinsUrnaView: React.FC<BoletinsUrnaViewProps> = ({
           setTotalRows(res.total);
           setElapsedMs(res.elapsedMs);
           setIsStaticFallback(Boolean(res.isStaticFallback));
+          if (res.isStaticFallback && (level === 'secao' || level === 'local') && !ufFilter) {
+            setUfFilter('SP');
+          }
           setIsLoading(false);
         })
         .catch((err) => {
@@ -947,7 +950,11 @@ export const BoletinsUrnaView: React.FC<BoletinsUrnaViewProps> = ({
               id="bu-level-select"
               value={level}
               onChange={(e) => {
-                setLevel(e.target.value as BuAggregationLevel);
+                const nextLevel = e.target.value as BuAggregationLevel;
+                setLevel(nextLevel);
+                if ((nextLevel === 'secao' || nextLevel === 'local') && !ufFilter) {
+                  setUfFilter('SP');
+                }
                 setPageIndex(0);
               }}
             >
@@ -1244,9 +1251,13 @@ export const BoletinsUrnaView: React.FC<BoletinsUrnaViewProps> = ({
           <span>
             Tempo SQL: <strong>{elapsedMs} ms</strong>
           </span>
-          {isStaticFallback && (
+          {isStaticFallback ? (
             <span className="bu-fallback-tag">
-              Modo estático oficial ativo ({LEVEL_LABELS[level]})
+              Modo estático ({level === 'secao' || level === 'local' ? `Seções de ${ufFilter || 'SP'}` : LEVEL_LABELS[level]})
+            </span>
+          ) : (
+            <span className="bu-live-tag">
+              Base Completa (3,7M BUs conectados)
             </span>
           )}
         </div>

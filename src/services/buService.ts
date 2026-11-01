@@ -1,3 +1,5 @@
+import { isTursoConfigured, queryTurso, getTursoMunicipios } from './buTursoClient';
+
 export type BuAggregationLevel = 'secao' | 'local' | 'zona' | 'municipio' | 'uf';
 export type BuTableMode = 'single' | 'compare';
 export type SortDirection = 'asc' | 'desc';
@@ -380,6 +382,15 @@ export const buService = {
   },
 
   async getMunicipios(ano: number, turno: number, uf: string): Promise<BuMunicipioOption[]> {
+    if (isTursoConfigured()) {
+      try {
+        const tMuns = await getTursoMunicipios(ano, turno, uf);
+        if (tMuns.length > 0) return tMuns;
+      } catch (err) {
+        console.warn('Falha na consulta de municípios no Turso, tentando fallback:', err);
+      }
+    }
+
     try {
       const qs = new URLSearchParams({
         ano: String(ano),
@@ -412,6 +423,14 @@ export const buService = {
   },
 
   async queryTable(params: BuQueryParams): Promise<BuQueryResponse> {
+    if (isTursoConfigured()) {
+      try {
+        return await queryTurso(params);
+      } catch (err) {
+        console.warn('Falha na consulta ao Turso, tentando fallback:', err);
+      }
+    }
+
     const qs = new URLSearchParams({
       level: params.level,
       mode: params.mode,
