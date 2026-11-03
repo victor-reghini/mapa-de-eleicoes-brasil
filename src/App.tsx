@@ -37,7 +37,7 @@ const getInitialUrlParams = () => {
   const uf = params.get('uf')?.toUpperCase() || undefined;
 
   const modoParam = params.get('modo')?.toUpperCase() as GranularityMode | undefined;
-  const validModos: GranularityMode[] = ['ESTADOS', 'MUNICIPIOS', 'ZONAS', 'EXTERIOR_GLOBE', 'GRADE_CARTOGRAMA', 'BOLETINS_URNA'];
+  const validModos: GranularityMode[] = ['ESTADOS', 'MUNICIPIOS', 'ZONAS', 'EXTERIOR_GLOBE', 'BOLETINS_URNA'];
   const modo = validModos.includes(modoParam as any) ? modoParam : undefined;
 
   return { cargo, ano, turno, uf, modo };

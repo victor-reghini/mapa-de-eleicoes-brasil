@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
-import { ZoomIn, ZoomOut, RotateCcw, Home, Activity, LayoutGrid, Map as MapIcon } from 'lucide-react';
+import { ZoomIn, ZoomOut, RotateCcw, Home, Activity } from 'lucide-react';
 import type { 
   ElectionRoundData, 
   GranularityMode, 
@@ -9,7 +9,6 @@ import type {
 } from '../types/election';
 import { PARTY_COLORS } from '../types/election';
 import { electionService } from '../services/electionService';
-import { StateGridCartogram } from './StateGridCartogram';
 
 interface Map2DProps {
   electionData: ElectionRoundData | null;
@@ -48,33 +47,75 @@ export const Map2D: React.FC<Map2DProps> = ({
 
   const [statesGeo, setStatesGeo] = useState<any>(null);
   const [munGeo, setMunGeo] = useState<any>(null);
+  const [brMunGeo, setBrMunGeo] = useState<any>(null);
+  const [isLoadingGeo, setIsLoadingGeo] = useState<boolean>(false);
   const [tooltip, setTooltip] = useState<TooltipData | null>(null);
   const [showApuracaoOverlay, setShowApuracaoOverlay] = useState<boolean>(true);
-  const [isCartogramMode, setIsCartogramMode] = useState<boolean>(granularity === 'GRADE_CARTOGRAMA');
-
-  useEffect(() => {
-    setIsCartogramMode(granularity === 'GRADE_CARTOGRAMA');
-  }, [granularity]);
+  const rafRef = useRef<number | null>(null);
 
   // Load States GeoJSON on mount
   useEffect(() => {
     electionService.getBrazilStatesGeo().then(setStatesGeo).catch(console.error);
   }, []);
 
-  // When selectedUf changes or granularity is MUNICIPIOS, fetch state municipalities
+  // When selectedUf changes or granularity is MUNICIPIOS, fetch municipalities (state or nationwide)
   useEffect(() => {
-    if (selectedUf) {
-      electionService.getMunicipalityGeoForUf(selectedUf)
-        .then((geo) => {
-          setMunGeo(geo);
-        })
-        .catch(() => {
-          setMunGeo(null);
-        });
+    let active = true;
+    if (granularity === 'MUNICIPIOS') {
+      if (selectedUf) {
+        setIsLoadingGeo(true);
+        electionService.getMunicipalityGeoForUf(selectedUf)
+          .then((geo) => {
+            if (!active) return;
+            setMunGeo(geo);
+            setIsLoadingGeo(false);
+          })
+          .catch(() => {
+            if (!active) return;
+            setMunGeo(null);
+            setIsLoadingGeo(false);
+          });
+      } else {
+        // Nationwide municipalities view (5.570 municípios)
+        if (brMunGeo) {
+          setMunGeo(brMunGeo);
+        } else {
+          setIsLoadingGeo(true);
+          electionService.getBrazilMunicipalitiesGeo()
+            .then((geo) => {
+              if (!active) return;
+              setBrMunGeo(geo);
+              setMunGeo(geo);
+              setIsLoadingGeo(false);
+            })
+            .catch(() => {
+              if (!active) return;
+              setMunGeo(null);
+              setIsLoadingGeo(false);
+            });
+        }
+      }
     } else {
-      setMunGeo(null);
+      if (selectedUf) {
+        electionService.getMunicipalityGeoForUf(selectedUf)
+          .then((geo) => {
+            if (!active) return;
+            setMunGeo(geo);
+          })
+          .catch(() => {
+            if (!active) return;
+            setMunGeo(null);
+          });
+      } else {
+        setMunGeo(null);
+      }
     }
-  }, [selectedUf]);
+
+    return () => {
+      active = false;
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    };
+  }, [selectedUf, granularity, brMunGeo]);
 
   // Main D3 Rendering
   useEffect(() => {
@@ -88,22 +129,15 @@ export const Map2D: React.FC<Map2DProps> = ({
 
     const g = svg.append('g').attr('class', 'map-root-group');
 
-    // Setup Zoom (permite afastar até 0.18x para visualização ampla do país)
-    const zoom = d3.zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.18, 30])
-      .on('zoom', (event) => {
-        g.attr('transform', event.transform);
-      });
-
-    svg.call(zoom);
-    zoomBehaviorRef.current = zoom;
-
     // Define Projection
     const projection = d3.geoMercator();
 
     // If granularity is MUNICIPIOS and a state is selected and we have municipality geometry for it, fit projection to that state
-    const isMunView = granularity === 'MUNICIPIOS' && Boolean(selectedUf && munGeo && munGeo.features && munGeo.features.length > 0);
-    if (isMunView) {
+    const isMunView = granularity === 'MUNICIPIOS' && Boolean(munGeo && munGeo.features && munGeo.features.length > 0);
+    const isMunStateView = isMunView && Boolean(selectedUf);
+    const isMunNationalView = isMunView && !selectedUf;
+
+    if (isMunStateView) {
       projection.fitExtent([[width * 0.04, height * 0.04], [width * 0.96, height * 0.96]], munGeo);
     } else {
       projection.fitExtent([[width * 0.04, height * 0.04], [width * 0.96, height * 0.96]], statesGeo);
@@ -111,106 +145,258 @@ export const Map2D: React.FC<Map2DProps> = ({
 
     const pathGenerator = d3.geoPath().projection(projection);
 
-    // 1. Render States Layer
-    const statesGroup = g.append('g').attr('class', 'states-layer');
-
-    statesGroup.selectAll('path')
-      .data(statesGeo.features)
-      .enter()
-      .append('path')
-      .attr('d', pathGenerator as any)
-      .attr('class', 'state-feature')
-      .attr('fill', (d: any) => {
-        const sigla = d.properties.sigla;
-        const ufResult = electionData.ufs[sigla];
-        if (!ufResult) {
-          return '#1e293b';
+    // Fast O(1) Municipal Data Lookup Map
+    const munDataMap = new Map<string, any>();
+    if (electionData.municipios && electionData.municipios.length > 0) {
+      for (const m of electionData.municipios) {
+        if (m.id) {
+          munDataMap.set(String(m.id), m);
         }
-        // If state is selected, keep bright; if another state selected in Mun mode, slightly dim
-        const isSelected = selectedUf === sigla;
-        if (selectedUf && !isSelected) {
-          return '#172033';
+        if (m.uf && m.nome) {
+          const normKey = `${m.uf}_${m.nome.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase().trim()}`;
+          munDataMap.set(normKey, m);
+          munDataMap.set(`${m.uf}_${normKey.replace(/'/g, '').replace(/-/g, ' ')}`, m);
         }
-        // In real-time live mode before 17:00, domestic states have 0 votes and are awaiting apuração
-        if (electionData.isTempoReal && (!ufResult.pctApuracao || ufResult.votosValidos === 0)) {
-          return '#1e293b';
+      }
+    }
+
+    // Precompute bounds for fast Viewport Bounding Box Culling on all municipality features
+    if (isMunView && munGeo && munGeo.features) {
+      for (let i = 0; i < munGeo.features.length; i++) {
+        munGeo.features[i]._bounds = pathGenerator.bounds(munGeo.features[i]);
+      }
+    }
+
+    // D3 Selection references for dynamic stroke scaling and viewport culling
+    let statesSelection: d3.Selection<SVGPathElement, any, SVGGElement, any> | null = null;
+    let munSelection: d3.Selection<SVGPathElement, any, SVGGElement, any> | null = null;
+    let statesBordersSelection: d3.Selection<SVGPathElement, any, SVGGElement, any> | null = null;
+
+    let lastK = 1;
+    let cullRaf: number | null = null;
+
+    const updateStrokesAndCulling = (transform: d3.ZoomTransform, forceStrokes = false) => {
+      const k = transform.k;
+      const kChanged = forceStrokes || Math.abs(k - lastK) > 0.02;
+
+      if (kChanged) {
+        lastK = k;
+        // As zoom increases (k grows), reduce border thicknesses dynamically
+        const stateBorderWidth = Math.max(0.35, 1.25 / Math.pow(k, 0.45));
+        const munBorderWidth = Math.max(0.12, (isMunNationalView ? 0.32 : 0.5) / Math.pow(k, 0.4));
+        const stateFeatureWidth = Math.max(0.35, 0.8 / Math.pow(k, 0.4));
+
+        if (statesBordersSelection) {
+          statesBordersSelection.attr('stroke-width', stateBorderWidth);
         }
-        return ufResult.vencedorCor || (ufResult.vencedorPartido && PARTY_COLORS[ufResult.vencedorPartido]?.cor) || ufResult.candidatos?.[0]?.cor || '#3b82f6';
-      })
-      .attr('fill-opacity', (d: any) => {
-        const sigla = d.properties.sigla;
-        if (selectedUf && selectedUf !== sigla) return 0.25;
-        const ufResult = electionData.ufs[sigla];
-        if (!ufResult) return 0.4;
-        if (electionData.isTempoReal && (!ufResult.pctApuracao || ufResult.votosValidos === 0)) {
-          return 0.6;
+        if (statesSelection) {
+          statesSelection.attr('stroke-width', (d: any) =>
+            selectedUf === d.properties.sigla ? Math.max(1.2, 2.2 / Math.pow(k, 0.3)) : stateFeatureWidth
+          );
         }
-        // Opacity reflects margin of victory
-        const top = ufResult.candidatos?.[0]?.pctValidos || 50;
-        return Math.min(0.9, Math.max(0.55, (top - 35) / 45));
-      })
-      .attr('stroke', (d: any) => {
-        return selectedUf === d.properties.sigla ? '#38bdf8' : 'rgba(255, 255, 255, 0.18)';
-      })
-      .attr('stroke-width', (d: any) => {
-        return selectedUf === d.properties.sigla ? 2.5 : 0.8;
-      })
-      .style('cursor', 'pointer')
-      .on('mouseenter', (event, d: any) => {
-        const sigla = d.properties.sigla;
-        const ufResult = electionData.ufs[sigla];
-        if (!ufResult) return;
+        if (munSelection) {
+          munSelection.attr('stroke-width', (d: any) =>
+            selectedMun?.id === d.properties.id ? Math.max(1.0, 1.8 / Math.pow(k, 0.3)) : munBorderWidth
+          );
+        }
+      }
 
-        const bounds = containerRef.current?.getBoundingClientRect();
-        const clientX = event.clientX - (bounds?.left || 0);
-        const clientY = event.clientY - (bounds?.top || 0);
+      // Viewport Bounding Box Culling (drastically reduces active DOM elements)
+      if (munSelection && munGeo && munGeo.features) {
+        if (k <= 1.15) {
+          munSelection.each(function() {
+            if ((this as SVGPathElement).style.display === 'none') {
+              (this as SVGPathElement).style.display = '';
+            }
+          });
+        } else {
+          const [x0, y0] = transform.invert([0, 0]);
+          const [x1, y1] = transform.invert([width, height]);
+          const pad = 60 / k; // Buffer in map projection units
+          const minX = Math.min(x0, x1) - pad;
+          const maxX = Math.max(x0, x1) + pad;
+          const minY = Math.min(y0, y1) - pad;
+          const maxY = Math.max(y0, y1) + pad;
 
-        const isAwaitingApuracao = electionData.isTempoReal && (!ufResult.pctApuracao || ufResult.votosValidos === 0);
-        const sub = isAwaitingApuracao
-          ? '⏳ Votação em andamento (08h às 17h) • Apuração inicia às 17h00 BRT'
-          : electionData.isTempoReal && ufResult.pctApuracao !== undefined
-            ? `⚡ Apuração: ${ufResult.pctApuracao.toFixed(1)}% (${(ufResult.secoesTotalizadas || 0).toLocaleString('pt-BR')}/${(ufResult.totalSecoes || 0).toLocaleString('pt-BR')} seções)`
-            : electionData.cargo === 'PRESIDENTE'
-              ? `Comparecimento: ${ufResult.pctComparecimento}% • Abstenção: ${ufResult.pctAbstencoes}%`
-              : `Partido Maioritário: ${ufResult.vencedorPartido || 'Líder'} • Vencedor: ${ufResult.vencedor}`;
+          munSelection.each(function(d: any) {
+            const b = d._bounds;
+            if (!b || isNaN(b[0][0])) return;
+            const inView = !(b[1][0] < minX || b[0][0] > maxX || b[1][1] < minY || b[0][1] > maxY);
+            const isHidden = (this as SVGPathElement).style.display === 'none';
+            if (inView && isHidden) {
+              (this as SVGPathElement).style.display = '';
+            } else if (!inView && !isHidden) {
+              (this as SVGPathElement).style.display = 'none';
+            }
+          });
+        }
+      }
+    };
 
-        setTooltip({
-          title: `${d.properties.nome} (${sigla})`,
-          subtitle: sub,
-          cands: isAwaitingApuracao ? [] : (ufResult.candidatos || []).slice(0, 3).map(c => ({
-            nome: c.nomeUrna || c.nome,
-            partido: c.partido,
-            votos: c.votos,
-            pctValidos: c.pctValidos,
-            cor: c.cor
-          })),
-          x: clientX,
-          y: clientY
+    // Setup Zoom with responsive culling and dynamic stroke scaling
+    const zoom = d3.zoom<SVGSVGElement, unknown>()
+      .scaleExtent([0.18, 30])
+      .on('zoom', (event) => {
+        g.attr('transform', event.transform);
+        if (cullRaf) cancelAnimationFrame(cullRaf);
+        cullRaf = requestAnimationFrame(() => {
+          cullRaf = null;
+          updateStrokesAndCulling(event.transform);
         });
-
-        d3.select(event.currentTarget as SVGPathElement)
-          .attr('stroke', '#ffffff')
-          .attr('stroke-width', 2);
       })
-      .on('mousemove', (event) => {
-        const bounds = containerRef.current?.getBoundingClientRect();
-        if (bounds) {
-          setTooltip(prev => prev ? {
-            ...prev,
-            x: event.clientX - bounds.left,
-            y: event.clientY - bounds.top
-          } : null);
-        }
-      })
-      .on('mouseleave', (event, d: any) => {
-        setTooltip(null);
-        d3.select(event.currentTarget as SVGPathElement)
-          .attr('stroke', selectedUf === d.properties.sigla ? '#38bdf8' : 'rgba(255, 255, 255, 0.18)')
-          .attr('stroke-width', selectedUf === d.properties.sigla ? 2.5 : 0.8);
-      })
-      .on('click', (_, d: any) => {
-        onSelectUf(d.properties.sigla);
+      .on('end', (event) => {
+        if (cullRaf) cancelAnimationFrame(cullRaf);
+        updateStrokesAndCulling(event.transform, true);
       });
+
+    svg.call(zoom);
+    zoomBehaviorRef.current = zoom;
+
+    const getMunData = (d: any) => {
+      const p = d.properties || {};
+      const id = String(p.id || d.id || '');
+      const uf = p.uf || selectedUf || '';
+      const name = p.name || '';
+      let m = munDataMap.get(id);
+      if (!m && uf && name) {
+        const normName = name.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toUpperCase().trim();
+        m = munDataMap.get(`${uf}_${normName}`) || munDataMap.get(`${uf}_${normName.replace(/'/g, '').replace(/-/g, ' ')}`);
+      }
+      return m;
+    };
+
+    const getMunColor = (d: any, m: any) => {
+      if (m) {
+        if (m.vencedorCor) return m.vencedorCor;
+        if (m.vencedorPartido && PARTY_COLORS[m.vencedorPartido]) {
+          return PARTY_COLORS[m.vencedorPartido].cor;
+        }
+        if (m.candidatos && m.candidatos.length > 0) {
+          const sorted = [...m.candidatos].sort((a, b) => (b.votos || b.pctValidos || 0) - (a.votos || a.pctValidos || 0));
+          if (sorted[0]?.cor) return sorted[0].cor;
+          if (sorted[0]?.partido && PARTY_COLORS[sorted[0].partido]) return PARTY_COLORS[sorted[0].partido].cor;
+        }
+        if (m.lula_pct !== undefined && m.bolsonaro_pct !== undefined) {
+          return m.lula_pct >= m.bolsonaro_pct ? '#e11d48' : '#2563eb';
+        }
+        if (m.lula_r2 !== undefined && m.bolsonaro_r2 !== undefined) {
+          return m.lula_r2 >= m.bolsonaro_r2 ? '#e11d48' : '#2563eb';
+        }
+      }
+      const ufSigla = d.properties?.uf || selectedUf;
+      const ufRes = ufSigla ? electionData.ufs[ufSigla] : null;
+      return ufRes?.vencedorCor || (ufRes?.vencedorPartido && PARTY_COLORS[ufRes.vencedorPartido]?.cor) || '#3b82f6';
+    };
+
+    // 1. Render States Layer (Omit background fill when in nationwide municipal view to maximize performance)
+    if (!isMunNationalView) {
+      const statesGroup = g.append('g').attr('class', 'states-layer');
+
+      statesSelection = statesGroup.selectAll('path')
+        .data(statesGeo.features)
+        .enter()
+        .append('path')
+        .attr('d', pathGenerator as any)
+        .attr('class', 'state-feature')
+        .attr('vector-effect', 'non-scaling-stroke')
+        .attr('fill', (d: any) => {
+          const sigla = d.properties.sigla;
+          const ufResult = electionData.ufs[sigla];
+          if (!ufResult) {
+            return '#1e293b';
+          }
+          // If state is selected, keep bright; if another state selected in Mun mode, slightly dim
+          const isSelected = selectedUf === sigla;
+          if (selectedUf && !isSelected) {
+            return '#172033';
+          }
+          // In real-time live mode before 17:00, domestic states have 0 votes and are awaiting apuração
+          if (electionData.isTempoReal && (!ufResult.pctApuracao || ufResult.votosValidos === 0)) {
+            return '#1e293b';
+          }
+          return ufResult.vencedorCor || (ufResult.vencedorPartido && PARTY_COLORS[ufResult.vencedorPartido]?.cor) || ufResult.candidatos?.[0]?.cor || '#3b82f6';
+        })
+        .attr('fill-opacity', (d: any) => {
+          const sigla = d.properties.sigla;
+          if (selectedUf && selectedUf !== sigla) return 0.25;
+          const ufResult = electionData.ufs[sigla];
+          if (!ufResult) return 0.4;
+          if (electionData.isTempoReal && (!ufResult.pctApuracao || ufResult.votosValidos === 0)) {
+            return 0.6;
+          }
+          // Opacity reflects margin of victory
+          const top = ufResult.candidatos?.[0]?.pctValidos || 50;
+          return Math.min(0.9, Math.max(0.55, (top - 35) / 45));
+        })
+        .attr('stroke', (d: any) => {
+          return selectedUf === d.properties.sigla ? '#38bdf8' : 'rgba(255, 255, 255, 0.18)';
+        })
+        .attr('stroke-width', (d: any) => {
+          return selectedUf === d.properties.sigla ? 2.5 : 0.8;
+        })
+        .style('cursor', 'pointer')
+        .on('mouseenter', (event, d: any) => {
+          const sigla = d.properties.sigla;
+          const ufResult = electionData.ufs[sigla];
+          if (!ufResult) return;
+
+          const bounds = containerRef.current?.getBoundingClientRect();
+          const clientX = event.clientX - (bounds?.left || 0);
+          const clientY = event.clientY - (bounds?.top || 0);
+
+          const isAwaitingApuracao = electionData.isTempoReal && (!ufResult.pctApuracao || ufResult.votosValidos === 0);
+          const sub = isAwaitingApuracao
+            ? '⏳ Votação em andamento (08h às 17h) • Apuração inicia às 17h00 BRT'
+            : electionData.isTempoReal && ufResult.pctApuracao !== undefined
+              ? `⚡ Apuração: ${ufResult.pctApuracao.toFixed(1)}% (${(ufResult.secoesTotalizadas || 0).toLocaleString('pt-BR')}/${(ufResult.totalSecoes || 0).toLocaleString('pt-BR')} seções)`
+              : electionData.cargo === 'PRESIDENTE'
+                ? `Comparecimento: ${ufResult.pctComparecimento}% • Abstenção: ${ufResult.pctAbstencoes}%`
+                : `Partido Maioritário: ${ufResult.vencedorPartido || 'Líder'} • Vencedor: ${ufResult.vencedor}`;
+
+          setTooltip({
+            title: `${d.properties.nome} (${sigla})`,
+            subtitle: sub,
+            cands: isAwaitingApuracao ? [] : (ufResult.candidatos || []).slice(0, 3).map(c => ({
+              nome: c.nomeUrna || c.nome,
+              partido: c.partido,
+              votos: c.votos,
+              pctValidos: c.pctValidos,
+              cor: c.cor
+            })),
+            x: clientX,
+            y: clientY
+          });
+
+          d3.select(event.currentTarget as SVGPathElement)
+            .attr('stroke', '#ffffff')
+            .attr('stroke-width', Math.max(1.2, 2.2 / Math.pow(lastK, 0.3)));
+        })
+        .on('mousemove', (event) => {
+          const clientX = event.clientX;
+          const clientY = event.clientY;
+          if (rafRef.current) cancelAnimationFrame(rafRef.current);
+          rafRef.current = requestAnimationFrame(() => {
+            const bounds = containerRef.current?.getBoundingClientRect();
+            if (bounds) {
+              setTooltip(prev => prev ? {
+                ...prev,
+                x: clientX - bounds.left,
+                y: clientY - bounds.top
+              } : null);
+            }
+          });
+        })
+        .on('mouseleave', (event, d: any) => {
+          setTooltip(null);
+          const stateFeatureWidth = Math.max(0.35, 0.8 / Math.pow(lastK, 0.4));
+          d3.select(event.currentTarget as SVGPathElement)
+            .attr('stroke', selectedUf === d.properties.sigla ? '#38bdf8' : 'rgba(255, 255, 255, 0.18)')
+            .attr('stroke-width', selectedUf === d.properties.sigla ? Math.max(1.2, 2.2 / Math.pow(lastK, 0.3)) : stateFeatureWidth);
+        })
+        .on('click', (_, d: any) => {
+          onSelectUf(d.properties.sigla);
+        });
+    }
 
     // 1.5. Render Real-time Apuração Badges on State Centroids (indicador visual no mapa)
     if (electionData.isTempoReal && !isMunView && showApuracaoOverlay) {
@@ -324,72 +510,67 @@ export const Map2D: React.FC<Map2DProps> = ({
       });
     }
 
-    // 2. Render Municipalities Layer (ONLY in MUNICIPIOS mode)
+    // 2. Render Municipalities Layer (in MUNICIPIOS mode: State or Nationwide)
     if (isMunView && munGeo && munGeo.features) {
       const munGroup = g.append('g').attr('class', 'mun-layer');
 
-      munGroup.selectAll('path')
+      munSelection = munGroup.selectAll('path')
         .data(munGeo.features)
         .enter()
         .append('path')
         .attr('d', pathGenerator as any)
         .attr('class', 'municipality-feature')
+        .attr('vector-effect', 'non-scaling-stroke')
         .attr('fill', (d: any) => {
-          const munId = d.properties.id;
-          const munData = electionData.municipios?.find(m => m.id === munId);
-          if (munData) {
-            if (munData.vencedorCor) return munData.vencedorCor;
-            if (munData.vencedorPartido && PARTY_COLORS[munData.vencedorPartido]) {
-              return PARTY_COLORS[munData.vencedorPartido].cor;
-            }
-            if (munData.lula_pct !== undefined && munData.bolsonaro_pct !== undefined) {
-              return munData.lula_pct > munData.bolsonaro_pct ? '#e11d48' : '#2563eb';
-            }
-          }
-          // Default state dominant color
-          const ufRes = selectedUf ? electionData.ufs[selectedUf] : null;
-          return ufRes?.vencedorCor || (ufRes?.vencedorPartido && PARTY_COLORS[ufRes.vencedorPartido]?.cor) || '#3b82f6';
+          const munData = getMunData(d);
+          return getMunColor(d, munData);
         })
         .attr('fill-opacity', (d: any) => {
           const isSelected = selectedMun?.id === d.properties.id;
           if (isSelected) return 1.0;
-          return 0.75;
+          return isMunNationalView ? 0.85 : 0.8;
         })
         .attr('stroke', (d: any) => {
-          return selectedMun?.id === d.properties.id ? '#ffffff' : 'rgba(255, 255, 255, 0.25)';
+          if (selectedMun?.id === d.properties.id) return '#ffffff';
+          return isMunNationalView ? 'rgba(255, 255, 255, 0.12)' : 'rgba(255, 255, 255, 0.25)';
         })
         .attr('stroke-width', (d: any) => {
-          return selectedMun?.id === d.properties.id ? 2 : 0.4;
+          if (selectedMun?.id === d.properties.id) return 2;
+          return isMunNationalView ? 0.22 : 0.45;
         })
         .style('cursor', 'pointer')
         .on('mouseenter', (event, d: any) => {
-          const munId = d.properties.id;
-          const munData = electionData.municipios?.find(m => m.id === munId);
+          const munData = getMunData(d);
           const bounds = containerRef.current?.getBoundingClientRect();
+          const munUf = d.properties.uf || selectedUf || '';
 
           let cands: Array<{ nome: string; partido?: string; votos?: number; pctValidos?: number; cor?: string }> = [];
           if (munData?.candidatos && munData.candidatos.length > 0) {
             cands = munData.candidatos.slice(0, 3);
           } else if (munData && electionData.cargo === 'PRESIDENTE') {
+            const vLula = munData.lula_pct ?? (munData.votos_13 ? (munData.votos_13 * 100 / (munData.votosValidos || 1)) : 0);
+            const vBolso = munData.bolsonaro_pct ?? (munData.votos_22 ? (munData.votos_22 * 100 / (munData.votosValidos || 1)) : 0);
             cands = [
-              { nome: 'Lula', partido: 'PT', pctValidos: munData.lula_pct, cor: '#e11d48', votos: munData.lula_r2 },
-              { nome: 'Jair Bolsonaro', partido: 'PL', pctValidos: munData.bolsonaro_pct, cor: '#2563eb', votos: munData.bolsonaro_r2 }
+              { nome: 'Lula', partido: 'PT', pctValidos: vLula, cor: '#e11d48', votos: munData.lula_r2 || munData.votos_13 },
+              { nome: 'Jair Bolsonaro', partido: 'PL', pctValidos: vBolso, cor: '#2563eb', votos: munData.bolsonaro_r2 || munData.votos_22 }
             ].sort((a, b) => (b.pctValidos || 0) - (a.pctValidos || 0));
-          } else if (selectedUf && electionData.ufs[selectedUf]) {
-            cands = electionData.ufs[selectedUf].candidatos.slice(0, 3);
+          } else if (munUf && electionData.ufs[munUf]) {
+            cands = electionData.ufs[munUf].candidatos.slice(0, 3);
           }
 
           let sub = '';
           if (munData?.vencedorNome) {
-            sub = `Vencedor: ${munData.vencedorNome} (${munData.vencedorPartido || ''})`;
+            sub = `Líder: ${munData.vencedorNome} (${munData.vencedorPartido || ''}) • ${munData.vencedorPct ? Number(munData.vencedorPct).toFixed(1) + '%' : ''}`;
+          } else if (cands.length > 0 && cands[0]) {
+            sub = `Líder: ${cands[0].nome} (${cands[0].partido || ''}) • ${cands[0].pctValidos ? Number(cands[0].pctValidos).toFixed(1) + '%' : ''}`;
           } else if (munData?.aptos) {
-            sub = `Aptos: ${munData.aptos.toLocaleString('pt-BR')}`;
+            sub = `Aptos: ${Number(munData.aptos).toLocaleString('pt-BR')}`;
           } else {
-            sub = `Sem detalhamento municipal (${electionData.ano}) • Exibindo geral`;
+            sub = `Resultado municipal (${electionData.ano})`;
           }
 
           setTooltip({
-            title: `${d.properties.name} - ${selectedUf}`,
+            title: `${d.properties.name} - ${munUf}`,
             subtitle: sub,
             cands,
             x: event.clientX - (bounds?.left || 0),
@@ -397,34 +578,60 @@ export const Map2D: React.FC<Map2DProps> = ({
           });
 
           d3.select(event.currentTarget as SVGPathElement)
-            .attr('stroke', '#38bdf8')
-            .attr('stroke-width', 1.5);
+            .attr('stroke', '#ffffff')
+            .attr('stroke-width', Math.max(0.9, 1.6 / Math.pow(lastK, 0.3)));
         })
         .on('mousemove', (event) => {
-          const bounds = containerRef.current?.getBoundingClientRect();
-          if (bounds) {
-            setTooltip(prev => prev ? {
-              ...prev,
-              x: event.clientX - bounds.left,
-              y: event.clientY - bounds.top
-            } : null);
-          }
+          const clientX = event.clientX;
+          const clientY = event.clientY;
+          if (rafRef.current) cancelAnimationFrame(rafRef.current);
+          rafRef.current = requestAnimationFrame(() => {
+            const bounds = containerRef.current?.getBoundingClientRect();
+            if (bounds) {
+              setTooltip(prev => prev ? {
+                ...prev,
+                x: clientX - bounds.left,
+                y: clientY - bounds.top
+              } : null);
+            }
+          });
         })
         .on('mouseleave', (event, d: any) => {
           setTooltip(null);
+          const isSelected = selectedMun?.id === d.properties.id;
+          const munBorderWidth = Math.max(0.12, (isMunNationalView ? 0.32 : 0.5) / Math.pow(lastK, 0.4));
           d3.select(event.currentTarget as SVGPathElement)
-            .attr('stroke', selectedMun?.id === d.properties.id ? '#ffffff' : 'rgba(255, 255, 255, 0.25)')
-            .attr('stroke-width', selectedMun?.id === d.properties.id ? 2 : 0.4);
+            .attr('stroke', isSelected ? '#ffffff' : isMunNationalView ? 'rgba(255, 255, 255, 0.12)' : 'rgba(255, 255, 255, 0.25)')
+            .attr('stroke-width', isSelected ? Math.max(1.0, 1.8 / Math.pow(lastK, 0.3)) : munBorderWidth);
         })
         .on('click', (_, d: any) => {
+          const munUf = d.properties.uf || selectedUf || '';
+          if (munUf && !selectedUf) {
+            onSelectUf(munUf);
+          }
           onSelectMun({
             id: d.properties.id,
             name: d.properties.name,
-            uf: selectedUf || '',
+            uf: munUf,
             lon: d.properties.lon || 0,
             lat: d.properties.lat || 0
           });
         });
+
+      // In Nationwide Municipal View, overlay clear state boundaries on top of the municipal patchwork
+      if (isMunNationalView && statesGeo && statesGeo.features) {
+        const statesBorders = g.append('g').attr('class', 'states-borders-overlay');
+        statesBordersSelection = statesBorders.selectAll('path')
+          .data(statesGeo.features)
+          .enter()
+          .append('path')
+          .attr('d', pathGenerator as any)
+          .attr('fill', 'none')
+          .attr('stroke', 'rgba(255, 255, 255, 0.75)')
+          .attr('vector-effect', 'non-scaling-stroke')
+          .attr('stroke-width', 1.2)
+          .style('pointer-events', 'none');
+      }
     }
 
     // 3. Render Electoral Zones Markers (if ZONAS mode is active)
@@ -489,6 +696,13 @@ export const Map2D: React.FC<Map2DProps> = ({
       });
     }
 
+    // Apply initial stroke sizing and viewport culling
+    updateStrokesAndCulling(d3.zoomIdentity, true);
+
+    return () => {
+      if (cullRaf) cancelAnimationFrame(cullRaf);
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    };
   }, [statesGeo, munGeo, electionData, granularity, selectedUf, selectedMun, selectedZona, showApuracaoOverlay]);
 
   const handleZoomIn = () => {
@@ -511,6 +725,31 @@ export const Map2D: React.FC<Map2DProps> = ({
 
   return (
     <div className="map-viewport" ref={containerRef}>
+      {isLoadingGeo && (
+        <div style={{
+          position: 'absolute',
+          top: 14,
+          left: '50%',
+          transform: 'translateX(-50%)',
+          background: 'rgba(15, 23, 42, 0.88)',
+          border: '1px solid rgba(56, 189, 248, 0.4)',
+          borderRadius: 20,
+          padding: '6px 16px',
+          color: '#38bdf8',
+          fontSize: '0.8rem',
+          display: 'flex',
+          alignItems: 'center',
+          gap: 8,
+          zIndex: 40,
+          backdropFilter: 'blur(8px)',
+          boxShadow: '0 4px 16px rgba(0,0,0,0.5)',
+          pointerEvents: 'none'
+        }}>
+          <span className="live-dot" style={{ width: 7, height: 7 }} />
+          <span>Carregando limites municipais...</span>
+        </div>
+      )}
+
       {/* Floating Zoom Controls */}
       <div className="map-floating-controls">
         <button 
@@ -562,19 +801,10 @@ export const Map2D: React.FC<Map2DProps> = ({
             <Activity size={17} />
           </button>
         )}
-        <button 
-          className={`map-control-btn ${isCartogramMode ? 'active-indicator-btn' : ''}`} 
-          onClick={() => setIsCartogramMode(!isCartogramMode)} 
-          title={isCartogramMode ? "Voltar ao Mapa Geográfico" : "Alternar para Cartograma em Grade dos Estados (7x8)"}
-          aria-label="Alternar Cartograma em Grade"
-          style={{ color: isCartogramMode ? '#38bdf8' : '#cbd5e1' }}
-        >
-          {isCartogramMode ? <MapIcon size={17} /> : <LayoutGrid size={17} />}
-        </button>
       </div>
 
       {/* Map Legend */}
-      {!isCartogramMode && electionData && (
+      {electionData && (
         <div className="map-legend">
           <div className="legend-title">
             {electionData.cargo === 'PRESIDENTE' ? 'Candidatos Líderes' : 'Partidos / Maiorias'}
@@ -622,21 +852,11 @@ export const Map2D: React.FC<Map2DProps> = ({
         </div>
       )}
 
-      {/* Cartogram Grid or SVG Canvas for D3 Map */}
-      {isCartogramMode ? (
-        <div className="cartogram-view-overlay">
-          <StateGridCartogram
-            electionData={electionData}
-            selectedUf={selectedUf}
-            onSelectUf={onSelectUf}
-          />
-        </div>
-      ) : (
-        <svg 
-          ref={svgRef} 
-          style={{ width: '100%', height: '100%', display: 'block' }} 
-        />
-      )}
+      {/* SVG Canvas for D3 Map */}
+      <svg 
+        ref={svgRef} 
+        style={{ width: '100%', height: '100%', display: 'block' }} 
+      />
 
       {/* Floating Hover Tooltip */}
       {tooltip && (

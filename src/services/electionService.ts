@@ -4,6 +4,7 @@ import type {
   ElectionRoundData, 
   MunicipalityIndexItem 
 } from '../types/election';
+import { feature } from 'topojson-client';
 import { getElectionDataForCargo } from '../data/cargosData';
 
 class ElectionService {
@@ -11,6 +12,7 @@ class ElectionService {
   private cacheElectionData: Map<string, ElectionRoundData> = new Map();
   private cacheMunIndex: MunicipalityIndexItem[] | null = null;
   private cacheBrStates: any = null;
+  private cacheBrMun: any = null;
   private cacheMunGeo: Map<string, any> = new Map();
   private cacheWorldAtlas: any = null;
 
@@ -78,6 +80,15 @@ class ElectionService {
     if (!res.ok) throw new Error('Falha ao carregar malha de estados');
     this.cacheBrStates = await res.json();
     return this.cacheBrStates;
+  }
+
+  async getBrazilMunicipalitiesGeo(): Promise<any> {
+    if (this.cacheBrMun) return this.cacheBrMun;
+    const res = await fetch('/geo/br-municipalities.json');
+    if (!res.ok) throw new Error('Falha ao carregar malha de municípios do Brasil');
+    const topo = await res.json();
+    this.cacheBrMun = (feature as any)(topo, topo.objects.municipalities);
+    return this.cacheBrMun;
   }
 
   async getMunicipalityGeoForUf(uf: string): Promise<any> {

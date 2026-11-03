@@ -8,7 +8,6 @@ import {
   ChevronRight, 
   X,
   Compass,
-  LayoutGrid,
   Table2
 } from 'lucide-react';
 import type { GranularityMode, MunicipalityIndexItem } from '../types/election';
@@ -92,19 +91,6 @@ export const Subbar: React.FC<SubbarProps> = ({
         >
           <Map size={15} />
           <span>Estados (UF)</span>
-        </button>
-
-        <button
-          role="tab"
-          aria-selected={granularity === 'GRADE_CARTOGRAMA'}
-          className={`granularity-tab ${granularity === 'GRADE_CARTOGRAMA' ? 'active' : ''}`}
-          onClick={() => {
-            onSelectGranularity('GRADE_CARTOGRAMA');
-          }}
-          title="Cartograma em Grade dos 27 Estados"
-        >
-          <LayoutGrid size={15} />
-          <span>Grade UF</span>
         </button>
 
         <button
